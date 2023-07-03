@@ -9,6 +9,7 @@
 
 <head>
 
+<<<<<<< HEAD
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="K-SOFT">
@@ -27,6 +28,26 @@
     <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+=======
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="author" content="K-SOFT">	
+		<meta name="description" content="Secret spices- Faciliter la vie à ceux qui cuisinent, en leur offrant les assaisonnements nécessaires déjà prêts.">
+		<meta name="keywords" content="secret, Food, spices, Cuisine, Pizzeria, Restaurant Menu, Pizza">	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				
+  		<!-- SITE TITLE -->
+		<title>@yield('title')</title>
+							
+		<!-- FAVICON AND TOUCH ICONS -->
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+>>>>>>> 161662aa0a2477491823785754eb006a49a5848a
 
 
     <!-- GOOGLE FONTS -->
