@@ -13,7 +13,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="author" content="K-SOFT">	
 		<meta name="description" content="Secret spices- Faciliter la vie à ceux qui cuisinent, en leur offrant les assaisonnements nécessaires déjà prêts.">
-		<meta name="keywords" content="secret, Food, spices, Restaurant, Pizzeria, Restaurant Menu, Pizza">	
+		<meta name="keywords" content="secret, Food, spices, Cuisine, Pizzeria, Restaurant Menu, Pizza">	
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				
   		<!-- SITE TITLE -->
