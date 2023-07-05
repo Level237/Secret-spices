@@ -2144,8 +2144,8 @@
 
 
 <div class="testimonials-slider">
-    <div class="testimonail-arrow">
-        div1
+    <div class="testimonial-arrow">
+        <img src="{{ asset("images/arrow-testimonial.PNG")}}" alt="" srcset="">
     </div>
      <div class="single-testimonial">
         <!-- Testimonial Author Avatar -->
@@ -2219,8 +2219,12 @@
                 </div>
             </div>
     </div>
-     <div class="testimonail-arrow">
-        div5
+     <div class="testimonial-arrow">
+
+         <div style="flex:1;">
+            <img src="{{ asset("images/arrow-right.png")}}" alt="" srcset="">
+        </div>
+        
     </div>
 </div>
 <!-- TESTIMONIALS-1

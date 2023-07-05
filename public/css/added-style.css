@@ -36,6 +36,10 @@
     column-gap: 30px;
     justify-content: center;
     margin-bottom: 30px;
+    margin-left: 20px; 
+    margin-right : 20px;
+    align-content: center;
+    vertical-align: middle;
   }
 
   .single-testimonial{
@@ -47,8 +51,11 @@
 
   }
 
-  .testimonail-arrow{
+  .testimonial-arrow{
     flex:1;
+    flex-direction: column;
+    align-items: space-between;
+    vertical-align: middle;
   }
 
   .author-picture{
@@ -56,12 +63,13 @@
   }
 
   .author-title {
-       font-size: 30px;
+       font-size: 25px;
        font-weight: bold;
     }
 
   .author-testimonial {
        text-align: center;
+       font-size: 18px;
      }
 
     @media screen and (max-width: 600px) {
