@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Testo - Pizza and Fast Food Landing Page Template design design by Jthemes (http://www.jthemes.net) -->
 <!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
 <!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
@@ -8,11 +9,13 @@
 
 <head>
 
+
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="K-SOFT">
     <meta name="description" content="Secret spices- Faciliter la vie à ceux qui cuisinent, en leur offrant les assaisonnements nécessaires déjà prêts.">
-    <meta name="keywords" content="secret, spices, assaisonnement, Seasoning, épices, Poivre blanc, Poulet, Poisson, Viande, Secret Poulet">
+    <meta name="keywords" content="secret, Food, spices, Cuisine, Pizzeria, Restaurant Menu, Pizza">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SITE TITLE -->
@@ -26,6 +29,7 @@
     <link rel="apple-touch-icon" sizes="76x76" href="images/apple-touch-icon-76x76.png">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="icon" href="images/apple-touch-icon.png" type="image/x-icon">
+
 
 
     <!-- GOOGLE FONTS -->
