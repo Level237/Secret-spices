@@ -30,6 +30,12 @@
 
   }
 
+  .testimonials-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
     @media screen and (max-width: 600px) {
       .horizontal-line{
         margin-left: 90px;

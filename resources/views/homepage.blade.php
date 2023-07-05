@@ -2143,7 +2143,44 @@
 
 
 
+<div class="testimonials-slider">
+    <div style="flex:1">
+        div1
+    </div>
+     <div style="flex:2">
+        <!-- Testimonial Author Avatar -->
+        <img src="images/review-author-1.jpg" alt="testimonial-avatar">
 
+        <!-- Author name -->
+        <p>Mama Yvonne
+        </p>
+
+        <!-- Text -->
+        <p>" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+        </p>
+
+        <!-- Rating -->
+            <div class="review-rating">
+                <div class="stars-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
+    </div>
+     <div style="flex:2">
+        div3
+    </div>
+     <div style=" flex:2">
+        div4
+    </div>
+     <div style=" flex:1">
+        div5
+    </div>
+</div>
 <!-- TESTIMONIALS-1
 			============================================= -->
 <div id="reviews-1" class="bg-image bg-scroll reviews-section division">
