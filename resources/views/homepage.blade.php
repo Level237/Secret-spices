@@ -2144,19 +2144,19 @@
 
 
 <div class="testimonials-slider">
-    <div style="flex:1">
+    <div class="testimonail-arrow">
         div1
     </div>
-     <div style="flex:2">
+     <div class="single-testimonial">
         <!-- Testimonial Author Avatar -->
-        <img src="images/review-author-1.jpg" alt="testimonial-avatar">
+        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
         <!-- Author name -->
-        <p>Mama Yvonne
+        <p class="author-title">Mama Yvonne
         </p>
 
         <!-- Text -->
-        <p>" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
             egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
         </p>
 
@@ -2171,13 +2171,55 @@
                 </div>
             </div>
     </div>
-     <div style="flex:2">
-        div3
+     <div class="single-testimonial">
+        <!-- Testimonial Author Avatar -->
+        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+        <!-- Author name -->
+        <p class="author-title">Mama Yvonne
+        </p>
+
+        <!-- Text -->
+        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+        </p>
+
+        <!-- Rating -->
+            <div class="review-rating">
+                <div class="stars-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
     </div>
-     <div style=" flex:2">
-        div4
+     <div class="single-testimonial">
+        <!-- Testimonial Author Avatar -->
+        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+        <!-- Author name -->
+        <p class="author-title">Mama Yvonne
+        </p>
+
+        <!-- Text -->
+        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+        </p>
+
+        <!-- Rating -->
+            <div class="review-rating">
+                <div class="stars-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+            </div>
     </div>
-     <div style=" flex:1">
+     <div class="testimonail-arrow">
         div5
     </div>
 </div>

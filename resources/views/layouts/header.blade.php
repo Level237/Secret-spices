@@ -260,7 +260,7 @@
 				      	<li id="slide-1">
 
 					        <!-- Background Image -->
-				        	<img src="images/slider/slide-10.jpg" alt="slide-background">
+				        	<img src="images/slider/slide-10.jpg"  alt="slide-background">
 
 							<!-- Image Caption -->
 		       				<div class="caption d-flex align-items-center left-align">
@@ -280,9 +280,6 @@
 													<h5 class="no-caption-txt">
 														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
 													</h5>
-
-								         	 	
-								         	 	
 
 											</div>
 										</div>
