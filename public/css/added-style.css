@@ -1,0 +1,37 @@
+/*
+  Site Name: Secret Spices
+  Theme URL: https://themeforest.net/user/jthemes
+  Description: Add custom styles to the site
+  Author: K-SOFT
+  Author URL: https: //k-soft.tech/
+  Version: 1.0.0
+*/
+
+
+
+
+/* ==========================================================================
+  01. GENERAL & BASIC STYLES
+  =========================================================================== */
+
+
+  .horizontal-line {
+    background-color: #c70609; 
+    height:15px; 
+    width:200px;
+    margin-left: 10px;
+  }
+
+  .no-caption-txt{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: unset;
+    font-size: 30px;
+
+  }
+
+    @media screen and (max-width: 600px) {
+      .horizontal-line{
+        margin-left: 90px;
+      }
+    }

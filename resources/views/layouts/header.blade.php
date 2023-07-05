@@ -270,8 +270,19 @@
 		       								<div class="caption-txt white-color">
 
 						       					<!-- Title -->
-								         	 	<h2>Farmers Special</h2>
-								         	 	<h3>From <span class="meat-color">$26.49</span></h3>	
+
+													<h2>Secret Spices</h2>
+
+													<h2 class="horizontal-line">
+														
+													</h2>
+
+													<h5 class="no-caption-txt">
+														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+													</h5>
+
+								         	 	
+								         	 	
 
 											</div>
 										</div>
@@ -282,56 +293,9 @@
 					    </li>	<!-- END SLIDE #1 -->
 
 
-				      	<!-- SLIDE #2 -->
-				      	<li id="slide-2">
-
-				        	<!-- Background Image -->
-				        	<img src="images/slider/slide-11.jpg" alt="slide-background">
-
-							<!-- Image Caption -->
-		       				<div class="caption d-flex align-items-center left-align">
-		       					<div class="container">
-		       						<div class="row">
-		       							<div class="col-sm-7">
-		       								<div class="caption-txt white-color">
-
-						       					<!-- Title -->
-								         	 	<h2>Chicken Ranchero</h2>
-								         	 	<h3>From <span class="meat-color">$24.99</span></h3>	
-
-											</div>
-										</div>
-									</div>  <!-- End row -->
-								</div>  <!-- End container -->
-					        </div>	<!-- End Image Caption -->
-
-				     	</li>	<!-- END SLIDE #2 -->
+				      	
 
 
-				     	<!-- SLIDE #3 -->
-				      	<li id="slide-3">
-
-				      		<!-- Background Image -->
-				        	<img src="images/slider/slide-12.jpg" alt="slide-background">
-
-				        	<!-- Image Caption -->
-		       			 	<div class="caption d-flex align-items-center left-align">
-	        					<div class="container">
-		       						<div class="row">
-		       							<div class="col-sm-7">
-		       								<div class="caption-txt white-color">
-
-						       			 		<!-- Title -->
-								         	 	<h2>Quattro Formaggi</h2>
-								         	 	<h3>From <span class="meat-color">$32.25</span></h3>	
-
-											</div>
-					        			</div>
-									</div>  <!-- End row -->
-								</div>  <!-- End container -->
-					        </div>	<!-- End Image Caption -->
-
-				     	</li>	<!-- END SLIDE #3 -->
 
 				    </ul>
 			  	</div>	<!-- END SLIDER -->
