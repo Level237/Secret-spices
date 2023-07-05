@@ -16,8 +16,8 @@
 
 
   .horizontal-line {
-    background-color: #c70609; 
-    height:15px; 
+    background-color: #c70609;
+    height:15px;
     width:200px;
     margin-left: 10px;
   }
@@ -30,8 +30,25 @@
 
   }
 
+
+  /*  Section Martin*/
+
+  .vertical-line{
+
+    background-color: #c70609;
+    height: 3.4rem;;
+    width:0.5rem;
+    margin-left: 10px;
+  }
+
+  .bag-primary{
+    background-color: #c70609;
+  }
+
     @media screen and (max-width: 600px) {
       .horizontal-line{
         margin-left: 90px;
       }
     }
+
+

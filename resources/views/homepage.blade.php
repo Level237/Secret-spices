@@ -7,62 +7,93 @@
 			============================================= -->
 <div id="promo-3" class="pt-100 promo-section division">
     <div class="container">
+        <div class="d-flex flex-row mb-3">
+            <div class="vertical-line align-middle"></div>
+            <h2> Nos idées de recettes faciles</h2>
+        </div>
+
         <div class="row d-flex align-items-center">
 
 
             <!-- PROMO IMAGE-1 -->
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <a href="menu-3.html">
-                    <div class="pbox-3 mb-30">
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/offer-1.jpg" alt="promo-image">
+
+
+                    <img class="img-fluid" src="images/offer-1.jpg" alt="promo-image">
+                    <div class="row">
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-5">
+                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
+
                 </a>
             </div>
 
 
             <!-- PROMO IMAGE-2 -->
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <a href="menu-3.html">
-                    <div class="pbox-3 mb-30">
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/offer-2.jpg" alt="promo-image">
+
+
+                    <img class="img-fluid" src="images/offer-2.jpg" alt="promo-image">
+                    <div class="row">
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-5">
+                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
+
                 </a>
             </div>
 
 
             <!-- PROMO IMAGE-3 -->
-            <div class="col-md-6">
+            <div class="col-md-4">
                 <a href="menu-3.html">
-                    <div class="pbox-3">
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/offer-3.jpg" alt="promo-image">
+
+
+                    <img class="img-fluid" src="images/offer-3.jpg" alt="promo-image">
+                    <div class="row">
+                        <div class="col-md-1">
+
+                        </div>
+                        <div class="col-md-5">
+                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
+
                 </a>
             </div>
 
 
             <!-- PROMO IMAGE-4 -->
-            <div class="col-md-6">
-                <a href="menu-3.html">
-                    <div class="pbox-3 pbox-3-last">
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/offer-4.jpg" alt="promo-image">
-                        </div>
-                    </div>
-                </a>
-            </div>
 
 
         </div> <!-- End row -->
+
+        <div class="text-center mt-4">
+            <button type="button" class="btn bag-primary text-white p-3">Découvrir Plus de recettes</button>
+
+        </div>
     </div> <!-- End container -->
 </div> <!-- END PROMO-3 -->
 
 
+<section class="mt-4 ">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/offer-2.jpg" style="max-height: 500px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <!-- MENU-6
