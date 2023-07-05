@@ -270,13 +270,18 @@
 		       								<div class="caption-txt white-color">
 
 						       					<!-- Title -->
-								         	 	<h2>Secret Spices</h2>
 
-												<div class="horizontal-line">
+													<h2>Secret Spices</h2>
+
+													<h2 class="horizontal-line">
 														
-												</div>
+													</h2>
 
-												<h5 class="no-caption-txt">Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.</h5>
+													<h5 class="no-caption-txt">
+														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+													</h5>
+
+								         	 	
 								         	 	
 
 											</div>
