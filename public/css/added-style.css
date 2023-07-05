@@ -1,0 +1,93 @@
+/*
+  Site Name: Secret Spices
+  Theme URL: https://themeforest.net/user/jthemes
+  Description: Add custom styles to the site
+  Author: K-SOFT
+  Author URL: https: //k-soft.tech/
+  Version: 1.0.0
+*/
+
+
+/* ==========================================================================
+  FRANK NYAWA SECTIONS
+  =========================================================================== */
+
+.footer-division{
+    background-color: #c70609;
+    padding-top: 10px;
+    color: #ffffff;
+
+}
+.foot2{
+    padding-top: 80px;
+}
+.foot3{
+    padding-top: 80px;
+}
+.slogan{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.donnee{
+    color: #ffffff;
+    text-align: left;
+}
+.about{
+    color: #ffffff;
+}
+.mention{
+    color: #ffffff;
+}
+.sanitaire{
+    color: #ffffff;
+}
+.contact{
+    color: #ffffff;
+}
+i{
+    color: #fde0a5;
+}
+.ico-facebook{
+    color: white;
+}
+
+.footer-copyright{
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+    width: auto;
+
+}
+
+/* ==========================================================================
+  FRANK SECTIONS
+  =========================================================================== */
+
+
+  .horizontal-line {
+    background-color: #c70609;
+    height:15px;
+    width:200px;
+    margin-left: 10px;
+  }
+
+  .no-caption-txt{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: unset;
+    font-size: 30px;
+
+  }
+
+  .testimonials-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+    @media screen and (max-width: 600px) {
+      .horizontal-line{
+        margin-left: 90px;
+      }
+    }

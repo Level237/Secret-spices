@@ -33,16 +33,16 @@
 
 	                		<!-- DROPDOWN MENU -->
                             <li>
-                                <a href="#">Accueil</a>
-                            </li>
-                            <li>
-                                <a href="#">Produits</a>
-                            </li>
-                            <li>
-                                <a href="#">Engagements</a>
+                                <a href="#">Nos Produits</a>
                             </li>
                             <li>
                                 <a href="#">Recettes</a>
+                            </li>
+                            <li>
+                                <a href="#">Notre Engagement</a>
+                            </li>
+                            <li>
+                                <a href="#">Contactez nous</a>
                             </li>
                         </ul>
 
@@ -81,8 +81,8 @@
 		       								<div class="caption-txt white-color">
 
 						       					<!-- Title -->
-								         	 	<h2>Faciliter la cuisine </h2>
-								         	 	<h4>avec des assaisonements deja prets <span class="meat-color">$26.49</span></h4>
+								         	 	<h2>Farmers Special</h2>
+								         	 	<h3>From <span class="meat-color">$26.49</span></h3>
 
 											</div>
 										</div>
@@ -142,7 +142,6 @@
 								</div>  <!-- End container -->
 					        </div>	<!-- End Image Caption -->
 
-				     	</li>	<!-- END SLIDE #3 -->
 
 				    </ul>
 			  	</div>	<!-- END SLIDER -->
