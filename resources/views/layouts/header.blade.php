@@ -271,15 +271,13 @@
 
 						       					<!-- Title -->
 								         	 	<h2>Secret Spices</h2>
-												<div class="flexbox-horizontal-line">
-													<div style="background-color: #c70609; height:15px; width:100px">
-													
-													</div>
+
+												<div class="horizontal-line">
+														
 												</div>
-												
-								         	 	<h5>Faciliter la cuisine </h5>	
-												<h5>avec des assaisonnements </h5>
-												<h5>déjà prêts.</h5>
+
+												<h5 class="no-caption-txt">Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.</h5>
+								         	 	
 
 											</div>
 										</div>

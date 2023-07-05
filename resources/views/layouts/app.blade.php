@@ -50,6 +50,7 @@
 
     <!-- TEMPLATE CSS -->
     <link href="{{ asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/added-style.css')}}" rel="stylesheet">
 
     <!-- RESPONSIVE CSS -->
     <link href="{{ asset('css/responsive.css')}}" rel="stylesheet">
