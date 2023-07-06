@@ -2142,12 +2142,15 @@
 </section> <!-- END GALLERY-2 -->
 
 
-
-<div class="testimonials-slider">
-    <div class="testimonial-arrow">
-       
+<div class="container">
+  <div class="row">
+    <div class="col-1">
+      <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
     </div>
-     <div class="single-testimonial">
+    <div class="col">
+      <div class="row">
+            <div class="col-md-4">
+                 <div class="single-testimonial">
         <!-- Testimonial Author Avatar -->
         <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
@@ -2171,7 +2174,9 @@
                 </div>
             </div>
     </div>
-     <div class="single-testimonial">
+            </div>
+            <div class="col-md-4">
+                 <div class="single-testimonial">
         <!-- Testimonial Author Avatar -->
         <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
@@ -2195,7 +2200,9 @@
                 </div>
             </div>
     </div>
-     <div class="single-testimonial">
+            </div>
+            <div class="col-md-4">
+                 <div class="single-testimonial">
         <!-- Testimonial Author Avatar -->
         <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
@@ -2219,13 +2226,13 @@
                 </div>
             </div>
     </div>
-     <div class="testimonial-arrow">
-
-         <div style="flex:1;">
-           
-        </div>
-        
+            </div>
+      </div>
     </div>
+    <div class="col-1">
+      <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+    </div>
+  </div>
 </div>
 <!-- TESTIMONIALS-1
 			============================================= -->
