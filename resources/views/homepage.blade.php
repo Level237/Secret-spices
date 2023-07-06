@@ -2469,60 +2469,6 @@
     <div class="carousel-item">
             <div class="container">
             <div class="row">
-                
-                <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
 
                  <div class="col-md-4">
                     <div class="single-testimonial">
@@ -2559,60 +2505,6 @@
             <div class="row">
                 
                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-4">
                     <div class="single-testimonial">
                         <!-- Testimonial Author Avatar -->
                         <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">

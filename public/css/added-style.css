@@ -84,7 +84,7 @@ i{
 
 
 /* ==========================================================================
-  FRANK SECTIONS
+  FRANK ZOHIM SECTIONS
   =========================================================================== */
 
 .horizontal-line {
@@ -140,8 +140,19 @@ i{
     font-size: 15px;
 }
 
+
 @media screen and (max-width: 600px) {
     .horizontal-line {
         margin-left: 90px;
     }
+    #carouselExampleControls{
+      display: none;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+  #carouselExampleControls1 {
+    display: none;
+  }
 }
