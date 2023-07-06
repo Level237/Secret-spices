@@ -3,6 +3,59 @@
 @section('content')
 
 
+<!-- HERO-6
+			============================================= -->
+			<section id="hero-6" class="hero-section division">
+
+
+				<!-- SLIDER -->
+				<div class="slider mt-1001">
+			    	<ul class="slides">
+
+
+				     	<!-- SLIDE #1 -->
+				      	<li id="slide-1">
+
+					        <!-- Background Image -->
+				        	<img src="images/slider/slide-10.jpg"  alt="slide-background">
+
+							<!-- Image Caption -->
+		       				<div class="caption d-flex align-items-center left-align">
+		       					<div class="container">
+		       						<div class="row">
+		       							<div class="col-sm-7">
+		       								<div class="caption-txt white-color">
+
+						       					<!-- Title -->
+
+													<h2>Secret Spices</h2>
+
+													<h2 class="horizontal-line">
+
+													</h2>
+
+													<h5 class="no-caption-txt">
+														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+													</h5>
+
+
+
+
+											</div>
+										</div>
+									</div>  <!-- End row -->
+								</div>  <!-- End container -->
+					        </div>	<!-- End Image Caption -->
+
+					    </li>	<!-- END SLIDE #1 -->
+
+				    </ul>
+			  	</div>	<!-- END SLIDER -->
+
+
+			</section>	<!-- END HERO-6 -->
+
+
 <!-- PROMO-3
 			============================================= -->
 <div id="promo-3" class="pt-100 promo-section division">
@@ -130,6 +183,7 @@
         </div>
     </div>
 </section>
+<<<<<<< HEAD
 
 
 <section class="ms-5 mt-100 border">
@@ -1608,12 +1662,34 @@
 
     </div> <!-- End container -->
 </section> <!-- END GALLERY-2 -->
+=======
+>>>>>>> bd34136ab3138d6544dd6cccf1eacd972ed37299
 
 
 <!-- START CAROUSSEL TESTIMONIALS -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
+<<<<<<< HEAD
     <div class="carousel-inner">
+=======
+<div class="container" style="margin-top: 70px">
+
+        <!-- SECTION TITLE -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title mb-60 text-center">
+
+                    <!-- Title 	-->
+                    <h2 class="h2-xl red-color testimonial-title">Nous Adorons Secret Spices</h2>
+
+                </div>
+            </div>
+        </div>
+ </div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  
+  <div class="carousel-inner">
+>>>>>>> bd34136ab3138d6544dd6cccf1eacd972ed37299
 
         <div class="carousel-item active">
 
@@ -2028,7 +2104,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Events & Catering</h2>
+                    <h2 class="h2-xl red-color">Événements & Restauration</h2>
 
                     <!-- Text -->
                     <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
@@ -2051,7 +2127,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-01.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2059,7 +2135,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Quaerat neque purus ipsum neque dolor</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à New Deido</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Quaerat neque purus ipsum neque dolor primis tempus impedit</p>
@@ -2077,7 +2153,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-02.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2085,7 +2161,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Tempor blandit sapien at gravida donec ipsum</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à Bonamoussadi</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Neque dolor primis libero tempus impedit tempor sapien gravida</p>
@@ -2103,7 +2179,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-03.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2111,7 +2187,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Neque dolor primis a libero tempus a tempor</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret au marché de PK14</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Impedit tempor at donec sapien ipsum a neque dolor primis libero</p>
@@ -2129,13 +2205,12 @@
 </section> <!-- END BLOG-1 -->
 
 
-
-
-<!-- BANNER-3
+<!-- ABOUT-7
 			============================================= -->
-<section id="banner-3" class="bg-yellow banner-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
+<section id="about-7" class="bg-05 about-section division">
+    <div class="container white-color">
+        <div class="abox-4-wrapper ico-80">
+           <div class="row d-flex align-items-center">
 
 
             <!-- BANNER TEXT -->
@@ -2143,11 +2218,11 @@
                 <div class="banner-3-txt coffee-color">
 
                     <!-- Title  -->
-                    <h4 class="h4-xl">Download mobile App and</h4>
-                    <h2>save up to 20%</h2>
+                    <h4 class="h4-xl color-white" style="color: #fff">Téléchargez l'application mobile et</h4>
+                    <h2 class="color-white" style="color: #fff">accèdez à nos recettes</h2>
 
                     <!-- Text -->
-                    <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
+                    <p class="p-md" style="color: #fff">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
                         blandit varius
                     </p>
 
@@ -2179,8 +2254,9 @@
 
 
         </div> <!-- End row -->
+        </div>
     </div> <!-- End container -->
-</section> <!-- END BANNER-3 -->
+</section> <!-- END ABOUT-7 -->
 
 
 
@@ -2197,7 +2273,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Our Locations</h2>
+                    <h2 class="h2-xl red-color">NOS POINTS DE VENTES</h2>
 
                     <!-- Text -->
                     <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
@@ -2313,39 +2389,4 @@
     </div> <!-- End container -->
 </section> <!-- END CONTACTS-3 -->
 
-
-
-
-<!-- BANNER-4
-			============================================= -->
-<section id="banner-4" class="bg-fixed wide-100 banner-section division">
-    <div class="container">
-        <div class="row">
-
-
-            <!-- BANNER TEXT -->
-            <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                <div class="banner-4-txt text-center">
-
-                    <!-- Title  -->
-                    <h4 class="h4-xl">We Guarantee</h4>
-
-                    <!-- Title  -->
-                    <h2>30 Minutes Delivery!</h2>
-
-                    <!-- Text -->
-                    <p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero tempus,
-                        blandit a cursus varius luctus neque magna
-                    </p>
-
-                    <!-- Call Button -->
-                    <a href="tel:123456789" class="btn btn-lg btn-red tra-red-hover">Call: 789-654-3210</a>
-
-                </div>
-            </div>
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END BANNER-4 -->
 @endsection
