@@ -89,13 +89,19 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/offer-2.jpg" style="max-height: 500px" class="d-block w-100" alt="...">
+                <img src="images/offer-1.jpg" style="max-height: 500px" class="d-block w-100" alt="...">
             </div>
         </div>
     </div>
 </section>
 
+<section class="container">
+    <div class="row">
+        <div class="col-6">
 
+        </div>
+    </div>
+</section>
 <!-- MENU-6
 			============================================= -->
 <section id="menu-6" class="wide-70 menu-section division">
