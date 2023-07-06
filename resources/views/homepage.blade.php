@@ -3,6 +3,59 @@
 @section('content')
 
 
+<!-- HERO-6
+			============================================= -->
+			<section id="hero-6" class="hero-section division">
+
+
+				<!-- SLIDER -->
+				<div class="slider mt-1001">
+			    	<ul class="slides">
+
+
+				     	<!-- SLIDE #1 -->
+				      	<li id="slide-1">
+
+					        <!-- Background Image -->
+				        	<img src="images/slider/slide-10.jpg"  alt="slide-background">
+
+							<!-- Image Caption -->
+		       				<div class="caption d-flex align-items-center left-align">
+		       					<div class="container">
+		       						<div class="row">
+		       							<div class="col-sm-7">
+		       								<div class="caption-txt white-color">
+
+						       					<!-- Title -->
+
+													<h2>Secret Spices</h2>
+
+													<h2 class="horizontal-line">
+
+													</h2>
+
+													<h5 class="no-caption-txt">
+														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+													</h5>
+
+
+
+
+											</div>
+										</div>
+									</div>  <!-- End row -->
+								</div>  <!-- End container -->
+					        </div>	<!-- End Image Caption -->
+
+					    </li>	<!-- END SLIDE #1 -->
+
+				    </ul>
+			  	</div>	<!-- END SLIDER -->
+
+
+			</section>	<!-- END HERO-6 -->
+
+            
 <!-- PROMO-3
 			============================================= -->
 <div id="promo-3" class="pt-100 promo-section division">
