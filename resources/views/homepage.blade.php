@@ -2180,8 +2180,24 @@
 
 
 <!-- START CAROUSSEL TESTIMONIALS -->
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
+<div class="container">
+
+        <!-- SECTION TITLE -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title mb-60 text-center">
+
+                    <!-- Title 	-->
+                    <h2 class="h2-xl red-color testimonial-title">Nous Adorons Secret Spices</h2>
+
+                </div>
+            </div>
+        </div>
+ </div>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  
   <div class="carousel-inner">
 
     <div class="carousel-item active">
