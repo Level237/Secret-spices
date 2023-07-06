@@ -6,13 +6,11 @@
   Author URL: https: //k-soft.tech/
   Version: 1.0.0
 */
-
-
 /* ==========================================================================
   FRANK NYAWA SECTIONS
   =========================================================================== */
 
-.footer-division{
+  .footer-division{
     background-color: #c70609;
     padding-top: 10px;
     color: #ffffff;
@@ -35,14 +33,14 @@
     text-align: left;
 }
 .donnee:hover{
-    color: #ffffff;
+    color: #fde0a5;
     text-align: left;
 }
 .about{
     color: #ffffff;
 }
 .about:hover{
-    color: #ffffff;
+    color: #fde0a5;
 }
 .mention{
     color: #ffffff;
@@ -84,70 +82,66 @@ i{
     text-align: center;
 }
 
+
 /* ==========================================================================
   FRANK SECTIONS
   =========================================================================== */
 
-
-  .horizontal-line {
+.horizontal-line {
     background-color: #c70609;
-    height:15px;
-    width:200px;
+    height: 15px;
+    width: 200px;
     margin-left: 10px;
-  }
+}
 
-  .no-caption-txt{
+.no-caption-txt {
     margin-top: 15px;
     margin-left: 10px;
     text-transform: unset;
     font-size: 30px;
+}
 
-  }
-
-  .testimonials-slider{
+.testimonials-slider {
     display: flex;
     flex-direction: row;
     column-gap: 30px;
     justify-content: center;
     margin-bottom: 30px;
     margin-left: 20px;
-    margin-right : 20px;
+    margin-right: 20px;
     align-content: center;
     vertical-align: middle;
-  }
+}
 
-  .single-testimonial{
-    flex: 2;
-    background-color: white;
+.single-testimonial {
     display: flex;
+    background-color: white;
     flex-direction: column;
     align-items: center;
+}
 
-  }
-
-  .testimonial-arrow{
-    flex:1;
+.testimonial-arrow {
+    flex: 1;
     flex-direction: column;
     align-items: space-between;
     vertical-align: middle;
-  }
+}
 
-  .author-picture{
-    border-radius: 50%;
-  }
+.author-picture {
+}
 
-  .author-title {
-       font-size: 25px;
-       font-weight: bold;
-    }
+.author-title {
+    font-size: 20px;
+    font-weight: bold;
+}
 
-  .author-testimonial {
-       text-align: center;
-       font-size: 18px;
-     }
+.author-testimonial {
+    text-align: center;
+    font-size: 15px;
+}
 
-    @media screen and (max-width: 600px) {
-      .horizontal-line{
+@media screen and (max-width: 600px) {
+    .horizontal-line {
         margin-left: 90px;
-      }
     }
+}
