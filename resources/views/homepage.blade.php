@@ -55,7 +55,7 @@
 
 			</section>	<!-- END HERO-6 -->
 
-            
+
 <!-- PROMO-3
 			============================================= -->
 <div id="promo-3" class="pt-100 promo-section division">
@@ -709,62 +709,6 @@
 
 
 
-<!-- ABOUT-3
-			============================================= -->
-<section id="about-3" class="bg-yellow wide-60 about-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-
-
-            <!-- ABOUT IMAGE -->
-            <div class="col-md-5 col-lg-6">
-                <div class="about-3-img text-center mb-40">
-                    <img class="img-fluid" src="images/about-02-img.png" alt="about-image">
-                </div>
-            </div>
-
-
-            <!-- ABOUT TEXT -->
-            <div class="col-md-7 col-lg-6">
-                <div class="about-3-txt mb-40 coffee-color">
-
-                    <!-- Title -->
-                    <h2 class="h2-sm coffee-color">Nothing brings people together like a good pizza</h2>
-
-                    <!-- Text -->
-                    <p class="p-md">Semper lacus cursus porta primis ligula risus tempus and sagittis ipsum mauris lectus laoreet
-                        purus ipsum tempor enim ipsum porta justo integer ultrice aligula lectus aenean magna and pulvinar purus at
-                        pretium gravida
-                    </p>
-
-                    <!-- List -->
-                    <ul class="txt-list">
-
-                        <li class="list-item">
-                            <p class="p-md">Fringilla risus, luctus mauris orci auctor purus euismod pretium
-                                purus pretium ligula rutrum tempor sapien
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <p class="p-md">Quaerat sodales sapien euismod purus blandit</p>
-                        </li>
-
-                        <li class="list-item">
-                            <p class="p-md">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales
-                                sapien undo pretium a purus mauris
-                            </p>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div> <!-- END ABOUT TEXT -->
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-3 -->
 
 
 
@@ -2666,7 +2610,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Events & Catering</h2>
+                    <h2 class="h2-xl red-color">Événements & Restauration</h2>
 
                     <!-- Text -->
                     <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
@@ -2689,7 +2633,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-01.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2697,7 +2641,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Quaerat neque purus ipsum neque dolor</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à New Deido</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Quaerat neque purus ipsum neque dolor primis tempus impedit</p>
@@ -2715,7 +2659,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-02.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2723,7 +2667,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Tempor blandit sapien at gravida donec ipsum</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à Bonamoussadi</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Neque dolor primis libero tempus impedit tempor sapien gravida</p>
@@ -2741,7 +2685,7 @@
                     <!-- BLOG POST IMAGE -->
                     <div class="blog-post-img">
                         <div class="hover-overlay">
-                            <img class="img-fluid" src="images/blog/img-03.jpg" alt="blog-post-image">
+                            <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                         </div>
                     </div>
 
@@ -2749,7 +2693,7 @@
                     <div class="blog-post-txt">
 
                         <!-- Post Title -->
-                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Neque dolor primis a libero tempus a tempor</a></h5>
+                        <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret au marché de PK14</a></h5>
 
                         <!-- Post Text -->
                         <p class="grey-color">Impedit tempor at donec sapien ipsum a neque dolor primis libero</p>
@@ -2781,8 +2725,8 @@
                 <div class="banner-3-txt coffee-color">
 
                     <!-- Title  -->
-                    <h4 class="h4-xl">Download mobile App and</h4>
-                    <h2>save up to 20%</h2>
+                    <h4 class="h4-xl">Téléchargez l'application mobile et</h4>
+                    <h2>accèdez à nos recettes</h2>
 
                     <!-- Text -->
                     <p class="p-md">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
@@ -2835,7 +2779,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Our Locations</h2>
+                    <h2 class="h2-xl red-color">NOS POINTS DE VENTES</h2>
 
                     <!-- Text -->
                     <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
@@ -2951,39 +2895,4 @@
     </div> <!-- End container -->
 </section> <!-- END CONTACTS-3 -->
 
-
-
-
-<!-- BANNER-4
-			============================================= -->
-<section id="banner-4" class="bg-fixed wide-100 banner-section division">
-    <div class="container">
-        <div class="row">
-
-
-            <!-- BANNER TEXT -->
-            <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
-                <div class="banner-4-txt text-center">
-
-                    <!-- Title  -->
-                    <h4 class="h4-xl">We Guarantee</h4>
-
-                    <!-- Title  -->
-                    <h2>30 Minutes Delivery!</h2>
-
-                    <!-- Text -->
-                    <p class="p-lg">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor primis libero tempus,
-                        blandit a cursus varius luctus neque magna
-                    </p>
-
-                    <!-- Call Button -->
-                    <a href="tel:123456789" class="btn btn-lg btn-red tra-red-hover">Call: 789-654-3210</a>
-
-                </div>
-            </div>
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END BANNER-4 -->
 @endsection
