@@ -2142,279 +2142,289 @@
 </section> <!-- END GALLERY-2 -->
 
 
-<div class="container">
-  <div class="row">
-    <div class="col-1">
-      <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
-    </div>
-    <div class="col">
-      <div class="row">
-            <div class="col-md-4">
-                 <div class="single-testimonial">
-        <!-- Testimonial Author Avatar -->
-        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+<!-- START CAROUSSEL TESTIMONIALS -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- Author name -->
-        <p class="author-title">Mama Yvonne
-        </p>
+  <div class="carousel-inner">
 
-        <!-- Text -->
-        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-        </p>
+    <div class="carousel-item active">
+        
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-        <!-- Rating -->
-            <div class="review-rating">
-                <div class="stars-rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
-    </div>
-            </div>
-            <div class="col-md-4">
-                 <div class="single-testimonial">
-        <!-- Testimonial Author Avatar -->
-        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-        <!-- Author name -->
-        <p class="author-title">Mama Yvonne
-        </p>
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-        <!-- Text -->
-        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-        </p>
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
 
-        <!-- Rating -->
-            <div class="review-rating">
-                <div class="stars-rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
                 </div>
-            </div>
-    </div>
-            </div>
-            <div class="col-md-4">
-                 <div class="single-testimonial">
-        <!-- Testimonial Author Avatar -->
-        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-        <!-- Author name -->
-        <p class="author-title">Mama Yvonne
-        </p>
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-        <!-- Text -->
-        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-        </p>
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
 
-        <!-- Rating -->
-            <div class="review-rating">
-                <div class="stars-rating">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
                 </div>
+                
             </div>
+        </div>
     </div>
+    <div class="carousel-item">
+            <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
             </div>
-      </div>
+        </div>
     </div>
-    <div class="col-1">
-      <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+    <div class="carousel-item">
+            <div class="container">
+            <div class="row">
+                
+                <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+
+                 <div class="col-md-4">
+                    <div class="single-testimonial">
+                        <!-- Testimonial Author Avatar -->
+                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                        <!-- Author name -->
+                        <p class="author-title">Mama Yvonne
+                        </p>
+
+                        <!-- Text -->
+                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                        </p>
+
+                        <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
     </div>
   </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+
 </div>
-<!-- TESTIMONIALS-1
-			============================================= -->
-<div id="reviews-1" class="bg-image bg-scroll reviews-section division">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 testimonials white-color">
-
-
-                <!-- TRANSPARENT QUOTE ICON -->
-                <div class="quote-icon"></div>
-
-
-                <!-- TESTIMONIALS CONTENT -->
-                <div class="flexslider">
-                    <ul class="slides text-center">
-
-
-                        <!-- TESTIMONIAL-1 -->
-                        <li class="review-1">
-                            <div class="review-1-txt">
-
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/review-author-1.jpg" alt="testimonial-avatar">
-
-                                <!-- Text -->
-                                <p>" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-
-                                <!-- Testimonial Author -->
-                                <p class="testimonial-autor">by Sean McMarthy</p>
-
-                            </div>
-                        </li>
-
-
-                        <!-- TESTIMONIAL-2 -->
-                        <li class="review-1">
-                            <div class="review-1-txt">
-
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/review-author-2.jpg" alt="testimonial-avatar">
-
-                                <!-- Text -->
-                                <p>" At sagittis congue augue egestas egestas magna ipsum vitae purus ipsum primis in cubilia
-                                    laoreet augue egestas luctus donec diam ociis nullam tempor sapien, eget orci gravida porta "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-
-                                <!-- Testimonial Author -->
-                                <p class="testimonial-autor">by Evelyn Martinez</p>
-
-                            </div>
-
-                        </li>
-
-
-                        <!-- TESTIMONIAL-3 -->
-                        <li class="review-1">
-                            <div class="review-1-txt">
-
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/review-author-3.jpg" alt="testimonial-avatar">
-
-                                <!-- Text -->
-                                <p>" Mauris donec ociis et magnis sapien etiam sapien sem sagittis congue augue. An orci nullam
-                                    tempor sapien, eget orci gravida donec enim ipsum porta justo integer at odio velna auctor "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-
-                                <!-- Testimonial Author -->
-                                <p class="testimonial-autor">by Robert Peterson</p>
-
-                            </div>
-
-                        </li>
-
-
-                        <!-- TESTIMONIAL-4 -->
-                        <li class="review-1">
-                            <div class="review-1-txt">
-
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/review-author-4.jpg" alt="testimonial-avatar">
-
-                                <!-- Text -->
-                                <p>" An orci nullam tempor sapien, eget orci gravida donec enim ipsum porta justo integer at
-                                    odio velna auctor. Egestas magna ipsum vitae purus ipsum primis in cubilia laoreet augue "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-
-                                <!-- Testimonial Author -->
-                                <p class="testimonial-autor">by Leslie Serpas</p>
-
-                            </div>
-
-                        </li>
-
-
-                        <!-- TESTIMONIAL #5 -->
-                        <li class="review-1">
-                            <div class="review-1-txt">
-
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/review-author-5.jpg" alt="testimonial-avatar">
-
-                                <!-- Text -->
-                                <p>" Egestas egestas magna ipsum vitae purus efficitur ipsum primis in cubilia laoreet augue
-                                    egestas luctus donec ociis vitae purus diam integer congue magna undo impedit lacus dolor "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div>
-                                </div>
-
-                                <!-- Testimonial Author -->
-                                <p class="testimonial-autor">by Amelie Newlove</p>
-
-                            </div>
-
-                        </li>
-
-                    </ul>
-                </div>
-
-
-            </div>
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</div> <!-- END TESTIMONIALS-1 -->
-
-
-
 
 <!-- BLOG-1
 			============================================= -->
