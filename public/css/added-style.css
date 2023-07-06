@@ -87,18 +87,18 @@ i{
   FRANK ZOHIM SECTIONS
   =========================================================================== */
 
-<<<<<<< HEAD
+
 
   .horizontal-line {
     background-color: #c70609;
     height:15px;
     width:200px;
-=======
+  }
 .horizontal-line {
     background-color: #c70609;
     height: 15px;
     width: 200px;
->>>>>>> c4d7cdec6483ee01df8c3614a5fb23d0a9b37b2d
+
     margin-left: 10px;
 }
 
@@ -121,7 +121,7 @@ i{
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
+
 
   /*  Section Martin*/
 
@@ -144,7 +144,7 @@ i{
     }
 
 
-=======
+
 .single-testimonial {
     display: flex;
     background-color: white;
@@ -188,4 +188,4 @@ i{
     display: none;
   }
 }
->>>>>>> c4d7cdec6483ee01df8c3614a5fb23d0a9b37b2d
+

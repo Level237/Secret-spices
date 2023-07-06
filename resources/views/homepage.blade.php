@@ -9,7 +9,7 @@
     <div class="container">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h2> Nos idées de recettes faciles</h2>
+            <h2 class="ms-2"> Nos idées de recettes faciles</h2>
         </div>
 
         <div class="row d-flex align-items-center">
@@ -21,7 +21,7 @@
 
 
                     <img class="img-fluid" src="images/offer-1.jpg" alt="promo-image">
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-1">
 
                         </div>
@@ -40,7 +40,7 @@
 
 
                     <img class="img-fluid" src="images/offer-2.jpg" alt="promo-image">
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-1">
 
                         </div>
@@ -59,7 +59,7 @@
 
 
                     <img class="img-fluid" src="images/offer-3.jpg" alt="promo-image">
-                    <div class="row">
+                    <div class="row mt-3">
                         <div class="col-md-1">
 
                         </div>
@@ -89,629 +89,60 @@
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/offer-1.jpg" style="max-height: 500px" class="d-block w-100" alt="...">
+                <img src="images/spices1.jpg" style="max-height: 600px" class="d-block w-100" alt="...">
             </div>
         </div>
     </div>
 </section>
 
 <section class="container">
-    <div class="row">
+    <div class="row align-items-center justify-content-center">
         <div class="col-6">
+            <img src="images/spices2.png" class="img-fluid" alt="spices">
+        </div>
+
+        <div class="col-6">
+            <div class="d-flex flex-row">
+                <div class="vertical-line align-middle"></div>
+                <h3 class="ms-2"> Une large gamme <br> des épices secret</h3>
+
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <span>
+                        Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore
+                        magna aliqua.Ut enim ad minim veniam,quis nostrud
+                        aliquip ex ea commodo consequat.
+                    </span>
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6 mt-3">
+
+                    <button type="button" class="btn bag-primary text-white p-3">Découvrir Nos Produits</button>
+
+
+                </div>
+            </div>
 
         </div>
     </div>
 </section>
-<!-- MENU-6
-			============================================= -->
-<section id="menu-6" class="wide-70 menu-section division">
-    <div class="container">
 
 
-        <!-- SECTION TITLE -->
-        <div class="row">
-            <div class="col-lg-10 offset-lg-1">
-                <div class="section-title mb-60 text-center">
-
-                    <!-- Title 	-->
-                    <h2 class="h2-xl red-color">True Italian Flavor</h2>
-
-                    <!-- Text -->
-                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius magna
-                    </p>
-
-                </div>
-            </div>
+<section class="ms-5 mt-100 border">
+    <div class="row">
+        <div class="col-lg-6">
+            d
         </div>
+    </div>
+</section>
 
 
-        <div class="row">
 
 
-            <!-- MENU ITEM #1 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-11.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0850</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-11.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Cheese Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Tomato sauce, mozzarella cheese, parmesan cheese, basil</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$22.50</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #1 -->
-
-
-            <!-- MENU ITEM #2 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-12.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0858</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-12.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Pepperoni</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Sliced pepperoni, parmesan cheese, mozzarella cheese, sauce</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$25.00</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #2 -->
-
-
-            <!-- MENU ITEM #3 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-13.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0847</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-13.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">BBQ Chicken Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">BBQ sauce, chicken, mozzarella, cheese, tomatoes, red onion</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$27.00</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #3 -->
-
-
-            <!-- MENU ITEM #4 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-14.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0859</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-14.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Prosciutto Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Tomato sauce, mozzarella, Prosciutto, lemon, olive oil</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$28.50</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #4 -->
-
-
-            <!-- MENU ITEM #5 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-15.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0861</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-15.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Firehouse Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Spicy sausage, pepperoni, red onion, tomatoes, basil</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$24.80</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #5 -->
-
-
-            <!-- MENU ITEM #6 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-16.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0840</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-16.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Ultimate Meat Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Sausage, seasoned ground beef, pepperoni, ham, salami, bacone</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$32.75</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #6 -->
-
-
-            <!-- MENU ITEM #7 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-17.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0862</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-17.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Garden Veggie Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Mushrooms, onions, green peppers, black olives, tomatoes</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$24.75</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #7 -->
-
-
-            <!-- MENU ITEM #8 -->
-            <div class="col-sm-6 col-lg-3">
-                <div class="menu-6-item bg-white">
-
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
-
-                            <!-- Image -->
-                            <img class="img-fluid" src="images/menu/pizza-18.jpg" alt="menu-image">
-
-                            <!-- Item Code -->
-                            <span class="item-code bg-tra-dark">Code: 0844</span>
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="images/menu/pizza-18.jpg" class="image-link">
-                                    <span class="flaticon-zoom"></span>
-                                </a>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
-
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="far fa-star"></i>
-                            </div>
-                        </div>
-
-                        <!-- Like Icon -->
-                        <div class="like-ico ico-25">
-                            <a href="#"><span class="flaticon-heart"></span></a>
-                        </div>
-
-                        <!-- Title -->
-                        <h5 class="h5-sm coffee-color">Chicken Pizza</h5>
-
-                        <!-- Description -->
-                        <p class="grey-color">Buffalo sauce, mozzarella, red onion, chicken, ranch sauce</p>
-
-                        <!-- Price -->
-                        <div class="menu-6-price bg-coffee">
-                            <h5 class="h5-xs yellow-color">$26.80</h5>
-                        </div>
-
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="product-single.html"><span class="flaticon-shopping-bag"></span> Add to Cart</a>
-                        </div>
-
-                    </div>
-
-                </div>
-            </div> <!-- END MENU ITEM #8 -->
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END MENU-6 -->
-
-
-
-
-<!-- ABOUT-3
-			============================================= -->
-<section id="about-3" class="bg-yellow wide-60 about-section division">
-    <div class="container">
-        <div class="row d-flex align-items-center">
-
-
-            <!-- ABOUT IMAGE -->
-            <div class="col-md-5 col-lg-6">
-                <div class="about-3-img text-center mb-40">
-                    <img class="img-fluid" src="images/about-02-img.png" alt="about-image">
-                </div>
-            </div>
-
-
-            <!-- ABOUT TEXT -->
-            <div class="col-md-7 col-lg-6">
-                <div class="about-3-txt mb-40 coffee-color">
-
-                    <!-- Title -->
-                    <h2 class="h2-sm coffee-color">Nothing brings people together like a good pizza</h2>
-
-                    <!-- Text -->
-                    <p class="p-md">Semper lacus cursus porta primis ligula risus tempus and sagittis ipsum mauris lectus laoreet
-                        purus ipsum tempor enim ipsum porta justo integer ultrice aligula lectus aenean magna and pulvinar purus at
-                        pretium gravida
-                    </p>
-
-                    <!-- List -->
-                    <ul class="txt-list">
-
-                        <li class="list-item">
-                            <p class="p-md">Fringilla risus, luctus mauris orci auctor purus euismod pretium
-                                purus pretium ligula rutrum tempor sapien
-                            </p>
-                        </li>
-
-                        <li class="list-item">
-                            <p class="p-md">Quaerat sodales sapien euismod purus blandit</p>
-                        </li>
-
-                        <li class="list-item">
-                            <p class="p-md">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales
-                                sapien undo pretium a purus mauris
-                            </p>
-                        </li>
-
-                    </ul>
-
-                </div>
-            </div> <!-- END ABOUT TEXT -->
-
-
-        </div> <!-- End row -->
-    </div> <!-- End container -->
-</section> <!-- END ABOUT-3 -->
 
 
 
@@ -2182,116 +1613,28 @@
 <!-- START CAROUSSEL TESTIMONIALS -->
 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
-  <div class="carousel-inner">
+    <div class="carousel-inner">
 
-    <div class="carousel-item active">
-        
-        <div class="container">
-            <div class="row">
-                
-                <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+        <div class="carousel-item active">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="carousel-item">
             <div class="container">
-            <div class="row">
-                
-                <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                <div class="row">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2301,24 +1644,24 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                </div>
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2328,24 +1671,24 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                </div>
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2355,31 +1698,31 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
+
                 </div>
-                
             </div>
         </div>
-    </div>
-    <div class="carousel-item">
+        <div class="carousel-item">
             <div class="container">
-            <div class="row">
-                
-                <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                <div class="row">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2389,24 +1732,24 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                </div>
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2416,24 +1759,24 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
-                </div>
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2443,85 +1786,139 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
+
                 </div>
-                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
+
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
+
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
+
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 
 </div> <!-- END CAROUSSEL TESTIMONIALS -->
 
 <!-- START CAROUSSEL TESTIMONIALS MOBILE -->
 <div id="carouselExampleControls1" class="carousel slide" data-bs-ride="carousel">
 
-  <div class="carousel-inner">
+    <div class="carousel-inner">
 
-    <div class="carousel-item active">
-        
-        <div class="container">
-            <div class="row">
+        <div class="carousel-item active">
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
-
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
-
-                        <!-- Rating -->
-                            <div class="review-rating">
-                                <div class="stars-rating">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star-half-alt"></i>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="carousel-item">
             <div class="container">
-            <div class="row">
+                <div class="row">
 
-                 <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2531,31 +1928,31 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
+
                 </div>
-                
             </div>
         </div>
-    </div>
-    <div class="carousel-item">
+        <div class="carousel-item">
             <div class="container">
-            <div class="row">
-                
-                <div class="col-md-4">
-                    <div class="single-testimonial">
-                        <!-- Testimonial Author Avatar -->
-                        <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                <div class="row">
 
-                        <!-- Author name -->
-                        <p class="author-title">Mama Yvonne
-                        </p>
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
 
-                        <!-- Text -->
-                        <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                            egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                        </p>
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
 
-                        <!-- Rating -->
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
                             <div class="review-rating">
                                 <div class="stars-rating">
                                     <i class="fas fa-star"></i>
@@ -2565,23 +1962,57 @@
                                     <i class="fas fa-star-half-alt"></i>
                                 </div>
                             </div>
+                        </div>
                     </div>
+
                 </div>
-                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <div class="single-testimonial">
+                            <!-- Testimonial Author Avatar -->
+                            <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+
+                            <!-- Author name -->
+                            <p class="author-title">Mama Yvonne
+                            </p>
+
+                            <!-- Text -->
+                            <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
+                                egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                            </p>
+
+                            <!-- Rating -->
+                            <div class="review-rating">
+                                <div class="stars-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
             </div>
         </div>
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
-    <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
-    <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="prev">
+        <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls1" data-bs-slide="next">
+        <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
 
 </div> <!-- END CAROUSSEL TESTIMONIALS MOBILE -->
 
