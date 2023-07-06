@@ -6,9 +6,85 @@
   Author URL: https: //k-soft.tech/
   Version: 1.0.0
 */
+/* ==========================================================================
+  FRANK NYAWA SECTIONS
+  =========================================================================== */
+
+  .footer-division{
+    background-color: #c70609;
+    padding-top: 10px;
+    color: #ffffff;
+
+}
+.foot2{
+    padding-top: 80px;
+    margin-left: 0px;
+}
+.foot3{
+    padding-top: 80px;
+}
+.slogan{
+    font-size: medium;
+    font-weight: bolder;
+}
+
+.donnee{
+    color: #ffffff;
+    text-align: left;
+}
+.donnee:hover{
+    color: #fde0a5;
+    text-align: left;
+}
+.about{
+    color: #ffffff;
+}
+.about:hover{
+    color: #fde0a5;
+}
+.mention{
+    color: #ffffff;
+}
+.mention:hover{
+    color: #fde0a5;
+}
+
+.sanitaire{
+    color: #ffffff;
+}
+
+.sanitaire:hover{
+    color:#fde0a5;
+}
+
+.contact{
+    color: #ffffff;
+}
+.contact:hover{
+    color: #fde0a5;
+}
+i{
+    color: #fde0a5;
+}
+.ico-instagram{
+    margin-left: 25px;
+}
+
+.blocfooter{
+    background-color: black;
+    color: #ffffff;
+    padding: 30px;
+    width: 100%;
+    justify-content: center;
+
+}
+.footer-copyright{
+    text-align: center;
+}
+
 
 /* ==========================================================================
-  FRANK SECTIONS 
+  FRANK SECTIONS
   =========================================================================== */
 
 .horizontal-line {
