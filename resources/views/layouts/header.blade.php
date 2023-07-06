@@ -71,7 +71,7 @@
 				      	<li id="slide-1">
 
 					        <!-- Background Image -->
-				        	<img src="images/slider/slide-10.jpg" alt="slide-background">
+				        	<img src="images/slider/slide-10.jpg"  alt="slide-background">
 
 							<!-- Image Caption -->
 		       				<div class="caption d-flex align-items-center left-align">
@@ -81,8 +81,19 @@
 		       								<div class="caption-txt white-color">
 
 						       					<!-- Title -->
-								         	 	<h2>Farmers Special</h2>
-								         	 	<h3>From <span class="meat-color">$26.49</span></h3>
+
+													<h2>Secret Spices</h2>
+
+													<h2 class="horizontal-line">
+
+													</h2>
+
+													<h5 class="no-caption-txt">
+														Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+													</h5>
+
+
+
 
 											</div>
 										</div>

@@ -20,7 +20,7 @@
                                     <p class="slogan"><b>L'alliee de la femme <br> ambitieuse et belle</b></p>
 
                                     <ul class="foo-socials text-center clearfix">
-                                        <li><a href="#" class="ico-facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#" class="ico-facebook"><i class="fab  fa-facebook-f"></i></a></li>
                                         <li><a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a></li>
                                     </ul>
                                 </div>
@@ -47,14 +47,21 @@
 						</div>
 
 					</div>
+
+
+                </div>
+                <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12.text-center">
-                            <!-- FOOTER COPYRIGHT -->
-                            <div class="footer-copyright">
-                                <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
+                        <div class="blocfooter">
+                            <div class="col-md-12">
+                                <!-- FOOTER COPYRIGHT -->
+                                <div class="footer-copyright">
+                                    <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
+                                </div>
                             </div>
                         </div>
+                    </div>
 
-                    </div>     <!-- End row -->
+                </div>     <!-- End row -->
 				</div>	   <!-- End container -->
 			</footer>	<!-- END FOOTER-3 -->
