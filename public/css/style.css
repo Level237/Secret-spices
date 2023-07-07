@@ -34,6 +34,10 @@ span{
     font-family: ubuntu_regular;
 }
 
+.font-costyle{
+
+    font-family: costyle;
+}
 /*------------------------------------------------------------------*/
 /*  IE10 in Windows 8 and Windows Phone 8 Bug fix
 /*-----------------------------------------------------------------*/

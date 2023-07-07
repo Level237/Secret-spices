@@ -144,6 +144,7 @@ i{
     background-color: #c70609;
   }
 
+
     @media screen and (max-width: 600px) {
       .horizontal-line{
         margin-left: 90px;

@@ -186,11 +186,45 @@
 
 
 
-<section class="ms-5 mt-100 border">
-    <div class="row">
-        <div class="col-lg-6">
-            d
+<section class="ms-5 mt-100 border p-5">
+
+    <div class="ms-3">
+        <div class="row align-items-center justify-content-end ">
+
+            <div class="col-lg-5">
+                <div class="d-flex flex-row">
+                    <div class="vertical-line align-middle"></div>
+                    <h3 class="ms-2">Découvrez <br>
+                        notre programme<br>
+                        pour une agriculture<br>
+                        regénératrice</h3>
+
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <span>
+                            Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore
+                            magna aliqua.Ut enim ad minim veniam,quis nostrud
+                            aliquip ex ea commodo consequat.
+                        </span>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 mt-3">
+
+                        <button type="button" class="btn bag-primary text-white p-3">En Savoir Plus</button>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-7">
+                <img src="images/offer-1.jpg" class="img-fluid" alt="spices">
+            </div>
         </div>
+
     </div>
 </section>
 
@@ -229,7 +263,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color testimonial-title">Nous Adorons Secret Spices</h2>
+                    <h2 class="h2-xl red-color testimonial-title font-costyle">Nous Adorons Secret Spices</h2>
 
                 </div>
             </div>

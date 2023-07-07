@@ -7,3 +7,8 @@
     font-family: ubuntu_bold;
     src: url(../fonts/UBUNTU-BOLD.TTF);
   }
+
+  @font-face {
+    font-family: costyle;
+    src: url(../fonts/COSTYLE.TTF);
+  }
