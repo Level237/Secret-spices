@@ -144,7 +144,27 @@ i{
     background-color: #c70609;
   }
 
+  .vertical-line-secondary{
+    background-color: #5EFF7B;
+    height: 3.4rem;;
+    width:0.5rem;
+    margin-left: 10px;
+  }
 
+  .bg-secondary-spices{
+    background-color: #fde0a5;
+  }
+
+  .text-primary-spices{
+
+    color:#c70609;
+  }
+
+
+  .bg-gray-spices{
+
+    background-color: #fafafa;
+  }
     @media screen and (max-width: 600px) {
       .horizontal-line{
         margin-left: 90px;

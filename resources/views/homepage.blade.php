@@ -62,10 +62,10 @@
     <div class="container">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h2 class="ms-2"> Nos idées de recettes faciles</h2>
+            <h1 class="ms-2"> Nos idées de recettes faciles</h1>
         </div>
 
-        <div class="row d-flex align-items-center">
+        <div class="row d-flex align-items-center mb-4">
 
 
             <!-- PROMO IMAGE-1 -->
@@ -78,8 +78,8 @@
                         <div class="col-md-1">
 
                         </div>
-                        <div class="col-md-5">
-                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
+                        <div class="col-md-6">
+                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
 
@@ -97,8 +97,8 @@
                         <div class="col-md-1">
 
                         </div>
-                        <div class="col-md-5">
-                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
+                        <div class="col-md-6">
+                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
 
@@ -116,8 +116,8 @@
                         <div class="col-md-1">
 
                         </div>
-                        <div class="col-md-5">
-                            <span class="text-center">Poulet roti à l'orange et aux epinards</span>
+                        <div class="col-md-6">
+                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
 
@@ -130,15 +130,15 @@
 
         </div> <!-- End row -->
 
-        <div class="text-center mt-4">
-            <button type="button" class="btn bag-primary text-white p-3">Découvrir Plus de recettes</button>
 
-        </div>
     </div> <!-- End container -->
 </div> <!-- END PROMO-3 -->
+<div class="text-center " style="margin-top:60px">
+    <button type="button" class="btn fs-3 fw-bold px-5  bag-primary text-white p-3">Découvrir Plus de recettes</button>
 
+</div>
 
-<section class="mt-4 ">
+<section style="margin-top:60px">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -148,7 +148,7 @@
     </div>
 </section>
 
-<section class="container">
+<section class="container" style="margin-top:60px">
     <div class="row align-items-center justify-content-center">
         <div class="col-6">
             <img src="images/spices2.png" class="img-fluid" alt="spices">
@@ -157,12 +157,12 @@
         <div class="col-6">
             <div class="d-flex flex-row">
                 <div class="vertical-line align-middle"></div>
-                <h3 class="ms-2"> Une large gamme <br> des épices secret</h3>
+                <h2 class="ms-2 fs-1"> Une large gamme <br> des épices secret</h2>
 
             </div>
             <div class="row">
-                <div class="col-8">
-                    <span>
+                <div class="col-12">
+                    <span class="fs-4">
                         Lorem ipsum dolor sit amet,consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.Ut enim ad minim veniam,quis nostrud
@@ -174,7 +174,7 @@
             <div class="row">
                 <div class="col-6 mt-3">
 
-                    <button type="button" class="btn bag-primary text-white p-3">Découvrir Nos Produits</button>
+                    <button type="button" class="btn bag-primary text-white fw-bold p-3 fs-5">Découvrir Nos Produits</button>
 
 
                 </div>
@@ -185,48 +185,52 @@
 </section>
 
 
+<section class="bg-gray-spices mt-100" style="padding-bottom:45px;padding-top:45px">
 
-<section class="ms-5 mt-100 border p-5">
+    <div class="ms-4 mr-20  border p-5">
 
-    <div class="ms-3">
-        <div class="row align-items-center justify-content-end ">
+        <div class="ms-1">
+            <div class="row align-items-center">
 
-            <div class="col-lg-5">
-                <div class="d-flex flex-row">
-                    <div class="vertical-line align-middle"></div>
-                    <h3 class="ms-2">Découvrez <br>
-                        notre programme<br>
-                        pour une agriculture<br>
-                        regénératrice</h3>
-
-                </div>
-                <div class="row">
-                    <div class="col-8">
-                        <span>
-                            Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                            sed do eiusmod tempor incididunt ut labore et dolore
-                            magna aliqua.Ut enim ad minim veniam,quis nostrud
-                            aliquip ex ea commodo consequat.
-                        </span>
+                <div class="col-lg-5">
+                    <div class="d-flex flex-row">
+                        <div class="vertical-line-secondary align-middle"></div>
+                        <h3 class="ms-2 fs-1">Découvrez <br>
+                            notre programme<br>
+                            pour une agriculture<br>
+                            regénératrice</h3>
 
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-6 mt-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <span class="fs-4">
+                                Lorem ipsum dolor sit amet,consectetur adipiscing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore
+                                magna aliqua.Ut enim ad minim veniam,quis nostrud
+                                aliquip ex ea commodo consequat.
+                            </span>
 
-                        <button type="button" class="btn bag-primary text-white p-3">En Savoir Plus</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 mt-3">
+
+                            <button type="button" class="btn bg-secondary-spices text-primary-spices fw-bold fs-4 px-5 p-3">En Savoir Plus</button>
 
 
+                        </div>
                     </div>
                 </div>
+                <div class="col-7">
+                    <img src="images/offer-3.jpg" class="img-fluid" alt="spices">
+                </div>
             </div>
-            <div class="col-7">
-                <img src="images/offer-1.jpg" class="img-fluid" alt="spices">
-            </div>
+
         </div>
-
     </div>
+
 </section>
+
 
 
 
