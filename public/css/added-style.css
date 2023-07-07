@@ -10,7 +10,87 @@
   FRANK NYAWA SECTIONS
   =========================================================================== */
 
-  .footer-division{
+
+  .form{
+    background-color: #c70609;
+    border-radius: 50px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.form input{
+    height: 15px;
+    background-color: #c70609;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-size: 15px;
+    color: white;
+    
+}
+.form input:active{
+    height: 15px;
+    background-color: #c70609;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    
+}
+.form input:focus{
+    height: 15px;
+    background-color: #c70609;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    border: none;
+    
+}
+.form i{
+   width: 20px;
+   border: none; 
+}
+
+.form button i{
+    color: white;
+    width: 10px;
+    margin-left: 5px;
+    border: none;
+}
+
+.form button:focus, .form button:active, .form button:hover{
+    background-color: #c70609;
+    border-radius: 50px;
+    border: none;
+    height: 40px;    
+}
+
+.vertical-line2{
+    background-color: #c70609;
+    height: 25px;
+    width: 1.5px;
+    margin-top: 15px;
+}
+.bd-highlight{
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.log{
+    height: 90px;
+    width: 200px;
+}
+.lang{
+    height: 20px;
+    width: 20px;
+}
+
+.footer-division{
     background-color: #c70609;
     padding-top: 10px;
     color: #ffffff;
@@ -18,7 +98,7 @@
 }
 .foot2{
     padding-top: 80px;
-    margin-left: 0px;
+
 }
 .foot3{
     padding-top: 80px;
@@ -44,6 +124,7 @@
 }
 .mention{
     color: #ffffff;
+
 }
 .mention:hover{
     color: #fde0a5;
@@ -51,6 +132,7 @@
 
 .sanitaire{
     color: #ffffff;
+    padding-left: -100px;
 }
 
 .sanitaire:hover{
@@ -65,10 +147,9 @@
 }
 i{
     color: #fde0a5;
+
 }
-.ico-instagram{
-    margin-left: 25px;
-}
+
 
 .blocfooter{
     background-color: black;
@@ -188,8 +269,7 @@ i{
     vertical-align: middle;
 }
 
-.author-picture {
-}
+
 
 .author-title {
     font-size: 20px;
