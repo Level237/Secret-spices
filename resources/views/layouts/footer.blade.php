@@ -16,7 +16,7 @@
 							<!-- FOOTER LINKS -->
                             <div class="row">
                                 <div class="col-md-4">
-                                    <div class="footer-logo"><img src="images/logo secret bg.png" alt="footer-logo"></div>
+                                    <div class="footer-logo"><img src="images/logo Secret-01 bis.png" alt="footer-logo"></div>
                                     <p class="slogan"><b>L'alliee de la femme <br> ambitieuse et belle</b></p>
 
                                     <ul class="foo-socials text-center clearfix">
