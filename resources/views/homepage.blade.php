@@ -149,12 +149,12 @@
 </section>
 
 <section class="container" style="margin-top:60px">
-    <div class="row align-items-center justify-content-center">
-        <div class="col-6">
+    <div class="row align-items-center">
+        <div class="col-6  d-lg-block d-none">
             <img src="images/spices2.png" class="img-fluid" alt="spices">
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="d-flex flex-row">
                 <div class="vertical-line align-middle"></div>
                 <h2 class="ms-2 fs-1"> Une large gamme <br> des épices secret</h2>
@@ -221,7 +221,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-7 d-lg-block d-none">
                     <img src="images/offer-3.jpg" class="img-fluid" alt="spices">
                 </div>
             </div>
