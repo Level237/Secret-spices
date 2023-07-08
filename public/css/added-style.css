@@ -432,7 +432,7 @@ i{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1365px) {
     .horizontal-line {
         margin-left: 90px;
     }
@@ -448,11 +448,15 @@ i{
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 1366px) {
 
   #carouselExampleControls1 {
     display: none;
   }
+
+   #header-desktop {
+       display: block;
+   }
   #header-3 {
       display: none;
   }

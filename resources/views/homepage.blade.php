@@ -172,10 +172,9 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6 mt-3 col-sm-12 col-md-12">
-
-                    <button type="button" class="btn bag-primary text-white fw-bold p-3 fs-5">Découvrir Nos Produits</button>
-
+                
+                <div class="" style="margin-top:10px">
+                    <button type="button" class="btn fs-3 fw-bold px-5  bag-primary text-white p-3">Découvrir Nos Produits</button>
 
                 </div>
             </div>
@@ -215,7 +214,7 @@
                     <div class="row">
                         <div class="col-6 mt-3 col-sm-12 col-md-12">
 
-                            <button type="button" class="btn bg-secondary-spices text-primary-spices fw-bold fs-4 px-5 p-3">En Savoir Plus</button>
+                            <button type="button" class="btn bg-secondary-spices text-primary-spices fw-bold fs-4 px-5 p-3" style="no-wrap">En Savoir Plus</button>
 
 
                         </div>
