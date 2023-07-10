@@ -293,8 +293,14 @@
                     </div>
                 </div>
                 <div class="col-7 d-lg-block d-none">
+                    <div class=" z-3 position-absolute   vertical-separator" style="right:5%;">
+
+                    </div>
                     <img src="{{ asset('images/engagement.jpg') }}" class="img-fluid" alt="spices">
+
                 </div>
+
+
             </div>
 
         </div>

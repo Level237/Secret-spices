@@ -27,7 +27,7 @@
     box-shadow: none;
     font-size: 15px;
     color: white;
-    
+
 }
 .form input:active{
     height: 15px;
@@ -37,7 +37,7 @@
     outline: none;
     box-shadow: none;
     color: white;
-    
+
 }
 .form input:focus{
     height: 15px;
@@ -48,11 +48,11 @@
     box-shadow: none;
     color: white;
     border: none;
-    
+
 }
 .form i{
    width: 20px;
-   border: none; 
+   border: none;
 }
 
 .form button i{
@@ -66,7 +66,7 @@
     background-color: #c70609;
     border-radius: 50px;
     border: none;
-    height: 40px;    
+    height: 40px;
 }
 
 .vertical-line2{
@@ -391,9 +391,15 @@ i{
 
   .vertical-line-secondary{
     background-color: #5EFF7B;
-    height: 3.4rem;;
+    height: 3.4rem;
     width:0.5rem;
     margin-left: 10px;
+  }
+
+  .vertical-separator{
+    background-color: #5EFF7B;
+    height: 25.4rem;
+    width:3rem;
   }
 
   .bg-secondary-spices{
