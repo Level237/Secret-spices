@@ -818,56 +818,56 @@
 
     <!-- ABOUT-7
 			============================================= -->
-    <section id="about-7" class="bg-05 about-section division">
+    <!--<section id="about-7" class="bg-05 about-section division">
         <div class="container white-color">
             <div class="abox-4-wrapper ico-80">
-                <div class="row d-flex align-items-center">
+                <div class="row d-flex align-items-center">-->
 
 
                     <!-- BANNER TEXT -->
-                    <div class="col-md-7 col-lg-6">
-                        <div class="banner-3-txt coffee-color">
+                    <!--<div class="col-md-7 col-lg-6">
+                        <div class="banner-3-txt coffee-color">-->
 
                             <!-- Title  -->
-                            <h4 class="h4-xl color-white" style="color: #fff">Téléchargez l'application mobile et</h4>
-                            <h2 class="color-white" style="color: #fff">accèdez à nos recettes</h2>
+                            <!--<h4 class="h4-xl color-white" style="color: #fff">Téléchargez l'application mobile et</h4>
+                            <h2 class="color-white" style="color: #fff">accèdez à nos recettes</h2>-->
 
                             <!-- Text -->
-                            <p class="p-md" style="color: #fff">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
+                            <!--<p class="p-md" style="color: #fff">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
                                 blandit varius
-                            </p>
+                            </p>-->
 
                             <!-- Store Badges -->
-                            <div class="stores-badge">
+                            <!--<div class="stores-badge">-->
 
                                 <!-- AppStore -->
-                                <a href="#" class="store">
+                                <!--<a href="#" class="store">
                                     <img class="appstore-original" src="images/appstore.png" alt="appstore-logo">
-                                </a>
+                                </a>-->
 
                                 <!-- Google Play -->
-                                <a href="#" class="store">
+                                <!--<a href="#" class="store">
                                     <img class="googleplay-original" src="images/googleplay.png" alt="googleplay-logo">
                                 </a>
 
                             </div>
 
                         </div>
-                    </div>
+                    </div>-->
 
 
                     <!-- BANNER IMAGE -->
-                    <div class="col-md-5 col-lg-6">
+                    <!--<div class="col-md-5 col-lg-6">
                         <div class="banner-3-img">
                             <img class="img-fluid" src="images/e-shop.png" alt="banner-image">
                         </div>
                     </div>
 
 
-                </div> <!-- End row -->
-            </div>
-        </div> <!-- End container -->
-    </section> <!-- END ABOUT-7 -->
+                </div>--> <!-- End row -->
+            <!--</div>
+        </div>--> <!-- End container -->
+    <!--</section>--> <!-- END ABOUT-7 -->
 
 
 
