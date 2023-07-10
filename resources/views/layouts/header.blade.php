@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-1">
                         <div >
-                            <a href=""><img class="log" src="images/logo Secret-01.png" alt="header-logo"></a>
+                            <a href=""><img class="log" src="images/logos/logo-one.png" alt="header-logo"></a>
                         </div>
                     </div>
 
@@ -22,7 +22,7 @@
 
                                         <button class="search-button">
 
-                                            <img class="search-icon" src="images/icons/search.svg" alt="">
+                                            <img class="search-icon" src="images/icons/search-icon-red.svg" alt="">
                                             
                                             <div class="tooltip">
                                                 Search
@@ -93,29 +93,29 @@
 	                	<ul class="top-list">
 
 	                		<!-- DROPDOWN MENU -->
-	                		<li><a href="#">Nos Produits</a>
+	                		<li><a href="#" class="text-white">Nos Produits</a>
 	                			
 	                		</li>
 
 	                		<!-- DROPDOWN MENU -->
-	                    	<li><a href="#">Nos Recettes</a>
+	                    	<li><a href="#" class="text-white">Nos Recettes</a>
 	                        	
 	                        </li>
 
 	                        <!-- MEGA MENU -->
-	                        <li class="mega-menu"><a href="#">Notre Engagement</a>
+	                        <li class="mega-menu"><a href="#" class="text-white">Notre Engagement</a>
 								
 							</li>	<!-- END MEGA MENU -->
 
 	                        
 
 							<!-- DROPDOWN MENU -->
-							<li><a href="#">Blog</a>
+							<li><a href="#" class="text-white">Blog</a>
 								
 							</li>
 
                             <!-- DROPDOWN MENU -->
-	                		<li><a href="#">Contactez-Nous</a>
+	                		<li><a href="#" class="text-white">Contactez-Nous</a>
 	                			<ul>
 		                        	<li><a href="#">Book A Table</a></li>
 		                        	<li><a href="#">Our Locations</a></li>
