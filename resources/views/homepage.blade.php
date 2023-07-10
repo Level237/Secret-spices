@@ -9,7 +9,10 @@
 
 
     <!-- SLIDER -->
-    <div class="slider mt-1001">
+    <div id="space-hero-header" style="margin-top: 100px">
+
+    </div>
+    <div class="slider mt-1001" >
         <ul class="slides">
 
 
@@ -253,29 +256,6 @@
     </div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- START CAROUSSEL TESTIMONIALS -->
@@ -702,6 +682,7 @@
         </button>
 
     </div> <!-- END CAROUSSEL TESTIMONIALS MOBILE -->
+  
 
     <!-- BLOG-1
 			============================================= -->
