@@ -84,7 +84,7 @@
 <!-- PROMO-3
 			============================================= -->
 <div id="promo-3" class="pt-100 promo-section division">
-    <div class="container d-sm-none d-lg-block d-md-block">
+    <div class="container  d-lg-block d-md-block d-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
             <h1 class="ms-2"> Nos idées de recettes faciles</h1>
@@ -100,10 +100,10 @@
 
                     <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
                     <div class="row mt-3">
-                        <div class="col-md-1">
+                        <div class="col-lg-1">
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12 col-lg-6">
                             <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
@@ -119,10 +119,10 @@
 
                     <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
                     <div class="row mt-3">
-                        <div class="col-md-1">
+                        <div class="col-lg-1">
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12 col-lg-6">
                             <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
@@ -138,10 +138,10 @@
 
                     <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
                     <div class="row mt-3">
-                        <div class="col-md-1">
+                        <div class="col-lg-1">
 
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12 col-lg-6">
                             <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
                         </div>
                     </div>
@@ -158,12 +158,12 @@
 
     </div> <!-- End container -->
 
-    <div class="d-lg-none d-md-none d-block">
+    <div class="d-lg-none d-md-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
             <h1 class="ms-2"> Nos idées de recettes faciles</h1>
         </div>
-        <div id="carouselExampleCaptions" class="carousel slide ms-5 mr-50">
+        <div id="carouselExampleCaptions" class="carousel slide ms-5 mr-">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -864,7 +864,7 @@
     </section> <!-- END BLOG-1 -->
 
 
-    <!-- ABOUT-7
+    {{-- <!-- ABOUT-7
 			============================================= -->
     <section id="about-7" class="bg-05 about-section division">
         <div class="container white-color">
@@ -915,12 +915,12 @@
                 </div> <!-- End row -->
             </div>
         </div> <!-- End container -->
-    </section> <!-- END ABOUT-7 -->
+    </section> <!-- END ABOUT-7 --> --}}
 
 
 
 
-    <!-- CONTACTS-3
+    {{-- <!-- CONTACTS-3
 			============================================= -->
     <section id="contacts-3" class="bg-fixed wide-60 contacts-section division">
         <div class="container">
@@ -1046,6 +1046,6 @@
 
 
         </div> <!-- End container -->
-    </section> <!-- END CONTACTS-3 -->
+    </section> <!-- END CONTACTS-3 --> --}}
 
     @endsection
