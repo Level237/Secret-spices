@@ -14,7 +14,7 @@
 
 
             <!-- SLIDE #1 -->
-            <li id="slide-1">
+            <li id="slide-1" >
 
                 <!-- Background Image -->
                 <img src="images/slider/slide-10.jpg" alt="slide-background">
@@ -22,13 +22,13 @@
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-sm-7">
+                        <div class="row" id="slide-mobile">
+                            <div class="col-sm-7" >
                                 <div class="caption-txt white-color">
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Secret Spices</h2>
+                                    <h2 class="text-uppercase" >Secret Spices</h2>
 
                                     <h2 class="horizontal-line">
 
@@ -212,10 +212,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-6 mt-3 col-sm-12 col-md-12">
-
-                            <button type="button" class="btn bg-secondary-spices text-primary-spices fw-bold fs-4 px-5 p-3" style="no-wrap">En Savoir Plus</button>
-
+                       
+                        <div class="" style="margin-top:10px">
+                            <button type="button" class="btn fs-3 fw-bold px-4  bg-secondary-spices text-primary-spices p-3">En Savoir Plus</button>
 
                         </div>
                     </div>

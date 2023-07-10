@@ -446,6 +446,9 @@ i{
     #header-3 {
         display: block;
     }
+    #slide-mobile{
+        margin-top: 50px;
+    }
 }
 
 @media screen and (min-width: 1366px) {
