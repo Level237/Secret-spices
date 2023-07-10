@@ -70,7 +70,7 @@
 }
 
 .vertical-line2{
-    background-color: #c70609;
+    background-color: white;
     height: 25px;
     width: 1.5px;
     margin-top: 15px;
@@ -150,13 +150,17 @@ i{
 
 }
 
+#header-desktop, #header-3{
+    background-color: #c70609;
+    color: white;
+}
 
 .middle-section {
     display: flex;
     flex: 1;
     margin-left: 70px;
     margin-right: 10px;
-    width: 500px;
+    width: 300px;
     align-items: center;
 }
 
@@ -226,7 +230,7 @@ i{
 
 .search-icon {
     height: 25px;
-
+    color: #c70609;
 }
 
 .voice-search-button {
