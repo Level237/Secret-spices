@@ -7,6 +7,7 @@
                         <div >
                             <a href=""><img class="log" src="images/logos/logo-one.png" alt="header-logo"></a>
                         </div>
+						
                     </div>
 
                     <div class="col-md-11">
@@ -93,29 +94,38 @@
 	                	<ul class="top-list">
 
 	                		<!-- DROPDOWN MENU -->
-	                		<li><a href="#" class="text-white">Nos Produits</a>
+	                		<li class="dimension"><a href="#" class="text-white">Nos Produits</a>
 	                			
 	                		</li>
+							<div style="height: 2px; background-color:white">
 
+							</div>
 	                		<!-- DROPDOWN MENU -->
-	                    	<li><a href="#" class="text-white">Nos Recettes</a>
+	                    	<li class="dimension"><a href="#" class="text-white">Nos Recettes</a>
 	                        	
 	                        </li>
+							<div style="height: 2px; background-color:white">
 
+							</div>
 	                        <!-- MEGA MENU -->
-	                        <li class="mega-menu"><a href="#" class="text-white">Notre Engagement</a>
+	                        <li class="mega-menu dimension"><a href="#" class="text-white">Notre Engagement</a>
 								
 							</li>	<!-- END MEGA MENU -->
 
-	                        
+							<div style="height: 2px; background-color:white">
+
+							</div>
 
 							<!-- DROPDOWN MENU -->
-							<li><a href="#" class="text-white">Blog</a>
+							<li class="dimension"><a href="#" class="text-white">
+								Blog</a>
 								
 							</li>
+							<div style="height: 2px; background-color:white">
 
+							</div>
                             <!-- DROPDOWN MENU -->
-	                		<li><a href="#" class="text-white">Contactez-Nous</a>
+	                		<li class="dimension"><a href="#" class="text-white">Contactez-Nous</a>
 	                			<ul>
 		                        	<li><a href="#">Book A Table</a></li>
 		                        	<li><a href="#">Our Locations</a></li>
