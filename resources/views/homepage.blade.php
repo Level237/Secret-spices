@@ -17,7 +17,7 @@
             <li id="slide-1" >
 
                 <!-- Background Image -->
-                <img src="images/slider/slide-10.jpg" alt="slide-background">
+                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -48,7 +48,32 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
+            <li id="slide-1">
 
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+                                    <!-- Title -->
+
+
+
+
+
+
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li>
         </ul>
     </div> <!-- END SLIDER -->
 
@@ -172,7 +197,7 @@
                 </div>
             </div>
             <div class="row">
-                
+
                 <div class="" style="margin-top:10px">
                     <button type="button" class="btn fs-3 fw-bold px-5  bag-primary text-white p-3">Découvrir Nos Produits</button>
 
