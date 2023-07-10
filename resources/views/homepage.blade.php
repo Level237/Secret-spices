@@ -34,7 +34,7 @@
 
                                     </h2>
 
-                                    <h5 class="no-caption-txt">
+                                    <h5 class="no-caption-txt ubuntu_regular">
                                         Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
                                     </h5>
 
@@ -159,7 +159,7 @@
     </div> <!-- End container -->
 </div> <!-- END PROMO-3 -->
 <div class="text-center " style="margin-top:60px">
-    <button type="button" class="btn fs-3 fw-bold px-5  bag-primary text-white p-3">Découvrir Plus de recettes</button>
+    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
 
 </div>
 
@@ -185,9 +185,9 @@
                 <h2 class="ms-2 fs-1"> Une large gamme <br> des épices secret</h2>
 
             </div>
-            <div class="row">
+            <div class="row mt-10">
                 <div class="col-12">
-                    <span class="fs-4">
+                    <span class="fs-5">
                         Lorem ipsum dolor sit amet,consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua.Ut enim ad minim veniam,quis nostrud
@@ -196,10 +196,11 @@
 
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-20">
 
-                <div class="" style="margin-top:10px">
-                    <button type="button" class="btn fs-3 fw-bold px-5  bag-primary text-white p-3">Découvrir Nos Produits</button>
+                <div class="">
+
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button>
 
                 </div>
             </div>
@@ -211,7 +212,7 @@
 
 <section class="bg-gray-spices mt-100" style="padding-bottom:45px;padding-top:45px">
 
-    <div class="ms-4 mr-20  border p-5">
+    <div class="ms-4 mr-40  border p-5">
 
         <div class="ms-1">
             <div class="row align-items-center">
@@ -225,9 +226,9 @@
                             regénératrice</h3>
 
                     </div>
-                    <div class="row">
+                    <div class="row ms-3">
                         <div class="col-12">
-                            <span class="fs-4">
+                            <span class="fs-5 ubuntu_regular">
                                 Lorem ipsum dolor sit amet,consectetur adipiscing elit,
                                 sed do eiusmod tempor incididunt ut labore et dolore
                                 magna aliqua.Ut enim ad minim veniam,quis nostrud
@@ -236,12 +237,12 @@
 
                         </div>
                     </div>
-                    <div class="row">
+                    <div class="row ms-3">
                         <div class="col-6 mt-3 col-sm-12 col-md-12">
 
-                            <button type="button" class="btn bg-secondary-spices text-primary-spices fw-bold fs-4 px-5 p-3" style="no-wrap">En Savoir Plus</button>
 
 
+                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0">En Savoir Plus</button>
                         </div>
                     </div>
                 </div>
@@ -291,7 +292,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color testimonial-title font-costyle">Nous Adorons Secret Spices</h2>
+                    <h2 class="fs-1 red-color testimonial-title font-costyle">Nous Adorons Secret Spices</h2>
 
                 </div>
             </div>
