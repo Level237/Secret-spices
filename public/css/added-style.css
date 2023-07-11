@@ -497,9 +497,13 @@ i{
   #carouselExampleControls1 {
     display: none;
   }
-  
+
    .horizontal-mobile-line {
        display: none;
    }
+}
+.footer-bg{
+
+    background-image: url("/images/BG_Footer.jpg");
 }
 
