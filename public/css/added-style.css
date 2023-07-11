@@ -350,8 +350,7 @@ i{
 .horizontal-mobile-line-gray {
     height: 2px;
     border-width: 0;
-    color: gray;
-    background-color: white
+    background-color: gray;
 }
 
 .no-caption-txt {
@@ -389,15 +388,25 @@ i{
 }
 
 .center-gamut{
-    width: 110px;
+    width: 130px;
     border: 5px solid #c70609;
     padding: 10px;
     color: #c70609;
+    text-align: center;
 }
 
 .product-row{
-    border: 2px solid gray;
-    margin-left: 40px;
+    border: 1px solid #5a5a5a;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.secret-spices {
+    color: 5A5A5A5;
+    font-size: 28px;
+    font-weight: bold;
+    color: #878787
 }
 
 
