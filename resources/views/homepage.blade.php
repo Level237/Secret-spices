@@ -821,7 +821,7 @@
 
         <!-- Blog -->
         <section class="container mb-5 py-lg-5">
-            <h2 class="h1 mb-4 pb-3 text-center">Latest From Our Blog</h2>
+
             <div class="row">
                 <div class="col-lg-8 col-12 mb-lg-0 mb-4">
 
