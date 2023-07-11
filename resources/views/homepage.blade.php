@@ -245,7 +245,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button>
+                    <a href="{{ route('product')}}"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button></a> 
 
                 </div>
             </div>

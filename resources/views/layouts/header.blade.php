@@ -15,7 +15,7 @@
 					
 					<!-- LOGO IMAGE -->
 	                <div class="logo"  data-mobile-logo="images/logos/logo-one.png" data-sticky-logo="images/logos/logo-one.png">
-	                	<a href="#hero-6"><img src="images/logos/logo-one.png" width="345px" alt="header-logo"></a>
+	                	<a href="{{ route('homepage') }}"><img src="images/logos/logo-one.png" width="345px" alt="header-logo"></a>
 					</div>
 
 					
