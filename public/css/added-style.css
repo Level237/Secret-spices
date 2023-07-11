@@ -171,6 +171,7 @@ i{
 
 #header-desktop, #header-3{
     background-color: #c70609;
+    background-image: url("/images/bg_header.jpg");
     color: white;
 }
 
