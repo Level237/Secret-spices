@@ -91,38 +91,40 @@
 		                        </div>
 		                    </li>
 		                    <li id="language-section">
-		                        <a href="cart.html">
-		                            <img class="lang" src="images/france.png" alt="">
+		                        <a href="">
+		                            @foreach($available_locales as $locale_name => $available_locale)
+		                            @if($available_locale === $current_locale)
+		                            <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
 
+
+		                            @else
+		                            <img class="lang" src="images/languages/french.png" alt="">
+		                            @endif
 		                        </a>
 		                        <ul>
-		                            <li>
-		                                <a href="{{ route('changeLang') }}">
+
+
+
+		                            @if($available_locale != $current_locale)
+
+
+
+
+
+		                            <li><a href="lang/{{ $available_locale }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
-		                                            <img class="lang-select" src="images/france.png" alt="">
+		                                            <img class="lang-select" src="images/languages/{{ $locale_name  }}.png" alt="">
 		                                        </div>
 
 		                                        <div class="p-2">
-		                                            Français
-		                                        </div>
-		                                    </div>
-
-
-		                                </a>
-		                            </li>
-		                            <li><a href="{{ route('changeLang') }}">
-		                                    <div class="d-flex align-items-center">
-		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/en-1.png" alt="">
-		                                        </div>
-
-		                                        <div class="p-2">
-		                                            English
+		                                            {{ $locale_name }}
 		                                        </div>
 		                                    </div>
 		                                </a></li>
+		                            @endif
 
+		                            @endforeach
 		                        </ul>
 		                    </li>
 

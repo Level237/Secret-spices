@@ -288,7 +288,7 @@
         <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="d-flex flex-row">
                 <div class="vertical-line align-middle"></div>
-                <h2 class="ms-2 fs-1"> Une large gamme <br> des épices secret</h2>
+                <h2 class="ms-2 fs-1"> {{ __('Une large gamme') }} <br> des épices secret</h2>
 
             </div>
             <div class="row mt-10">

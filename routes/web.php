@@ -22,4 +22,4 @@ Route::get('/product', function () {
     return view('product');
 })->name('product');
 
-Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');
+Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');

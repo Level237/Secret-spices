@@ -7,13 +7,13 @@ use Illuminate\Http\RedirectResponse;
 use App;
 class LangController extends Controller
 {
-    public function change(Request $request): RedirectResponse
+    public function change($locale): RedirectResponse
 
     {
 
-        App::setLocale($request->lang);
+        App::setLocale($locale);
 
-        session()->put('locale', $request->lang);
+        session()->put('locale', $locale);
 
 
 
