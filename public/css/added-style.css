@@ -85,9 +85,18 @@
     height: 90px;
     width: 200px;
 }
+
+.alpha-light{
+    font-size: 16px;
+    color: white;
+}
 .lang{
-    height: 20px;
-    width: 20px;
+    width: 25px;
+    margin-top: 22px;
+}
+
+.lang-select {
+    width: 25px;
 }
 
 .footer-division{
@@ -162,6 +171,7 @@ i{
 
 #header-desktop, #header-3{
     background-color: #c70609;
+    background-image: url("/images/bg_header.jpg");
     color: white;
 }
 
@@ -239,8 +249,7 @@ i{
 }
 
 .search-icon {
-    height: 25px;
-    color: #c70609;
+    width: 25px;
 }
 
 .voice-search-button {
@@ -469,6 +478,18 @@ i{
     #slide-mobile{
         margin-top: 50px;
     }
+    #language-section{
+        display: none;
+    }
+    #search-bar {
+        display: none;
+    }
+    .horizontal-mobile-line{
+        display: display;
+    }
+    #space-hero-header{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1366px) {
@@ -476,12 +497,9 @@ i{
   #carouselExampleControls1 {
     display: none;
   }
-
-   #header-desktop {
-       display: block;
+  
+   .horizontal-mobile-line {
+       display: none;
    }
-  #header-3 {
-      display: none;
-  }
 }
 

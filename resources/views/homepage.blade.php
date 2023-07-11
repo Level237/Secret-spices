@@ -9,7 +9,10 @@
 
 
     <!-- SLIDER -->
-    <div class="slider mt-1001">
+    <div id="space-hero-header" style="margin-top: 100px">
+
+    </div>
+    <div class="slider mt-1001" >
         <ul class="slides">
 
 
@@ -33,13 +36,9 @@
                                     <h2 class="horizontal-line">
 
                                     </h2>
-
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+                                        Faciliter la cuisine <br> avec des assaisonnements <br> prêts à l'emploi.
                                     </h5>
-
-
-
 
                                 </div>
                             </div>
@@ -307,29 +306,6 @@
     </div>
 
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <!-- START CAROUSSEL TESTIMONIALS -->
@@ -756,6 +732,7 @@
         </button>
 
     </div> <!-- END CAROUSSEL TESTIMONIALS MOBILE -->
+  
 
     <!-- BLOG-1
 			============================================= -->
