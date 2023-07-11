@@ -759,111 +759,184 @@
 
     <!-- BLOG-1
 			============================================= -->
-    <section id="blog-1" class="wide-60 blog-section division">
+
+    <div class="container mt-75">
+        <!-- SECTION TITLE -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title mb-60 text-center">
+
+                    <!-- Title 	-->
+                    <h2 class="h2-xl red-color">Événements</h2>
+
+                    <!-- Text -->
+                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
+                        primis libero tempus, blandit a cursus varius magna
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <section>
         <div class="container">
 
 
             <!-- SECTION TITLE -->
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="section-title mb-60 text-center">
-
-                        <!-- Title 	-->
-                        <h2 class="h2-xl red-color">Événements & Restauration</h2>
-
-                        <!-- Text -->
-                        <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                            primis libero tempus, blandit a cursus varius magna
-                        </p>
-
-                    </div>
-                </div>
-            </div>
 
 
             <!-- BLOG POSTS HOLDER -->
-            <div class="row">
+            <div class="d-flex flex-row align-items-center justify-content-center mb-55" style="margin-left:100px">
+                <div class=" ms-3 flex-fill">
+                    <img class="img-fluid" src="images/blog/caravane.jpg" width="100%" alt="blog-post-image">
 
+                    <div class="d-flex align-items-start ms-4 mt-3">
 
-                <!-- BLOG POST #1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
+                        <div style="border: 2px solid red" class="px-3">
+                            <div class="fs-2 fw-bold">
+                                <span class="text-primary-spices">12</span>
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
                             </div>
+                            <span class="fs-6 fw-bold">
+                                Juillet
+                            </span>
+
                         </div>
 
-                        <!-- BLOG POST TITLE -->
-                        <div class="blog-post-txt">
+                        <div class="ms-3">
+                            <div class="row">
 
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à New Deido</a></h5>
+                                <h2>La caravanne Secret Debarque chez Vous!</h2>
 
-                            <!-- Post Text -->
-                            <p class="grey-color">Quaerat neque purus ipsum neque dolor primis tempus impedit</p>
+                            </div>
+
+                            <div class="flex-nowrap">
+
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus, modi, quasi impedit quia necessitatibus similique inventore aliquid, harum fugiat assumenda
+
+
+                            </div>
+                            <div class="row">
+                                <span class="text-primary-spices">
+                                    Lire la suite
+                                </span>
+
+                            </div>
+
+
 
                         </div>
 
                     </div>
-                </div> <!-- END  BLOG POST #1 -->
+                </div>
 
 
-                <!-- BLOG POST #2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
+
+                <div class="flex-shrink-0 flex-shrink-1 ms-4 justify-content-start">
+                    <div>
+                        <div>
+                            <img src="{{ asset('images/blog/caravane.jpg') }}" width="100%" alt="">
+
+                        </div>
+                        <div class="mt-3">
+
+                            <div class="d-flex align-items-start ms-3">
+
+                                <div style="border: 2px solid red" class="">
+                                    <div class="fs-6 fw-bold">
+                                        <span class="text-primary-spices">12</span>
+
+                                    </div>
+                                    <span class="fs-6 fw-bold">
+                                        Juillet
+                                    </span>
+
+                                </div>
+
+                                <div class="ms-3">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4>Secret For You</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row" style="width:100%">
+                                        <div class="col-lg-12">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <span class="text-primary-spices">
+                                            Lire la suite
+                                        </span>
+
+                                    </div>
+
+
+
+
+                                </div>
+
                             </div>
                         </div>
-
-                        <!-- BLOG POST TEXT -->
-                        <div class="blog-post-txt">
-
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à Bonamoussadi</a></h5>
-
-                            <!-- Post Text -->
-                            <p class="grey-color">Neque dolor primis libero tempus impedit tempor sapien gravida</p>
+                    </div>
+                    <div>
+                        <div class="mt-3">
+                            <img src="{{ asset('images/blog/caravane.jpg') }}" width="100%" alt="">
 
                         </div>
+                        <div class="mt-3">
 
-                    </div>
-                </div> <!-- END  BLOG POST #2 -->
+                            <div class="d-flex align-items-start ms-2">
+
+                                <div style="border: 2px solid red" class="">
+                                    <div class="fs-6 fw-bold">
+                                        <span class="text-primary-spices">12</span>
+
+                                    </div>
+                                    <span class="fs-6 fw-bold">
+                                        Juillet
+                                    </span>
+
+                                </div>
+
+                                <div class="ms-3">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4>Secret For You</h4>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </div>
+
+                                    </div>
+                                    <div class="row">
+                                        <span class="text-primary-spices">
+                                            Lire la suite
+                                        </span>
+
+                                    </div>
 
 
-                <!-- BLOG POST #3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
+
+                                </div>
+
                             </div>
                         </div>
-
-                        <!-- BLOG POST TEXT -->
-                        <div class="blog-post-txt">
-
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret au marché de PK14</a></h5>
-
-                            <!-- Post Text -->
-                            <p class="grey-color">Impedit tempor at donec sapien ipsum a neque dolor primis libero</p>
-
-                        </div>
-
                     </div>
-                </div> <!-- END  BLOG POST #3 -->
+                </div>
 
 
-            </div> <!-- END BLOG POSTS HOLDER -->
+
+
+            </div>
+
 
 
         </div> <!-- End container -->
