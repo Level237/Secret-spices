@@ -294,10 +294,8 @@
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.Ut enim ad minim veniam,quis nostrud
-                        aliquip ex ea commodo consequat.
+                        Découvrez nos formats super faciles pour réaliser vos délicieux plats à l'infini
+                        sans colorants ni conservateurs, sans traces animales parmi nos composants, les véganes seront contents.
                     </span>
 
                 </div>
@@ -306,7 +304,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button>
+                    <a href="{{ route('product')}}"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button></a> 
 
                 </div>
             </div>
@@ -326,19 +324,18 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">Découvrez <br>
-                            notre programme<br>
-                            pour une agriculture<br>
-                            regénératrice</h3>
+                        <h3 class="ms-2 fs-1">Pour le "Secret"  <br>
+                             de la cuisine<br>
+                            de generations en generations<br>
+                            </h3>
 
                     </div>
                     <div class="row ms-3">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.Ut enim ad minim veniam,quis nostrud
-                                aliquip ex ea commodo consequat.
+                                Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans de generations en generations.
+                                    Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve le goût naturel des intrants agricoles
+
                             </span>
 
                         </div>
@@ -401,15 +398,15 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/frank testimonial secret.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Franck Ulrich Juson
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Voilà déjà 2ans que la fondatrice ma fait découvrir les secrets Spices
+                                    encore un merci spécial a vous madame Aïcha."
                                 </p>
 
                                 <!-- Rating -->
@@ -428,15 +425,15 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/cindy de bana.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Cindy de Bana
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">"Secret Spices , parfum irrésistible pour tous mes repas !
+                                    bon appétit mes convives"
                                 </p>
 
                                 <!-- Rating -->
@@ -455,103 +452,15 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/patrick testimonials secret.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Patrick Dzieffo
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col-md-4">
-                            <div class="single-testimonial">
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                                <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
-                                </p>
-
-                                <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="single-testimonial">
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                                <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
-                                </p>
-
-                                <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
-                                </p>
-
-                                <!-- Rating -->
-                                <div class="review-rating">
-                                    <div class="stars-rating">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star-half-alt"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <div class="single-testimonial">
-                                <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
-
-                                <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
-                                </p>
-
-                                <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Waouh c'est vraiment un délice pr assaisonner le poisson et le poulet.
+                                    Secret Spices ... C'est formidable "
                                 </p>
 
                                 <!-- Rating -->
@@ -577,15 +486,14 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/Mouto Mpessa testimonials.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Mouto Mpessa
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Avec secret Spices mon poulet et mon porc ont un goût incroyable "
                                 </p>
 
                                 <!-- Rating -->
@@ -604,15 +512,14 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/Malvina Kuate.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Malvina Kuate
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Je mets Secret dans tous les repas ohhh en fonction de si c'est la viande, le  poisson ou le  poulet "
                                 </p>
 
                                 <!-- Rating -->
@@ -631,15 +538,104 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/bristelle.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Bristelle Mbiafuh
+
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Les temps ci je ne blague pas avec les épices secret ,je fais seulement  les rôtis. Achhh le gout de ca "
+                                </p>
+
+                                <!-- Rating -->
+                                <div class="review-rating">
+                                    <div class="stars-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <div class="single-testimonial">
+                                <!-- Testimonial Author Avatar -->
+                                <img src="images/Escha Monte.jpg" class="author-picture" alt="testimonial-avatar">
+
+                                <!-- Author name -->
+                                <p class="author-title">Escha Monthé
+                                </p>
+
+                                <!-- Text -->
+                                <p class="author-testimonial">" Avec Secret Spices cest le secret de la cuisine pour presque tous mes repas et grillades "
+                                </p>
+
+                                <!-- Rating -->
+                                <div class="review-rating">
+                                    <div class="stars-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-testimonial">
+                                <!-- Testimonial Author Avatar -->
+                                <img src="images/Blanche Nguenang.jpg" class="author-picture" alt="testimonial-avatar">
+
+                                <!-- Author name -->
+                                <p class="author-title">Blanche Nguenang
+
+                                </p>
+
+                                <!-- Text -->
+                                <p class="author-testimonial">" Ca fait plus de 3 ans que j'utilise les epices secrets
+                                    C'est mon partenaire de cuisine
+                                    Tous mes barbecues sont faits avec "
+                                </p>
+
+                                <!-- Rating -->
+                                <div class="review-rating">
+                                    <div class="stars-rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="single-testimonial">
+                                <!-- Testimonial Author Avatar -->
+                                <img src="images/Aicha Ahmed.jpg" class="author-picture" alt="testimonial-avatar">
+
+                                <!-- Author name -->
+                                <p class="author-title">Aicha Hamed
+
+                                </p>
+
+                                <!-- Text -->
+                                <p class="author-testimonial">" Secret Spices moi aussi je vous remercie pour la joie que vous apportez à mes papilles "
                                 </p>
 
                                 <!-- Rating -->
@@ -670,6 +666,26 @@
             <span class="visually-hidden">Next</span>
         </button>
 
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div></div>
+                </div>
+
+                <div class="col-md-4" id="temoignages">
+                    <button type="button"  class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrez plus de temoignages</button>
+                </div>
+
+                <div class="col-md-4">
+                    <div></div>
+                </div>
+
+            </div>
+
+
+        </div>
+
     </div> <!-- END CAROUSSEL TESTIMONIALS -->
 
     <!-- START CAROUSSEL TESTIMONIALS MOBILE -->
@@ -685,15 +701,15 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/cindy de bana.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Cindy de Bana
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Secret Spices , parfum irrésistible pour tous mes repas !
+                                    bon appétit mes convives "
                                 </p>
 
                                 <!-- Rating -->
@@ -719,15 +735,16 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/Blanche Nguenang.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Blanche Nguenang
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">" Ca fait plus de 3 ans que j'utilise les epices secrets
+                                    C'est mon partenaire de cuisine
+                                    Tous mes barbecues sont faits avec "
                                 </p>
 
                                 <!-- Rating -->
@@ -753,15 +770,15 @@
                         <div class="col-md-4">
                             <div class="single-testimonial">
                                 <!-- Testimonial Author Avatar -->
-                                <img src="images/testimonial-1.png" class="author-picture" alt="testimonial-avatar">
+                                <img src="images/frank testimonial secret.jpg" class="author-picture" alt="testimonial-avatar">
 
                                 <!-- Author name -->
-                                <p class="author-title">Mama Yvonne
+                                <p class="author-title">Frank Ulrich Juson
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Etiam sapien sem at sagittis congue augue massa varius sodales sapien undo tempus dolor
-                                    egestas magna suscipit magna tempus aliquet porta sodales augue suscipit luctus neque "
+                                <p class="author-testimonial">"Voilà déjà 2ans que la fondatrice ma fait découvrir les secrets Spices
+                                    encore un merci spécial a vous madame Aïcha"
                                 </p>
 
                                 <!-- Rating -->
@@ -807,10 +824,10 @@
                     <!-- Title 	-->
                     <h2 class="h2-xl red-color">Événements</h2>
 
-                    <!-- Text -->
-                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius magna
-                    </p>
+                        <!-- Text -->
+                        <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
+                            primis libero tempus, blandit a cursus varius magna
+                        </p>
 
                 </div>
             </div>
@@ -853,12 +870,8 @@
 
                                         <h2>La caravanne Secret Debarque chez Vous!</h2>
 
-                                    </div>
-
-                                    <div class="flex-nowrap">
-
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus, modi, quasi impedit quia necessitatibus similique inventore aliquid, harum fugiat assumenda
-
+                            <!-- Post Text -->
+                            <p class="grey-color">Quaerat neque purus ipsum neque dolor primis tempus impedit</p>
 
                                     </div>
                                     <div class="row">
@@ -886,13 +899,8 @@
                             <div class="col-sm-12">
                                 <div class="card-body">
 
-
-                                    <div class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
-                                        <div class="d-flex align-items-start ms-3">
-
-                                            <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                                <div class="fs-6 fw-bold">
-                                                    <span class="text-primary-spices">12</span>
+                            <!-- Post Text -->
+                            <p class="grey-color">Neque dolor primis libero tempus impedit tempor sapien gravida</p>
 
                                                 </div>
                                                 <span class="fs-6 fw-bold">
@@ -923,6 +931,8 @@
 
 
 
+                            <!-- Post Text -->
+                            <p class="grey-color">Impedit tempor at donec sapien ipsum a neque dolor primis libero</p>
 
                                             </div>
 

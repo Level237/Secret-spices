@@ -2,8 +2,10 @@
 @section('title', __('Nos Produits'))
 @section('content')
 
+<div id="space-hero-header" style="margin-top: 150px">
+ </div>
 
-<div class="container" style="margin-top:150px;">
+<div class="container" style="margin-top: 50px;">
     <div class="row justify-content-center product-title">
          <h1>Découvrez toute la gamme <br> des épices SECRET</h1>
     </div>
@@ -349,7 +351,15 @@
     </div>
     
 </div>
-
+<section style="margin-top:60px">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/spices1.jpg" style="max-height: 600px" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+</section>
 
 
 

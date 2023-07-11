@@ -18,6 +18,10 @@
     margin-bottom: 20px;
 }
 
+#temoignages{
+    margin-top: 40px;
+}
+
 .form input{
     height: 15px;
     background-color: #c70609;
@@ -52,11 +56,18 @@
 }
 .form i{
    width: 20px;
-   border: none;
+   border: none; 
 }
 
 .form button i{
     color: white;
+    background-color: #c70609;
+    width: 10px;
+    margin-left: 5px;
+    border: none;
+}
+.form button {
+
     width: 10px;
     margin-left: 5px;
     border: none;
@@ -158,10 +169,13 @@ i{
     color: #fde0a5;
 
 }
-
-.dimension{
-
+.author-picture{
+    width: 293px;
+    height: 351px;
+    border-radius: 20px;
 }
+
+
 .horizontal-mobile-line{
     height: 2px;
     border-width: 0;
@@ -383,7 +397,7 @@ i{
 }
 
 .product-title{
-
+    margin-bottom: 30px;
     text-align : center;
 }
 
