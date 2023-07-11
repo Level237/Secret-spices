@@ -36,13 +36,9 @@
                                     <h2 class="horizontal-line">
 
                                     </h2>
-
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Faciliter la cuisine <br> avec des assaisonnements <br> déjà prêts.
+                                        Faciliter la cuisine <br> avec des assaisonnements <br> prêts à l'emploi.
                                     </h5>
-
-
-
 
                                 </div>
                             </div>
