@@ -51,12 +51,20 @@
     
 }
 .form i{
-   width: 20px;
+   width: 30px;
    border: none; 
+   background-color: #c70609;
 }
 
 .form button i{
     color: white;
+    background-color: #c70609;
+    width: 10px;
+    margin-left: 5px;
+    border: none;
+}
+.form button {
+    
     width: 10px;
     margin-left: 5px;
     border: none;

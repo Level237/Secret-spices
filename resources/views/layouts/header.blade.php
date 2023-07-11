@@ -19,7 +19,7 @@
                                 <div>
                                     <form class="form" action="">
                                         <input type="Search">
-                                        <button class="btn btn-light"><i class="fas fa-search"></i></button>
+                                        <button ><i class="fas fa-search"></i></button>
                                         
                                     </form>
                                 </div>
@@ -44,13 +44,6 @@
 
                 </div>
             </div>
-
-
-
-
-
-
-
 
             </div>
 
