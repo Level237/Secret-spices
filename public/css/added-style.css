@@ -55,9 +55,8 @@
 
 }
 .form i{
-   width: 30px;
-   border: none;
-   background-color: #c70609;
+   width: 20px;
+   border: none; 
 }
 
 .form button i{
@@ -355,17 +354,17 @@ i{
 /* ==========================================================================
   FRANK ZOHIM SECTIONS
   =========================================================================== */
-
-
-
-
-
-
   .horizontal-line {
     background-color: #c70609;
     height: 15px;
     width: 200px;
     margin-left: 10px;
+}
+
+.horizontal-mobile-line-gray {
+    height: 2px;
+    border-width: 0;
+    background-color: gray;
 }
 
 .no-caption-txt {
@@ -397,6 +396,33 @@ i{
   color: #fff;
 }
 
+.product-title{
+    margin-bottom: 30px;
+    text-align : center;
+}
+
+.center-gamut{
+    width: 130px;
+    border: 5px solid #c70609;
+    padding: 10px;
+    color: #c70609;
+    text-align: center;
+}
+
+.product-row{
+    border: 1px solid #5a5a5a;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}
+
+.secret-spices {
+    color: 5A5A5A5;
+    font-size: 28px;
+    font-weight: bold;
+    color: #878787
+}
+
 
 
   /*  Section Martin*/
@@ -415,9 +441,15 @@ i{
 
   .vertical-line-secondary{
     background-color: #5EFF7B;
-    height: 3.4rem;;
+    height: 3.4rem;
     width:0.5rem;
     margin-left: 10px;
+  }
+
+  .vertical-separator{
+    background-color: #5EFF7B;
+    height: 25.4rem;
+    width:3rem;
   }
 
   .bg-secondary-spices{
@@ -510,5 +542,9 @@ i{
    .horizontal-mobile-line {
        display: none;
    }
+}
+.footer-bg{
+
+    background-image: url("/images/BG_Footer.jpg");
 }
 

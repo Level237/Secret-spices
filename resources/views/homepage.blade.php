@@ -12,7 +12,7 @@
     <div id="space-hero-header" style="margin-top: 100px">
 
     </div>
-    <div class="slider mt-1001" >
+    <div class="slider mt-1001">
         <ul class="slides">
 
 
@@ -65,6 +65,67 @@
 
 
 
+
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li>
+
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+                                    <!-- Title -->
+
+                                    <h2 class="text-uppercase">Secret Spices</h2>
+
+                                    <h2 class="horizontal-line">
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        Découvrez ce que vous êtes capables de faire avec Secret Spices
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li>
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+                                    <!-- Title -->
+
+                                    <h2 class="text-uppercase">Secret Spices</h2>
+
+                                    <h2 class="horizontal-line">
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        Parce que nous croyons à la transformation agricole
+                                    </h5>
 
                                 </div>
                             </div>
@@ -243,7 +304,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button>
+                    <a href="{{ route('product')}}"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button></a> 
 
                 </div>
             </div>
@@ -289,8 +350,14 @@
                     </div>
                 </div>
                 <div class="col-7 d-lg-block d-none">
+                    <div class=" z-3 position-absolute   vertical-separator" style="right:5%;">
+
+                    </div>
                     <img src="{{ asset('images/engagement.jpg') }}" class="img-fluid" alt="spices">
+
                 </div>
+
+
             </div>
 
         </div>
@@ -747,117 +814,199 @@
 
     <!-- BLOG-1
 			============================================= -->
-    <section id="blog-1" class="wide-60 blog-section division">
-        <div class="container">
 
+    <div class="container mt-75">
+        <!-- SECTION TITLE -->
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="section-title mb-60 text-center">
 
-            <!-- SECTION TITLE -->
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="section-title mb-60 text-center">
-
-                        <!-- Title 	-->
-                        <h2 class="h2-xl red-color">Événements & Restauration</h2>
+                    <!-- Title 	-->
+                    <h2 class="h2-xl red-color">Événements</h2>
 
                         <!-- Text -->
-                        <p class="p-xl">Retrouvez nous dans nos differents marches a Douala et a Yaounde pour un show explosif. "Secret" se rapproche de vous
-                        profitez pour nous decouvrir et vous ne serez pas decus                         </p>
+                        <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
+                            primis libero tempus, blandit a cursus varius magna
+                        </p>
 
-                    </div>
                 </div>
             </div>
+        </div>
+    </div>
 
+    <div class=" mb-5 pt-5">
 
-            <!-- BLOG POSTS HOLDER -->
+        <!-- Blog -->
+        <section class="container mb-5 py-lg-5">
+
             <div class="row">
+                <div class="col-lg-8 col-12 mb-lg-0 mb-4">
+
+                    <!-- Article -->
+                    <article class="card h-100 border-0 shadow-sm">
+                        <div class="position-relative">
+                            <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
+                            <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later">
+                                <i class="bx bx-bookmark"></i>
+                            </a>
+                            <img src="{{ asset('images/blog/caravane.jpg') }}" class="card-img-top" alt="Image">
+                        </div>
+                        <div class="card-body pb-4">
+                            <div class="d-flex align-items-start ms-4 mt-3">
+
+                                <div style="border: 2px solid red" class="px-3">
+                                    <div class="fs-2 fw-bold">
+                                        <span class="text-primary-spices">12</span>
+
+                                    </div>
+                                    <span class="fs-6 fw-bold">
+                                        Juillet
+                                    </span>
+
+                                </div>
+
+                                <div class="ms-3">
+                                    <div class="row">
+
+                                        <h2>La caravanne Secret Debarque chez Vous!</h2>
+
+                            <!-- Post Text -->
+                            <p class="grey-color">Quaerat neque purus ipsum neque dolor primis tempus impedit</p>
+
+                                    </div>
+                                    <div class="row">
+                                        <span class="text-primary-spices">
+                                            Lire la suite
+                                        </span>
+
+                                    </div>
 
 
-                <!-- BLOG POST #1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
+                                </div>
+
                             </div>
                         </div>
 
-                        <!-- BLOG POST TITLE -->
-                        <div class="blog-post-txt">
+                    </article>
+                </div>
+                <div class="col">
 
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à New Deido</a></h5>
+                    <!-- Article -->
+                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                        <div class="row g-0">
+                            <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                            <div class="col-sm-12">
+                                <div class="card-body">
 
                             <!-- Post Text -->
-                            <p class="grey-color">Les mammy de Deido nous ont valablement represente et nous avons vecu une experience inoubliable </p>
+                            <p class="grey-color">Neque dolor primis libero tempus impedit tempor sapien gravida</p>
 
-                        </div>
+                                                </div>
+                                                <span class="fs-6 fw-bold">
+                                                    Juillet
+                                                </span>
 
-                    </div>
-                </div> <!-- END  BLOG POST #1 -->
+                                            </div>
+
+                                            <div class="ms-3 w-100">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>Secret For You</h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row" style="width:100%">
+                                                    <div class="col-lg-12">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <span class="text-primary-spices">
+                                                        Lire la suite
+                                                    </span>
+
+                                                </div>
 
 
-                <!-- BLOG POST #2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
+                            <!-- Post Text -->
+                            <p class="grey-color">Impedit tempor at donec sapien ipsum a neque dolor primis libero</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </article>
 
-                        <!-- BLOG POST TEXT -->
-                        <div class="blog-post-txt">
-
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret à Bonamoussadi</a></h5>
-
-                            <!-- Post Text -->
-                            <p class="grey-color">A bonamoussadi nous avons tout explose lors du passage de notre caravane et nous continuons l'aventure</p>
-
-                        </div>
-
-                    </div>
-                </div> <!-- END  BLOG POST #2 -->
+                    <!-- Article -->
+                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                        <div class="row g-0">
+                            <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
+                            <div class="col-sm-12">
+                                <div class="card-body">
 
 
-                <!-- BLOG POST #3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="blog-post">
+                                    <div class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
+                                        <div class="d-flex align-items-start ms-3">
 
-                        <!-- BLOG POST IMAGE -->
-                        <div class="blog-post-img">
-                            <div class="hover-overlay">
-                                <img class="img-fluid" src="images/blog/caravane.jpg" alt="blog-post-image">
+                                            <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                                <div class="fs-5 fw-bold">
+                                                    <span class="text-primary-spices">30</span>
+
+                                                </div>
+                                                <span class="fs-6 fw-bold">
+                                                    Aout
+                                                </span>
+
+                                            </div>
+
+                                            <div class="ms-3 w-100">
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <h4>Master Class With NdockBidi</h4>
+                                                    </div>
+                                                </div>
+
+                                                <div class="row" style="width:100%">
+                                                    <div class="col-lg-12">
+                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <span class="text-primary-spices">
+                                                        Lire la suite
+                                                    </span>
+
+                                                </div>
+
+
+
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                    </article>
+                </div>
 
-                        <!-- BLOG POST TEXT -->
-                        <div class="blog-post-txt">
-
-                            <!-- Post Title -->
-                            <h5 class="h5-lg coffee-color"><a href="single-post.html">Secret au marché de PK14</a></h5>
-
-                            <!-- Post Text -->
-                            <p class="grey-color">Les populations de PK14 sont impatientes de nous acceuillir. Ensemble on va bien s'amuser</p>
-
-                        </div>
-
-                    </div>
-                </div> <!-- END  BLOG POST #3 -->
+            </div>
+        </section>
+        <section>
 
 
-            </div> <!-- END BLOG POSTS HOLDER -->
+        </section> <!-- END BLOG-1 -->
 
 
-        </div> <!-- End container -->
-    </section> <!-- END BLOG-1 -->
-
-
-    {{-- <!-- ABOUT-7
+        {{-- <!-- ABOUT-7
 			============================================= -->
     <section id="about-7" class="bg-05 about-section division">
         <div class="container white-color">
@@ -913,7 +1062,7 @@
 
 
 
-    {{-- <!-- CONTACTS-3
+        {{-- <!-- CONTACTS-3
 			============================================= -->
     <section id="contacts-3" class="bg-fixed wide-60 contacts-section division">
         <div class="container">
@@ -1041,4 +1190,4 @@
         </div> <!-- End container -->
     </section> <!-- END CONTACTS-3 --> --}}
 
-    @endsection
+        @endsection

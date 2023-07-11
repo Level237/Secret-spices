@@ -16,6 +16,10 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('homepage');
-});
+})->name('homepage');
+
+Route::get('/product', function () {
+    return view('product');
+})->name('product');
 
 Route::get('lang/change', [LangController::class, 'change'])->name('changeLang');
