@@ -340,17 +340,18 @@ i{
 /* ==========================================================================
   FRANK ZOHIM SECTIONS
   =========================================================================== */
-
-
-
-
-
-
   .horizontal-line {
     background-color: #c70609;
     height: 15px;
     width: 200px;
     margin-left: 10px;
+}
+
+.horizontal-mobile-line-gray {
+    height: 2px;
+    border-width: 0;
+    color: gray;
+    background-color: white
 }
 
 .no-caption-txt {
@@ -380,6 +381,23 @@ i{
 
 .color-white{
   color: #fff;
+}
+
+.product-title{
+
+    text-align : center;
+}
+
+.center-gamut{
+    width: 110px;
+    border: 5px solid #c70609;
+    padding: 10px;
+    color: #c70609;
+}
+
+.product-row{
+    border: 2px solid gray;
+    margin-left: 40px;
 }
 
 
