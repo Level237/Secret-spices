@@ -11,7 +11,7 @@
     <div class="d-flex flex-row bd-highlight mb-5 align-items-center ">
         <div class="p-2 bd-highlight center-gamut1"><i class="fas fa-angle-right fs-4" style="color: #c70609"> 35 Gr</i> </div>
         <div class="p-2 bd-highlight"><i class="fas fa-angle-right fs-4" style="color: #c70609"></i></div>
-        <div class="p-2 bd-highlight">Epices Poulet</div>
+        <div class="p-2 bd-highlight"><h1>Epice Poulet</h1></div>
     </div>
 
     <div class="row align-items-center" style="margin-top:50px;">
@@ -120,19 +120,19 @@
         
     </div>
 
-    <div class="row">
-        <div class="d-flex flex-row mb-3">
+    <div class="row" style="margin-top:30px;">
+        <div class="d-flex flex-row mb-1 mt-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Autres Epices de la même Gamme</h1>
+            <h3 class="ms-2"> Autres Epices de la même Gamme</h3>
         </div>
     </div>
   
     <div class="row mb-5" style="margin-top:30px;">
         
-        <div class="col-sm-4 col-md-4 d-flex flex-column product-row">
+        <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/secret-viande.png')}}" width="150px" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -162,10 +162,10 @@
             </div>
         </div>
 
-         <div class="col-sm-4 col-md-4 d-flex flex-column product-row">
+         <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-poisson.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/secret-poisson.png')}}" width="150px" alt="">
             </div>
 
             <div class="p-2 secret-spices">
