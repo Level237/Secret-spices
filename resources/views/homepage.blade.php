@@ -294,10 +294,9 @@
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.Ut enim ad minim veniam,quis nostrud
-                        aliquip ex ea commodo consequat.
+                        Découvrez nos formats super faciles pour réaliser vos délicieux plats à l'infini sans
+                        colorants ni conservateurs,sans traces animales parmi nos composants, les véganes seront contents
+
                     </span>
 
                 </div>
@@ -326,19 +325,17 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">Découvrez <br>
-                            notre programme<br>
-                            pour une agriculture<br>
-                            regénératrice</h3>
+                        <h3 class="ms-2 fs-1">Les epices "Secret" <br>
+                            avec vous <br>
+                            de generations en generations<br>
+                            </h3>
 
                     </div>
                     <div class="row ms-3">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                Lorem ipsum dolor sit amet,consectetur adipiscing elit,
-                                sed do eiusmod tempor incididunt ut labore et dolore
-                                magna aliqua.Ut enim ad minim veniam,quis nostrud
-                                aliquip ex ea commodo consequat.
+                                Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans de generations en generations.
+Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve le goût naturel des intrants agricoles
                             </span>
 
                         </div>
@@ -826,8 +823,8 @@
                     <h2 class="h2-xl red-color">Événements</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                        primis libero tempus, blandit a cursus varius magna
+                    <p class="p-xl">Retrouvez nous dans nos differents marches a Douala et a Yaounde pour un show explosif.
+                         "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
                     </p>
 
                 </div>
