@@ -820,8 +820,8 @@
                     <h2 class="h2-xl red-color">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">{{ __('Retrouvez nous dans nos differents marches a Douala et a Yaounde pour un show explosif.
-                        "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots') }}
+                    <p class="p-xl">Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.
+                         "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
                     </p>
 
                 </div>

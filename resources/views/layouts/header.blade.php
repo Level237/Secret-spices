@@ -8,8 +8,8 @@
 		        <div class="navik-header-container">
 
 
-					<!-- CALL BUTTON -->
-				    <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
+		            <!-- CALL BUTTON -->
+		            <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
 
 
 					<!-- LOGO IMAGE -->
@@ -34,9 +34,9 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white">{{ __('Produits') }} </a>
 		                        <ul>
-		                            <li><a href="about.html">35 G </a></li>
-		                            <li><a href="team.html">250 G</a></li>
-		                            <li><a href="team.html">450 G</a></li>
+		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
+		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
+		                            <li><a href="{{ route('product-detail') }}">450 G</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
@@ -45,9 +45,9 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Recettes') }} </a>
 		                        <ul>
-		                            <li><a href="about.html">{{ __('Cuisine Afrique') }}</a></li>
-		                            <li><a href="team.html">{{ __('Cuisine Occidentale') }}</a></li>
-		                            <li><a href="team.html">{{ __('Cuisine Exotique') }}</a></li>
+		                            <li><a href="about.html">Cuisine Afrique</a></li>
+		                            <li><a href="team.html">Cuisine Occidentale</a></li>
+		                            <li><a href="team.html">Cuisine Exotique</a></li>
 		                            <li><a href="team.html">Barbecue</a></li>
 		                        </ul>
 		                    </li>
@@ -57,9 +57,9 @@
 		                    <!-- MEGA MENU -->
 		                    <li><a style="font-size: 16px; color:white" href="#">Engagement</a>
 		                        <ul>
-		                            <li><a href="about.html">{{ __('Environement') }}</a></li>
-		                            <li><a href="team.html">{{ __('Process de fabrication') }}</a></li>
-		                            <li><a href="team.html">{{ __('Origines ingrédients') }}</a></li>
+		                            <li><a href="about.html">Environement</a></li>
+		                            <li><a href="team.html">Process de fabrication</a></li>
+		                            <li><a href="team.html">Origines ingrédients</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
@@ -91,12 +91,17 @@
 
 		                        </div>
 		                    </li>
-		                    <li id="language-section">
-		                        <a href="">
+		                    <li>
+		                        <div class="dropdown">
 		                            @foreach($available_locales as $locale_name => $available_locale)
-		                            @if($available_locale === $current_locale)
-		                            <img class="lang" src="images/languages/{{ $locale_name }}.png" alt="">
 
+		                            @if($available_locale === $current_locale)
+		                            <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
+
+
+		                            <button style="background: none;border:none;bottom:40px;position:relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+		                                <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
+		                            </button>
 
 		                            @else
 		                            <img class="lang" src="images/languages/french.png" alt="">
@@ -104,24 +109,27 @@
 		                        </a>
 		                        <ul>
 
+
+
 		                            @if($available_locale != $current_locale)
+
+
+
+
 
 		                            <li><a href="lang/{{ $available_locale }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/{{ $locale_name }}.png" alt="">
+		                                            <img class="lang-select" src="images/languages/{{ $locale_name  }}.png" alt="">
 		                                        </div>
 
-		                                        <div class="p-2">
-		                                            {{ $locale_name }}
-		                                        </div>
-		                                    </div>
-		                                </a></li>
 		                            @endif
 
 		                            @endforeach
-		                        </ul>
+		                        </div>
 		                    </li>
+
+
 
 
 
