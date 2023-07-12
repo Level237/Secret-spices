@@ -17,7 +17,7 @@
     <div class="row align-items-center" style="margin-top:50px;">
 
         <div class="col-md-5 col-sm-5 col-lg-5">
-            <img src="{{ asset('images/products/secret-poisson-large.png')}}"  alt="">
+            <img src="{{ asset('images/products/secret-poisson-large.png')}}" style="width:100%"  alt="">
         </div>  
         
         <div class="col-md-7 col-sm-7 col-lg-7">
@@ -127,12 +127,12 @@
         </div>
     </div>
   
-    <div class="row mb-5" style="margin-top:30px;">
+    <div class="row" style="margin-top:30px;">
         
-        <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
+        <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-viande.png')}}" width="150px" alt="">
+                <img src="{{ asset('images/products/secret-viande.png')}}" style="width:100%"  alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -162,10 +162,10 @@
             </div>
         </div>
 
-         <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
+         <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-poisson.png')}}" width="150px" alt="">
+                <img src="{{ asset('images/products/secret-poisson.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -213,7 +213,7 @@
         <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-viande.png')}}" style="width:100%"" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -246,7 +246,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/simulation-poulet.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-poulet.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -279,7 +279,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-poisson.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-poisson.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -326,7 +326,7 @@
         <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -359,7 +359,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -392,7 +392,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-poulet.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-poulet.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
