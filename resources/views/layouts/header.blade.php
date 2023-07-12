@@ -24,22 +24,7 @@
 						<div class="line-menu"></div>
 						<div class="line-menu line-half last-line"></div>
 					</div>
-		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
-
-
-		            <!-- LOGO IMAGE -->
-		            <div class="logo" data-mobile-logo="images/logos/logo-one.png" data-sticky-logo="images/logos/logo-one.png">
-		                <a href="#hero-6"><img src="images/logos/logo-one.png" width="345px" alt="header-logo"></a>
-		            </div>
-
-
-		            <!-- BURGER MENU -->
-		            <div class="burger-menu">
-		                <div class="line-menu line-half first-line"></div>
-		                <div class="line-menu"></div>
-		                <div class="line-menu line-half last-line"></div>
-		            </div>
+		           
 
 
 		            <!-- MAIN MENU -->
