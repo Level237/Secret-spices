@@ -22,6 +22,10 @@
     margin-top: 40px;
 }
 
+#temoignages a{
+    color: white;
+}
+
 .form input{
     height: 15px;
     background-color: #c70609;
@@ -56,7 +60,12 @@
 }
 .form i{
    width: 20px;
-   border: none; 
+   border: none;
+}
+
+.spot{
+    width: 110%;
+    margin-top: 10px;
 }
 
 .form button i{

@@ -11,20 +11,20 @@
 					<!-- CALL BUTTON -->
 				    <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
 
-					
+
 					<!-- LOGO IMAGE -->
 	                <div class="logo"  data-mobile-logo="images/logos/logo-one.png" data-sticky-logo="images/logos/logo-one.png">
 	                	<a href="{{ route('homepage') }}"><img src="images/logos/logo-one.png" width="345px" alt="header-logo"></a>
 					</div>
 
-					
+
 					<!-- BURGER MENU -->
 					<div class="burger-menu">
 						<div class="line-menu line-half first-line"></div>
 						<div class="line-menu"></div>
 						<div class="line-menu line-half last-line"></div>
 					</div>
-		           
+
 
 
 		            <!-- MAIN MENU -->
@@ -32,7 +32,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white">Produits</a>
+		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white">{{ __('Produits') }} </a>
 		                        <ul>
 		                            <li><a href="about.html">35 G </a></li>
 		                            <li><a href="team.html">250 G</a></li>
@@ -43,11 +43,11 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">Recettes</a>
+		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Recettes') }} </a>
 		                        <ul>
-		                            <li><a href="about.html">Cuisine Afrique</a></li>
-		                            <li><a href="team.html">Cuisine Occidentale</a></li>
-		                            <li><a href="team.html">Cuisine Exotique</a></li>
+		                            <li><a href="about.html">{{ __('Cuisine Afrique') }}</a></li>
+		                            <li><a href="team.html">{{ __('Cuisine Occidentale') }}</a></li>
+		                            <li><a href="team.html">{{ __('Cuisine Exotique') }}</a></li>
 		                            <li><a href="team.html">Barbecue</a></li>
 		                        </ul>
 		                    </li>
@@ -57,9 +57,9 @@
 		                    <!-- MEGA MENU -->
 		                    <li><a style="font-size: 16px; color:white" href="#">Engagement</a>
 		                        <ul>
-		                            <li><a href="about.html">Environement</a></li>
-		                            <li><a href="team.html">Process de fabrication</a></li>
-		                            <li><a href="team.html">Origines ingrédients</a></li>
+		                            <li><a href="about.html">{{ __('Environement') }}</a></li>
+		                            <li><a href="team.html">{{ __('Process de fabrication') }}</a></li>
+		                            <li><a href="team.html">{{ __('Origines ingrédients') }}</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
@@ -67,7 +67,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">Évènements</a>
+		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Évenements') }}</a>
 
 		                    </li>
 
@@ -77,7 +77,7 @@
 
 		                    <li>
 		                        <div class="middle-section" id="search-bar">
-		                            <input class="search-bar" type="text" placeholder="Rechercher">
+		                            <input class="search-bar" type="text" placeholder="{{ __('Rechercher') }}">
 
 		                            <button class="search-button">
 
@@ -95,7 +95,7 @@
 		                        <a href="">
 		                            @foreach($available_locales as $locale_name => $available_locale)
 		                            @if($available_locale === $current_locale)
-		                            <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
+		                            <img class="lang" src="images/languages/{{ $locale_name }}.png" alt="">
 
 
 		                            @else
@@ -104,18 +104,12 @@
 		                        </a>
 		                        <ul>
 
-
-
 		                            @if($available_locale != $current_locale)
-
-
-
-
 
 		                            <li><a href="lang/{{ $available_locale }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/{{ $locale_name  }}.png" alt="">
+		                                            <img class="lang-select" src="images/languages/{{ $locale_name }}.png" alt="">
 		                                        </div>
 
 		                                        <div class="p-2">

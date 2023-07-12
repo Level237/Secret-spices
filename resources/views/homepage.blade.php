@@ -37,7 +37,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Faciliter la cuisine <br> avec des assaisonnements <br> prêts à l'emploi.
+                                        {{ __('Faciliter la cuisine ') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                     </h5>
 
                                 </div>
@@ -61,11 +61,6 @@
 
                                     <!-- Title -->
 
-
-
-
-
-
                                 </div>
                             </div>
                         </div> <!-- End row -->
@@ -94,7 +89,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Découvrez ce que vous êtes capables de faire avec Secret Spices
+                                        {{ __('Découvrez ce que vous êtes capables de faire avec Secret Spices ') }}
                                     </h5>
 
                                 </div>
@@ -124,7 +119,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Parce que nous croyons à la transformation agricole
+                                        {{ __('Parce que nous croyons à la transformation agricole') }}
                                     </h5>
 
                                 </div>
@@ -147,7 +142,7 @@
     <div class="container  d-lg-block d-md-block d-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Nos idées de recettes faciles</h1>
+            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
         </div>
 
         <div class="row d-flex align-items-center mb-4">
@@ -221,7 +216,7 @@
     <div class="d-lg-none d-md-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Nos idées de recettes faciles</h1>
+            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
         </div>
         <div id="carouselExampleCaptions" class="carousel slide ms-5 mr-">
             <div class="carousel-indicators">
@@ -269,6 +264,14 @@
 
 </div>
 
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <video  class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
+        </div>
+    </div>
+</div>
+
 <section style="margin-top:60px">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -288,15 +291,14 @@
         <div class="col-lg-6 col-md-12 col-sm-12">
             <div class="d-flex flex-row">
                 <div class="vertical-line align-middle"></div>
-                <h2 class="ms-2 fs-1"> {{ __('Une large gamme') }} <br> des épices secret</h2>
+                <h2 class="ms-2 fs-1"> {{ __('Une large gamme') }} <br> {{ __('des épices secret') }} </h2>
 
             </div>
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        Découvrez nos formats super faciles pour réaliser vos délicieux plats à l'infini sans
-                        colorants ni conservateurs,sans traces animales parmi nos composants, les véganes seront contents
-
+                        {{ __('Découvrez nos formats super faciles') }} {{ __('pour réaliser vos délicieux plats à l\'infini') }}
+                        {{ __('sans colorants ni conservateurs,') }} {{ __('sans colorants ni conservateurs,') }} {{ __('sans traces animales parmi nos composants,') }} {{ __('les véganes seront contents,') }}
                     </span>
 
                 </div>
@@ -305,7 +307,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Nos Produits</button>
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button>
 
                 </div>
             </div>
@@ -325,17 +327,18 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">Les epices "Secret" <br>
-                            avec vous <br>
-                            de generations en generations<br>
+                        <h3 class="ms-2 fs-1">{{ __('Les epices "Secret"') }} <br>
+                            {{ __('avec vous') }} <br>
+                            {{ __('from generation to generation') }}<br>
                             </h3>
 
                     </div>
                     <div class="row ms-3">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans de generations en generations.
-Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve le goût naturel des intrants agricoles
+                                {{ __('Because it\'s an opportunity to preserve all the culinary know-how of our mother') }}  {{ __('from generation to generation') }}
+                                {{ __('Nous croyons à un produit au service salvatrice à l\'ère moderne qui conserve le goût naturel des intrants agricoles') }}
+
                             </span>
 
                         </div>
@@ -345,7 +348,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
 
 
 
-                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0">En Savoir Plus</button>
+                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button>
                         </div>
                     </div>
                 </div>
@@ -376,7 +379,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="fs-1 red-color testimonial-title font-costyle">Nous Adorons Secret Spices</h2>
+                    <h2 class="fs-1 red-color testimonial-title font-costyle">{{ __('Nous Adorons Secret Spices') }}</h2>
 
                 </div>
             </div>
@@ -403,8 +406,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Voilà déjà 2ans que la fondatrice ma fait découvrir les secrets Spices
-                                    encore un merci spécial a vous madame Aïcha."
+                                <p class="author-testimonial">" {{ __('Nous croyons à un produit au service salvatrice à l\'ère moderne qui conserve le goût naturel des intrants agricoles') }}"
                                 </p>
 
                                 <!-- Rating -->
@@ -430,8 +432,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">"Secret Spices , parfum irrésistible pour tous mes repas !
-                                    bon appétit mes convives"
+                                <p class="author-testimonial"> {{ __('Secret Spices , parfum irrésistible pour tous mes repas ! bon appétit mes convives') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -457,8 +458,8 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Waouh c'est vraiment un délice pr assaisonner le poisson et le poulet.
-                                    Secret Spices ... C'est formidable "
+                                <p class="author-testimonial">{{ __('Waouh c\'est vraiment un délice pr assaisonner le poisson et le poulet.
+                                    Secret Spices ... C\'est formidable') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -491,7 +492,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Avec secret Spices mon poulet et mon porc ont un goût incroyable "
+                                <p class="author-testimonial">{{ __('Avec secret Spices mon poulet et mon porc ont un goût incroyable') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -517,7 +518,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Je mets Secret dans tous les repas ohhh en fonction de si c'est la viande, le poisson ou le poulet "
+                                <p class="author-testimonial">{{ __('Je mets Secret dans tous les repas ohhh en fonction de si c\'est la viande, le poisson ou le poulet') }}"
                                 </p>
 
                                 <!-- Rating -->
@@ -544,7 +545,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Les temps ci je ne blague pas avec les épices secret ,je fais seulement les rôtis. Achhh le gout de ca "
+                                <p class="author-testimonial">{{ __('Les temps ci je ne blague pas avec les épices secret ,je fais seulement les rôtis. Achhh le gout de ca ') }} "
                                 </p>
 
                                 <!-- Rating -->
@@ -577,7 +578,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Avec Secret Spices cest le secret de la cuisine pour presque tous mes repas et grillades "
+                                <p class="author-testimonial"> {{ __('Avec Secret Spices cest le secret de la cuisine pour presque tous mes repas et grillades') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -604,9 +605,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Ca fait plus de 3 ans que j'utilise les epices secrets
-                                    C'est mon partenaire de cuisine
-                                    Tous mes barbecues sont faits avec "
+                                <p class="author-testimonial">{{ __('Ca fait plus de 3 ans que j\'utilise les epices secrets C\'est mon partenaire de cuisine tous mes barbecues sont faits avec') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -633,7 +632,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Secret Spices moi aussi je vous remercie pour la joie que vous apportez à mes papilles "
+                                <p class="author-testimonial"> {{ __('Secret Spices moi aussi je vous remercie pour la joie que vous apportez à mes papilles') }}
                                 </p>
 
                                 <!-- Rating -->
@@ -672,7 +671,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                 </div>
 
                 <div class="col-md-4" id="temoignages">
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrez plus de temoignages</button>
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0"> <a href="https://www.facebook.com/mysecretspices/reviews">{{ __('Découvrez plus de temoignages') }}</a> </button>
                 </div>
 
                 <div class="col-md-4">
@@ -706,8 +705,8 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Secret Spices , parfum irrésistible pour tous mes repas !
-                                    bon appétit mes convives "
+                                <p class="author-testimonial"> {{ __('Secret Spices , parfum irrésistible pour tous mes repas ! bon appétit mes convives') }}
+
                                 </p>
 
                                 <!-- Rating -->
@@ -740,9 +739,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" Ca fait plus de 3 ans que j'utilise les epices secrets
-                                    C'est mon partenaire de cuisine
-                                    Tous mes barbecues sont faits avec "
+                                <p class="author-testimonial">" {{ __('Ca fait plus de 3 ans que j\'utilise les epices secrets C\'est mon partenaire de cuisine tous mes barbecues sont faits avec') }}"
                                 </p>
 
                                 <!-- Rating -->
@@ -775,8 +772,8 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">"Voilà déjà 2ans que la fondatrice ma fait découvrir les secrets Spices
-                                    encore un merci spécial a vous madame Aïcha"
+                                <p class="author-testimonial">"{{ __('Voilà déjà 2ans que la fondatrice ma fait découvrir les secrets Spices encore un merci spécial a vous madame Aïcha.') }}"
+                                </p>"
                                 </p>
 
                                 <!-- Rating -->
@@ -820,11 +817,11 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Événements</h2>
+                    <h2 class="h2-xl red-color">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">Retrouvez nous dans nos differents marches a Douala et a Yaounde pour un show explosif.
-                         "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
+                    <p class="p-xl">{{ __('Retrouvez nous dans nos differents marches a Douala et a Yaounde pour un show explosif.
+                        "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots') }}
                     </p>
 
                 </div>
@@ -866,7 +863,7 @@ Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve 
                                 <div class="ms-3">
                                     <div class="row">
 
-                                        <h2>La caravanne Secret Debarque chez Vous!</h2>
+                                        <h2> {{ __('La caravanne Secret Debarque chez Vous!') }}</h2>
 
                                     </div>
 
