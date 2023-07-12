@@ -17,7 +17,7 @@
     <div class="row align-items-center" style="margin-top:50px;">
 
         <div class="col-md-5 col-sm-5 col-lg-5">
-            <img src="{{ asset('images/products/secret-poisson-large.png')}}"  alt="">
+            <img src="{{ asset('images/products/secret-poisson-large.png')}}" style="width:100%"  alt="">
         </div>  
         
         <div class="col-md-7 col-sm-7 col-lg-7">
@@ -121,18 +121,17 @@
     </div>
 
     <div class="row" style="margin-top:30px;">
-        <div class="d-flex flex-row mb-1 mt-3">
+        <div class="d-flex flex-row mb-3 mt-3">
             <div class="vertical-line align-middle"></div>
             <h3 class="ms-2"> Autres Epices de la même Gamme</h3>
         </div>
     </div>
   
-    <div class="row mb-5" style="margin-top:30px;">
-        
-        <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
+    <div class="d-sm-flex  flex-row">
+        <div class="d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-viande.png')}}" width="150px" alt="">
+                <img src="{{ asset('images/products/secret-viande.png')}}" width="150px"  alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -162,18 +161,18 @@
             </div>
         </div>
 
-         <div class="col-sm-3 col-md-3 d-flex flex-column product-row">
+        <div class="d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-poisson.png')}}" width="150px" alt="">
+                <img src="{{ asset('images/products/secret-poisson.png')}}" width="150px"  alt="">
             </div>
 
             <div class="p-2 secret-spices">
-                Secret<br> Epices Poisson
+                Secret <br>Epices  Poisson
                 <div class="horizontal-mobile-line-gray" ></div>
             </div>
 
-            <div class="p-2  d-flex justify-content-between">
+            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
                 
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
@@ -194,7 +193,6 @@
 
             </div>
         </div>
-
     </div>
 
     <div style="margin-bottom: 50px;">
@@ -213,7 +211,7 @@
         <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-viande.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -246,7 +244,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/simulation-poulet.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-poulet.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -279,7 +277,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-poisson.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/simulation-poisson.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -326,7 +324,7 @@
         <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -359,7 +357,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
@@ -392,7 +390,7 @@
          <div class="col d-flex flex-column product-row">
             
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-poulet.png')}}" width="250px" alt="">
+                <img src="{{ asset('images/products/pot-poulet.png')}}" style="width:100%" alt="">
             </div>
 
             <div class="p-2 secret-spices">
