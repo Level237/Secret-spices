@@ -34,9 +34,9 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white">Produits</a>
 		                        <ul>
-		                            <li><a href="about.html">35 G </a></li>
-		                            <li><a href="team.html">250 G</a></li>
-		                            <li><a href="team.html">450 G</a></li>
+		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
+		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
+		                            <li><a href="{{ route('product-detail') }}">450 G</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
@@ -45,10 +45,10 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="#" style="font-size: 16px; color:white">Recettes</a>
 		                        <ul>
-		                            <li><a href="about.html">Cuisine Afrique</a></li>
-		                            <li><a href="team.html">Cuisine Occidentale</a></li>
-		                            <li><a href="team.html">Cuisine Exotique</a></li>
-		                            <li><a href="team.html">Barbecue</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Cuisine Afrique</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Cuisine Occidentale</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Cuisine Exotique</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Barbecue</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
@@ -57,9 +57,9 @@
 		                    <!-- MEGA MENU -->
 		                    <li><a style="font-size: 16px; color:white" href="#">Engagement</a>
 		                        <ul>
-		                            <li><a href="about.html">Environement</a></li>
-		                            <li><a href="team.html">Process de fabrication</a></li>
-		                            <li><a href="team.html">Origines ingrédients</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Environement</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Process de fabrication</a></li>
+		                            <li><a href="{{ route('product-detail') }}">Origines ingrédients</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
