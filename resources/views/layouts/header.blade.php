@@ -91,43 +91,31 @@
 
 		                        </div>
 		                    </li>
-		                    <li id="language-section">
-		                        <a href="">
+		                    <li>
+		                        <div class="dropdown">
 		                            @foreach($available_locales as $locale_name => $available_locale)
-		                            @if($available_locale === $current_locale)
-		                            <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
 
+		                            @if($available_locale === $current_locale)
+
+
+		                            <button style="background: none;border:none;bottom:40px;position:relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+		                                <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
+		                            </button>
 
 		                            @else
-		                            <img class="lang" src="images/languages/french.png" alt="">
-		                            @endif
-		                        </a>
-		                        <ul>
+		                            <ul class="dropdown-menu">
 
+		                                <li><a href="lang/{{ $available_locale }}"><button class="dropdown-item" type="button">{{ $locale_name }}</button></a></li>
 
+		                            </ul>
 
-		                            @if($available_locale != $current_locale)
-
-
-
-
-
-		                            <li><a href="lang/{{ $available_locale }}">
-		                                    <div class="d-flex align-items-center">
-		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/{{ $locale_name  }}.png" alt="">
-		                                        </div>
-
-		                                        <div class="p-2">
-		                                            {{ $locale_name }}
-		                                        </div>
-		                                    </div>
-		                                </a></li>
 		                            @endif
 
 		                            @endforeach
-		                        </ul>
+		                        </div>
 		                    </li>
+
+
 
 
 
