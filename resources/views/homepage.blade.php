@@ -267,26 +267,12 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12">
-            <video  class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
+            <video class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
         </div>
     </div>
 </div>
 
-<div class="container">
-    <div class="vid">
-        
-    </div>
-</div>
 
-<section style="margin-top:60px">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/spices1.jpg" style="max-height: 600px" class="d-block w-100" alt="...">
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="container" style="margin-top:60px">
     <div class="row align-items-center">
@@ -336,13 +322,13 @@
                         <h3 class="ms-2 fs-1">{{ __('Les epices "Secret"') }} <br>
                             {{ __('avec vous') }} <br>
                             {{ __('from generation to generation') }}<br>
-                            </h3>
+                        </h3>
 
                     </div>
                     <div class="row ms-3">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                {{ __('Because it\'s an opportunity to preserve all the culinary know-how of our mother') }}  {{ __('from generation to generation') }}
+                                {{ __('Because it\'s an opportunity to preserve all the culinary know-how of our mother') }} {{ __('from generation to generation') }}
                                 {{ __('Nous croyons à un produit au service salvatrice à l\'ère moderne qui conserve le goût naturel des intrants agricoles') }}
 
                             </span>
@@ -827,7 +813,7 @@
 
                     <!-- Text -->
                     <p class="p-xl">Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.
-                         "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
+                        "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
                     </p>
 
                 </div>
