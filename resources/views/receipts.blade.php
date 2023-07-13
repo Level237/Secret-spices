@@ -30,7 +30,7 @@
         
         <div class="d-flex flex-column">
             
-            <div class="p-2 fs-4 fw-normal align-self-center">
+            <div class="p-2 fs-4 fw-normal">
                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 75%"  alt="">
             </div>
 
