@@ -548,6 +548,14 @@ i{
         display: none;
     }
 
+    #receipts-mobile {
+        display: block;
+    }
+
+    #receipts {
+        display: none;
+    }
+
     #header-3 {
         display: block;
     }
@@ -573,6 +581,11 @@ i{
   #carouselExampleControls1 {
     display: none;
   }
+
+   #receipts-mobile {
+       display: none;
+   }
+  
 
    .horizontal-mobile-line {
        display: none;

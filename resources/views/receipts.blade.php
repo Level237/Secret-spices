@@ -12,10 +12,11 @@
          <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam excepturi voluptatibus, illum suscipit aspernatur. Alias adipisci vel repellendus, eveniet atque veniam nisi ut?Tempore, repudiandae. </p>
     </div>
  </div>
-<div class="container" style="margin-top: 50px;" id="top-receipts">
+
+<div class="container" style="margin-top: 50px;" id="receipts">
    
 
-    <div class="d-flex flex-row mb-3" id="top-rece">
+    <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
             <h1 class="ms-2"> Recettes les plus consultées</h1>
     </div>
@@ -97,7 +98,7 @@
 
     </div>
 
-    <div class="container" id="receipts">
+    <div class="container" >
 
     
 
@@ -1052,16 +1053,6 @@
 
 
 </div>
-
-    
-
-
-    
-
-    
-
-   
-
 
     <div style="margin-bottom: 50px;"></div>
     <section style="margin-top:60px">

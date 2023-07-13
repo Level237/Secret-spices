@@ -250,11 +250,8 @@
 
 </div>
 
-<<<<<<< HEAD
 <div class="container-fluid">
-=======
 <div class="container mt-40">
->>>>>>> 9a1173368969e70aba90d20ed8f84801415dffdb
     <div class="row">
         <div class="col-md-12">
             <video class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
