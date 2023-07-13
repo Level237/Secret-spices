@@ -65,8 +65,21 @@
 
 .spot{
     width: 100%;
+<<<<<<< HEAD
     margin-top: 10px;
+=======
+    height: 550px;
+    margin-top: 20px;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+>>>>>>> 62ab061a070060c258262f2b9f3abccbb8f494bf
 }
+
 
 .form button i{
     color: white;
@@ -377,12 +390,19 @@ i{
       margin-left: 10px;
   }
 
-  .horizontal-line-two {
+.horizontal-line-two {
       background-color: #c70609;
       height: 8px;
       width: 100px;
       margin-left: 10px;
   }
+
+.horizontal-line-receipt {
+    background-color: #9A9A9A;
+    height: 6px;
+    width: 100%;
+    margin-left: 10px;
+}
 
 .horizontal-mobile-line-gray {
     height: 2px;
@@ -453,6 +473,10 @@ i{
     color: #878787
 }
 
+.receipt-title{
+
+}
+
 
 
   /*  Section Martin*/
@@ -496,15 +520,7 @@ i{
 
     background-color: #fafafa;
   }
-    @media screen and (max-width: 600px) {
-      .horizontal-line{
-        margin-left: 90px;
-      }
-    }
-
-
-
-
+    
 .single-testimonial {
     display: flex;
     background-color: white;
@@ -539,6 +555,16 @@ i{
     #carouselExampleControls{
       display: none;
     }
+    #top-receipts{
+        display: none !important;
+    }
+
+    #receipts{
+        display: none;
+    }
+    #receipts-mobile{
+        display: block;
+    }
     #header-desktop {
         display: none;
     }
@@ -570,6 +596,14 @@ i{
   }
 
    .horizontal-mobile-line {
+       display: none;
+   }
+
+   #receipts {
+       display: block;
+   }
+
+   #receipts-mobile {
        display: none;
    }
 }
