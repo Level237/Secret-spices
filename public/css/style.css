@@ -29,6 +29,10 @@ html {
 
     font-family: ubuntu_regular;
 }
+
+.ubuntu_bold{
+    font-family:ubuntu_bold;
+}
 body {
 
   color: #283034;
@@ -6419,3 +6423,5 @@ nav a#pull {
 .s_1 img:hover {
   opacity: 0.8;
 }
+
+
