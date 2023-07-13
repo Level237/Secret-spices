@@ -819,8 +819,9 @@
 
     <div class=" mb-5 pt-5">
 
+
         <!-- Blog -->
-        <section class="container mb-5 py-lg-5">
+        <section class="container mb-5 py-lg-5 d-lg-block d-none">
 
             <div class="row">
                 <div class="col-lg-8 col-12 mb-lg-0 mb-4">
