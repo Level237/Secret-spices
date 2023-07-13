@@ -113,7 +113,7 @@
 }
 .lang{
     width: 25px;
-    margin-top: 22px;
+    margin-top: 27px;
 }
 
 .lang-select {
@@ -454,6 +454,11 @@ i{
     color: #878787
 }
 
+.margin-space{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
 
 
   /*  Section Martin*/
@@ -544,6 +549,14 @@ i{
         display: none;
     }
 
+    #receipts-mobile {
+        display: block;
+    }
+
+    #receipts {
+        display: none;
+    }
+
     #header-3 {
         display: block;
     }
@@ -569,6 +582,11 @@ i{
   #carouselExampleControls1 {
     display: none;
   }
+
+   #receipts-mobile {
+       display: none;
+   }
+  
 
    .horizontal-mobile-line {
        display: none;
