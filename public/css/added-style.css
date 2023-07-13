@@ -64,9 +64,18 @@
 }
 
 .spot{
-    width: 110%;
-    margin-top: 10px;
+    width: 100%;
+    height: 550px;
+    margin-top: 20px;
+    object-fit: cover;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
 }
+
 
 .form button i{
     color: white;

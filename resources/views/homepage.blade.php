@@ -272,6 +272,12 @@
     </div>
 </div>
 
+<div class="container">
+    <div class="vid">
+        
+    </div>
+</div>
+
 <section style="margin-top:60px">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
