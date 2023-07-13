@@ -138,6 +138,8 @@
 
 <!-- PROMO-3
 			============================================= -->
+
+
 <div id="promo-3" class="pt-100 promo-section division">
     <div class="container  d-lg-block d-md-block d-none">
         <div class="d-flex flex-row mb-3">
@@ -213,58 +215,42 @@
 
     </div> <!-- End container -->
 
-    <div class="d-lg-none d-md-none">
-        <div class="d-flex flex-row mb-3">
-            <div class="vertical-line align-middle"></div>
+    <div class="d-lg-none d-md-none container">
+        <div class="text-center">
+
             <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
         </div>
-        <div id="carouselExampleCaptions" class="carousel slide ms-5 mr-">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
-                    </div>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
     </div>
 
+
 </div> <!-- END PROMO-3 -->
-<div class="text-center " style="margin-top:60px">
-    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+<div class="text-center" style="margin-top:60px">
+    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">Découvrir Plus de recettes</button>
 
 </div>
 
-<div class="container-fluid">
+<div class="container mt-40">
     <div class="row">
         <div class="col-md-12">
             <video class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
@@ -286,11 +272,15 @@
                 <h2 class="ms-2 fs-1"> {{ __('Une large gamme') }} <br> {{ __('des épices secret') }} </h2>
 
             </div>
+            <div class="col-12  d-lg-none d-md-none">
+                <img src="{{ asset('images/gamme.png') }}" class="img-fluid" alt="spices">
+            </div>
+
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        {{ __('Découvrez nos formats super faciles') }} {{ __('pour réaliser vos délicieux plats à l\'infini') }}
-                        {{ __('sans colorants ni conservateurs,') }} {{ __('sans colorants ni conservateurs,') }} {{ __('sans traces animales parmi nos composants,') }} {{ __('les véganes seront contents,') }}
+                        {{ __("Découvrez nos formats super faciles d'utilisation") }} {{ __('pour réaliser vos délicieux plats') }}
+                        {{ __('sans colorants sans conservateurs,') }} {{ __('ni de traces animales.') }}
                     </span>
 
                 </div>
@@ -309,15 +299,21 @@
 </section>
 
 
-<section class="bg-gray-spices mt-100" style="padding-bottom:45px;padding-top:45px">
+<section class="bg-gray-spices mt-3" style="padding-bottom:45px;padding-top:45px">
 
-    <div class="ms-4 mr-40  border p-5">
+    <div class="ms-4 mr-40  border border-sm-none">
 
         <div class="ms-1">
             <div class="row align-items-center">
 
+
+                <div class="col-12 d-lg-none d-md-none mb-3">
+
+                    <img src="{{ asset('images/engagement.jpg') }}" class="img-fluid" alt="spices">
+
+                </div>
                 <div class="col-lg-5">
-                    <div class="d-flex flex-row">
+                    <div class="d-flex flex-row mt-3">
                         <div class="vertical-line-secondary align-middle"></div>
                         <h3 class="ms-2 fs-1">{{ __('Les epices "Secret"') }} <br>
                             {{ __('avec vous') }} <br>
@@ -325,7 +321,7 @@
                         </h3>
 
                     </div>
-                    <div class="row ms-3">
+                    <div class="row  ms-3 ms-sm-0">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
                                 {{ __('Because it\'s an opportunity to preserve all the culinary know-how of our mother') }} {{ __('from generation to generation') }}
@@ -335,8 +331,8 @@
 
                         </div>
                     </div>
-                    <div class="row ms-3">
-                        <div class="col-6 mt-3 col-sm-12 col-md-12">
+                    <div class="row ms-3 mb-4">
+                        <div class="col-12 mt-3 col-sm-12 col-md-12">
 
 
 

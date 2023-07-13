@@ -32,7 +32,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white">Produits</a>
+		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white" class="ubuntu_bold">Produits</a>
 		                        <ul>
 		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
 		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
@@ -106,7 +106,7 @@
 		                            <ul class="dropdown-menu">
 
 		                                <div class="d-flex">
-		                                    <li><img class="lang" src="images/languages/{{ $locale_name  }}.png" alt=""></li>
+
 		                                    <li><a href="lang/{{ $available_locale }}"><button class="dropdown-item" type="button">{{ $locale_name }}</button></a></li>
 
 		                                </div>

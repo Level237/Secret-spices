@@ -14,7 +14,15 @@
 */
 
 
+@media (max-width: 576px) { 
 
+    .fs-5{
+
+        font-size:10px;
+    }
+
+    
+}
 
 /* ------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------ */
@@ -2338,7 +2346,7 @@
 
   /* Hero Slider */
   .slider, .slider .slides { height: 320px; }
-  #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 320px; }
+  #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 420px; }
   #hero-3 .slider .slides li img, #hero-6 .slider .slides li img { background-position: left center; }
   #hero-3 .slider .slides li#slide-2 img { background-position: right center; }
   #hero-8 .slider, #hero-8 .slider .slides { height: 270px; }
