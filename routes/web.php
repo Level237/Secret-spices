@@ -15,8 +15,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('homepage');
+})->name('homepage');
+
+Route::get('/product', function () {
+    return view('product');
+})->name('product');
+
+Route::get('/product-detail', function(){
+    return view('product-detail');
+})->name('product-detail');
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');
