@@ -43,12 +43,12 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Recettes') }} </a>
+		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }} </a>
 		                        <ul>
-		                            <li><a href="about.html">Cuisine Afrique</a></li>
-		                            <li><a href="team.html">Cuisine Occidentale</a></li>
-		                            <li><a href="team.html">Cuisine Exotique</a></li>
-		                            <li><a href="team.html">Barbecue</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Afrique</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Occidentale</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Exotique</a></li>
+		                            <li><a href="{{ route('receipts') }}">Barbecue</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
@@ -57,9 +57,9 @@
 		                    <!-- MEGA MENU -->
 		                    <li><a style="font-size: 16px; color:white" href="#">Engagement</a>
 		                        <ul>
-		                            <li><a href="about.html">Environement</a></li>
-		                            <li><a href="team.html">Process de fabrication</a></li>
-		                            <li><a href="team.html">Origines ingrédients</a></li>
+		                            <li><a href="#">Environement</a></li>
+		                            <li><a href="#">Process de fabrication</a></li>
+		                            <li><a href="#">Origines ingrédients</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
