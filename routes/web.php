@@ -45,4 +45,8 @@ Route::get('/receipts', function(){
     return view('receipts');
 })->name('receipts');
 
+Route::get('/about', function(){
+    return view('about');
+})->name('about');
+
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');

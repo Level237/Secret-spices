@@ -265,11 +265,6 @@
 </div>
 
 <div class="container-fluid">
-    <div class="row" >
-        <video width="100%" style="height: 500px;" controls src="{{asset('Video/spot secret.MP4')}}">
-        
-        </video>
-    </div>
     <div class="row">
         <div class="col-md-12">
             <video class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
