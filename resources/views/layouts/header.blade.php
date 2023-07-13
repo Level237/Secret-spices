@@ -71,9 +71,7 @@
 
 		                    </li>
 
-		                    <li><a href="#" style="font-size: 16px; color:white">Blog</a>
-
-		                    </li>
+		                    
 
 		                    <li>
 		                        <div class="middle-section" id="search-bar">
@@ -91,34 +89,43 @@
 
 		                        </div>
 		                    </li>
-		                    <li>
-		                        <div class="dropdown">
-		                            @foreach($available_locales as $locale_name => $available_locale)
+		                    
 
-		                            @if($available_locale === $current_locale)
+							<li id="language-section">
+								<a href="cart.html">
+					        		<img class="lang" src="images/languages/{{$current_locale}}.png" alt=""> 
+									
+					        	</a>
+								<ul>
+		                        	<li>
+										<a href="lang/fr">
+											<div class="d-flex align-items-center">
+												<div class="">
+													<img class="lang-select" src="images/languages/fr.png" alt="">
+												</div>
 
+												<div class="p-2">
+													Français 
+												</div>
+											</div>
+											
+											
+										</a>
+									</li>
+									<li><a href="lang/en">
+										<div class="d-flex align-items-center">
+												<div class="">
+													<img class="lang-select" src="images/languages/en.png" alt="">
+												</div>
 
-		                            <button style="background: none;border:none;bottom:40px;position:relative" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-		                                <img class="lang" src="images/languages/{{ $locale_name  }}.png" alt="">
-		                            </button>
-
-		                            @else
-		                            <ul class="dropdown-menu">
-
-		                                <div class="d-flex">
-
-		                                    <li><a href="lang/{{ $available_locale }}"><button class="dropdown-item" type="button">{{ $locale_name }}</button></a></li>
-
-		                                </div>
-
-
-		                            </ul>
-
-		                            @endif
-
-		                            @endforeach
-		                        </div>
-		                    </li>
+												<div class="p-2">
+													English 
+												</div>
+											</div>
+									</a></li>
+		                        	
+								</ul>
+							</li>
 
 
 
