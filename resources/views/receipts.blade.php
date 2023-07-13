@@ -17,7 +17,7 @@
             <h1 class="ms-2"> Recettes les plus consultées</h1>
     </div>
 
-    <div class="d-flex flex-row  mb-3">
+    <div class="d-flex flex-row mb-3" id="top-receipts">
 
         <div class="p-3 d-flex flex-column">
 
@@ -25,454 +25,523 @@
                  <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
             </div>
 
-            <div class="p-1 d-flex flex-row justify-content-between">
-                 <div class="receipt-title">
+            <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                 <div class="fs-5 fw-bold">
                     Poulet roti à l'orange
                  </div>
                  <div>
-                    <i class="fa fa-eye" style="font-size:18px"></i>1.5k
+                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                  </div>
                  
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
             </div>
            
 
         </div>
-        <div class="p-3 ">
+        <div class="p-3 d-flex flex-column">
             
-            <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+            <div class="p-1">
+                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+            </div>
+
+            <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                 <div class="fs-5 fw-bold">
+                    Poulet roti à l'orange
+                 </div>
+                 <div>
+                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                 </div>
+                 
+            </div>
+
+            <div class="p-1">
+                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+            </div>
         
         </div>
         
-        <div class="p-3 ">
+        <div class="p-3 d-flex flex-column">
             
-            <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+            <div class="p-1">
+                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+            </div>
+
+            <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                 <div class="fs-5 fw-bold">
+                    Poulet roti à l'orange
+                 </div>
+                 <div>
+                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                 </div>
+                 
+            </div>
+
+            <div class="p-1">
+                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+            </div>
         
         </div>
 
     </div>
 
-
-    <div class="d-sm-flex  flex-row justify-content-start" style="margin-top:50px;">
-        
-        <div class="d-flex flex-column">
-            
-            <div class="p-2">
-                <img src="{{ asset('images/recette1.jpg')}}" style="width: 75%"  alt="">
-            </div>
-
-            <div class="p-2">
-                Poulet roti à l'orange
-            </div>
-
-            <div class="p-2 fs-4 fw-normal">
-                
-                <p style="width:200px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, ipsam odit raesentium suscipit consectetur.</p>
-
-            </div>
-        </div>
-
-        <div class="d-flex flex-column">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/recette1.jpg')}}" style="width: 75%"  alt="">
-            </div>
-
-            <div class="p-2 ">
-                Poulet roti à l'orange
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex ">
-                
-               <div class="p-2 fs-4 fw-normal">
-                
-                <p style="width:200px">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, ipsam odit raesentium suscipit consectetur.</p>
-
-            </div>
-
-            </div>
-        </div>
-
-        <div class="d-flex flex-column">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/recette1.jpg')}}" style="width: 75%"  alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret <br>Epices  Poisson
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-
-    <div class="row">
-        <div class="col-sm3 center-gamut">
-            <i class="fas fa-angle-right fs-4" style="color: #c70609"> 35 Gr</i>
-        </div>
-    </div>
-  
-    <div class="row mb-5" style="margin-top:30px;">
-        
-        <div class="col d-flex flex-column product-row">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-viande.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret <br>Epices  Viande
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-         <div class="col d-flex flex-column product-row">
-            
-            <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/secret-poulet.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poulet
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-         <div class="col d-flex flex-column product-row">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/secret-poisson.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poisson
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2  d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
+    <div class="horizontal-line-receipt"></div>
 
     <div style="margin-bottom: 50px;">
 
     </div>
 
+    <div class="d-flex flex-row mb-3">
+            <div class="vertical-line align-middle"></div>
+            <h1 class="ms-2"> Cuisine Africaine</h1>
+    </div>
+
+    
     <div class="row">
-        <div class="col-sm3 center-gamut">
-            <i class="fas fa-angle-right fs-4" style="color: #c70609"> 250 Gr</i>
-        </div>
-    </div>
 
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
 
-    <div class="row" style="margin-top:30px;">
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
         
-        <div class="col d-flex flex-column product-row">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-viande.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret <br>Epices  Viande
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
-         <div class="col d-flex flex-column product-row">
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
             
-            <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/simulation-poulet.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poulet
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
 
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
                     </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
                 </div>
 
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
             </div>
         </div>
 
-         <div class="col d-flex flex-column product-row">
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
             
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/simulation-poisson.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poisson
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2  d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
 
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
                     </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
                 </div>
 
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
             </div>
         </div>
 
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+        <div class="text-center " style="margin-top:15px">
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+        </div>
     </div>
+
+     <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
 
     <div style="margin-bottom: 50px;">
 
     </div>
 
+    <div class="d-flex flex-row mb-3">
+            <div class="vertical-line align-middle"></div>
+            <h1 class="ms-2"> Cuisine Occidentale</h1>
+    </div>
+
     <div class="row">
-        <div class="col-sm3 center-gamut">
-            <i class="fas fa-angle-right fs-4" style="color: #c70609"> 450 Gr</i>
-        </div>
-    </div>
 
-    <div class="row" style="margin-top:30px;">
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
         
-        <div class="col d-flex flex-column product-row">
-            
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret <br>Epices  Viande
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
-                </div>
-
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </div>
 
-         <div class="col d-flex flex-column product-row">
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
             
-            <div class="p-2 align-self-center">
-                <img src="{{ asset('images/products/pot-viande.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poulet
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
 
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
                     </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
                 </div>
 
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
             </div>
         </div>
 
-         <div class="col d-flex flex-column product-row">
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
             
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <img src="{{ asset('images/products/pot-poulet.png')}}" width="250px" alt="">
-            </div>
-
-            <div class="p-2 secret-spices">
-                Secret<br> Epices Poisson
-                <div class="horizontal-mobile-line-gray" ></div>
-            </div>
-
-            <div class="p-2  d-flex justify-content-between">
-                
-                <div class="p-2">
-                    <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
 
-                <div class="p-2">
-                     <!-- Rating -->
-                    <div class="review-rating">
-                        <div class="stars-rating">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star-half-alt"></i>
-                        </div>
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
                     </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
                 </div>
 
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
             </div>
         </div>
 
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+        <div class="text-center " style="margin-top:15px">
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+        </div>
     </div>
+
+    <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
 
     <div style="margin-bottom: 50px;">
 
+    </div>
+
+    <div class="d-flex flex-row mb-3">
+            <div class="vertical-line align-middle"></div>
+            <h1 class="ms-2"> Cuisine Exotique</h1>
+    </div>
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+        <div class="text-center " style="margin-top:15px">
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+        </div>
+    </div>
+
+    <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
+
+    <div style="margin-bottom: 50px;">
+
+    </div>
+
+    <div class="d-flex flex-row mb-3">
+            <div class="vertical-line align-middle"></div>
+            <h1 class="ms-2"> Barbecue</h1>
+    </div>
+
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+          <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="p-3 d-flex flex-column">
+            
+                <div class="p-1">
+                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                </div>
+
+                <div class="p-1 d-flex flex-row justify-content-between align-items-center">
+                    <div class="fs-5 fw-bold">
+                        Poulet roti à l'orange
+                    </div>
+                    <div>
+                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                    </div>
+                    
+                </div>
+
+                <div class="p-1">
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                </div>
+        
+            </div>
+        </div>
+        <div class="text-center " style="margin-top:15px">
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+        </div>
     </div>
     
 </div>
+
+
 <section style="margin-top:60px">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
