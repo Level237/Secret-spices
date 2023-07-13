@@ -105,7 +105,12 @@
 		                            @else
 		                            <ul class="dropdown-menu">
 
-		                                <li><a href="lang/{{ $available_locale }}"><button class="dropdown-item" type="button">{{ $locale_name }}</button></a></li>
+		                                <div class="d-flex">
+		                                    <li><img class="lang" src="images/languages/{{ $locale_name  }}.png" alt=""></li>
+		                                    <li><a href="lang/{{ $available_locale }}"><button class="dropdown-item" type="button">{{ $locale_name }}</button></a></li>
+
+		                                </div>
+
 
 		                            </ul>
 
