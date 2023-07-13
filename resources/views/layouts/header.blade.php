@@ -43,12 +43,12 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">Recettes</a>
+		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">Recettes</a>
 		                        <ul>
-		                            <li><a href="{{ route('product-detail') }}">Cuisine Afrique</a></li>
-		                            <li><a href="{{ route('product-detail') }}">Cuisine Occidentale</a></li>
-		                            <li><a href="{{ route('product-detail') }}">Cuisine Exotique</a></li>
-		                            <li><a href="{{ route('product-detail') }}">Barbecue</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Afrique</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Occidentale</a></li>
+		                            <li><a href="{{ route('receipts') }}">Cuisine Exotique</a></li>
+		                            <li><a href="{{ route('receipts') }}">Barbecue</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">

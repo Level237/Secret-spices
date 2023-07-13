@@ -18,11 +18,41 @@
     </div>
 
     <div class="d-flex flex-row  mb-3">
+
         <div class="p-3 d-flex flex-column">
-            <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+
+            <div class="p-1">
+                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+            </div>
+
+            <div class="p-1 d-flex flex-row justify-content-between">
+                 <div class="receipt-title">
+                    Poulet roti à l'orange
+                 </div>
+                 <div>
+                    <i class="fa fa-eye" style="font-size:18px"></i>1.5k
+                 </div>
+                 
+            </div>
+
+            <div class="p-1">
+                 <p style="width: 300px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+            </div>
+           
+
         </div>
-        <div class="p-3 "><img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt=""></div>
-        <div class="p-3 "><img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt=""></div>
+        <div class="p-3 ">
+            
+            <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+        
+        </div>
+        
+        <div class="p-3 ">
+            
+            <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+        
+        </div>
+
     </div>
 
 
