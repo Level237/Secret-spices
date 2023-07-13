@@ -26,4 +26,8 @@ Route::get('/product-detail', function(){
     return view('product-detail');
 })->name('product-detail');
 
+Route::get('/receipts', function(){
+    return view('receipts');
+})->name('receipts');
+
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
