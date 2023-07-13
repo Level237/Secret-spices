@@ -89,7 +89,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Découvrez ce que vous êtes capables de faire avec Secret Spices ') }}
+                                        {{ __('Découvrez ce que vous êtes capables de faire avec Secret Spices') }}
                                     </h5>
 
                                 </div>
