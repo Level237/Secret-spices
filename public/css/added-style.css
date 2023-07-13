@@ -377,6 +377,13 @@ i{
       margin-left: 10px;
   }
 
+  .horizontal-line-two {
+      background-color: #c70609;
+      height: 8px;
+      width: 100px;
+      margin-left: 10px;
+  }
+
 .horizontal-mobile-line-gray {
     height: 2px;
     border-width: 0;

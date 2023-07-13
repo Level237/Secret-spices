@@ -26,6 +26,7 @@ Route::get('/product-detail', function(){
     return view('product-detail');
 })->name('product-detail');
 
+<<<<<<< HEAD
 
 Route::get('/dashboard', function () {
     return view('dashboard');
@@ -38,3 +39,10 @@ Route::middleware('auth')->group(function () {
 });
 
 require __DIR__.'/auth.php';
+=======
+Route::get('/receipts', function(){
+    return view('receipts');
+})->name('receipts');
+
+Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
+>>>>>>> dc0f2dd8bc5d6ff40ed78443331a573809008740
