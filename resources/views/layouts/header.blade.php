@@ -71,7 +71,10 @@
 
 		                    </li>
 
-		                    
+		                     <!-- DROPDOWN MENU -->
+		                    <li><a href="#" style="font-size: 16px; color:white">Blog</a>
+
+		                    </li>
 
 		                    <li>
 		                        <div class="middle-section" id="search-bar">
