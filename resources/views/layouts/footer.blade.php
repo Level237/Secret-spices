@@ -7,7 +7,7 @@
 			        <div class="p-2">
 			            <div class="d-flex  flex-column">
 			                <div class="p-2">
-			                    <img src="images/logos/logo-one.png" width="200px" alt="footer-logo">
+			                    <img src="{{ asset("images/logos/logo-one.png") }}" width="200px" alt="footer-logo">
 			                </div>
 			                <div class="d-flex flex-column align-items-center">
 			                    <div class="">
@@ -20,7 +20,9 @@
 			        </div>
 			        <div class="align-self-center p-2">
 			            <div class="d-flex flex-column ">
-			                <a href="{{ route('about') }}" class="text-white"><div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i>  {{ __('A Propos') }}</div></a>
+			                <a href="{{ route('about') }}" class="text-white">
+			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
+			                </a>
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i>{{ __('Données personnelles') }} </div>
 			            </div>

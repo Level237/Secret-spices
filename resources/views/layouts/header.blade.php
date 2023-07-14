@@ -13,8 +13,8 @@
 
 
 		            <!-- LOGO IMAGE -->
-		            <div class="logo" data-mobile-logo="images/logos/logo-one.png" data-sticky-logo="images/logos/logo-one.png">
-		                <a href="{{ route('homepage') }}"><img src="images/logos/logo-one.png" width="345px" alt="header-logo"></a>
+		            <div class="logo" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}">
+		                <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
 		            </div>
 
 
@@ -71,7 +71,7 @@
 
 		                    </li>
 
-		                     <!-- DROPDOWN MENU -->
+		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="#" style="font-size: 16px; color:white">Blog</a>
 
 		                    </li>
@@ -92,43 +92,43 @@
 
 		                        </div>
 		                    </li>
-		                    
 
-							<li id="language-section">
-								<a href="cart.html">
-					        		<img class="lang" src="images/languages/{{$current_locale}}.png" alt=""> 
-									
-					        	</a>
-								<ul>
-		                        	<li>
-										<a href="lang/fr">
-											<div class="d-flex align-items-center">
-												<div class="">
-													<img class="lang-select" src="images/languages/fr.png" alt="">
-												</div>
 
-												<div class="p-2">
-													Français 
-												</div>
-											</div>
-											
-											
-										</a>
-									</li>
-									<li><a href="lang/en">
-										<div class="d-flex align-items-center">
-												<div class="">
-													<img class="lang-select" src="images/languages/en.png" alt="">
-												</div>
+		                    <li id="language-section">
+		                        <a href="cart.html">
+		                            <img class="lang" src="images/languages/{{$current_locale}}.png" alt="">
 
-												<div class="p-2">
-													English 
-												</div>
-											</div>
-									</a></li>
-		                        	
-								</ul>
-							</li>
+		                        </a>
+		                        <ul>
+		                            <li>
+		                                <a href="lang/fr">
+		                                    <div class="d-flex align-items-center">
+		                                        <div class="">
+		                                            <img class="lang-select" src="images/languages/fr.png" alt="">
+		                                        </div>
+
+		                                        <div class="p-2">
+		                                            Français
+		                                        </div>
+		                                    </div>
+
+
+		                                </a>
+		                            </li>
+		                            <li><a href="lang/en">
+		                                    <div class="d-flex align-items-center">
+		                                        <div class="">
+		                                            <img class="lang-select" src="images/languages/en.png" alt="">
+		                                        </div>
+
+		                                        <div class="p-2">
+		                                            English
+		                                        </div>
+		                                    </div>
+		                                </a></li>
+
+		                        </ul>
+		                    </li>
 
 
 
