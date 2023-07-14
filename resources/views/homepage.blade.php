@@ -280,8 +280,8 @@
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        {{ __("Découvrez nos formats super faciles d'utilisation") }} {{ __('pour réaliser vos délicieux plats') }}
-                        {{ __('sans colorants sans conservateurs,') }} {{ __('ni de traces animales.') }}
+                        {{ __("Découvrez nos formats super faciles d'utilisation pour réaliser vos délicieux plats sans colorants sans conservateurs, ni de traces animales.") }}
+
                     </span>
 
                 </div>
@@ -809,8 +809,8 @@
                     <h2 class="h2-xl red-color">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.
-                        "Secret" se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots
+                    <p class="p-xl">{{ __('Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.') }}
+                        "Secret" {{ __('se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots.') }}
                     </p>
 
                 </div>
