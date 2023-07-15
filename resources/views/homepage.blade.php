@@ -316,7 +316,7 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row mt-3">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">{{ __('Les epices "Secret"') }} <br>
+                        <h3 class="ms-2 fs-1">{{ __('Les epices secret') }} <br>
                             {{ __('avec vous') }} <br>
                             {{ __('from generation to generation') }}<br>
                         </h3>
@@ -447,8 +447,7 @@
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">{{ __('Waouh c\'est vraiment un délice pr assaisonner le poisson et le poulet.
-                                    Secret Spices ... C\'est formidable') }}
+                                <p class="author-testimonial">{{ __("Waouh c'est vraiment un délice pour assaisonner le poisson et le poulet.Secret Spices ... C'est formidable") }}
                                 </p>
 
                                 <!-- Rating -->
@@ -507,7 +506,7 @@
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">{{ __('Je mets Secret dans tous les repas ohhh en fonction de si c\'est la viande, le poisson ou le poulet') }}"
+                                <p class="author-testimonial">{{ __("Je mets Secret dans tous les repas ohhh en fonction de si c'est la viande, le poisson ou le poulet") }}
                                 </p>
 
                                 <!-- Rating -->
@@ -594,7 +593,7 @@
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">{{ __('Ca fait plus de 3 ans que j\'utilise les epices secrets C\'est mon partenaire de cuisine tous mes barbecues sont faits avec') }}
+                                <p class="author-testimonial">{{ __("Ca fait plus de 3 ans que j'utilise les epices secrets C'est mon partenaire de cuisine tous mes barbecues sont faits avec.") }}
                                 </p>
 
                                 <!-- Rating -->
@@ -728,7 +727,7 @@
                                 </p>
 
                                 <!-- Text -->
-                                <p class="author-testimonial">" {{ __('Ca fait plus de 3 ans que j\'utilise les epices secrets C\'est mon partenaire de cuisine tous mes barbecues sont faits avec') }}"
+                                <p class="author-testimonial">" {{ __("Ca fait plus de 3 ans que j'utilise les epices secrets C'est mon partenaire de cuisine tous mes barbecues sont faits avec.") }}"
                                 </p>
 
                                 <!-- Rating -->

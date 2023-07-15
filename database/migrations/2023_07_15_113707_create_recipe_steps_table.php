@@ -1,6 +1,7 @@
 <?php
 
-use App\Models\Weight;
+use App\Models\Recipe;
+use App\Models\Step;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
@@ -12,15 +13,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::disableForeignKeyConstraints();
-        Schema::create('products', function (Blueprint $table) {
+        Schema::create('recipe_steps', function (Blueprint $table) {
             $table->id();
-            $table->string('product_name');
-            $table->text('product_description');
-            $table->foreignIdFor(Weight::class)
+            $table->foreignIdFor(Step::class)
             ->constrained()
-            ->restrictOnUpdate()
-            ->restrictOnDelete();
+            ->cascadeOnUpdate()
+                ->cascadeOnDelete();
+            $table->foreignIdFor(Recipe::class)
+            ->constrained()
+            ->cascadeOnUpdate()
+            ->cascadeOnDelete();
             $table->timestamps();
         });
     }
@@ -30,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('products');
+        Schema::dropIfExists('recipe_steps');
     }
 };
