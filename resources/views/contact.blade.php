@@ -16,8 +16,8 @@
 											<div class="breadcrumb-nav">
 												<nav aria-label="breadcrumb">
 												  	<ol class="breadcrumb">
-												    	<li class="breadcrumb-item"><a href="demo-1.html">Home</a></li>
-												    	<li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+												    	<li class="breadcrumb-item"><a href="{{ route('homepage') }}">{{ __('Accueil') }}</a></li>
+												    	<li class="breadcrumb-item active" aria-current="page">{{ __('Nous Contacter') }}</li>
 												  	</ol>
 												</nav>
 											</div>
@@ -26,7 +26,7 @@
 								</div>
 
 								<!-- Title -->
-								<h2 class="h2-xl">Contact Us</h2>
+								<h2 class="h2-xl">{{ __('Nous Contacter') }}</h2>
 
 							</div>
 						</div>	
@@ -51,12 +51,12 @@
 									<div class="cbox-5">
 									
 										<!-- Title -->
-										<h5 class="h5-lg">Location</h5>
+										<h5 class="h5-lg">{{ __('Siège social') }}</h5>
 
 										<!-- Address -->
-										<p class="p-md">8721 M Central Avenue,</p>
-										<p class="p-md">Los Angeles, CA 90036,</p>  
-										<p class="p-md">United States</p>
+										<p class="p-md">BP Cité Ancien Chococam,</p>
+										<p class="p-md">Douala</p>  
+										<p class="p-md">Cameroun</p>
 
 									</div>
 								</div>
@@ -67,7 +67,7 @@
 									<div class="cbox-5">
 									
 										<!-- Title -->
-										<h5 class="h5-lg">Working Hours</h5>
+										<h5 class="h5-lg">{{ __('Horaires') }}</h5>
 
 										<!-- Text -->
 										<p class="p-md">Mon-Fri: 9:00AM - 10:00PM</p>
@@ -83,12 +83,12 @@
 									<div class="cbox-5">
 									
 										<!-- Title -->	
-										<h5 class="h5-lg">Working Hours</h5>
+										<h5 class="h5-lg">{{ __('Contacts') }}</h5>
 
 										<!-- Title -->	
-										<p class="p-md">P: +12 3 3456 7890</p>
-										<p class="p-md">F: +12 9 8765 4321</p>
-										<p class="p-md">E: <a href="mailto:yourdomain@mail.com" class="yellow-color">hello@yourdomain.com</a></p>
+										<p class="p-md">Phone: +237 3 3456 7890</p>
+										<p class="p-md">WhatsApp: +237 6 52 52 54 54</p>
+										<p class="p-md">Email: <a href="contact@secret-spices.net" class="yellow-color">contact@secret-spices.net</a></p>
 
 									</div>
 								</div>
@@ -120,7 +120,7 @@
 							<div class="section-title mb-40 text-center">	
 
 								<!-- Title 	-->	
-								<h2 class="h2-xl">Get in Touch</h2>	
+								<h2 class="h2-xl">{{ __('Laissez un message') }}</h2>	
 
 								<!-- Text -->	
 								<p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor 
@@ -140,27 +140,27 @@
 																						
 									<!-- Form Input -->
 					                <div class="col-md-12 col-lg-6">
-					                	<input type="text" name="name" class="form-control name" placeholder="Your Name*"> 
+					                	<input type="text" name="name" class="form-control name" placeholder="{{ __('Votre Nom') }}*"> 
 					                </div>
 					                  
 					                <!-- Form Input -->        
 					               <div class="col-md-12 col-lg-6">
-					                	<input type="email" name="email" class="form-control email" placeholder="Email Address*"> 
+					                	<input type="email" name="email" class="form-control email" placeholder="{{ __('Adresse Email') }}*"> 
 					                </div>
 
 					                <!-- Form Input -->   
 									<div class="col-md-12">
-										<input type="text" name="subject" class="form-control subject" placeholder="What's this about?"> 
+										<input type="text" name="subject" class="form-control subject" placeholder="{{ __('Sujet') }}*"> 
 									</div>
 	
 									<!-- Form Textarea -->	        
 					                <div class="col-md-12">
-					                	<textarea name="message" class="form-control message" rows="6" placeholder="Your Message ..."></textarea>
+					                	<textarea name="message" class="form-control message" rows="6" placeholder="{{ __('Votre Message') }} ..."></textarea>
 					                </div> 
 					                                            
 					                <!-- Form Button -->
 					                <div class="col-md-12 mt-5 text-right">  
-					                	<button type="submit" class="btn btn-md btn-red tra-red-hover submit">Send Message</button> 
+					                	<button type="submit" class="btn btn-md btn-red tra-red-hover submit">{{ __('Envoyer') }}</button> 
 					                </div>
 					                                                              
 					                <!-- Form Message -->

@@ -31,7 +31,9 @@
 			            <div class="d-flex flex-column">
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
+							<a href="{{ route('contact') }}" class="text-white">
+			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
+							</a>
 			            </div>
 			        </div>
 
