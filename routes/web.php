@@ -47,7 +47,7 @@ Route::get('/receipts', function(){
 
 Route::get('/details/recettes',function(){
 return view('details-recipes');
-})->name('receipts');
+})->name('details.recipes');
 Route::get('/about', function(){
     return view('about');
 })->name('about');
@@ -55,4 +55,4 @@ Route::get('/about', function(){
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
 Route::get('contact', function(){
     return view('contact');
-});
+})->name('contact');
