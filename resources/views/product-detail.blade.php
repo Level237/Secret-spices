@@ -18,8 +18,8 @@
 
         <div class="col-md-5 col-sm-5 col-lg-5">
             <img src="{{ asset('images/products/secret-poisson-large.png')}}" style="width:100%"  alt="">
-        </div>  
-        
+        </div>
+
         <div class="col-md-7 col-sm-7 col-lg-7">
               <!-- Rating -->
                <div class="review-rating">
@@ -44,7 +44,9 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Utilisé pour l’assaisonnement des volailles et viandes blanches, la sauce pour
+                            poulet relève parfaitement le goût de vos plats tout en leur donnant une
+                            saveur et un arôme qui vous feront saliver de bonheur.</strong>  <code></code>
                     </div>
                     </div>
                 </div>
@@ -56,7 +58,7 @@
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>les epices vous apportent des complement en Protéine, Sodium, Énergie</strong> .
                     </div>
                     </div>
                 </div>
@@ -68,7 +70,7 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        <strong>Ail, Oignon, Njansan, Poivre blanc de Penja, Céléri.</strong>  <code></code>,
                     </div>
                     </div>
                 </div>
@@ -86,7 +88,7 @@
 
 
                     <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                   
+
                     <div class="row mt-3">
                         <div class="col-1">
 
@@ -117,7 +119,7 @@
 
             </div>
         </div>
-        
+
     </div>
 
     <div class="row" style="margin-top:30px;">
@@ -126,10 +128,10 @@
             <h3 class="ms-2"> Autres Epices de la même Gamme</h3>
         </div>
     </div>
-  
+
     <div class="d-sm-flex  flex-row">
         <div class="d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/secret-viande.png')}}" width="150px"  alt="">
             </div>
@@ -140,7 +142,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -162,7 +164,7 @@
         </div>
 
         <div class="d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/secret-poisson.png')}}" width="150px"  alt="">
             </div>
@@ -173,7 +175,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -207,9 +209,9 @@
 
 
     <div class="row" style="margin-top:30px;">
-        
+
         <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/simulation-viande.png')}}" style="width:100%" alt="">
             </div>
@@ -220,7 +222,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -242,7 +244,7 @@
         </div>
 
          <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 align-self-center">
                 <img src="{{ asset('images/products/simulation-poulet.png')}}" style="width:100%" alt="">
             </div>
@@ -253,7 +255,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -275,7 +277,7 @@
         </div>
 
          <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/simulation-poisson.png')}}" style="width:100%" alt="">
             </div>
@@ -286,7 +288,7 @@
             </div>
 
             <div class="p-2  d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -320,9 +322,9 @@
     </div>
 
     <div class="row" style="margin-top:30px;">
-        
+
         <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
@@ -333,7 +335,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -355,7 +357,7 @@
         </div>
 
          <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 align-self-center">
                 <img src="{{ asset('images/products/pot-viande.png')}}" style="width:100%" alt="">
             </div>
@@ -366,7 +368,7 @@
             </div>
 
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -388,7 +390,7 @@
         </div>
 
          <div class="col d-flex flex-column product-row">
-            
+
             <div class="p-2 fs-4 fw-normal align-self-center">
                 <img src="{{ asset('images/products/pot-poulet.png')}}" style="width:100%" alt="">
             </div>
@@ -399,7 +401,7 @@
             </div>
 
             <div class="p-2  d-flex justify-content-between">
-                
+
                 <div class="p-2">
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
                 </div>
@@ -425,7 +427,7 @@
     <div style="margin-bottom: 50px;">
 
     </div>
-    
+
 </div>
 <section style="margin-top:60px">
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">

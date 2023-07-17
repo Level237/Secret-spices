@@ -20,17 +20,24 @@
         </div>
 
         <div class="row margin-space">
-            <p>Quas vitae, facilis quam, rem nobis maiores adipisci voluptatum error facere eveniet 
-                itaque velit iste in dolore laborum aspernatur dicta sint nostrum ea ipsum modi molestias voluptatibus. 
-                Tempora, temporibus quod? 
-            at quo obcaecati illum maxime, laudantium voluptate repudiandae laborum provident iste, eligendi nemo praesentium et.
-        </p>
+            <p>
+                «SECRET» est une composition d’épices avec à la
+                base l’ail et l’oignon, présentée sous une texture
+                semi-coulante à utiliser dans l’assaisonnement des
+                plats.
+                Conçu avec pour objectif de réduire le temps de
+                cuisine mais également de faire de la cuisine un
+                art accessible à tous, «Secret» contient déjà tout ce
+                qu’il faut pour assaisonner votre viande, votre
+                poulet ou votre poisson.
+                Parce que viande blanche, viande rouge et poisson
+                ne s’assaisonnent pas de la même façon, «Secret»
+                se décline en 3 recettes.
+            </p>
         </div>
 
         <div class="row margin-space">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa Illum ab ea aspernatur dolorem! Modi, deleniti quam.
-            Iusto ut doloremque mollitia, nostrum laborum quasi velit suscipit saepe numquam eos soluta voluptatum. 
-            Odio rem modi veniam ratione rerum veritatis aperiam tenetur et. Nostrum itaque natus ipsa sint esse.
+            <p>
            </p>
         </div>
 
@@ -42,17 +49,25 @@
         </div>
 
         <div class="row margin-space">
-            <p>Quas vitae, facilis quam, rem nobis maiores adipisci voluptatum error facere eveniet 
-                itaque velit iste in dolore laborum aspernatur dicta sint nostrum ea ipsum modi molestias voluptatibus. 
-                Tempora, temporibus quod? 
-            at quo obcaecati illum maxime, laudantium voluptate repudiandae laborum provident iste, eligendi nemo praesentium et.
-        </p>
+            <p>
+                Reconnue dans ce petit
+                village du Cameroun comme l’une des meilleures
+                cuisinières, KEUNI savait marier les épices du
+                terroir ce qui lui permettait de donner ce goût peu
+                commun à ses plats.
+                Le secret des savoureux mariages d’épices de notre
+                arrière grand-mère nous a été transmis de mère en
+                fille. Je me suis inspirée de ces recettes pour créer
+                les épices « Secret ».
+                « SECRET » c’est avant tout l’occasion de rendre
+                honneur à cette femme qui nous a transmis à ma
+                mère, mes tantes, mes cousines et moi cette passion
+                pour la cuisine et surtout pour les épices.
+            </p>
         </div>
 
         <div class="row margin-space">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa Illum ab ea aspernatur dolorem! Modi, deleniti quam.
-            Iusto ut doloremque mollitia, nostrum laborum quasi velit suscipit saepe numquam eos soluta voluptatum. 
-            Odio rem modi veniam ratione rerum veritatis aperiam tenetur et. Nostrum itaque natus ipsa sint esse.
+            <p>
            </p>
         </div>
 
@@ -64,22 +79,30 @@
         </div>
 
         <div class="row margin-space">
-            <p>Quas vitae, facilis quam, rem nobis maiores adipisci voluptatum error facere eveniet 
-                itaque velit iste in dolore laborum aspernatur dicta sint nostrum ea ipsum modi molestias voluptatibus. 
-                Tempora, temporibus quod? 
-            at quo obcaecati illum maxime, laudantium voluptate repudiandae laborum provident iste, eligendi nemo praesentium et.
+            <p>
+                «SECRET» est une composition d’épices avec à la
+                base l’ail et l’oignon, présentée sous une texture
+                semi-coulante à utiliser dans l’assaisonnement des
+                plats.
+                 .
         </p>
         </div>
 
         <div class="row margin-space">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa Illum ab ea aspernatur dolorem! Modi, deleniti quam.
-            Iusto ut doloremque mollitia, nostrum laborum quasi velit suscipit saepe numquam eos soluta voluptatum. 
-            Odio rem modi veniam ratione rerum veritatis aperiam tenetur et. Nostrum itaque natus ipsa sint esse.
+            <p>
+                Conçu avec pour objectif de réduire le temps de
+                cuisine mais également de faire de la cuisine un
+                art accessible à tous, «Secret» contient déjà tout ce
+                qu’il faut pour assaisonner votre viande, votre
+                poulet ou votre poisson.
+                Parce que viande blanche, viande rouge et poisson
+                ne s’assaisonnent pas de la même façon, «Secret»
+                se décline en 3 recettes.
            </p>
         </div>
 
      </div>
-     
+
 
  </div>
 
