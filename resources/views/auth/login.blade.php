@@ -48,7 +48,7 @@
                         @csrf
                         <div class="mb-3">
                             <label for="emailaddress" class="form-label">Email address</label>
-                            <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email">
+                            <input class="form-control" type="email" name="email" id="emailaddress" required="" placeholder="Enter your email">
                         </div>
                         @error('email')
                         <span style="color:red">{{ $message }}</span>
@@ -56,7 +56,7 @@
                         <div class="mb-3">
                             {{-- <a href="{{ route() }}" class="text-muted float-end"><small>Forgot your password?</small></a> --}}
                             <label for="password" class="form-label">Password</label>
-                            <input class="form-control" type="password" required="" id="password" placeholder="Enter your password">
+                            <input class="form-control" name="password" type="password" required="" id="password" placeholder="Enter your password">
                         </div>
                         @error('password')
                         <span style="color:red">{{ $message }}</span>
