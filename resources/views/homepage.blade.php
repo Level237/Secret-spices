@@ -37,7 +37,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Faciliter la cuisine ') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                        {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                     </h5>
 
                                 </div>
@@ -144,7 +144,7 @@
     <div class="container  d-lg-block d-md-block d-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
+            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
         </div>
 
         <div class="row d-flex align-items-center mb-4">
@@ -161,7 +161,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -180,7 +180,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -199,7 +199,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -246,7 +246,7 @@
 
 </div> <!-- END PROMO-3 -->
 <div class="text-center" style="margin-top:60px">
-    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">Découvrir Plus de recettes</button>
+    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button>
 
 </div>
 
@@ -865,7 +865,7 @@
                                     </div>
                                     <div class="row">
                                         <span class="text-primary-spices">
-                                            Lire la suite
+                                            {{ __('Lire la suite') }}
                                         </span>
 
                                     </div>
@@ -918,7 +918,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <span class="text-primary-spices">
-                                                        Lire la suite
+                                                        {{ __('Lire la suite') }}
                                                     </span>
 
                                                 </div>
@@ -972,7 +972,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <span class="text-primary-spices">
-                                                        Lire la suite
+                                                        {{ __('Lire la suite') }}
                                                     </span>
 
                                                 </div>
@@ -996,190 +996,5 @@
 
 
         </section> <!-- END BLOG-1 -->
-
-
-        {{-- <!-- ABOUT-7
-			============================================= -->
-    <section id="about-7" class="bg-05 about-section division">
-        <div class="container white-color">
-            <div class="abox-4-wrapper ico-80">
-                <div class="row d-flex align-items-center">
-
-
-                    <!-- BANNER TEXT -->
-                    <div class="col-md-7 col-lg-6">
-                        <div class="banner-3-txt coffee-color">
-
-                            <!-- Title  -->
-                            <h4 class="h4-xl color-white" style="color: #fff">Téléchargez l'application mobile et</h4>
-                            <h2 class="color-white" style="color: #fff">accèdez à nos recettes</h2>
-
-                            <!-- Text -->
-                            <p class="p-md" style="color: #fff">Aliquam a augue suscipit, luctus neque purus ipsum and neque dolor primis libero tempus,
-                                blandit varius
-                            </p>
-
-                            <!-- Store Badges -->
-                            <div class="stores-badge">
-
-                                <!-- AppStore -->
-                                <a href="#" class="store">
-                                    <img class="appstore-original" src="images/appstore.png" alt="appstore-logo">
-                                </a>
-
-                                <!-- Google Play -->
-                                <a href="#" class="store">
-                                    <img class="googleplay-original" src="images/googleplay.png" alt="googleplay-logo">
-                                </a>
-
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <!-- BANNER IMAGE -->
-                    <div class="col-md-5 col-lg-6">
-                        <div class="banner-3-img">
-                            <img class="img-fluid" src="images/e-shop.png" alt="banner-image">
-                        </div>
-                    </div>
-
-
-                </div> <!-- End row -->
-            </div>
-        </div> <!-- End container -->
-    </section> <!-- END ABOUT-7 --> --}}
-
-
-
-
-        {{-- <!-- CONTACTS-3
-			============================================= -->
-    <section id="contacts-3" class="bg-fixed wide-60 contacts-section division">
-        <div class="container">
-
-
-            <!-- SECTION TITLE -->
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="section-title mb-60 text-center">
-
-                        <!-- Title 	-->
-                        <h2 class="h2-xl red-color">NOS POINTS DE VENTES</h2>
-
-                        <!-- Text -->
-                        <p class="p-xl">Aliquam a augue suscipit, luctus neque purus ipsum neque undo dolor
-                            primis libero tempus, blandit a cursus varius magna
-                        </p>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row">
-
-
-                <!-- LOCATION-1 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="cbox-3 text-center">
-
-                        <!-- Image -->
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/location-1.jpg" alt="location-image">
-                        </div>
-
-                        <!-- Text -->
-                        <div class="cbox-3-txt">
-
-                            <!-- Location -->
-                            <h5 class="h5-xl red-color">Downtown</h5>
-
-                            <!-- Phone -->
-                            <h6 class="h6-xl coffee-color">Phone: <span><a href="tel:123456789">789-654-3210</a></span></h6>
-
-                            <!-- Address -->
-                            <h6 class="h6-lg mt-20 coffee-color">Address</h6>
-                            <p class="grey-color">8721 M Central Avenue,</p>
-                            <p class="grey-color">Los Angeles, CA 90036</p>
-
-                            <!-- Working Hours -->
-                            <p class="grey-color">Daily 11AM - 10PM</p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- LOCATION-2 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="cbox-3 text-center">
-
-                        <!-- Image -->
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/location-2.jpg" alt="location-image">
-                        </div>
-
-                        <!-- Text -->
-                        <div class="cbox-3-txt">
-
-                            <!-- Location -->
-                            <h5 class="h5-xl red-color">Central City</h5>
-
-                            <!-- Phone -->
-                            <h6 class="h6-xl coffee-color">Phone: <span><a href="tel:123456789">789-456-0123</a></span></h6>
-
-                            <!-- Address -->
-                            <h6 class="h6-lg mt-20 coffee-color">Address</h6>
-                            <p class="grey-color">148 D Central Avenue,</p>
-                            <p class="grey-color">Los Angeles, CA 90012</p>
-
-                            <!-- Working Hours -->
-                            <p class="grey-color">Daily 11AM - 10PM</p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <!-- LOCATION-3 -->
-                <div class="col-md-6 col-lg-4">
-                    <div class="cbox-3 text-center">
-
-                        <!-- Image -->
-                        <div class="hover-overlay">
-                            <img class="img-fluid" src="images/location-3.jpg" alt="location-image">
-                        </div>
-
-                        <!-- Text -->
-                        <div class="cbox-3-txt">
-
-                            <!-- Location -->
-                            <h5 class="h5-xl red-color">Hollywood</h5>
-
-                            <!-- Phone -->
-                            <h6 class="h6-xl coffee-color">Phone: <span><a href="tel:123456789">789-645-0123</a></span></h6>
-
-                            <!-- Address -->
-                            <h6 class="h6-lg mt-20 coffee-color">Address</h6>
-                            <p class="grey-color">678 W Hollywood Way,</p>
-                            <p class="grey-color">Burbank CA 91505</p>
-
-                            <!-- Working Hours -->
-                            <p class="grey-color">Daily 10AM - 10PM</p>
-
-                        </div>
-
-                    </div>
-                </div>
-
-            </div> <!-- End row -->
-
-
-        </div> <!-- End container -->
-    </section> <!-- END CONTACTS-3 --> --}}
 
         @endsection

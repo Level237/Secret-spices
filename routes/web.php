@@ -53,3 +53,6 @@ Route::get('/about', function(){
 })->name('about');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
+Route::get('contact', function(){
+    return view('contact');
+})->name('contact');
