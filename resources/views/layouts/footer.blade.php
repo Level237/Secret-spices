@@ -24,14 +24,14 @@
 			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
 			                </a>
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i>{{ __('Données personnelles') }} </div>
+							<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Données personnelles') }}</div>
 			            </div>
 			        </div>
 			        <div class="align-self-center p-2">
 			            <div class="d-flex flex-column">
 			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Evenements') }}</div>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous contacter') }}</div>
+			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
+			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
 			            </div>
 			        </div>
 

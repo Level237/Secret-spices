@@ -32,7 +32,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white" class="ubuntu_bold">Produits</a>
+		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
 		                        <ul>
 		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
 		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
@@ -43,23 +43,23 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">Recettes</a>
+		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('receipts') }}">Cuisine Afrique</a></li>
-		                            <li><a href="{{ route('receipts') }}">Cuisine Occidentale</a></li>
-		                            <li><a href="{{ route('receipts') }}">Cuisine Exotique</a></li>
-		                            <li><a href="{{ route('receipts') }}">Barbecue</a></li>
+		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Afrique') }}</a></li>
+		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Occidentale') }}</a></li>
+		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Exotique') }}</a></li>
+		                            <li><a href="{{ route('receipts') }}">{{ __('Barbecue') }}</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
 
 		                    </div>
 		                    <!-- MEGA MENU -->
-		                    <li><a style="font-size: 16px; color:white" href="#">Engagement</a>
+		                    <li><a style="font-size: 16px; color:white" href="#">{{ __('Engagement') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('product-detail') }}">Environement</a></li>
-		                            <li><a href="{{ route('product-detail') }}">Process de fabrication</a></li>
-		                            <li><a href="{{ route('product-detail') }}">Origines ingrédients</a></li>
+		                            <li><a href="{{ route('product-detail') }}">{{ __('Environement') }}</a></li>
+		                            <li><a href="{{ route('product-detail') }}">{{ __('Process de fabrication') }}</a></li>
+		                            <li><a href="{{ route('product-detail') }}">{{ __('Origines ingrédients') }}</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
@@ -67,7 +67,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">Évènements</a>
+		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
 
 		                    </li>
 
@@ -78,14 +78,14 @@
 
 		                    <li>
 		                        <div class="middle-section" id="search-bar">
-		                            <input class="search-bar" type="text" placeholder="Rechercher">
+		                            <input class="search-bar" type="text" placeholder="{{ __('Rechercher') }}">
 
 		                            <button class="search-button">
 
 		                                <img class="search-icon" src="images/icons/search-icon-red.svg" alt="">
 
 		                                <div class="tooltip">
-		                                    Search
+		                                    {{ __('Rechercher') }}
 		                                </div>
 
 		                            </button>

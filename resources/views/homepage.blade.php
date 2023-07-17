@@ -37,7 +37,7 @@
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Faciliter la cuisine ') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                        {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                     </h5>
 
                                 </div>
@@ -144,7 +144,7 @@
     <div class="container  d-lg-block d-md-block d-none">
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
+            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
         </div>
 
         <div class="row d-flex align-items-center mb-4">
@@ -161,7 +161,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -180,7 +180,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -199,7 +199,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">Poulet roti à l'orange et aux epinards</span>
+                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
                         </div>
                     </div>
 
@@ -246,7 +246,7 @@
 
 </div> <!-- END PROMO-3 -->
 <div class="text-center" style="margin-top:60px">
-    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">Découvrir Plus de recettes</button>
+    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button>
 
 </div>
 
@@ -864,7 +864,7 @@
                                     </div>
                                     <div class="row">
                                         <span class="text-primary-spices">
-                                            Lire la suite
+                                            {{ __('Lire la suite') }}
                                         </span>
 
                                     </div>
@@ -917,7 +917,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <span class="text-primary-spices">
-                                                        Lire la suite
+                                                        {{ __('Lire la suite') }}
                                                     </span>
 
                                                 </div>
@@ -971,7 +971,7 @@
                                                 </div>
                                                 <div class="row">
                                                     <span class="text-primary-spices">
-                                                        Lire la suite
+                                                        {{ __('Lire la suite') }}
                                                     </span>
 
                                                 </div>
