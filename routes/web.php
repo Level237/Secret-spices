@@ -47,7 +47,7 @@ Route::get('/receipts', function(){
 
 Route::get('/details/recettes',function(){
 return view('details-recipes');
-})->name('details.receipts');
+})->name('details.recipes');
 Route::get('/about', function(){
     return view('about');
 })->name('about');
