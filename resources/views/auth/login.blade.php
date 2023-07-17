@@ -30,21 +30,22 @@
 
                 <!-- Logo -->
                 <div class="auth-brand text-center text-lg-start">
-                    <a href="index.html.htm" class="logo-dark">
+                    <a href="{{ route('homepage') }}" class="logo-dark">
                         <span><img src="{{ asset('images/logo secret.jpg') }}" alt="dark logo" height="72"></span>
                     </a>
-                    <a href="index.html.htm" class="logo-light">
+                    <a href="{{ route('homepage') }}" class="logo-light">
                         <span><img src="{{ asset('images/logo secret.jpg') }}" alt="logo" height="22"></span>
                     </a>
                 </div>
 
                 <div class="my-auto">
                     <!-- title-->
-                    <h4 class="mt-0">Sign In</h4>
-                    <p class="text-muted mb-4">Enter your email address and password to access account.</p>
+                    <h4 class="mt-0">Connexion</h4>
+                    <p class="text-muted mb-4">Saisissez votre adresse électronique et votre mot de passe pour accéder à votre compte.</p>
 
                     <!-- form -->
-                    <form action="#">
+                    <form action="{{ route('login') }}" method="POST">
+                        @csrf
                         <div class="mb-3">
                             <label for="emailaddress" class="form-label">Email address</label>
                             <input class="form-control" type="email" id="emailaddress" required="" placeholder="Enter your email">
@@ -93,10 +94,10 @@
     </div>
     <!-- end auth-fluid-->
     <!-- Vendor js -->
-    <script src="assets/js/vendor.min.js"></script>
+    <script src="{{ asset('admin/assets/js/vendor.min.js') }}"></script>
 
     <!-- App js -->
-    <script src="assets/js/app.min.js"></script>
+    <script src="{{ asset('admin/assets/js/app.min.js') }}"></script>
 
 </body>
 
