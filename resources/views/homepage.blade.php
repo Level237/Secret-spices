@@ -252,16 +252,18 @@
 
 
 <div class="container mt-40">
-    <div class="row">
-        <div class="col-md-12">
-            <video class="spot" controls src="{{asset('Video/spot secret.MP4')}}"></video>
+    <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
+         <div class="col-8">
+             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
+                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+            </video>
         </div>
+        
     </div>
 </div>
 
 
-
-<section class="container" style="margin-top:60px">
+<section class="container" style="margin-top:40px">
     <div class="row align-items-center">
         <div class="col-6  d-lg-block d-none">
             <img src="{{ asset('images/gamme.png') }}" class="img-fluid" alt="spices">
