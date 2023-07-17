@@ -29,12 +29,12 @@
         <div class="p-3 d-flex flex-column">
 
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/poulet DG.jpg')}}" style="width: 300px ; height:250px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    POULET DG
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -43,7 +43,11 @@
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
+                    <b>Préparation</b> : 20 min <br>
+                    <b>Cuisson</b> : 40 à 45 min
+                </p>
             </div>
 
 
@@ -51,12 +55,12 @@
         <div class="p-3 d-flex flex-column">
 
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/Folon.png')}}" style="width: 300px; height:260px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    FOLON Sauté
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -65,7 +69,11 @@
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
+                    <b>Préparation</b> : 30 min <br>
+                    <b>Cuisson</b> :  45 min
+                </p>
             </div>
 
         </div>
@@ -73,12 +81,12 @@
         <div class="p-3 d-flex flex-column">
 
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/maquereau grille.jpg')}}" style="width: 300px; height:250px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    Maquereau grillé et purée de patate
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -87,7 +95,11 @@
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 4 personnes</i></b> <br>
+                    <b>Préparation</b> : 20 min <br>
+                    <b>Cuisson</b> : 40 min
+                </p>
             </div>
 
         </div>
@@ -117,12 +129,12 @@
 
 
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/fufu.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Fufu & sauce pistache
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -131,7 +143,11 @@
 
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
+                        <b>Préparation</b> : 45 min <br>
+                        <b>Cuisson</b> :30 min
+                    </p>
                 </div>
 
 
@@ -140,12 +156,12 @@
 
 
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/rizsaute.png')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Riz cantonais
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -153,7 +169,11 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 2 personnes</i></b> <br>
+                        <b>Préparation</b> : 15 min <br>
+                        <b>Cuisson</b> : 30 min
+                    </p>
                 </div>
 
 
@@ -162,12 +182,12 @@
 
 
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/pouletsauceverte.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Poulet à la sauce verte
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -175,7 +195,11 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 3 personnes</i></b> <br>
+                        <b>Préparation</b> : 20 min <br>
+                        <b>Cuisson</b> : 40 min
+                    </p>
                 </div>
 
 
@@ -184,12 +208,12 @@
 
 
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/boulettes.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Boulettes de viandes
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -197,7 +221,11 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
+                        <b>Préparation</b> : 30 min <br>
+                        <b>Cuisson</b> : 40 min
+                    </p>
                 </div>
 
 
