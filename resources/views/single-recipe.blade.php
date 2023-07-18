@@ -495,8 +495,11 @@
                         </ul>
                     </div>
                     <div class="recipe-author">
-                        <div class="media media-none--xs d-flex">
-                            <img src="img/blog/author9.jpg" alt="Blog Author" class="rounded-circle media-img-auto">
+                        <div class="media media-none--xs d-flex align-items-center">
+                            <div >
+                                <img src="img/blog/author9.jpg" alt="Blog Author" class="rounded-circle media-img-auto" style="width: 200px">
+                            </div>
+                            
                             <div class="media-body">
                                 <h4 class="author-title">Michel Jack</h4>
                                 <h5 class="author-sub-title">Written by</h5>
@@ -527,24 +530,24 @@
                         <div class="prev-post">
                             <a href="#" class="item-figure"><img src="img/blog/prev-post.jpg" alt="Post"></a>
                             <div class="item-content">
-                                <p>PREVIOUS POST</p>
-                                <h3 class="post-title"><a href="#">Old school pancake next area so goody</a></h3>
+                                <p>RECETTE PRÉCEDENTE</p>
+                                <h3 class="post-title"><a href="#">Boulettes de viandes</a></h3>
                             </div>
                         </div>
                         <div class="next-post">
                             <div class="item-content">
-                                <p>NEXT POST</p>
-                                <h3 class="post-title"><a href="#">Old school pancake next area so goody</a></h3>
+                                <p>RECETTE SUIVANTE</p>
+                                <h3 class="post-title"><a href="#">Fufu & sauce pistache</a></h3>
                             </div>
                             <a href="#" class="item-figure"><img src="img/blog/next-post.jpg" alt="Post"></a>
                         </div>
                     </div>                   
                     <div class="recipe-reviews">
                         <div class="section-heading3 heading-dark">
-                            <h2 class="item-heading">RECIPE REVIEWS</h2>
+                            <h2 class="item-heading">COMMENTAIRES SUR LA RECETTE</h2>
                         </div>
                         <div class="avarage-rating-wrap">
-                            <div class="avarage-rating">Avarage Rating: 
+                            <div class="avarage-rating">Moyenne de points: 
                                 <span class="rating-icon-wrap">
                                     <i class="fas fa-star"></i>
                                     <i class="fas fa-star"></i>
@@ -554,7 +557,7 @@
                                 </span>
                                 <span class="rating-number">(5)</span>                                        
                             </div>
-                            <div class="total-reviews">Total Reviews:<span class="review-number">(02)</span></div>
+                            <div class="total-reviews">Total Commentaires:<span class="review-number">(02)</span></div>
                         </div>
                         <ul>
                             <li class="reviews-single-item">
@@ -563,8 +566,8 @@
                                     <div class="media-body">
                                         <h4 class="comment-title">Liza Zaman</h4>
                                         <span class="post-date">September 27, 2018</span>
-                                        <p>Absolutely great recipe. I cooked it for my kids and they loved it, even
-                                            asked for more, can you believe it?</p>
+                                        <p>Recette absolument géniale. Je l'ai cuisiné pour mes enfants et ils ont adoré, même
+                                            demandé plus, pouvez-vous le croire?</p>
                                         <ul class="item-rating">
                                             <li class="single-item star-fill"><i class="fas fa-star"></i></li>
                                             <li class="single-item star-fill"><i class="fas fa-star"></i></li>
@@ -573,7 +576,7 @@
                                             <li class="single-item star-empty"><i class="fas fa-star"></i></li>
                                             <li class="single-item"><span>9<span> / 10</span></span> </li>
                                         </ul>
-                                        <a href="#" class="item-btn">REPLY<i class="fas fa-long-arrow-alt-right"></i></a>
+                                        <a href="#" class="item-btn">RÉPONDRE<i class="fas fa-long-arrow-alt-right"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -583,8 +586,8 @@
                                     <div class="media-body">
                                         <h4 class="comment-title">John Martin</h4>
                                         <span class="post-date">September 12, 2018</span>
-                                        <p>Absolutely great recipe. I cooked it for my kids and they loved it, even
-                                            asked for more, can you believe it?</p>
+                                        <p>Recette absolument géniale. Je l'ai cuisiné pour mes enfants et ils ont adoré, même
+                                            demandé plus, pouvez-vous le croire?</p>
                                         <ul class="item-rating">
                                             <li class="single-item star-fill"><i class="fas fa-star"></i></li>
                                             <li class="single-item star-fill"><i class="fas fa-star"></i></li>
@@ -593,7 +596,7 @@
                                             <li class="single-item star-empty"><i class="fas fa-star"></i></li>
                                             <li class="single-item"><span>7<span> / 10</span></span> </li>
                                         </ul>
-                                        <a href="#" class="item-btn">REPLY<i class="fas fa-long-arrow-alt-right"></i></a>
+                                        <a href="#" class="item-btn">RÉPONDRE<i class="fas fa-long-arrow-alt-right"></i></a>
                                     </div>
                                 </div>
                             </li>
@@ -601,10 +604,10 @@
                     </div>
                     <div class="leave-review">
                         <div class="section-heading3 heading-dark">
-                            <h2 class="item-heading">LEAVE A REVIEW</h2>
+                            <h2 class="item-heading">LAISSEZ UN COMMENTAIRE</h2>
                         </div>
                         <div class="rate-wrapper">
-                            <div class="rate-label">Rating</div>
+                            <div class="rate-label">Vote</div>
                             <div class="rate">
                                 <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
                                 <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
@@ -616,12 +619,12 @@
                         <form class="leave-form-box">
                             <div class="row">
                                 <div class="col-12 form-group">
-                                    <label>Comment :</label>
+                                    <label>Commentaire :</label>
                                     <textarea placeholder="" class="textarea form-control" name="message" rows="7" cols="20" data-error="Message field is required" required=""></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-lg-4 form-group">
-                                    <label>Name :</label>
+                                    <label>Nom :</label>
                                     <input type="text" placeholder="" class="form-control" name="name" data-error="Name field is required" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
@@ -631,12 +634,12 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-lg-4 form-group">
-                                    <label>Website :</label>
+                                    <label>Site :</label>
                                     <input type="email" placeholder="" class="form-control" name="email" data-error="E-mail field is required" required="">
                                     <div class="help-block with-errors"></div>
                                 </div>
                                 <div class="col-12 form-group mb-0">
-                                    <button type="submit" class="item-btn">POST REVIEW</button>
+                                    <button type="submit" class="item-btn">LAISSER LE COMMENTAIRE</button>
                                 </div>
                             </div>
                             <div class="form-response"></div>
@@ -682,36 +685,36 @@
 			<footer id="footer-3" class="footer-division footer-bg">
 
 
-			    <div class="d-md-flex flex-row justify-content-around">
+			    <div class="d-md-flex flex-row justify-content-around footer-text-secrets">
 			        <div class="p-2">
 			            <div class="d-flex  flex-column">
 			                <div class="p-2">
 			                    <img src="{{ asset("images/logos/logo-one.png") }}" width="200px" alt="footer-logo">
 			                </div>
 			                <div class="d-flex flex-column align-items-center">
-			                    <div class="">
-			                        <p class="fs-5 fw-bold">{{ __('L\'alliee de la femme') }} <br> {{ __('ambitieuse et belle') }}</p>
+			                    <div class="" >
+			                        <p class="footer-text-secrets" >{{ __('L\'alliee de la femme') }} <br> {{ __('ambitieuse et belle') }}</p>
 			                    </div>
 
 			                </div>
 
 			            </div>
 			        </div>
-			        <div class="align-self-center p-2">
-			            <div class="d-flex flex-column ">
+			        <div class="align-self-center p-2" >
+			            <div class="d-flex flex-column " >
 			                <a href="{{ route('about') }}" class="text-white">
-			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
+			                    <div class=""><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
 			                </a>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
-							<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Données personnelles') }}</div>
+			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
+							<div class=""><i class="fas fa-angle-right"></i> {{ __('Données personnelles') }}</div>
 			            </div>
 			        </div>
-			        <div class="align-self-center p-2">
+			        <div class="align-self-center p-2 ">
 			            <div class="d-flex flex-column">
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
+			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
+			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
 							<a href="{{ route('contact') }}" class="text-white">
-			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
+			                	<div class=""><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
 							</a>
 			            </div>
 			        </div>
@@ -745,15 +748,7 @@
 			</footer> <!-- END FOOTER-3 -->
 
     </div>
-    <!-- Search Box Start Here -->
-    <div id="search" class="search-wrap">
-        <button type="button" class="close">×</button>
-        <form class="search-form">
-            <input type="search" value="" placeholder="Type here........">
-            <button type="submit" class="search-btn"><i class="flaticon-search"></i></button>
-        </form>
-    </div>
-    <!-- Search Box End Here -->
+   
 
     <!-- Jquery Js -->
     <script src="{{ asset('js-recipe/jquery-3.3.1.min.js')}} "></script>

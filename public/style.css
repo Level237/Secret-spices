@@ -11792,8 +11792,6 @@ ul {
 15. Footer Css
 =========================================================================*/
 footer {
-  padding: 10rem 0;
-  background-color: #111111;
   text-align: center;
   color: #989898;
 }
@@ -11808,17 +11806,6 @@ footer.ranna-bg-dark {
   color: #989898;
 }
 
-.footer-logo {
-  margin-bottom: 50px;
-}
-
-.footer-logo a {
-  display: inline-block;
-}
-
-.footer-menu {
-  margin-bottom: 30px;
-}
 
 .footer-menu ul li {
   display: inline-block;
@@ -11945,4 +11932,60 @@ footer.ranna-bg-dark {
 
 .text-color-red{
   color: #c70609;
+}
+
+.footer-division {
+  background-color: #c70609;
+  padding-top: 10px;
+  color: #ffffff;
+
+}
+
+.footer-bg {
+
+  background-image: url("/images/BG_Footer.jpg");
+}
+
+.blocfooter {
+  background-color: black;
+  color: #ffffff;
+  padding: 30px;
+  width: 100%;
+  justify-content: center;
+
+}
+
+.footer {
+  padding-top: 80px;
+}
+
+#footer-3.footer {
+  padding-bottom: 80px;
+}
+
+/*------------------------------------------*/
+/*  FOOTER LOGO
+/*------------------------------------------*/
+
+.footer-logo {
+  margin-bottom: 30px;
+}
+
+#footer-4 .footer-logo {
+  margin-bottom: 15px;
+}
+
+.footer-logo img {
+  width: auto;
+  max-width: inherit;
+  max-height: 95px;
+}
+
+#footer-3 .footer-logo img {
+  max-height: 120px;
+}
+
+.footer-text-secrets {
+  font-size: 20px; 
+  font-weight:700;
 }
