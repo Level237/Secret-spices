@@ -3,6 +3,7 @@
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WeightController;
+use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -54,6 +55,18 @@ return view('details-recipes');
 Route::get('/about', function(){
     return view('about');
 })->name('about');
+
+Route::get('/legal', function(){
+    return view('legal');
+})-> name('legal');
+
+Route::get('/health-information', function(){
+    return view('health-information');
+})-> name('health-information');
+
+Route::get('/personnal-data', function(){
+    return view('personnal-data');
+})-> name('personnal-data');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
 Route::get('contact', function(){
