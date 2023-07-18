@@ -45,10 +45,10 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Afrique') }}</a></li>
-		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Occidentale') }}</a></li>
-		                            <li><a href="{{ route('receipts') }}">{{ __('Cuisine Exotique') }}</a></li>
-		                            <li><a href="{{ route('receipts') }}">{{ __('Barbecue') }}</a></li>
+		                            <li><a href="{{ route('details.recipes') }}">{{ __('Cuisine Afrique') }}</a></li>
+		                            <li><a href="{{ route('details.recipes') }}">{{ __('Cuisine Occidentale') }}</a></li>
+		                            <li><a href="{{ route('details.recipes') }}">{{ __('Cuisine Exotique') }}</a></li>
+		                            <li><a href="{{ route('details.recipes') }}">{{ __('Barbecue') }}</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
