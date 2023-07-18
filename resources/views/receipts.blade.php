@@ -7,12 +7,11 @@
 
  <div class="container" style="margin-top: 50px;">
      <div class="row justify-content-center product-title">
-         <h1>Recettes</h1>
+         <h1>{{ __('Recettes') }}</h1>
           <h2 class="horizontal-line-two"></h2>
          <p class="fs-5 ">
-            Parce que viande blanche, viande rouge et poisson
-            ne s’assaisonnent pas de la même façon, «Secret»
-            se décline en 3 produits specifiques qui nous permettent de realiser plusieurs repas africains, europeens, exotiques et des barbecues. </p>
+            {{ __('Parce que viande blanche, viande rouge et poisson  ne s’assaisonnent pas de la même façon, «Secret»  se décline en 3 produits specifiques qui nous permettent de realiser plusieurs repas africains, europeens, exotiques et des barbecues.') }}
+        </p>
     </div>
  </div>
 
@@ -21,7 +20,7 @@
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Recettes les plus consultées</h1>
+            <h1 class="ms-2"> {{ __('Recettes les plus consultées') }}</h1>
     </div>
 
     <div class="d-flex flex-row mb-3" >
@@ -44,9 +43,9 @@
 
             <div class="p-1">
                 <p style="width: 300px;" class="fs-6 fw-normal">
-                    <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
-                    <b>Préparation</b> : 20 min <br>
-                    <b>Cuisson</b> : 40 à 45 min
+                    <b><i style="color: #c70609"> {{ __('Pour 6 personnes') }}</i></b> <br>
+                    <b>{{ __('Préparation') }}</b> : 20 min <br>
+                    <b>{{ __('Cuisson') }}</b> : 40 à 45 min
                 </p>
             </div>
 
@@ -70,9 +69,9 @@
 
             <div class="p-1">
                 <p style="width: 300px;" class="fs-6 fw-normal">
-                    <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
-                    <b>Préparation</b> : 30 min <br>
-                    <b>Cuisson</b> :  45 min
+                    <b><i style="color: #c70609">{{ __('Pour 5 personnes') }}</i></b> <br>
+                    <b>{{ __('Préparation') }}</b> : 30 min <br>
+                    <b>{{ __('Cuisson') }}</b> :  45 min
                 </p>
             </div>
 
@@ -96,9 +95,9 @@
 
             <div class="p-1">
                 <p style="width: 300px;" class="fs-6 fw-normal">
-                    <b><i style="color: #c70609">Pour 4 personnes</i></b> <br>
-                    <b>Préparation</b> : 20 min <br>
-                    <b>Cuisson</b> : 40 min
+                    <b><i style="color: #c70609">{{ __('Pour 4 personnes') }}</i></b> <br>
+                    <b>{{ __('Préparation') }}</b> : 20 min <br>
+                    <b>{{ __('Cuisson') }}</b> : 40 min
                 </p>
             </div>
 
@@ -119,7 +118,7 @@
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Cuisine Africaine</h1>
+            <h1 class="ms-2"> {{ __('Cuisine Africaine') }}</h1>
     </div>
 
 
@@ -144,9 +143,9 @@
 
                 <div class="p-1">
                     <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
-                        <b>Préparation</b> : 45 min <br>
-                        <b>Cuisson</b> :30 min
+                        <b><i style="color: #c70609">{{ __('Pour 5 personnes') }}</i></b> <br>
+                        <b>{{ __('Préparation') }}</b> : 45 min <br>
+                        <b>{{ __('Cuisson') }}</b> :30 min
                     </p>
                 </div>
 
@@ -170,9 +169,9 @@
 
                 <div class="p-1">
                     <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">Pour 2 personnes</i></b> <br>
-                        <b>Préparation</b> : 15 min <br>
-                        <b>Cuisson</b> : 30 min
+                        <b><i style="color: #c70609">{{ __('Pour 2 personnes') }}</i></b> <br>
+                        <b>{{ __('Préparation') }}</b> : 15 min <br>
+                        <b>{{ __('Cuisson') }}</b> : 30 min
                     </p>
                 </div>
 
@@ -196,9 +195,9 @@
 
                 <div class="p-1">
                     <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">Pour 3 personnes</i></b> <br>
-                        <b>Préparation</b> : 20 min <br>
-                        <b>Cuisson</b> : 40 min
+                        <b><i style="color: #c70609">{{ __('Pour 3 personnes') }}</i></b> <br>
+                        <b>{{ __('Préparation') }}</b> : 20 min <br>
+                        <b>{{ __('Cuisson') }}</b> : 40 min
                     </p>
                 </div>
 
@@ -222,9 +221,9 @@
 
                 <div class="p-1">
                     <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
-                        <b>Préparation</b> : 30 min <br>
-                        <b>Cuisson</b> : 40 min
+                        <b><i style="color: #c70609">{{ __('Pour 6 personnes') }}</i></b> <br>
+                        <b> {{ __('Préparation') }}</b> : 30 min <br>
+                        <b>{{ __('Cuisson') }}</b> : 40 min
                     </p>
                 </div>
 
@@ -232,7 +231,7 @@
         </div>
 
         <div class="text-center " style="margin-top:15px">
-            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
         </div>
     </div>
 
@@ -244,7 +243,7 @@
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Cuisine Occidentale</h1>
+            <h1 class="ms-2"> {{ __('Cuisine Occidentale') }}</h1>
     </div>
 
      <div class="row">
@@ -340,7 +339,7 @@
         </div>
 
         <div class="text-center " style="margin-top:15px">
-            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
         </div>
     </div>
 
@@ -352,7 +351,7 @@
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Cuisine Exotique</h1>
+            <h1 class="ms-2">  {{ __('Cuisine Exotique') }}</h1>
     </div>
 
      <div class="row">
@@ -448,7 +447,7 @@
         </div>
 
         <div class="text-center " style="margin-top:15px">
-            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
         </div>
     </div>
     <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
@@ -459,7 +458,7 @@
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Barbecue</h1>
+            <h1 class="ms-2"> {{ __(' Barbecue') }}</h1>
     </div>
 
      <div class="row">
@@ -555,7 +554,7 @@
         </div>
 
         <div class="text-center " style="margin-top:15px">
-            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">Découvrir Plus de recettes</button>
+            <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
         </div>
     </div>
     </div>
@@ -565,7 +564,7 @@
 
     <div class="d-flex flex-row mb-3" id="top-rece">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> Recettes les plus consultées</h1>
+            <h1 class="ms-2">{{ __('Recettes les plus consultées') }}</h1>
     </div>
 
      <!-- START CAROUSSEL Top Receipts MOBILE -->
@@ -1093,7 +1092,7 @@
                     <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
-        
+
     </div>
 </section>
 
