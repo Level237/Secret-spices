@@ -9,12 +9,15 @@
      <div class="row justify-content-center product-title">
          <h1>Recettes</h1>
           <h2 class="horizontal-line-two"></h2>
-         <p class="fs-5 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam excepturi voluptatibus, illum suscipit aspernatur. Alias adipisci vel repellendus, eveniet atque veniam nisi ut?Tempore, repudiandae. </p>
+         <p class="fs-5 ">
+            Parce que viande blanche, viande rouge et poisson
+            ne s’assaisonnent pas de la même façon, «Secret»
+            se décline en 3 produits specifiques qui nous permettent de realiser plusieurs repas africains, europeens, exotiques et des barbecues. </p>
     </div>
  </div>
 
 <div class="container" style="margin-top: 50px;" id="receipts">
-   
+
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
@@ -26,71 +29,83 @@
         <div class="p-3 d-flex flex-column">
 
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/poulet DG.jpg')}}" style="width: 300px ; height:250px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    POULET DG
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                  </div>
-                 
+
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
+                    <b>Préparation</b> : 20 min <br>
+                    <b>Cuisson</b> : 40 à 45 min
+                </p>
             </div>
-           
+
 
         </div>
         <div class="p-3 d-flex flex-column">
-            
+
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/Folon.png')}}" style="width: 300px; height:260px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    FOLON Sauté
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                  </div>
-                 
+
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
+                    <b>Préparation</b> : 30 min <br>
+                    <b>Cuisson</b> :  45 min
+                </p>
             </div>
-        
+
         </div>
-        
+
         <div class="p-3 d-flex flex-column">
-            
+
             <div class="p-1">
-                 <img src="{{ asset('images/recette1.jpg')}}" style="width: 300px"  alt="">
+                 <img src="{{ asset('images/maquereau grille.jpg')}}" style="width: 300px; height:250px"  alt="">
             </div>
 
             <div class="p-1 d-flex flex-row justify-content-between align-items-center">
                  <div class="fs-5 fw-bold">
-                    Poulet roti à l'orange
+                    Maquereau grillé et purée de patate
                  </div>
                  <div>
                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                  </div>
-                 
+
             </div>
 
             <div class="p-1">
-                 <p style="width: 300px;" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                <p style="width: 300px;" class="fs-6 fw-normal">
+                    <b><i style="color: #c70609">Pour 4 personnes</i></b> <br>
+                    <b>Préparation</b> : 20 min <br>
+                    <b>Cuisson</b> : 40 min
+                </p>
             </div>
-        
+
         </div>
 
     </div>
- 
+
 
     <div class="horizontal-line-receipt"></div>
 
@@ -100,71 +115,79 @@
 
     <div class="container" >
 
-    
+
 
     <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
             <h1 class="ms-2"> Cuisine Africaine</h1>
     </div>
 
-    
+
     <div class="row">
 
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/fufu.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Fufu & sauce pistache
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 5 personnes</i></b> <br>
+                        <b>Préparation</b> : 45 min <br>
+                        <b>Cuisson</b> :30 min
+                    </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/rizsaute.png')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Riz cantonais
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 2 personnes</i></b> <br>
+                        <b>Préparation</b> : 15 min <br>
+                        <b>Cuisson</b> : 30 min
+                    </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/pouletsauceverte.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Poulet à la sauce verte
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -172,21 +195,25 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 3 personnes</i></b> <br>
+                        <b>Préparation</b> : 20 min <br>
+                        <b>Cuisson</b> : 40 min
+                    </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
+                    <img src="{{ asset('images/boulettes.jpg')}}" style="width:100%; height:250px"  alt="">
                 </div>
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
+                        Boulettes de viandes
                     </div>
                     <div class="col-3 text-end" >
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -194,9 +221,13 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width: 300px;" class="fs-6 fw-normal">
+                        <b><i style="color: #c70609">Pour 6 personnes</i></b> <br>
+                        <b>Préparation</b> : 30 min <br>
+                        <b>Cuisson</b> : 40 min
+                    </p>
                 </div>
-        
+
 
         </div>
 
@@ -219,8 +250,8 @@
      <div class="row">
 
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -233,17 +264,17 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -256,16 +287,16 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -280,14 +311,14 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -302,9 +333,9 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
 
@@ -327,8 +358,8 @@
      <div class="row">
 
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -341,17 +372,17 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -364,16 +395,16 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -388,14 +419,14 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -410,9 +441,9 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
 
@@ -434,8 +465,8 @@
      <div class="row">
 
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -448,17 +479,17 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -471,16 +502,16 @@
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
                     </div>
                 </div>
-                
+
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -495,14 +526,14 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
         <div class="col-md-3">
-         
-            
+
+
                 <div class="p-1">
                     <img src="{{ asset('images/recette1.jpg')}}" style="width:100%"  alt="">
                 </div>
@@ -517,9 +548,9 @@
                 </div>
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                 </div>
-        
+
 
         </div>
 
@@ -536,7 +567,7 @@
             <div class="vertical-line align-middle"></div>
             <h1 class="ms-2"> Recettes les plus consultées</h1>
     </div>
-    
+
      <!-- START CAROUSSEL Top Receipts MOBILE -->
     <div id="carouselTopReceipts" class="carousel slide" data-bs-ride="carousel">
 
@@ -562,7 +593,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -588,7 +619,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -614,7 +645,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -666,7 +697,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -692,7 +723,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -718,7 +749,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -770,7 +801,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -796,7 +827,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -822,7 +853,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -874,7 +905,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -900,7 +931,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -926,7 +957,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -978,7 +1009,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -1004,7 +1035,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 
@@ -1030,7 +1061,7 @@
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p> 
+                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
                             </div>
                         </div>
 

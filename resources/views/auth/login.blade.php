@@ -1,47 +1,110 @@
-<x-guest-layout>
-    <!-- Session Status -->
-    <x-auth-session-status class="mb-4" :status="session('status')" />
+<!DOCTYPE html>
+<html lang="en">
 
-    <form method="POST" action="{{ route('login') }}">
-        @csrf
+<head>
+    <meta charset="utf-8">
+    <title>Connexion: Secret Spices</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="A fully featured admin theme which can be used to build CRM, CMS, etc." name="description">
+    <meta content="Coderthemes" name="author">
 
-        <!-- Email Address -->
-        <div>
-            <x-input-label for="email" :value="__('Email')" />
-            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autofocus autocomplete="username" />
-            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Theme Config Js -->
+    <script src="{{ asset('admin/assets/js/hyper-config.js') }}"></script>
+    <script src="{{ asset('css/added-style.css') }}"></script>
+    <!-- App css -->
+    <link href="{{ asset('admin/assets/css/app-saas.min.css') }}" rel="stylesheet" type="text/css" id="app-style">
+
+    <!-- Icons css -->
+    <link href="{{ asset('admin/assets/css/icons.min.css') }}" rel="stylesheet" type="text/css">
+</head>
+
+<body class="authentication-bg pb-0">
+
+    <div class="auth-fluid">
+        <!--Auth fluid left content -->
+        <div class="auth-fluid-form-box">
+            <div class="card-body d-flex flex-column h-100 gap-3">
+
+                <!-- Logo -->
+                <div class="auth-brand text-center text-lg-start">
+                    <a href="{{ route('homepage') }}" class="logo-dark">
+                        <span><img src="{{ asset('images/logo secret.jpg') }}" alt="dark logo" height="72"></span>
+                    </a>
+                    <a href="{{ route('homepage') }}" class="logo-light">
+                        <span><img src="{{ asset('images/logo secret.jpg') }}" alt="logo" height="22"></span>
+                    </a>
+                </div>
+
+                <div class="my-auto">
+                    <!-- title-->
+                    <h4 class="mt-0">Connexion</h4>
+                    <p class="text-muted mb-4">Saisissez votre adresse électronique et votre mot de passe pour accéder à votre compte.</p>
+
+                    <!-- form -->
+                    <form action="{{ route('login') }}" method="POST">
+                        @csrf
+                        <div class="mb-3">
+                            <label for="emailaddress" class="form-label">Email address</label>
+                            <input class="form-control" type="email" name="email" id="emailaddress" required="" placeholder="Enter your email">
+                        </div>
+                        @error('email')
+                        <span style="color:red">{{ $message }}</span>
+                        @enderror
+                        <div class="mb-3">
+                            {{-- <a href="{{ route() }}" class="text-muted float-end"><small>Forgot your password?</small></a> --}}
+                            <label for="password" class="form-label">Password</label>
+                            <input class="form-control" name="password" type="password" required="" id="password" placeholder="Enter your password">
+                        </div>
+                        @error('password')
+                        <span style="color:red">{{ $message }}</span>
+                        @enderror
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="checkbox-signin">
+                                <label class="form-check-label" for="checkbox-signin">Remember me</label>
+                            </div>
+                        </div>
+                        <div class="d-grid mb-0 text-center">
+                            <button class="btn bag-primary text-white" style="background-color: #c70609;" type="submit"><i class="mdi mdi-login"></i> Connexion</button>
+                        </div>
+                        <!-- social-->
+
+                    </form>
+                    <!-- end form-->
+                </div>
+
+                <!-- Footer-->
+                {{-- <footer class="footer footer-alt">
+                    <p class="text-muted">Vous n'aviez pas de compte? <a href="pages-register-2.html.htm" class="text-muted ms-1"><b>S'</b></a></p>
+                </footer> --}}
+
+            </div> <!-- end .card-body -->
         </div>
+        <!-- end auth-fluid-form-box-->
 
-        <!-- Password -->
-        <div class="mt-4">
-            <x-input-label for="password" :value="__('Password')" />
+        <!-- Auth fluid right content -->
+        {{-- <div class="auth-fluid-right text-center">
+            <div class="auth-user-testimonial">
+                <h2 class="mb-3">I love the color!</h2>
+                <p class="lead"><i class="mdi mdi-format-quote-open"></i> It's a elegent templete. I love it very much! . <i class="mdi mdi-format-quote-close"></i>
+                </p>
+                <p>
+                    - Hyper Admin User
+                </p>
+            </div> <!-- end auth-user-testimonial-->
+        </div> --}}
+        <!-- end Auth fluid right content -->
+    </div>
+    <!-- end auth-fluid-->
+    <!-- Vendor js -->
+    <script src="{{ asset('admin/assets/js/vendor.min.js') }}"></script>
 
-            <x-text-input id="password" class="block mt-1 w-full"
-                            type="password"
-                            name="password"
-                            required autocomplete="current-password" />
+    <!-- App js -->
+    <script src="{{ asset('admin/assets/js/app.min.js') }}"></script>
 
-            <x-input-error :messages="$errors->get('password')" class="mt-2" />
-        </div>
+</body>
 
-        <!-- Remember Me -->
-        <div class="block mt-4">
-            <label for="remember_me" class="inline-flex items-center">
-                <input id="remember_me" type="checkbox" class="rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500" name="remember">
-                <span class="ml-2 text-sm text-gray-600">{{ __('Remember me') }}</span>
-            </label>
-        </div>
-
-        <div class="flex items-center justify-end mt-4">
-            @if (Route::has('password.request'))
-                <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
-                    {{ __('Forgot your password?') }}
-                </a>
-            @endif
-
-            <x-primary-button class="ml-3">
-                {{ __('Log in') }}
-            </x-primary-button>
-        </div>
-    </form>
-</x-guest-layout>
+</html>
