@@ -19,7 +19,7 @@
     <title>@yield('title')</title>
 
     <!-- FAVICON AND TOUCH ICONS -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }} " type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="120x120" href="images/apple-touch-icon-120x120.png">
@@ -36,11 +36,6 @@
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
-
-    <!-- FONT ICONS -->
-    <link href="{{ asset('releases/v5.11.0/css/all.css')}}" rel="stylesheet" crossorigin="anonymous">
-    <link href="{{ asset('css/flaticon.css')}}" rel="stylesheet">
-
     <!-- PLUGINS STYLESHEET -->
     <link href="{{ asset('css/menu.css')}}" rel="stylesheet">
     <link href="{{ asset('css/magnific-popup.css')}}" rel="stylesheet">
@@ -56,6 +51,23 @@
     <!-- RESPONSIVE CSS -->
     <link href="{{ asset('css/responsive.css')}}" rel="stylesheet">
 
+
+    
+    
+   
+    <!-- Fontawesome CSS -->
+    <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
+    <!-- Flaticon CSS -->
+    <link rel="stylesheet" href="{{ asset('fonts-recipe/flaticon.css')}}">
+        <!-- FONT ICONS -->
+    <link href="{{ asset('releases/v5.11.0/css/all.css')}}" rel="stylesheet" crossorigin="anonymous">
+    <link href="{{ asset('css/flaticon.css')}}" rel="stylesheet">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="{{ asset('css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/owl.theme.default.min.css')}}">
+
+    <!-- Modernizr Js -->
+    <script src="{{ asset('js-recipe/modernizr-3.6.0.min.js')}}"></script>
 </head>
 
 
@@ -109,7 +121,7 @@
     <script src="{{ asset('js/menu.js')}} "></script>
     <script src="{{ asset('js/materialize.js')}}"></script>
     <script src="{{ asset('js/jquery.flexslider.js')}}"></script>
-    <script src="{{ asset('js/owl.carousel.min.js')}}"></script>
+
     <script src="{{ asset('js/jquery.magnific-popup.min.js')}} "></script>
     <script src="{{ asset('js/contact-form.js')}} "></script>
     <script src="{{ asset('js/comment-form.js')}}"></script>
@@ -141,11 +153,6 @@
 			})();
 		</script>
 		-->
-
-
-
-    <script defer="" src="{{ asset('js/changer.js')}}"></script>
-
 
 
 </body>

@@ -82,7 +82,7 @@
 
 		                            <button class="search-button">
 
-		                                <img class="search-icon" src="images/icons/search-icon-red.svg" alt="">
+		                                <img class="search-icon" src="{{ asset('images/icons/search-icon-red.svg')}} " alt="">
 
 		                                <div class="tooltip">
 		                                    {{ __('Rechercher') }}
@@ -96,7 +96,7 @@
 
 		                    <li id="language-section">
 		                        <a href="cart.html">
-		                            <img class="lang" src="images/languages/{{$current_locale}}.png" alt="">
+		                            <img class="lang" src="{{ asset('images/languages/'.$current_locale.'.png')}} " alt="">
 
 		                        </a>
 		                        <ul>
@@ -104,7 +104,7 @@
 		                                <a href="lang/fr">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/fr.png" alt="">
+		                                            <img class="lang-select" src="{{ asset('images/languages/fr.png')}} " alt="">
 		                                        </div>
 
 		                                        <div class="p-2">
@@ -118,7 +118,7 @@
 		                            <li><a href="lang/en">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
-		                                            <img class="lang-select" src="images/languages/en.png" alt="">
+		                                            <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
 		                                        </div>
 
 		                                        <div class="p-2">
