@@ -52,6 +52,10 @@ Route::get('/details/recettes',function(){
 return view('details-recipes');
 })->name('details.recipes');
 
+Route::get('/single',function(){
+return view('single-recipe');
+})->name('single-recipe');
+
 Route::get('/about', function(){
     return view('about');
 })->name('about');
