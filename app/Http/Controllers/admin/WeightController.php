@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
+use App\Http\Controllers\Controller;
 use App\Http\Requests\WeightRequest;
 use App\Models\Weight;
 use Illuminate\Http\Request;
@@ -32,7 +33,7 @@ class WeightController extends Controller
         $weight=new Weight;
         $weight->weight_name=$request->weight_name;
 
-        return to_route('weight.index')->with('success',"Gamme enregistré avec success");;
+        return to_route('weight.index')->with('success',"Gamme enregistré avec success");
     }
 
     /**
@@ -40,7 +41,7 @@ class WeightController extends Controller
      */
     public function show(string $id)
     {
-        //
+
     }
 
     /**
@@ -63,7 +64,7 @@ class WeightController extends Controller
             'weight_name' => $request->weight_name,
         ]);
 
-        return to_route('weight.index')->with('success',"Gamme Mise a jour avec success");;
+        return to_route('weight.index')->with('success',"Gamme Mise a jour avec success");
     }
 
     /**
