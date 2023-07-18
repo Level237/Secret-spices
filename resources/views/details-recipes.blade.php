@@ -1,11 +1,39 @@
 @extends('layouts.app')
 @section('title', __('Detail Recette'))
 @section('content')
+ <!-- PAGE HERO
+	============================================= -->	
+	<div id="contacts-page" class="page-hero-section division">
+			<div class="container">	
+					<div class="row">	
+						<div class="col-lg-10 offset-lg-1">
+							<div class="hero-txt text-center white-color">
 
+								<!-- Breadcrumb -->
+								<div id="breadcrumb">
+									<div class="row">						
+										<div class="col">
+											<div class="breadcrumb-nav">
+												<nav aria-label="breadcrumb">
+												  	<ol class="breadcrumb">
+												    	<li class="breadcrumb-item"><a href="{{ route('homepage') }}">{{ __('Accueil') }}</a></li>
+												    	<li class="breadcrumb-item active" aria-current="page">{{ __('Détail recette') }}</li>
+												  	</ol>
+												</nav>
+											</div>
+										</div>
+									</div> 
+								</div>
+
+								<!-- Title -->
+								<h2 class="h2-xl">{{ __('Nous Contacter') }}</h2>
+
+							</div>
+						</div>	
+					</div>	  <!-- End row -->
+				</div>	   <!-- End container --> 
+	</div>	<!-- END PAGE HERO -->	
 <main>
-
-    <section style=" background-image: url({{ asset('images/recette1.jpg') }});background-size: cover;height: 300px;background-position: center;">
-    </section>
 
     <section class="container mt-50">
 
