@@ -11791,53 +11791,7 @@ ul {
 /*=======================================================================
 15. Footer Css
 =========================================================================*/
-footer {
-  text-align: center;
-  color: #989898;
-}
 
-footer.ranna-bg-light {
-  background-color: #ffffff;
-  color: #646464;
-}
-
-footer.ranna-bg-dark {
-  background-color: #111111;
-  color: #989898;
-}
-
-
-.footer-menu ul li {
-  display: inline-block;
-  margin: 0 5px;
-  position: relative;
-}
-
-.footer-menu ul li:after {
-  position: absolute;
-  content: ".";
-  right: -7.5px;
-  bottom: 0;
-}
-
-.footer-menu ul li a {
-  display: block;
-  padding: 5px 25px;
-  color: #989898;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-.footer-menu ul li a:hover {
-  color: #c70609;
-}
-
-.footer-menu ul li:last-child:after {
-  display: none;
-}
 
 .lang {
   width: 25px;
@@ -11986,6 +11940,25 @@ footer.ranna-bg-dark {
 }
 
 .footer-text-secrets {
-  font-size: 20px; 
+  font-size: 17px; 
   font-weight:700;
+}
+
+.footer-copyright {
+  text-align: center;
+}
+
+@media screen and (max-width: 1365px) {
+
+
+
+  #logo-secret-header,#language-section, #search-bar{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+ 
 }
