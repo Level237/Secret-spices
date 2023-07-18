@@ -11,7 +11,7 @@
     <div class="d-flex flex-row bd-highlight mb-5 align-items-center ">
         <div class="p-2 bd-highlight center-gamut1"><i class="fas fa-angle-right fs-4" style="color: #c70609"> 35 Gr</i> </div>
         <div class="p-2 bd-highlight"><i class="fas fa-angle-right fs-4" style="color: #c70609"></i></div>
-        <div class="p-2 bd-highlight"><h1>Epice Poulet</h1></div>
+        <div class="p-2 bd-highlight"><h1>{{ __('Epice Poulet') }}</h1></div>
     </div>
 
     <div class="row align-items-center" style="margin-top:50px;">
@@ -32,45 +32,47 @@
                         </div>
                 </div>
                 <div class="row">
-                    <h1>Secret<br> Epices Poulet 35 Gr</h1>
+                    <h1>Secret<br> {{ __('Epice Poulet 35 Gr') }}</h1>
                 </div>
 
             <div class="accordion" id="accordionExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingOne">
                     <button class="accordion-button" style="background-color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Présentation
+                        {{ __('Présentation') }}
                     </button>
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>Utilisé pour l’assaisonnement des volailles et viandes blanches, la sauce pour
-                            poulet relève parfaitement le goût de vos plats tout en leur donnant une
-                            saveur et un arôme qui vous feront saliver de bonheur.</strong>  <code></code>
+                        <strong>
+
+                            {{ __('Utilisé pour l’assaisonnement des volailles et viandes blanches, la sauce pour poulet relève parfaitement le goût de vos plats tout en leur donnant une saveur et un arôme qui vous feront saliver de bonheur.') }}
+
+                        </strong>
                     </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingTwo">
                     <button class="accordion-button collapsed" style="background-color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Valeurs nutritionnelles
+                         {{ __('Valeurs nutritionnelles') }}
                     </button>
                     </h2>
                     <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>les epices vous apportent des complement en Protéine, Sodium, Énergie</strong> .
+                        <strong>{{ __('les epices vous apportent des complement en Protéine, Sodium, Énergie') }}</strong> .
                     </div>
                     </div>
                 </div>
                 <div class="accordion-item">
                     <h2 class="accordion-header" id="headingThree">
                     <button class="accordion-button collapsed" style="background-color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Ingrédients
+                         {{ __('Ingrédients') }}
                     </button>
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body" style="background-color:#fde0a5;">
-                        <strong>Ail, Oignon, Njansan, Poivre blanc de Penja, Céléri.</strong>  <code></code>,
+                        <strong>{{ __('Ail, Oignon, Njansan, Poivre blanc de Penja, Céléri.') }}</strong>  <code></code>,
                     </div>
                     </div>
                 </div>
@@ -79,7 +81,7 @@
             <div class="row" style="margin-top:30px">
                 <h2 class="horizontal-line-one"></h2>
                 <div class="row">
-                    <h4>Idées de recette avec cette épice</h4>
+                    <h4>{{ __('Idées de recette avec cette épice') }}</h4>
                 </div>
             </div>
             <div class="row" style="margin-top:10px">
@@ -125,7 +127,7 @@
     <div class="row" style="margin-top:30px;">
         <div class="d-flex flex-row mb-3 mt-3">
             <div class="vertical-line align-middle"></div>
-            <h3 class="ms-2"> Autres Epices de la même Gamme</h3>
+            <h3 class="ms-2">{{ __('Autres Epices de la même Gamme') }} </h3>
         </div>
     </div>
 
@@ -436,7 +438,7 @@
                     <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
-        
+
     </div>
 </section>
 
