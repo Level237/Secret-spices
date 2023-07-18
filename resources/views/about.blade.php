@@ -111,13 +111,16 @@
 
     <div style="margin-bottom: 50px;"></div>
     <section style="margin-top:60px">
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/spices1.jpg" style="max-height: 600px" class="d-block w-100" alt="...">
-            </div>
+    <div class="container-fluid mt-40">
+    <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
+         <div class="col-8">
+             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
+                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+            </video>
         </div>
+        
     </div>
+</div>
 </section>
 
 
