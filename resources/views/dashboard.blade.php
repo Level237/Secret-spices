@@ -42,10 +42,10 @@
                         <!-- Logo light -->
                         <a href="index.html.htm" class="logo-light">
                             <span class="logo-lg">
-                                <img src="assets/images/logo.png" alt="logo">
+                                <img src="{{ asset('images/logo secret bg.png')  }}" alt="logo">
                             </span>
                             <span class="logo-sm">
-                                <img src="assets/images/logo-sm.png" alt="small logo">
+                                <img src="{{ asset('images/logo secret.jpg')  }}" alt="small logo">
                             </span>
                         </a>
 
@@ -387,10 +387,10 @@
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle arrow-none nav-user px-2" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                             <span class="account-user-avatar">
-                                <img src="assets/images/users/avatar-1.jpg" alt="user-image" width="32" class="rounded-circle">
+                                <img src="{{ asset('admin/assets/images/users/avatar-1.jpg') }}" alt="user-image" width="32" class="rounded-circle">
                             </span>
                             <span class="d-lg-flex flex-column gap-1 d-none">
-                                <h5 class="my-0">Dominic Keller</h5>
+                                <h5 class="my-0">{{ auth()->user()->name }}</h5>
                                 <h6 class="my-0 fw-normal">Founder</h6>
                             </span>
                         </a>
