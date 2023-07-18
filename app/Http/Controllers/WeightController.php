@@ -32,7 +32,7 @@ class WeightController extends Controller
         $weight=new Weight;
         $weight->weight_name=$request->weight_name;
 
-        return to_route('weight.create');
+        return to_route('weight.index')->with('success',"Gamme enregistré avec success");;
     }
 
     /**
@@ -56,9 +56,14 @@ class WeightController extends Controller
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(WeightRequest $request, string $id)
     {
-        //
+        $weight=Weight::find($id);
+        $weight->update([
+            'weight_name' => $request->weight_name,
+        ]);
+
+        return to_route('weight.index')->with('success',"Gamme Mise a jour avec success");;
     }
 
     /**
@@ -66,6 +71,9 @@ class WeightController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $weight=Weight::find($id);
+        $weight->delete();
+
+        return back()->with('fail',"Gamme suprimé avec success");
     }
 }
