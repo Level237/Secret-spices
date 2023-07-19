@@ -63,7 +63,7 @@
                 <div class="container">                    
                     <div class="row">
                         <div class="col-lg-8 col-md-3 col-sm-4 col-4 possition-static d-flex flex-row">
-                            <div class="p-2" style="margin-left: -50px" id="logo-secret-header">
+                            <div class="p-2" style="margin-left: -75px" id="logo-secret-header">
                                 <a href="{{ route('homepage')}}" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" style="width: 160px" alt="Site Logo"></a>
                             </div>
                             

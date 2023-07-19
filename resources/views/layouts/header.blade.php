@@ -32,7 +32,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
+		                    <li><a href="/product" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
 		                        <ul>
 		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
 		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
