@@ -63,21 +63,22 @@
                 <div class="container">                    
                     <div class="row">
                         <div class="col-lg-8 col-md-3 col-sm-4 col-4 possition-static d-flex flex-row">
-                            <div class="p-2" style="margin-left: -75px">
-                                <a href="index.html.htm" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" style="width: 160px" alt="Site Logo"></a>
+                            <div class="p-2" style="margin-left: -75px" id="logo-secret-header">
+                                <a href="{{ route('homepage')}}" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" style="width: 160px" alt="Site Logo"></a>
                             </div>
-                             
+                            
+                            
                             <div class="site-logo-mobile">
-                                <a href="index.html.htm" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
-                                <a href="index.html.htm" class="sticky-logo-dark"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
+                                <a href="{{ route('homepage') }}" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
+                                <a href="{{ route('homepage') }}" class="sticky-logo-dark"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
                             </div>
 
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu" style="margin-left:50px">
                                     <li ><a href="#" > <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="index.html.htm">Home 1</a></li>
-                                            <li><a href="index2.html.htm">Home 2</a></li>
+                                            <li><a href="{{ route('homepage') }}">Home 1</a></li>
+                                            <li><a href="{{ route('homepage') }}">Home 2</a></li>
                                         </ul>
                                     </li>
                                     
@@ -198,6 +199,9 @@
     
       
         <!-- Single Recipe Main Banner Area Start Here -->
+        <div style="margin-top: 90px">
+
+                            </div>
         <section class="single-recipe-main-banner">
             <div class="rc-carousel nav-control-layout4" data-loop="true" data-items="5" data-margin="5" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="1" data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="1" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="1" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="1" data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="1" data-r-extra-large-nav="true" data-r-extra-large-dots="false">
                 <div class="item-figure">
@@ -241,7 +245,8 @@
                                 </ul>
                             </li>
                             <li class="single-meta"><a href="#"><i class="fas fa-heart"></i><span>02</span>
-                                    Likes</a></li>
+                                    Likes</a>
+                            </li>
                         </ul>
                         <ul class="action-item">
                             <li><button><i class="fas fa-print"></i></button></li>
@@ -267,7 +272,7 @@
                                             <i class="far fa-clock"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">PREP TIME</div>
+                                            <div class="feature-title">TEMPS PREP</div>
                                             <div class="feature-sub-title">45 Mins</div>
                                         </div>
                                     </div>
@@ -280,7 +285,7 @@
                                             <i class="fas fa-utensils"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">COOK TIME</div>
+                                            <div class="feature-title">TEMPS CUISSON</div>
                                             <div class="feature-sub-title">45 Mins</div>
                                         </div>
                                     </div>
@@ -293,8 +298,8 @@
                                             <i class="fas fa-users"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">SERVING</div>
-                                            <div class="feature-sub-title">10 People</div>
+                                            <div class="feature-title">SERVICE</div>
+                                            <div class="feature-sub-title">10 Têtes</div>
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +311,7 @@
                                             <i class="far fa-eye"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">VIEWS</div>
+                                            <div class="feature-title">VUES</div>
                                             <div class="feature-sub-title">3,450</div>
                                         </div>
                                     </div>
@@ -651,7 +656,7 @@
         <!-- Single Recipe Without Sidebar Area End Here -->
         <!-- Instagram Start Here -->
         <section class="instagram-feed-wrap">
-            <div class="instagram-feed-title"><a href="#"><i class="fab fa-instagram"></i>Follow On Instagram</a></div>
+            <div class="instagram-feed-title"><a href="#"><i class="fab fa-instagram"></i>Suivre Sur Instagram</a></div>
             <ul class="instagram-feed-figure">
                 <li>
                     <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
@@ -703,18 +708,18 @@
 			        <div class="align-self-center p-2" >
 			            <div class="d-flex flex-column " >
 			                <a href="{{ route('about') }}" class="text-white">
-			                    <div class=""><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
+			                    <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('A Propos') }}</div>
 			                </a>
-			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
-							<div class=""><i class="fas fa-angle-right"></i> {{ __('Données personnelles') }}</div>
+			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions légales') }}</div>
+							<div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Données personnelles') }}</div>
 			            </div>
 			        </div>
 			        <div class="align-self-center p-2 ">
 			            <div class="d-flex flex-column">
-			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
-			                <div class=""><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
+			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions sanitaires') }}</div>
+			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Évènements') }}</div>
 							<a href="{{ route('contact') }}" class="text-white">
-			                	<div class=""><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
+			                	<div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Nous Contacter') }}</div>
 							</a>
 			            </div>
 			        </div>
@@ -727,16 +732,16 @@
 			        </div>
 			        <div class="col">
 			            <a href="#" class="ico-facebook text-white"><i class="fab  fa-facebook-f"></i></a>
-			            <a href="#" class="ico-instagram"><i class="fab fa-instagram"></i></a>
+			            <a href="#" class="ico-instagram text-white"><i class="fab fa-instagram"></i></a>
 			        </div>
 			    </div>
 
 			    <div class="container-fluid">
-			        <div class="row">
+			        <div class="row align-items-center">
 			            <div class="blocfooter">
-			                <div class="col-md-12">
+			                <div class="col-md-12 ">
 			                    <!-- FOOTER COPYRIGHT -->
-			                    <div class="footer-copyright fs-4 fw-bold">
+			                    <div class="footer-copyright fs-3 fw-bold">
 			                        <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
 			                    </div>
 			                </div>

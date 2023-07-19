@@ -613,3 +613,9 @@ i{
         height: 66px;
     }
 }
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}

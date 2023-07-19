@@ -38,8 +38,9 @@
                             <a href="{{ route('health-information') }}" class="text-white">
                                 <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
                             </a>
-
-			                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
+							<a href="{{ route('event') }}" class="text-white">
+			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
+							</a>
 							<a href="{{ route('contact') }}" class="text-white">
 			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
 							</a>

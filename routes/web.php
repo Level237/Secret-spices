@@ -1,8 +1,10 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\WeightController;
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\ProfileController;
-use App\Http\Controllers\WeightController;
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Facades\Route;
 
@@ -40,6 +42,8 @@ Route::middleware('auth','admin')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('weight',WeightController::class);
+    Route::resource('product',ProductController::class);
+    Route::resource('category',CategoryController::class);
 });
 
 require __DIR__.'/auth.php';
@@ -71,6 +75,14 @@ Route::get('/health-information', function(){
 Route::get('/personnal-data', function(){
     return view('personnal-data');
 })-> name('personnal-data');
+
+Route::get('/blog', function(){
+    return view('blog');
+})-> name('blog');
+
+Route::get('/event', function(){
+    return view('event');
+})-> name('event');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
 Route::get('contact', function(){
