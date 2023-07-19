@@ -78,6 +78,10 @@ Route::get('/blog', function(){
     return view('blog');
 })-> name('blog');
 
+Route::get('/event', function(){
+    return view('event');
+})-> name('event');
+
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
 Route::get('contact', function(){
     return view('contact');

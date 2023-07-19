@@ -67,7 +67,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
+		                    <li><a href="{{ route('event') }}" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
 
 		                    </li>
 

@@ -994,9 +994,5 @@
 
             </div>
         </section>
-        <section>
-
-
-        </section> <!-- END BLOG-1 -->
 
         @endsection
