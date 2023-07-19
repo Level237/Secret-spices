@@ -72,7 +72,7 @@
 		                    </li>
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="#" style="font-size: 16px; color:white">Blog</a>
+		                    <li><a href="{{ route('blog')}}" style="font-size: 16px; color:white">Blog</a>
 
 		                    </li>
 
