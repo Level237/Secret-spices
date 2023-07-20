@@ -11,7 +11,7 @@
     <div class="margin-space">
 
         <div class="row mb-3">
-            <h1 style="color:#c70609"> Mentions Legales</h1>
+            <h1 style="color:#c70609"> Mentions Sanitaires</h1>
         </div>
 
         <div class="row margin-space">
@@ -48,19 +48,18 @@
 
 
 
-    <div style="margin-bottom: 50px;"></div>
-    <section style="margin-top:60px">
-    <div class="container-fluid mt-40">
-    <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
-         <div class="col-8">
-             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
-                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
-            </video>
-        </div>
+ <div style="margin-bottom: 50px;"></div>
+ <section style="margin-top:60px">
+ <div class="container-fluid mt-40">
+ <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
+      <div class="col-8">
+          
+     </div>
 
-    </div>
+ </div>
 </div>
-</section>
+</section>  
+
 
 
 
