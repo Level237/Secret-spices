@@ -41,7 +41,13 @@
     <!-- Daterangepicker js -->
     <script src="{{ asset('admin/assets/vendor/moment/min/moment.min.js') }}"></script>
     <script src="{{asset('admin/assets/vendor/daterangepicker/daterangepicker.js')}}"></script>
+    <script src="{{ asset('admin/assets/vendor/dropzone/min/dropzone.min.js') }}"></script>
 
+    <script src="{{ asset('admin/assets/vendor/highlightjs/highlight.pack.min.js') }}"></script>
+    <script src="{{ asset('admin/assets/vendor/clipboard/clipboard.min.js') }}"></script>
+    <script src="{{asset('admin/assets/js/hyper-syntax.js')}}"></script>
+    <!-- File Upload Demo js -->
+    <script src="{{ asset('admin/assets/js/ui/component.fileupload.js') }}"></script>
     <!-- Apex Charts js -->
     <script src="{{ asset('admin/assets/vendor/apexcharts/apexcharts.min.js') }}"></script>
 

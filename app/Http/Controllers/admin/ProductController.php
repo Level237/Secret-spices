@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProductRequest;
+use App\Models\Image;
 use App\Models\Product;
 use App\Models\Weight;
 use Illuminate\Http\Request;
@@ -38,7 +39,13 @@ class ProductController extends Controller
         $product->product_description=$request->product_description;
         $product->weight_id=$request->weight_id;
 
+
         if($product->save()){
+            $image_path = $request->file('path')->store('products', 'public');
+            $image=new Image;
+            $image->path=$image_path;
+
+            $product->images()->save($image);
             return to_route('admin.product.index')->with('success',"Produit enregistré avec success");
         }else{
             return to_route('admin.product.index')->with('fail',"Une erreur s'est produite");

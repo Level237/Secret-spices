@@ -31,7 +31,7 @@ Ajouter un Produit
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.product.store') }}" method="post">
+                            <form action="{{ route('admin.product.store') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom du Produit</label>
@@ -51,6 +51,13 @@ Ajouter un Produit
                                         @endforeach
                                     </select>
                                 </div>
+
+                                <div class="fallback mb-4">
+                                    <input name="path" type="file" />
+                                </div>
+
+
+
 
                                 <button type="submit" class="btn bag-primary text-white" style="background-color: #c70609">Enregistrer</button>
                             </form>
