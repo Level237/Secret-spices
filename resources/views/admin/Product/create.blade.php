@@ -46,11 +46,9 @@ Ajouter un Produit
                                 <div class="mb-3">
                                     <label for="example-select" class="form-label">Grammage Produit</label>
                                     <select class="form-select" name="weight_id" id="example-select">
-                                        <option>1</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                        @foreach ($weights as $weight)
+                                        <option value={{$weight->weight_name}}>{{$weight->weight_name}} g</option>
+                                        @endforeach
                                     </select>
                                 </div>
 

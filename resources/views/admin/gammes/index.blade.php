@@ -46,10 +46,26 @@ Ajouter une Gamme de produit
 
                             <div class="table-responsive">
 
+                                @if(Session::get("success"))
+                                <div class="alert alert-primary" role="alert">
+
+                                </div>
                                 <div class="alert alert-success alert-dismissible text-bg-success border-0 fade show" role="alert">
                                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
-                                    <strong>Success - </strong> A simple success alert—check it out!
+                                    <strong>{{ Session::get("success") }}</strong>
                                 </div>
+                                @endif
+
+                                @if(Session::get("fail"))
+                                <div class="alert alert-danger" role="alert">
+
+                                </div>
+                                <div class="alert alert-success alert-dismissible text-bg-success border-0 fade show" role="alert">
+                                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
+                                    <strong>{{ Session::get("fail") }}</strong>
+                                </div>
+                                @endif
+
                                 <table class="table table-centered w-100 dt-responsive nowrap" id="products-datatable">
                                     <thead class="table-light">
                                         <tr>

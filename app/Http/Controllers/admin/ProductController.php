@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\ProductRequest;
 use App\Models\Product;
+use App\Models\Weight;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
@@ -13,7 +15,8 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('admin.Product.index');
+        $products=Product::all();
+        return view('admin.Product.index',compact('products'));
     }
 
     /**
@@ -21,20 +24,26 @@ class ProductController extends Controller
      */
     public function create()
     {
-        return view('admin.Product.create');
+        $weights=Weight::all();
+        return view('admin.Product.create',compact('weights'));
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(ProductRequest $request)
     {
         $product=new Product;
         $product->product_name=$request->product_name;
         $product->product_description=$request->product_description;
         $product->weight_id=$request->weight_id;
 
-        return to_route('product.index')->with('success',"Produit enregistré avec success");
+        if($product->save()){
+            return to_route('admin.product.index')->with('success',"Produit enregistré avec success");
+        }else{
+            return to_route('admin.product.index')->with('fail',"Une erreur s'est produite");
+        }
+
     }
 
     /**
