@@ -31,12 +31,15 @@ Ajouter une Gamme
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.product.store') }}" method="post">
+                            <form action="{{ route('admin.weight.index') }}" method="post">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Gamme</label>
                                     <input type="text" id="simpleinput" name="weight_name" class="form-control">
                                 </div>
+                                @error('weight_name')
+                                <div style="color:#c70609">{{ $message }}</div>
+                                @enderror
 
                                 <button type="submit" class="btn bag-primary text-white" style="background-color: #c70609">Enregistrer</button>
                             </form>

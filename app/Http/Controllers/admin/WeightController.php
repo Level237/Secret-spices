@@ -14,7 +14,9 @@ class WeightController extends Controller
      */
     public function index()
     {
-        return view('admin.gammes.index');
+        $weights=Weight::all();
+        return view('admin.gammes.index',compact('weights'));
+
     }
 
     /**
@@ -32,8 +34,12 @@ class WeightController extends Controller
     {
         $weight=new Weight;
         $weight->weight_name=$request->weight_name;
+        if($weight->save()){
+            return to_route('admin.weight.index')->with('success',"Gamme enregistré avec success");
+        }else{
+            return to_route('admin.weight.index')->with('fail',"Une erreur s'est produite");
+        }
 
-        return to_route('weight.index')->with('success',"Gamme enregistré avec success");
     }
 
     /**
