@@ -33,7 +33,6 @@
     <!-- END wrapper -->
 
     <!-- Theme Settings -->
-    @yield('content')
 
     <!-- Vendor js -->
     <script src="{{ asset('admin/assets/js/vendor.min.js') }}"></script>
