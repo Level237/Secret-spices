@@ -12,13 +12,13 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('imagables', function (Blueprint $table) {
+        Schema::create('imageables', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(Image::class)
                 ->constrained()
                 ->onDelete('cascade')
                 ->onUpdate('cascade');
-            $table->morphs('imagable');
+            $table->morphs('imageable');
         });
     }
 
@@ -27,6 +27,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('imagables');
+        Schema::dropIfExists('imageables');
     }
 };
