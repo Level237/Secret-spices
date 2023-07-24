@@ -35,17 +35,17 @@ Ajouter un Produit
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom du Produit</label>
-                                    <input type="text" id="simpleinput" name="" class="form-control">
+                                    <input type="text" id="simpleinput" name="product_name" class="form-control">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="example-textarea" class="form-label">Description Produit</label>
-                                    <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                    <textarea class="form-control" id="example-textarea" name="product_description" rows="5"></textarea>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="example-select" class="form-label">Grammage Produit</label>
-                                    <select class="form-select" id="example-select">
+                                    <select class="form-select" name="weight_id" id="example-select">
                                         <option>1</option>
                                         <option>2</option>
                                         <option>3</option>
