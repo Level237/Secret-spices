@@ -17,7 +17,7 @@ Ajouter un Produit
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                                <li class="breadcrumb-item"><a href="{{ route('product.index') }}">Produits</a></li>
+                                <li class="breadcrumb-item"><a href="{{ route('admin.product.index') }}">Produits</a></li>
                                 <li class="breadcrumb-item active">Ajouter un Produit</li>
                             </ol>
                         </div>
@@ -31,11 +31,11 @@ Ajouter un Produit
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('product.store') }}" method="post">
+                            <form action="{{ route('admin.product.store') }}" method="post">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom du Produit</label>
-                                    <input type="text" id="simpleinput" class="form-control">
+                                    <input type="text" id="simpleinput" name="" class="form-control">
                                 </div>
 
                                 <div class="mb-3">

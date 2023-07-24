@@ -72,10 +72,10 @@
                     <div class="collapse" id="sidebarEcommerce">
                         <ul class="side-nav-second-level">
                             <li>
-                                <a href="apps-ecommerce-products.html.htm">Creer un Produit</a>
+                                <a href="{{ route('admin.product.create') }}">Creer un Produit</a>
                             </li>
                             <li>
-                                <a href="apps-ecommerce-products-details.html.htm">Listes des Produits</a>
+                                <a href="{{ route('admin.product.index') }}">Listes des Produits</a>
                             </li>
                         </ul>
                     </div>
