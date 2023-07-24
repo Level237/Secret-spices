@@ -22,9 +22,9 @@ Route::get('/', function () {
     return view('homepage');
 })->name('homepage');
 
-Route::get('/product', function () {
+Route::get('/products', function () {
     return view('product');
-})->name('product');
+})->name('products');
 
 Route::get('/product-detail', function(){
     return view('product-detail');
