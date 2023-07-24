@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\WeightController;
 use App\Http\Controllers\LangController;
@@ -42,6 +43,7 @@ Route::middleware('auth','admin')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('weight',WeightController::class);
     Route::resource('product',ProductController::class);
+    Route::resource('category',CategoryController::class);
 });
 
 require __DIR__.'/auth.php';

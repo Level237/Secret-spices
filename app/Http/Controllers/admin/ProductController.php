@@ -34,7 +34,7 @@ class ProductController extends Controller
         $product->product_description=$request->product_description;
         $product->weight_id=$request->weight_id;
 
-        return to_route('weight.index')->with('success',"Produit enregistré avec success");
+        return to_route('product.index')->with('success',"Produit enregistré avec success");
     }
 
     /**
@@ -75,6 +75,9 @@ class ProductController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        $product=Product::find($id);
+        $product->delete();
+
+        return back()->with('fail',"Produit suprimé avec success");
     }
 }
