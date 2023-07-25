@@ -121,7 +121,7 @@ Listes des Recettes
                                         @empty
                                         <tr>
                                             <div class="text-center">
-                                                Aucune Produit disponible
+                                                Aucune Recette disponible
                                             </div>
 
                                         </tr>
