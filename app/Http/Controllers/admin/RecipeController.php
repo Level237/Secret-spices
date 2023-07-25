@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
 use App\Models\Recipe;
 use Illuminate\Http\Request;
 
@@ -22,7 +23,8 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        return view('admin.Recipes.create');
+        $categories=Category::all();
+        return view('admin.Recipes.create',compact('categories'));
     }
 
     /**
@@ -30,7 +32,14 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $recipe=new Recipe;
+        $recipe->name_recipe=$request->name_recipe;
+        $recipe->category_id=$request->category_id;
+        $recipe->description_recipe=$request->description_recipe;
+        $recipe->time=$request->time;
+        $recipe->number_person=$request->number_person;
+
+
     }
 
     /**

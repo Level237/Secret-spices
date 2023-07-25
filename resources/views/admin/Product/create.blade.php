@@ -53,7 +53,7 @@ Ajouter un Produit
                                 </div>
 
                                 <div class="fallback mb-4">
-                                    <input name="path" type="file" />
+                                    <input name="path" class="form-control" type="file" multiple />
                                 </div>
 
 
