@@ -36,17 +36,17 @@ Ajouter une Recette
 
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom de la Recette</label>
-                                    <input type="text" id="simpleinput" name="product_name" class="form-control">
+                                    <input type="text" id="simpleinput" name="name_recipe" class="form-control">
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="example-textarea" class="form-label">Description de la Recette</label>
-                                    <textarea class="form-control" id="example-textarea" name="product_description" rows="5"></textarea>
+                                    <textarea class="form-control" id="example-textarea" name="description_recipe" rows="5"></textarea>
                                 </div>
 
                                 <div class="mb-3">
                                     <label for="example-select" class="form-label">Categorie</label>
-                                    <select class="form-select" name="weight_id" id="example-select">
+                                    <select class="form-select" name="category_id" id="example-select">
                                         @foreach ($categories as $category)
                                         <option value={{$category->id}}>{{$category->category_name}}</option>
                                         @endforeach
@@ -77,13 +77,22 @@ Ajouter une Recette
                     <div class="col-3">
                         <div class="card">
                             <div class="card-body">
-                                <h3 class="text-center">Ingredients</h3>
-                                <div class="mb-3">
-                                    <label for="simpleinput" class="form-label">Ingredients</label>
-                                    <input type="text" id="simpleinput" name="product_name" class="form-control">
 
+                                <div id="form">
+                                    <h3 class="text-center">Ingredients</h3>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Ingredients</label>
+                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Quantité</label>
+                                        <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
+
+                                    </div>
                                 </div>
-                                <button type="button" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Ingredient</button>
+
+                                <button type="button" onclick="addIngredient()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Ingredient</button>
                             </div>
                         </div>
                     </div>
@@ -119,4 +128,29 @@ Ajouter une Recette
     <!-- end Footer -->
 
 </div>
+
+<script>
+    let i = 0;
+
+    function addIngredient() {
+        i = i + 1;
+        const newDiv = document.createElement(`div`);
+        newDiv.setAttribute('id', `ingredient`);
+        const div = document.getElementById('form');
+        newDiv.innerHTML = `
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Ingredients</label>
+                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+
+                                    </div> <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Quantité</label>
+                                        <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
+
+                                    </div>`
+        div.appendChild(newDiv);
+
+
+    }
+
+</script>
 @endsection
