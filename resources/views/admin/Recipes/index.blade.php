@@ -110,6 +110,7 @@ Listes des Recettes
                                             </td>
                                             <td>
                                                 {{ $recipe->number_person }}
+
                                             </td>
 
                                             <td class="table-action">
