@@ -70,7 +70,7 @@ class WeightController extends Controller
             'weight_name' => $request->weight_name,
         ]);
 
-        return to_route('weight.index')->with('success',"Gamme Mise a jour avec success");
+        return to_route('admin.weight.index')->with('success',"Gamme Mise a jour avec success");
     }
 
     /**

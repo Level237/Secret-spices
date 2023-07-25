@@ -31,17 +31,18 @@ Edition Gamme de produit
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.weight.store') }}" method="post">
+                            <form action="{{ route('admin.weight.update',$weight->id) }}" method="post">
                                 @csrf
+                                @method('PUT')
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Gamme</label>
-                                    <input type="text" id="simpleinput" name="weight_name" class="form-control">
+                                    <input type="text" id="simpleinput" name="weight_name" value="{{ $weight->weight_name }}" class="form-control">
                                 </div>
                                 @error('weight_name')
                                 <div style="color:#c70609">{{ $message }}</div>
                                 @enderror
 
-                                <button type="submit" class="btn bag-primary text-white" style="background-color: #c70609">Enregistrer</button>
+                                <button type="submit" class="btn bag-primary text-white" style="background-color: #c70609">Mettre à Jour</button>
                             </form>
 
                         </div> <!-- end card-body -->

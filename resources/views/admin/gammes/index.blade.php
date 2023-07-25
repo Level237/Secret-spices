@@ -1,6 +1,6 @@
 @extends('layouts.admin.app')
 @section('title')
-Ajouter une Gamme de produit
+Listes des Gammes
 @endsection
 
 @section('content')
