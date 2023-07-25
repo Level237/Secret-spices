@@ -252,7 +252,7 @@
 
 
 
-<div class="container mt-40">
+<div class="container-fluid mt-40">
     <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
          <div class="col-8">
              <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
@@ -321,15 +321,15 @@
                         <div class="vertical-line-secondary align-middle"></div>
                         <h3 class="ms-2 fs-1">{{ __('Les epices secret') }} <br>
                             {{ __('avec vous') }} <br>
-                            {{ __('from generation to generation') }}<br>
+                            {{ __('de genérations en genérations') }}<br>
                         </h3>
 
                     </div>
                     <div class="row  ms-3 ms-sm-0">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                {{ __('Because it\'s an opportunity to preserve all the culinary know-how of our mother') }} {{ __('from generation to generation') }}
-                                {{ __('Nous croyons à un produit au service salvatrice à l\'ère moderne qui conserve le goût naturel des intrants agricoles') }}
+                                {{ __("Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans") }} {{ __('de genérations en genérations') }}
+                                {{ __("Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve le goût naturel des intrants agricoles") }}
 
                             </span>
 
@@ -662,7 +662,7 @@
                 </div>
 
                 <div class="col-md-4" id="temoignages">
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0"> <a href="https://www.facebook.com/mysecretspices/reviews">{{ __('Découvrez plus de temoignages') }}</a> </button>
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0"> <a href="https://www.facebook.com/mysecretspices/reviews" target="_blank">{{ __('Découvrez plus de temoignages') }}</a> </button>
                 </div>
 
                 <div class="col-md-4">
@@ -808,7 +808,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">{{ __('Événements') }}</h2>
+                    <h2 class="h2-xl red-secret">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
                     <p class="p-xl">{{ __('Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.') }}

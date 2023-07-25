@@ -371,6 +371,10 @@ i{
     margin-left: 10px;
 }
 
+.red-secret{
+    color: #c70609;
+}
+
 .horizontal-line-one {
       background-color: #fde0a5;
       height: 15px;
