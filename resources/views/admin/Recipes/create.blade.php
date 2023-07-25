@@ -40,19 +40,26 @@ Ajouter une Recette
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="example-textarea" class="form-label">Description Produit</label>
+                                    <label for="example-textarea" class="form-label">Description de la Recette</label>
                                     <textarea class="form-control" id="example-textarea" name="product_description" rows="5"></textarea>
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="example-select" class="form-label">Grammage Produit</label>
+                                    <label for="example-select" class="form-label">Categorie</label>
                                     <select class="form-select" name="weight_id" id="example-select">
                                         @foreach ($categories as $category)
                                         <option value={{$category->id}}>{{$category->category_name}}</option>
                                         @endforeach
                                     </select>
                                 </div>
-
+                                <div class="mb-3">
+                                    <label for="simpleinput" class="form-label">Temps de preparation</label>
+                                    <input type="time" id="simpleinput" name="time" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="simpleinput" class="form-label">Nombre de Personnes</label>
+                                    <input type="number" min="1" max="20" id="simpleinput" name="number_person" class="form-control">
+                                </div>
                                 <div class="fallback mb-4">
                                     <label for="example-select" class="form-label">Ajouter un ou plusieurs images</label>
                                     <input name="images[]" class="form-control" type="file" multiple />

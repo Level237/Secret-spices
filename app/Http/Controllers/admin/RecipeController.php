@@ -32,12 +32,23 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
+
+        $timeArray=explode(':',$request->time);
+        $time="";
+        if($timeArray[0] !="00"){
+            $time="$timeArray[0]h:$timeArray[1]min";
+        }else{
+            $time="$timeArray[1]min";
+        }
+
         $recipe=new Recipe;
         $recipe->name_recipe=$request->name_recipe;
         $recipe->category_id=$request->category_id;
         $recipe->description_recipe=$request->description_recipe;
-        $recipe->time=$request->time;
+        $recipe->time=$time;
         $recipe->number_person=$request->number_person;
+
+
 
 
     }
