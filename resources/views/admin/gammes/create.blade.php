@@ -31,7 +31,7 @@ Ajouter une Gamme
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.weight.index') }}" method="post">
+                            <form action="{{ route('admin.weight.store') }}" method="post">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Gamme</label>

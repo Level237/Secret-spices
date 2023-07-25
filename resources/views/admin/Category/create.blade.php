@@ -31,7 +31,7 @@ Ajouter une Categorie
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.weight.index') }}" method="post">
+                            <form action="{{ route('admin.category.store') }}" method="post">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom de la Categorie</label>
