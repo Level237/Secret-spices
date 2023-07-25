@@ -58,12 +58,10 @@ Listes des Gammes
 
                                 @if(Session::get("fail"))
                                 <div class="alert alert-danger" role="alert">
-
-                                </div>
-                                <div class="alert alert-success alert-dismissible text-bg-success border-0 fade show" role="alert">
                                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
                                     <strong>{{ Session::get("fail") }}</strong>
                                 </div>
+
                                 @endif
 
                                 <table class="table table-centered w-100 dt-responsive nowrap" id="products-datatable">
@@ -98,7 +96,17 @@ Listes des Gammes
                                             </td>
                                             <td class="table-action">
                                                 <a href="{{ route('admin.weight.edit',$weight->id) }}" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
-                                                <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
+
+                                                <form method="POST" action="{{ route('admin.weight.destroy', $weight->id) }}" onsubmit="return confirm('Are you sure?')">
+                                                    @csrf
+                                                    @method('delete')
+
+                                                    <a href="javascript:void(0);"> </a>
+                                                    <button type="submit" style="background:transparent;
+                                                    border:transparent; display:flex; align-items:center;justify-content: space-between;" class="action-icon"><i class="mdi mdi-delete"></i></button>
+
+                                                </form>
+
                                             </td>
                                         </tr>
                                         @empty
