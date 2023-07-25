@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\admin\RecipeController;
 use App\Http\Controllers\Admin\WeightController;
 use App\Http\Controllers\LangController;
 use App\Http\Controllers\ProfileController;
@@ -43,6 +44,8 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('weight',WeightController::class);
     Route::resource('product',ProductController::class);
+    Route::resource('category',CategoryController::class);
+    Route::resource('recipe',RecipeController::class);
     Route::resource('category',CategoryController::class);
 });
 

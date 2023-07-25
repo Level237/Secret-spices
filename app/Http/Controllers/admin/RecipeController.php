@@ -3,6 +3,9 @@
 namespace App\Http\Controllers\admin;
 
 use App\Http\Controllers\Controller;
+use App\Models\Category;
+use App\Models\Image;
+use App\Models\Ingredient;
 use App\Models\Recipe;
 use Illuminate\Http\Request;
 
@@ -13,7 +16,8 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        return view('admin.Recipes.index');
+        $recipes=Recipe::all();
+        return view('admin.Recipes.index',compact('recipes'));
     }
 
     /**
@@ -21,7 +25,8 @@ class RecipeController extends Controller
      */
     public function create()
     {
-        return view('admin.Recipes.create');
+        $categories=Category::all();
+        return view('admin.Recipes.create',compact('categories'));
     }
 
     /**
@@ -29,7 +34,53 @@ class RecipeController extends Controller
      */
     public function store(Request $request)
     {
-        //
+
+        $timeArray=explode(':',$request->time);
+        $ingredientArray=[];
+        $quantityArray=[];
+        $time="";
+        if($timeArray[0] !="00"){
+            $time="$timeArray[0]h:$timeArray[1]min";
+        }else{
+            $time="$timeArray[1]min";
+        }
+
+        $recipe=new Recipe;
+        $recipe->name_recipe=$request->name_recipe;
+        $recipe->category_id=$request->category_id;
+        $recipe->description_recipe=$request->description_recipe;
+        $recipe->time=$time;
+        $recipe->number_person=$request->number_person;
+
+        if($recipe->save()){
+
+            if(isset($request->images)){
+
+                foreach($request->images as $image){
+                    $path = $image->store('recipes', 'public');
+
+                    $i=new Image;
+                    $i->path=$path;
+                    $recipe->images()->save($i);
+
+                }
+            }
+            foreach($request->ingredient_name  as $index => $i){
+                $ingredient=new Ingredient;
+                $ingredient->ingredient_name=$i;
+                $ingredient->save();
+                $quantity = $request->quantity[$index];
+                $recipe->ingredients()->attach($ingredient,['quantity'=>$quantity]);
+            }
+
+            return to_route('admin.recipe.index')->with('success',"Recette enregistré avec success");
+
+        }else{
+            return to_route('admin.recipe.index')->with('fail',"Une erreur s'est produite");
+        }
+
+
+
     }
 
     /**

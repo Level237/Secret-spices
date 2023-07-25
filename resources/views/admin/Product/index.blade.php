@@ -1,6 +1,6 @@
 @extends('layouts.admin.app')
 @section('title')
-Ajouter une Gamme de produit
+Listes des Produits
 @endsection
 
 @section('content')
@@ -21,7 +21,7 @@ Ajouter une Gamme de produit
                                 <li class="breadcrumb-item active">Gammes</li>
                             </ol>
                         </div>
-                        <h4 class="page-title">Gamme de Produits</h4>
+                        <h4 class="page-title">Produits</h4>
                     </div>
                 </div>
             </div>
@@ -91,37 +91,27 @@ Ajouter une Gamme de produit
                                                 </div>
                                             </td>
                                             <td>
-                                                <img src="assets/images/products/product-1.jpg" alt="contact-img" title="contact-img" class="rounded me-3" height="48">
+                                                @foreach ($product->images as $image)
+                                                <img src="{{ Storage::url($image->path) }}" alt="contact-img" title="contact-img" class="rounded me-3" height="48">
+                                                @endforeach
+
                                                 <p class="m-0 d-inline-block align-middle font-16">
-                                                    <a href="apps-ecommerce-products-details.html.htm" class="text-body">Amazing Modern Chair</a>
+                                                    <a href="apps-ecommerce-products-details.html.htm" class="text-body">{{$product->product_name}}</a>
                                                     <br>
-                                                    <span class="text-warning mdi mdi-star"></span>
-                                                    <span class="text-warning mdi mdi-star"></span>
-                                                    <span class="text-warning mdi mdi-star"></span>
-                                                    <span class="text-warning mdi mdi-star"></span>
-                                                    <span class="text-warning mdi mdi-star"></span>
+
                                                 </p>
                                             </td>
                                             <td>
-                                                Aeron Chairs
+                                                {{ $product->product_description }}
                                             </td>
                                             <td>
-                                                09/12/2018
-                                            </td>
-                                            <td>
-                                                $148.66
+                                                {{ $product->weight->weight_name }} g
                                             </td>
 
-                                            <td>
-                                                254
-                                            </td>
-                                            <td>
-                                                <span class="badge bg-success">Active</span>
-                                            </td>
 
                                             <td class="table-action">
                                                 <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
-                                                <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                <a href="{{ route('admin.product.edit',$product->id) }}" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
                                                 <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
                                             </td>
                                         </tr>

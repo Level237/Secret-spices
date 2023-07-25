@@ -67,8 +67,8 @@ class ProductController extends Controller
     public function edit(string $id)
     {
         $product=Product::find($id);
-
-        return view('admin.Product.edit',compact('product'));
+        $weights=Weight::all();
+        return view('admin.Product.edit',compact('product','weights'));
     }
 
     /**
@@ -77,6 +77,23 @@ class ProductController extends Controller
     public function update(Request $request, string $id)
     {
         $product=Product::find($id);
+
+        if($request->hasFile('path')){
+            $imagePath=public_path()."/storage/".$request->path;
+            unlink($imagePath);
+            $p = $request->path->store('products', 'public');
+            $i=new Image;
+            $i->path=$p;
+            if($i->save()){
+
+                $product->images()->attach($i->id);
+            }else{
+
+                return back('une Erreur s\'est produite');
+            }
+        } $product->images()->sync($request->path);
+
+
         $product->update([
             'product_name' => $request->product_name,
             'product_description'=>$request->product_description,

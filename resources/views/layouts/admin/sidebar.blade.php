@@ -90,10 +90,10 @@
                     <div class="collapse" id="sidebarRecipe">
                         <ul class="side-nav-second-level">
                             <li>
-                                <a href="apps-ecommerce-products.html.htm">Creer une Recette</a>
+                                <a href="{{ route('admin.recipe.create') }}">Creer une Recette</a>
                             </li>
                             <li>
-                                <a href="apps-ecommerce-products-details.html.htm">Listes des Recettes</a>
+                                <a href="{{ route('admin.recipe.index') }}">Listes des Recettes</a>
                             </li>
                         </ul>
                     </div>
@@ -105,7 +105,7 @@
                     </a>
                 </li>
                 <li class="side-nav-item">
-                    <a href="apps-chat.html.htm" class="side-nav-link">
+                    <a href="{{ route('admin.category.index') }}" class="side-nav-link">
                         <i class="uil-comments-alt"></i>
                         <span> Categories</span>
                     </a>
