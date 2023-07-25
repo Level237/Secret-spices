@@ -120,10 +120,10 @@
                     <div class="collapse" id="sidebarCrm">
                         <ul class="side-nav-second-level">
                             <li>
-                                <a href="crm-projects.html.htm">Creer un evenement</a>
+                                <a href="{{ route('admin.events.create') }}">Creer un evenement</a>
                             </li>
                             <li>
-                                <a href="crm-orders-list.html.htm">Listes des evenements</a>
+                                <a href="{{route('admin.events.index')}}">Listes des evenements</a>
                             </li>
 
                         </ul>

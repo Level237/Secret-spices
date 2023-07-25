@@ -1,6 +1,6 @@
 @extends('layouts.admin.app')
 @section('title')
-Ajouter un Produit
+Ajouter un Evenement
 @endsection
 
 @section('content')
@@ -17,11 +17,11 @@ Ajouter un Produit
                         <div class="page-title-right">
                             <ol class="breadcrumb m-0">
                                 <li class="breadcrumb-item"><a href="{{ route('dashboard') }}">Dashboard</a></li>
-                                <li class="breadcrumb-item"><a href="{{ route('admin.product.index') }}">Produits</a></li>
-                                <li class="breadcrumb-item active">Ajouter un Produit</li>
+                                <li class="breadcrumb-item"><a href="{{ route('admin.events.index') }}">Evenements</a></li>
+                                <li class="breadcrumb-item active">Ajouter un Evenement</li>
                             </ol>
                         </div>
-                        <h4 class="page-title">Ajouter un produit</h4>
+                        <h4 class="page-title">Ajouter un Evenement</h4>
                     </div>
                 </div>
             </div>
@@ -34,26 +34,28 @@ Ajouter un Produit
                             <form action="{{ route('admin.product.store') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="mb-3">
-                                    <label for="simpleinput" class="form-label">Nom du Produit</label>
-                                    <input type="text" id="simpleinput" name="product_name" class="form-control">
+                                    <label for="simpleinput" class="form-label">Nom de l'evenement</label>
+                                    <input type="text" id="simpleinput" name="name_event" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="simpleinput" class="form-label">Date de l'evenement</label>
+                                    <input type="date" id="simpleinput" name="date_event" class="form-control">
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="example-textarea" class="form-label">Description Produit</label>
-                                    <textarea class="form-control" id="example-textarea" name="product_description" rows="5"></textarea>
+                                    <label for="simpleinput" class="form-label">Lieu de l'evenement</label>
+                                    <input type="text" id="simpleinput" name="lieu_event" class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="example-textarea" class="form-label">Description de l'évenement</label>
+                                    <textarea class="form-control" id="example-textarea" name="description_event" rows="5"></textarea>
                                 </div>
 
-                                <div class="mb-3">
-                                    <label for="example-select" class="form-label">Grammage Produit</label>
-                                    <select class="form-select" name="weight_id" id="example-select">
-                                        @foreach ($weights as $weight)
-                                        <option value={{$weight->id}}>{{$weight->weight_name}} g</option>
-                                        @endforeach
-                                    </select>
-                                </div>
+
 
                                 <div class="fallback mb-4">
-                                    <input name="path" class="form-control" type="file" />
+                                    <label for="example-textarea" class="form-label">Image(s) de l'évenement</label>
+                                    <input name="path" class="form-control" type="file" multiple />
                                 </div>
 
 

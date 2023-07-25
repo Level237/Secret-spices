@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\admin\EventController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\admin\RecipeController;
 use App\Http\Controllers\Admin\WeightController;
@@ -46,7 +47,7 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
     Route::resource('product',ProductController::class);
     Route::resource('category',CategoryController::class);
     Route::resource('recipe',RecipeController::class);
-    Route::resource('category',CategoryController::class);
+    Route::resource('events',EventController::class);
 });
 
 require __DIR__.'/auth.php';
