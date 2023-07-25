@@ -13,7 +13,8 @@ class RecipeController extends Controller
      */
     public function index()
     {
-        return view('admin.Recipes.index');
+        $recipes=Recipe::all();
+        return view('admin.Recipes.index',compact('recipes'));
     }
 
     /**
