@@ -33,7 +33,13 @@ class CategoryController extends Controller
         $category=new Category;
         $category->category_name=$request->category_name;
 
-        return to_route('category.index')->with('success',"Category enregistré avec success");
+        if($category->save()){
+            return to_route('admin.category.index')->with('success',"Category enregistré avec success");
+        }else{
+            return to_route('admin.category.index')->with('fail',"Une erreur s'est produite");
+
+        }
+
     }
 
     /**

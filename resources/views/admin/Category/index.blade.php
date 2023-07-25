@@ -93,7 +93,7 @@ Ajouter une Categorie
                                             <td>
 
                                                 <p class="m-0 d-inline-block align-middle font-16">
-                                                    <h4>{{ $category->category_name }} g</h4>
+                                                    <h4>{{ $category->category_name }}</h4>
                                                 </p>
                                             </td>
                                             <td class="table-action">
