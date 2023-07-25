@@ -97,8 +97,7 @@ Ajouter une Gamme de produit
                                                 </p>
                                             </td>
                                             <td class="table-action">
-                                                <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
-                                                <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                <a href="{{ route('admin.weight.edit',$weight->id) }}" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
                                                 <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
                                             </td>
                                         </tr>
