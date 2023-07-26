@@ -2,6 +2,7 @@
 
 namespace App\Providers;
 
+use App\Models\Weight;
 use Illuminate\Support\ServiceProvider;
 
 class AppServiceProvider extends ServiceProvider
@@ -19,9 +20,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+
         view()->composer('layouts.header', function ($view) {
+            $weights=Weight::all();
             $view->with('current_locale', app()->getLocale());
+            $view->with('weights', $weights);
             $view->with('available_locales', config('app.available_locales'));
         });
+
     }
 }

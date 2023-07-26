@@ -2,6 +2,7 @@
 
 namespace App\Models;
 
+use App\Models\Product;
 use App\Models\Recipe;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -17,5 +18,9 @@ class Ingredient extends Model
 
     public function recipes():BelongsToMany{
         return $this->belongsToMany(Recipe::class)->withPivot('quantity');;
+    }
+
+    public function products():BelongsToMany{
+        return $this->belongsToMany(Product::class);
     }
 }

@@ -12,7 +12,8 @@ class Step extends Model
     use HasFactory;
 
     protected $fillable=[
-        'description'
+        'description',
+        'duration'
     ];
 
     public function recipes():BelongsToMany{

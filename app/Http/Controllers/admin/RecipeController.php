@@ -72,10 +72,11 @@ class RecipeController extends Controller
                 $recipe->ingredients()->attach($ingredient,['quantity'=>$quantity]);
             }
 
-            foreach($request->steps as $step){
+            foreach($request->steps as $index => $i){
 
                 $stepModel=new Step;
-                $stepModel->description=$step;
+                $stepModel->description=$i;
+                $stepModel->duration=$request->duration[$index];
                 $stepModel->save();
                 $recipe->steps()->attach($stepModel);
             }
