@@ -1,50 +1,44 @@
 @extends('layouts.app')
-@section('title', __('Nos Produits'))
+@section('title')
+Produit {{ $weight->weight_name }}g
+@endsection
 @section('content')
 
 <div id="space-hero-header" style="margin-top: 150px">
 </div>
 
 <div class="container" style="margin-top: 50px;">
-    <div class="row justify-content-center product-title">
-        <h1>{{ __('Découvrez toute la gamme') }} <br>{{ __('des épices SECRET') }} </h1>
-    </div>
 
-    @foreach($products as $index => $product)
 
-    @foreach($weights as $weight)
+    <div class="d-flex flex-row bd-highlight mb-5 align-items-center ">
 
-    @if($weight->id == $index)
-    <div class="row">
         <div class="col-sm3 center-gamut">
             <i class="fas fa-angle-right fs-4" style="color: #c70609"> {{ $weight->weight_name }} Gr</i>
         </div>
+        <div class="p-2 bd-highlight"><i class="fas fa-angle-right fs-4" style="color: #c70609"></i></div>
+        <div class="p-2 bd-highlight">
+
+        </div>
     </div>
 
-    @endif
-    @endforeach
 
 
+    <div class="row" style="margin-top:30px;">
 
-
-    <div class="row mb-5" style="margin-top:30px;">
-
-        @foreach($product as $p)
-
+        @foreach($products as $product)
         <div class="col d-flex flex-column product-row">
 
-
-            <div class="p-2 fs-4 fw-normal align-self-center">
-                <a href="{{ route('product.detail',['name'=>$p->product_name,'gamme'=>$p->weight->weight_name]) }}">
-                    @foreach($p->images as $i)
-                    <img src="{{ Storage::url($i->path)}}" width="250px" alt="">
+            <div class="p-2 fs-4 fw-normal align-self-center text-center">
+                <a href="{{ route('product.detail',['name'=>$product->product_name,'gamme'=>$product->weight->weight_name]) }}">
+                    @foreach($product->images as $i)
+                    <img src="{{Storage::url($i->path)}}" style="width:50%" alt="">
                     @endforeach
                 </a>
             </div>
 
             <div class="p-2 secret-spices">
-                <a href="{{ route('product.detail',['name'=>$p->product_name,'gamme'=>$p->weight->weight_name]) }}">
-                    {{ $p->product_name}}
+                <a href="{{ route('product.detail',['name'=>$product->product_name,'gamme'=>$product->weight->weight_name]) }}">
+                    {{ $product->product_name }}
                 </a>
                 <div class="horizontal-mobile-line-gray"></div>
             </div>
@@ -52,7 +46,9 @@
             <div class="p-2 fs-4 fw-normal d-flex justify-content-between">
 
                 <div class="p-2">
+
                     <img src="{{ asset('images/logos/logo-two.png')}}" width="150px" alt="">
+
                 </div>
 
                 <div class="p-2">
@@ -80,8 +76,6 @@
     <div style="margin-bottom: 50px;">
 
     </div>
-    @endforeach
-
 
 
 
