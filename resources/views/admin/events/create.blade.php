@@ -31,7 +31,7 @@ Ajouter un Evenement
                 <div class="col-12">
                     <div class="card">
                         <div class="card-body">
-                            <form action="{{ route('admin.product.store') }}" method="post" enctype="multipart/form-data">
+                            <form action="{{ route('admin.events.store') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom de l'evenement</label>
@@ -55,7 +55,7 @@ Ajouter un Evenement
 
                                 <div class="fallback mb-4">
                                     <label for="example-textarea" class="form-label">Image(s) de l'évenement</label>
-                                    <input name="path" class="form-control" type="file" multiple />
+                                    <input name="images[]" class="form-control" type="file" multiple />
                                 </div>
 
 

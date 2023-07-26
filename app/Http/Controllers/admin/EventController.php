@@ -14,7 +14,8 @@ class EventController extends Controller
      */
     public function index()
     {
-        //
+        $events=Event::all();
+        return view('admin.events.index',compact('events'));
     }
 
     /**
@@ -37,11 +38,18 @@ class EventController extends Controller
         $event->description_event=$request->description_event;
 
         if($event->save()){
-            $image_path = $request->file('path')->store('events', 'public');
-            $image=new Image;
-            $image->path=$image_path;
 
-            $event->images()->save($image);
+            if(isset($request->images)){
+
+                foreach($request->images as $image){
+                    $path = $image->store('events', 'public');
+
+                    $i=new Image;
+                    $i->path=$path;
+                    $event->images()->save($i);
+
+                }
+            }
             return to_route('admin.events.index')->with('success',"Evenements enregistré avec success");
         }else{
             return to_route('admin.events.index')->with('fail',"Une erreur s'est produite");

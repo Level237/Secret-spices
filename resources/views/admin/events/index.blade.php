@@ -33,7 +33,7 @@ Listes des Evenements
                         <div class="card-body">
                             <div class="row mb-2">
                                 <div class="col-sm-5">
-                                    <a href="{{ route('admin.product.create') }}" class="btn btn-danger mb-2"><i class="mdi mdi-plus-circle me-2"></i> Ajouter un Produit</a>
+                                    <a href="{{ route('admin.events.create') }}" class="btn btn-danger mb-2"><i class="mdi mdi-plus-circle me-2"></i> Ajouter un Evenement</a>
                                 </div>
                                 <div class="col-sm-7">
                                     <div class="text-sm-end">
@@ -75,8 +75,8 @@ Listes des Evenements
                                                 </div>
                                             </th>
                                             <th class="all">Nom de l'evenement</th>
-                                            <th class="all">Description</th>
-                                            <th style="width: 85px;">Gamme</th>
+                                            <th class="all">Date</th>
+                                            <th style="width: 85px;">lieu</th>
                                             <th style="width: 85px;">Action</th>
                                         </tr>
                                     </thead>
@@ -91,34 +91,34 @@ Listes des Evenements
                                                 </div>
                                             </td>
                                             <td>
-                                                @foreach ($product->images as $image)
+                                                @foreach ($event->images as $image)
                                                 <img src="{{ Storage::url($image->path) }}" alt="contact-img" title="contact-img" class="rounded me-3" height="48">
                                                 @endforeach
 
                                                 <p class="m-0 d-inline-block align-middle font-16">
-                                                    <a href="apps-ecommerce-products-details.html.htm" class="text-body">{{$product->product_name}}</a>
+                                                    <a href="apps-ecommerce-products-details.html.htm" class="text-body">{{$event->name_event}}</a>
                                                     <br>
 
                                                 </p>
                                             </td>
                                             <td>
-                                                {{ $product->product_description }}
+                                                {{ $event->date_event }}
                                             </td>
                                             <td>
-                                                {{ $product->weight->weight_name }} g
+                                                {{ $event->lieu_event }}
                                             </td>
 
 
                                             <td class="table-action">
                                                 <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-eye"></i></a>
-                                                <a href="{{ route('admin.product.edit',$product->id) }}" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
+                                                <a href="{{ route('admin.events.edit',$event->id) }}" class="action-icon"> <i class="mdi mdi-square-edit-outline"></i></a>
                                                 <a href="javascript:void(0);" class="action-icon"> <i class="mdi mdi-delete"></i></a>
                                             </td>
                                         </tr>
                                         @empty
                                         <tr>
                                             <div class="text-center">
-                                                Aucune Produit disponible
+                                                Aucun Evenement disponible
                                             </div>
 
                                         </tr>
