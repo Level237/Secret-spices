@@ -32,11 +32,12 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('products')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
+		                    <li><a href="{{ route('product.index')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('product-detail') }}">35 G </a></li>
-		                            <li><a href="{{ route('product-detail') }}">250 G</a></li>
-		                            <li><a href="{{ route('product-detail') }}">450 G</a></li>
+		                            @foreach($weights as $weight)
+		                            <li><a href="{{ route('product-detail') }}">{{ $weight->weight_name }} G </a></li>
+		                            @endforeach
+
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
