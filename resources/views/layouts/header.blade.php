@@ -35,7 +35,7 @@
 		                    <li><a href="{{ route('product.index')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
 		                        <ul>
 		                            @foreach($weights as $weight)
-		                            <li><a href="{{ route('product.detail',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
+		                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
 		                            @endforeach
 
 		                        </ul>
