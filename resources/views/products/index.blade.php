@@ -10,12 +10,22 @@
         <h1>{{ __('Découvrez toute la gamme') }} <br>{{ __('des épices SECRET') }} </h1>
     </div>
 
-    @foreach($products as $product)
+    @foreach($products as $index => $product)
+
+    @foreach($weights as $weight)
+
+    @if($weight->id == $index)
     <div class="row">
         <div class="col-sm3 center-gamut">
-            <i class="fas fa-angle-right fs-4" style="color: #c70609"> 35 Gr</i>
+            <i class="fas fa-angle-right fs-4" style="color: #c70609"> {{ $weight->weight_name }} Gr</i>
         </div>
     </div>
+
+    @endif
+    @endforeach
+
+
+
 
     <div class="row mb-5" style="margin-top:30px;">
 
