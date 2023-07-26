@@ -20,6 +20,6 @@ class ProductController extends Controller
 
         $weight=Weight::where('weight_name',$name)->first();
         $products=Product::where('weight_id',$weight->id)->get();
-        return view('products.details',compact('products'));
+        return view('products.details',compact('products','weight'));
     }
 }
