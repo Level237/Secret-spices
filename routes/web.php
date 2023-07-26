@@ -1,14 +1,15 @@
 <?php
 
-use App\Http\Controllers\Admin\CategoryController;
-use App\Http\Controllers\admin\EventController;
-use App\Http\Controllers\Admin\ProductController;
-use App\Http\Controllers\admin\RecipeController;
-use App\Http\Controllers\Admin\WeightController;
-use App\Http\Controllers\LangController;
-use App\Http\Controllers\ProfileController;
 use GuzzleHttp\Psr7\Uri;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\LangController;
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\admin\EventController;
+use App\Http\Controllers\admin\RecipeController;
+use App\Http\Controllers\Admin\WeightController;
+use App\Http\Controllers\Admin\ProductController;
+use App\Http\Controllers\Admin\CategoryController;
+use App\Http\Controllers\ProductController as GuestProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,6 +51,7 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
     Route::resource('events',EventController::class);
 });
 
+Route::get('produits',[GuestProductController::class,'index'])->name('product.index');
 require __DIR__.'/auth.php';
 
 Route::get('/receipts', function(){
