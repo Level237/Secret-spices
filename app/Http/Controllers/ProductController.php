@@ -15,4 +15,11 @@ class ProductController extends Controller
         //return $products;
         return view('products.index',compact('products','weights'));
     }
+
+    public function detail($name){
+
+        $weight=Weight::where('weight_name',$name)->first();
+        $products=Product::where('weight_id',$weight->id)->get();
+        return view('products.details',compact('products'));
+    }
 }
