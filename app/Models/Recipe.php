@@ -5,6 +5,7 @@ namespace App\Models;
 use App\Models\Category;
 use App\Models\Image;
 use App\Models\Ingredient;
+use App\Models\Step;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -34,5 +35,9 @@ class Recipe extends Model
     public function images(): MorphToMany
     {
         return $this->morphToMany(Image::class, 'imageable');
+    }
+
+    public function steps():BelongsToMany{
+        return $this->belongsToMany(Step::class);
     }
 }

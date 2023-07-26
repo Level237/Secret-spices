@@ -7,6 +7,7 @@ use App\Models\Category;
 use App\Models\Image;
 use App\Models\Ingredient;
 use App\Models\Recipe;
+use App\Models\Step;
 use Illuminate\Http\Request;
 
 class RecipeController extends Controller
@@ -69,6 +70,14 @@ class RecipeController extends Controller
                 $ingredient->save();
                 $quantity = $request->quantity[$index];
                 $recipe->ingredients()->attach($ingredient,['quantity'=>$quantity]);
+            }
+
+            foreach($request->steps as $step){
+
+                $stepModel=new Step;
+                $stepModel->description=$step;
+                $stepModel->save();
+                $recipe->steps()->attach($stepModel);
             }
 
             return to_route('admin.recipe.index')->with('success',"Recette enregistré avec success");

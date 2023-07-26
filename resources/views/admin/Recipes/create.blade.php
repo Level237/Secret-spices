@@ -60,7 +60,17 @@ Ajouter une Recette
                                     <label for="simpleinput" class="form-label">Nombre de Personnes</label>
                                     <input type="number" min="1" max="20" id="simpleinput" name="number_person" class="form-control">
                                 </div>
-                                <div class="fallback mb-4">
+                                <div id="form2">
+                                    <h3 class="text-center">Etape de Preparation</h3>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Etape 1</label>
+                                        <input type="text" id="simpleinput" name="steps[]" class="form-control">
+
+                                    </div>
+
+                                </div>
+                                <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter une Etape</button>
+                                <div class="fallback mb-4 mt-3">
                                     <label for="example-select" class="form-label">Ajouter un ou plusieurs images</label>
                                     <input name="images[]" class="form-control" type="file" multiple />
                                 </div>
@@ -131,6 +141,7 @@ Ajouter une Recette
 
 <script>
     let i = 0;
+    let j = 1;
 
     function addIngredient() {
         i = i + 1;
@@ -150,6 +161,20 @@ Ajouter une Recette
         div.appendChild(newDiv);
 
 
+    }
+
+    function addSteps() {
+        j = j + 1;
+        const newDiv = document.createElement(`div`);
+        newDiv.setAttribute('id', `step`);
+        const div = document.getElementById('form2');
+        newDiv.innerHTML = `
+        <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Etape ${j}</label>
+                                        <input type="text" id="simpleinput" name="steps[]" class="form-control">
+
+                                    </div>`
+        div.appendChild(newDiv);
     }
 
 </script>
