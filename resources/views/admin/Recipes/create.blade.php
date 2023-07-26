@@ -67,7 +67,11 @@ Ajouter une Recette
                                         <input type="text" id="simpleinput" name="steps[]" class="form-control">
 
                                     </div>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Etape 1</label>
+                                        <input type="time" id="simpleinput" name="duration[]" class="form-control">
 
+                                    </div>
                                 </div>
                                 <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter une Etape</button>
                                 <div class="fallback mb-4 mt-3">

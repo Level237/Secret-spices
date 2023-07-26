@@ -13,7 +13,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('recipe_steps', function (Blueprint $table) {
+        Schema::create('recipe_step', function (Blueprint $table) {
             $table->id();
             $table->foreignIdFor(Step::class)
             ->constrained()
@@ -32,6 +32,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('recipe_steps');
+        Schema::dropIfExists('recipe_step');
     }
 };
