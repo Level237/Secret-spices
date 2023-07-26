@@ -102,7 +102,7 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slideEngagement.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -113,14 +113,7 @@
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Secret Spices</h2>
 
-                                    <h2 class="horizontal-line">
-
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Parce que nous croyons à la transformation agricole') }}
-                                    </h5>
 
                                 </div>
                             </div>
@@ -253,13 +246,13 @@
 
 
 <div class="container-fluid mt-40">
-    <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
-         <div class="col-8">
-             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
-                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
+        <div class="col-8">
+            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
+                <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
-        
+
     </div>
 </div>
 

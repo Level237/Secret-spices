@@ -36,8 +36,6 @@ class RecipeController extends Controller
     {
 
         $timeArray=explode(':',$request->time);
-        $ingredientArray=[];
-        $quantityArray=[];
         $time="";
         if($timeArray[0] !="00"){
             $time="$timeArray[0]h:$timeArray[1]min";
