@@ -26,13 +26,13 @@ Ajouter un Produit
                 </div>
             </div>
             <!-- end page title -->
+            <form action="{{ route('admin.product.store') }}" method="post" enctype="multipart/form-data">
+                @csrf
+                <div class="row">
+                    <div class="col-9">
+                        <div class="card">
+                            <div class="card-body">
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <form action="{{ route('admin.product.store') }}" method="post" enctype="multipart/form-data">
-                                @csrf
                                 <div class="mb-3">
                                     <label for="simpleinput" class="form-label">Nom du Produit</label>
                                     <input type="text" id="simpleinput" name="product_name" class="form-control">
@@ -60,14 +60,33 @@ Ajouter un Produit
 
 
                                 <button type="submit" class="btn bag-primary text-white" style="background-color: #c70609">Enregistrer</button>
-                            </form>
-
-                        </div> <!-- end card-body -->
-                    </div> <!-- end card -->
-                </div><!-- end col -->
-            </div><!-- end row -->
 
 
+                            </div> <!-- end card-body -->
+                        </div> <!-- end card -->
+                    </div><!-- end col -->
+
+                    <div class="col-3">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <div id="form">
+                                    <h3 class="text-center">Ingredients</h3>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Ingredients</label>
+                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+
+                                    </div>
+
+                                </div>
+
+                                <button type="button" onclick="addIngredient()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Ingredient</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- end row -->
+
+            </form>
 
         </div> <!-- container -->
 
@@ -96,4 +115,44 @@ Ajouter un Produit
     <!-- end Footer -->
 
 </div>
+
+<script>
+    let i = 0;
+    let j = 1;
+
+    function addIngredient() {
+        i = i + 1;
+        const newDiv = document.createElement(`div`);
+        newDiv.setAttribute('id', `ingredient`);
+        const div = document.getElementById('form');
+        newDiv.innerHTML = `
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Ingredients</label>
+                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+
+                                    </div> <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Quantité</label>
+                                        <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
+
+                                    </div>`
+        div.appendChild(newDiv);
+
+
+    }
+
+    function addSteps() {
+        j = j + 1;
+        const newDiv = document.createElement(`div`);
+        newDiv.setAttribute('id', `step`);
+        const div = document.getElementById('form2');
+        newDiv.innerHTML = `
+        <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Etape ${j}</label>
+                                        <input type="text" id="simpleinput" name="steps[]" class="form-control">
+
+                                    </div>`
+        div.appendChild(newDiv);
+    }
+
+</script>
 @endsection

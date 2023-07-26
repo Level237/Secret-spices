@@ -68,7 +68,7 @@ Ajouter une Recette
 
                                     </div>
                                     <div class="mb-3">
-                                        <label for="simpleinput" class="form-label">Etape 1</label>
+                                        <label for="simpleinput" class="form-label">Durée de Préparation</label>
                                         <input type="time" id="simpleinput" name="duration[]" class="form-control">
 
                                     </div>
@@ -176,6 +176,11 @@ Ajouter une Recette
         <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Etape ${j}</label>
                                         <input type="text" id="simpleinput" name="steps[]" class="form-control">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Durée de preparation</label>
+                                        <input type="time" id="simpleinput" name="duration[]" class="form-control">
 
                                     </div>`
         div.appendChild(newDiv);
