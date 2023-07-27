@@ -58,7 +58,7 @@
                 <div class="row">
 
                     <div class="col-9 fs-5 fw-bold">
-                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->id,'name'=>$r->name_recipe]) }}">
                             {{ $r->name_recipe }}
                         </a>
 
@@ -77,23 +77,23 @@
             </div>
 
 
-            <div class="text-center " style="margin-top:15px">
+            {{-- <div class="text-center " style="margin-top:15px">
                 <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
-            </div>
-        </div>
-
-        <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
-
-        <div style="margin-bottom: 50px;">
-
-        </div>
-        @endforeach
-
-
-
-
-        @endforeach
+        </div> --}}
     </div>
+
+    <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
+
+    <div style="margin-bottom: 50px;">
+
+    </div>
+    @endforeach
+
+
+
+
+    @endforeach
+</div>
 </div>
 
 <div class="container" id="receipts-mobile">
