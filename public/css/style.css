@@ -5482,6 +5482,10 @@ select:-webkit-autofill:focus {
   background-image: url(../images/blog-page.jpg);
 }
 
+#engagement-page {
+  background-image: url(../images/engagement-page.jpg);
+}
+
 #booking-page {
   background-image: url(../images/booking-page.jpg);
 }

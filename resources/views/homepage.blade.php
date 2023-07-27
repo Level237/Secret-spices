@@ -47,10 +47,10 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
-            <li id="slide-1">
+            <li id="slide-1" style="background-image:url('images/slider/slide2.jpg'); background-size:cover">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+                <!--<img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background" style="width:100%">-->
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
