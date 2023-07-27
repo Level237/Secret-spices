@@ -66,7 +66,7 @@ Ajouter un Produit
                                 </div>
                                 <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Nutriment</button>
                                 <div class="fallback mb-4 mt-3">
-                                    <input name="path" class="form-control" type="file" />
+                                    <input type="file" name="image" class="form-control" />
                                 </div>
 
 

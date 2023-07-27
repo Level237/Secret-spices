@@ -1,11 +1,10 @@
 <?php
 
-
-use App\Models\Ingredient;
+use App\Models\Nutrient;
 use App\Models\Product;
-use Illuminate\Support\Facades\Schema;
-use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 return new class extends Migration
 {
@@ -14,9 +13,9 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('ingredient_product', function (Blueprint $table) {
+        Schema::create('nutrient_product', function (Blueprint $table) {
             $table->id();
-            $table->foreignIdFor(Ingredient::class)
+            $table->foreignIdFor(Nutrient::class)
             ->constrained()
             ->cascadeOnUpdate()
                 ->cascadeOnDelete();
@@ -24,6 +23,7 @@ return new class extends Migration
             ->constrained()
             ->cascadeOnUpdate()
             ->cascadeOnDelete();
+            $table->string("quantity");
             $table->timestamps();
         });
     }
@@ -33,6 +33,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('ingredient_product');
+        Schema::dropIfExists('nutrient_product');
     }
 };

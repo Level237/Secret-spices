@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\ProductRequest;
 use App\Models\Image;
+use App\Models\Ingredient;
+use App\Models\Nutrient;
 use App\Models\Product;
 use App\Models\Weight;
 use Illuminate\Http\Request;
@@ -41,11 +43,31 @@ class ProductController extends Controller
 
 
         if($product->save()){
-            $image_path = $request->file('path')->store('products', 'public');
+            $image_path = $request->file('image')->store('products', 'public');
             $image=new Image;
             $image->path=$image_path;
 
             $product->images()->save($image);
+
+            if(isset($request->ingredient_name)){
+                foreach($request->ingredient_name as $i){
+                    $ingredient=new Ingredient;
+                    $ingredient->ingredient_name=$i;
+                    $ingredient->save();
+                    $product->ingredients()->attach($ingredient);
+                }
+            }
+
+            if(isset($request->nutrients )){
+                foreach($request->nutrients as $index => $n){
+                    $nutrient=new Nutrient;
+                    $nutrient->nutrient_name=$n;
+                    $nutrient->save();
+                    $quantity = $request->quantity[$index];
+                    $product->nutrients()->attach($nutrient,['quantity'=>$quantity]);
+                }
+            }
+
             return to_route('admin.product.index')->with('success',"Produit enregistré avec success");
         }else{
             return to_route('admin.product.index')->with('fail',"Une erreur s'est produite");
