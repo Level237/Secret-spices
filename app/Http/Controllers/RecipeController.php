@@ -11,7 +11,7 @@ class RecipeController extends Controller
     public function index(){
 
         $recipes=Recipe::with('category')->get()->groupBy('category_id');
-        $weights=Category::all();
-        return view('Recipes.index',compact('recipes','weights'));
+        $categories=Category::all();
+        return view('Recipes.index',compact('recipes','categories'));
     }
 }

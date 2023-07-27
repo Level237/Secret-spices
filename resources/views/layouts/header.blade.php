@@ -44,7 +44,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
 		                            @foreach ($categories as $category)
 		                            <li><a href="{{ route('single-recipe') }}">{{ $category->category_name }}</a></li>

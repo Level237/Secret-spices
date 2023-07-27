@@ -52,7 +52,7 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
 });
 
 Route::get('produits',[GuestProductController::class,'index'])->name('product.index');
-Route::get('recettes',[\App\Http\Controllers\RecipeController::class,'index'])->name('product.index');
+Route::get('recettes',[\App\Http\Controllers\RecipeController::class,'index'])->name('recipe.index');
 Route::get('produits/gamme/{name}g',[GuestProductController::class,'detailByWeight'])->name('product.detailByWeight');
 Route::get('produits/{name}/{gamme}g',[GuestProductController::class,'detail'])->name('product.detail');
 Route::get('engagements',function(){

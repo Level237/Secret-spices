@@ -29,14 +29,20 @@
 
     <div class="container">
 
+        @foreach ($recipes as $index => $recipe)
 
+        @foreach ($categories as $category)
 
+        @if($category->id == $index)
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __('Cuisine Africaine') }}</h1>
+            <h1 class="ms-2">{{ $category->category_name }}</h1>
         </div>
+        @endif
+        @endforeach
 
 
+        @foreach($recipe as $r)
         <div class="row">
 
             <div class="col-md-3">
@@ -48,7 +54,7 @@
 
                 <div class="row">
                     <div class="col-9 fs-5 fw-bold">
-                        Fufu & sauce pistache
+                        {{ $r->name_recipe }}
                     </div>
                     <div class="col-3 text-end">
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -155,323 +161,12 @@
         <div style="margin-bottom: 50px;">
 
         </div>
+        @endforeach
 
-        <div class="d-flex flex-row mb-3">
-            <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __('Cuisine Occidentale') }}</h1>
-        </div>
 
-        <div class="row">
 
-            <div class="col-md-3">
 
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-
-            <div class="text-center " style="margin-top:15px">
-                <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
-            </div>
-        </div>
-
-        <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
-
-        <div style="margin-bottom: 50px;">
-
-        </div>
-
-        <div class="d-flex flex-row mb-3">
-            <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __('Cuisine Exotique') }}</h1>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-
-            <div class="text-center " style="margin-top:15px">
-                <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
-            </div>
-        </div>
-        <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
-
-        <div style="margin-bottom: 50px;">
-
-        </div>
-
-        <div class="d-flex flex-row mb-3">
-            <div class="vertical-line align-middle"></div>
-            <h1 class="ms-2"> {{ __(' Barbecue') }}</h1>
-        </div>
-
-        <div class="row">
-
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet roti à l'orange
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                </div>
-
-
-            </div>
-
-            <div class="text-center " style="margin-top:15px">
-                <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
-            </div>
-        </div>
+        @endforeach
     </div>
 </div>
 
