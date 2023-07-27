@@ -250,7 +250,7 @@
 
 </div> <!-- END PROMO-3 -->
 <div class="text-center" style="margin-top:60px">
-    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button>
+    <a href="/recettes"> <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button></a>
 
 </div>
 
@@ -297,7 +297,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button>
+                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a> 
 
                 </div>
             </div>
