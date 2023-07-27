@@ -45,7 +45,7 @@ Categorie : {{ $category->category_name }}
         <div class="col-md-3">
 
 
-            <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
+            <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
                 <div class="p-1">
                     @foreach($recipe->images as $image)
                     <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">

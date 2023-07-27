@@ -312,7 +312,7 @@
                     <p class="item-description">{{ $recipe->description_recipe }}</p>
                     <div class="making-elements-wrap">
                         <div class="row">
-                            <div class="col-xl-6 col-12">
+                            <div class="col-xl-12 col-12">
                                 <div class="ingridients-wrap">
                                     <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingredients</h3>
                                     <div class="adjust-servings">
@@ -339,7 +339,7 @@
                                     @endforeach
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-12">
+                            {{-- <div class="col-xl-6 col-12">
                                 <div class="nutrition-wrap" style="background-color: #fde0a5">
                                     <h3 class="item-title"><i class="fas fa-info"></i>Nutrition</h3>
                                     <ul class="nutrition-list">
@@ -370,7 +370,7 @@
 
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
