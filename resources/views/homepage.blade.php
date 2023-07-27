@@ -102,7 +102,7 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slideEngagement.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slideEngagement.jpg') }}" alt="slide-background" class="eng">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -111,7 +111,14 @@
                             <div class="col-sm-7">
                                 <div class="caption-txt white-color">
 
-                                    <!-- Title -->
+                                    <h2 class="text-uppercase">ENGAGEMENT</h2>
+
+                                    <h2 class="horizontal-line">
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        {{ __('Parce que nous croyons à la transformation agricole') }}
+                                    </h5>
 
 
 
