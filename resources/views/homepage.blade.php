@@ -108,10 +108,16 @@
                 <div class="caption d-flex align-items-center left-align">
                     <div class="container">
                         <div class="row">
-                            <div class="col-sm-7">
+                            <div class="col-6">
+
+                            </div>
+                            <div class="col-sm-6">
                                 <div class="caption-txt white-color">
 
                                     <!-- Title -->
+
+                                    <h3 class=""> Parce que nous croyons à la transformation agricole</h3>
+
 
 
 
