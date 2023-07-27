@@ -547,116 +547,13 @@
                             <a href="#" class="item-figure"><img src="img/blog/next-post.jpg" alt="Post"></a>
                         </div>
                     </div>                   
-                    <div class="recipe-reviews">
-                        <div class="section-heading3 heading-dark">
-                            <h2 class="item-heading">COMMENTAIRES SUR LA RECETTE</h2>
-                        </div>
-                        <div class="avarage-rating-wrap">
-                            <div class="avarage-rating">Moyenne de points: 
-                                <span class="rating-icon-wrap">
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                    <i class="fas fa-star"></i>
-                                </span>
-                                <span class="rating-number">(5)</span>                                        
-                            </div>
-                            <div class="total-reviews">Total Commentaires:<span class="review-number">(02)</span></div>
-                        </div>
-                        <ul>
-                            <li class="reviews-single-item">
-                                <div class="media media-none--xs">
-                                    <img src="img/blog/comment1.jpg" alt="Comment" class="media-img-auto">
-                                    <div class="media-body">
-                                        <h4 class="comment-title">Liza Zaman</h4>
-                                        <span class="post-date">September 27, 2018</span>
-                                        <p>Recette absolument géniale. Je l'ai cuisiné pour mes enfants et ils ont adoré, même
-                                            demandé plus, pouvez-vous le croire?</p>
-                                        <ul class="item-rating">
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-empty"><i class="fas fa-star"></i></li>
-                                            <li class="single-item"><span>9<span> / 10</span></span> </li>
-                                        </ul>
-                                        <a href="#" class="item-btn">RÉPONDRE<i class="fas fa-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="reviews-single-item">
-                                <div class="media media-none--xs">
-                                    <img src="img/blog/comment2.jpg" alt="Comment" class="media-img-auto">
-                                    <div class="media-body">
-                                        <h4 class="comment-title">John Martin</h4>
-                                        <span class="post-date">September 12, 2018</span>
-                                        <p>Recette absolument géniale. Je l'ai cuisiné pour mes enfants et ils ont adoré, même
-                                            demandé plus, pouvez-vous le croire?</p>
-                                        <ul class="item-rating">
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-fill"><i class="fas fa-star"></i></li>
-                                            <li class="single-item star-empty"><i class="fas fa-star"></i></li>
-                                            <li class="single-item"><span>7<span> / 10</span></span> </li>
-                                        </ul>
-                                        <a href="#" class="item-btn">RÉPONDRE<i class="fas fa-long-arrow-alt-right"></i></a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="leave-review">
-                        <div class="section-heading3 heading-dark">
-                            <h2 class="item-heading">LAISSEZ UN COMMENTAIRE</h2>
-                        </div>
-                        <div class="rate-wrapper">
-                            <div class="rate-label">Vote</div>
-                            <div class="rate">
-                                <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
-                                <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
-                                <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
-                                <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
-                                <div class="rate-item"><i class="fa fa-star" aria-hidden="true"></i></div>
-                            </div>
-                        </div>
-                        <form class="leave-form-box">
-                            <div class="row">
-                                <div class="col-12 form-group">
-                                    <label>Commentaire :</label>
-                                    <textarea placeholder="" class="textarea form-control" name="message" rows="7" cols="20" data-error="Message field is required" required=""></textarea>
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="col-lg-4 form-group">
-                                    <label>Nom :</label>
-                                    <input type="text" placeholder="" class="form-control" name="name" data-error="Name field is required" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="col-lg-4 form-group">
-                                    <label>E-mail :</label>
-                                    <input type="email" placeholder="" class="form-control" name="email" data-error="E-mail field is required" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="col-lg-4 form-group">
-                                    <label>Site :</label>
-                                    <input type="email" placeholder="" class="form-control" name="email" data-error="E-mail field is required" required="">
-                                    <div class="help-block with-errors"></div>
-                                </div>
-                                <div class="col-12 form-group mb-0">
-                                    <button type="submit" class="item-btn">LAISSER LE COMMENTAIRE</button>
-                                </div>
-                            </div>
-                            <div class="form-response"></div>
-                        </form>
-                    </div>
                 </div>
             </div>
         </section>
         <!-- Single Recipe Without Sidebar Area End Here -->
         <!-- Instagram Start Here -->
         <section class="instagram-feed-wrap">
-            <div class="instagram-feed-title"><a href="#"><i class="fab fa-instagram"></i>Suivre Sur Instagram</a></div>
+           
             <ul class="instagram-feed-figure">
                 <li>
                     <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
