@@ -103,29 +103,25 @@
 								<h2 class="h2-sm title_environnement">Poivre blanc de Penja. <br> Meileur Poivre au monde</h2>
 
 								<!-- Text -->
-								<p class="p-md fs-5 text-black">Semper lacus cursus porta primis ligula risus tempus and sagittis ipsum mauris lectus laoreet 
-								   purus ipsum tempor enim ipsum porta justo integer ultrice aligula lectus aenean magna and pulvinar purus at 
-								   pretium	gravida 
+								<p class="p-md fs-5 text-black">Introduit au Cameroun par Antoine Decré, le Poivre blanc de Penja est devenu en 2013 la première Indication
+									Géographique Protégée (IGP) du continent africain. Il est devenu le poivre le plus prisé par les grands chefs cuisiniers du monde.
 								</p>
 
 								<!-- List -->	
 								<ul class="txt-list">
 
 									<li class="list-item">
-										<p class="p-md fs-5 text-black">Fringilla risus, luctus mauris orci auctor purus euismod pretium
-										   purus pretium ligula rutrum tempor sapien
+										<p class="p-md fs-5 text-black">Nos sauces réussissent à allier le piquant du poivre blanc
+														de Penja et la douceur du Djanssang 
 										</p>
 									</li>
 
 									<li class="list-item">
-										<p class="p-md fs-5 text-black">Quaerat sodales sapien euismod purus blandit</p>
+										<p class="p-md fs-5 text-black">« SECRET » se décline en 3 recettes : Sauce Poulet, Sauce
+Viande et Sauce Poisson. </p>
 									</li>
 
-									<li class="list-item">
-										<p class="p-md fs-5 text-black">Nemo ipsam egestas volute turpis dolores ut aliquam quaerat sodales 
-										   sapien undo pretium a purus mauris
-										</p>
-									</li>
+								
 
 								</ul>
 
@@ -164,22 +160,7 @@
 												<!-- Image -->
 												<img class="img-fluid" src="{{ asset('images/engagement/oignons2-155448.png')}}" height="300px" alt="menu-image">
 
-												<!-- Price -->
-												<div class="menu-7-price bg-coffee">
-													<h5 class="h5-xs yellow-color">$3.85</h5>
-												</div>
-
-												<!-- Rating -->
-												<div class="item-rating">
-													<div class="stars-rating stars-lg">
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star-half-alt"></i>
-													</div>		
-												</div>	
-
+												
 												
 
 											</div>
@@ -188,12 +169,10 @@
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Onion Rings</h5>
-
-												<!-- Description -->
-												<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+												<h5 class="h5-sm coffee-color">Oignon</h5>
 
 												
+
 
 											</div>
 
@@ -211,21 +190,7 @@
 												<!-- Image -->
 												<img class="img-fluid" src="{{ asset('images/engagement/ail.png')}}" height="300px" alt="menu-image">
 
-												<!-- Price -->
-												<div class="menu-7-price bg-coffee">
-													<h5 class="h5-xs yellow-color">$3.69</h5>
-												</div>
-
-												<!-- Rating -->
-												<div class="item-rating">
-													<div class="stars-rating stars-lg">
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="far fa-star"></i>
-													</div>		
-												</div>	
+												
 
 												
 
@@ -235,10 +200,9 @@
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">French Fries</h5>
+												<h5 class="h5-sm coffee-color">Ail</h5>
 
-												<!-- Description -->
-												<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+												
 
 												
 
@@ -258,21 +222,7 @@
 												<!-- Image -->
 												<img class="img-fluid" src="{{ asset('images/engagement/pebe.png')}}" alt="menu-image">
 
-												<!-- Price -->
-												<div class="menu-7-price bg-coffee">
-													<h5 class="h5-xs yellow-color">$5.25</h5>
-												</div>
-
-												<!-- Rating -->
-												<div class="item-rating">
-													<div class="stars-rating stars-lg">
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="far fa-star"></i>
-													</div>		
-												</div>	
+												
 
 												
 
@@ -282,10 +232,9 @@
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Mozzarella Sticks</h5>
+												<h5 class="h5-sm coffee-color">Pebe</h5>
 
-												<!-- Description -->
-												<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+												
 
 												
 
@@ -305,21 +254,7 @@
 												<!-- Image -->
 												<img class="img-fluid" src="{{ asset('images/engagement/1.png')}}" alt="menu-image">
 
-												<!-- Price -->
-												<div class="menu-7-price bg-coffee">
-													<h5 class="h5-xs yellow-color">$4.99</h5>
-												</div>
-
-												<!-- Rating -->
-												<div class="item-rating">
-													<div class="stars-rating stars-lg">
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star"></i>
-														<i class="fas fa-star-half-alt"></i>
-													</div>		
-												</div>	
+												
 
 												
 
@@ -329,10 +264,9 @@
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Chicken Nuggets</h5>
+												<h5 class="h5-sm coffee-color">Clou de girofe</h5>
 
-												<!-- Description -->
-												<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+												
 
 												
 
@@ -356,22 +290,7 @@
 											<!-- Image -->
 											<img class="img-fluid" src="{{ asset('images/engagement/2.png')}}" alt="menu-image">
 
-											<!-- Price -->
-											<div class="menu-7-price bg-coffee">
-												<h5 class="h5-xs yellow-color">$3.85</h5>
-											</div>
-
-											<!-- Rating -->
-											<div class="item-rating">
-												<div class="stars-rating stars-lg">
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star-half-alt"></i>
-												</div>		
-											</div>	
-
+											
 										
 
 										</div>
@@ -380,10 +299,9 @@
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Onion Rings</h5>
+											<h5 class="h5-sm coffee-color">Poivre blanc</h5>
 
-											<!-- Description -->
-											<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+											
 
 											
 
@@ -403,21 +321,7 @@
 											<!-- Image -->
 											<img class="img-fluid" src="{{ asset('images/engagement/djansang.png')}}" alt="menu-image">
 
-											<!-- Price -->
-											<div class="menu-7-price bg-coffee">
-												<h5 class="h5-xs yellow-color">$3.69</h5>
-											</div>
-
-											<!-- Rating -->
-											<div class="item-rating">
-												<div class="stars-rating stars-lg">
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="far fa-star"></i>
-												</div>		
-											</div>	
+											
 
 											
 
@@ -427,10 +331,9 @@
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">French Fries</h5>
+											<h5 class="h5-sm coffee-color">Njanssang</h5>
 
-											<!-- Description -->
-											<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+											
 
 											
 
@@ -450,34 +353,15 @@
 											<!-- Image -->
 											<img class="img-fluid" src="{{ asset('images/engagement/3.png')}}" alt="menu-image">
 
-											<!-- Price -->
-											<div class="menu-7-price bg-coffee">
-												<h5 class="h5-xs yellow-color">$5.25</h5>
-											</div>
-
-											<!-- Rating -->
-											<div class="item-rating">
-												<div class="stars-rating stars-lg">
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="far fa-star"></i>
-												</div>		
-											</div>	
-
-											
-
 										</div>
 
 										<!-- TEXT -->
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Mozzarella Sticks</h5>
+											<h5 class="h5-sm coffee-color">Rondelles</h5>
 
-											<!-- Description -->
-											<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+											
 
 											
 
@@ -497,21 +381,7 @@
 											<!-- Image -->
 											<img class="img-fluid" src="{{ asset('images/engagement/essesse-ou-quatre-4-cotes.png')}}" alt="menu-image">
 
-											<!-- Price -->
-											<div class="menu-7-price bg-coffee">
-												<h5 class="h5-xs yellow-color">$4.99</h5>
-											</div>
-
-											<!-- Rating -->
-											<div class="item-rating">
-												<div class="stars-rating stars-lg">
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star"></i>
-													<i class="fas fa-star-half-alt"></i>
-												</div>		
-											</div>	
+											
 
 										
 
@@ -521,10 +391,7 @@
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Chicken Nuggets</h5>
-
-											<!-- Description -->
-											<p class="grey-color">Integer ultrice an aligula lectus purus magna and tempor</p>
+											<h5 class="h5-sm coffee-color">Quatre cotés</h5>
 
 											
 
