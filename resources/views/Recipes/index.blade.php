@@ -47,14 +47,21 @@
 
             <div class="col-md-3">
 
+                <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$r->name_recipe]) }}">
+                    <div class="p-1">
+                        @foreach($r->images as $image)
 
-                <div class="p-1">
-                    <img src="{{ asset('images/fufu.jpg')}}" style="width:100%; height:250px" alt="">
-                </div>
-
+                        <img src="{{ Storage::url($r->images[0]->path)}}" style="width:100%" alt="">
+                        @endforeach
+                    </div>
+                </a>
                 <div class="row">
+
                     <div class="col-9 fs-5 fw-bold">
-                        {{ $r->name_recipe }}
+                        <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$r->name_recipe]) }}">
+                            {{ $r->name_recipe }}
+                        </a>
+
                     </div>
                     <div class="col-3 text-end">
                         <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -72,84 +79,7 @@
 
 
             </div>
-            <div class="col-md-3">
 
-
-                <div class="p-1">
-                    <img src="{{ asset('images/rizsaute.png')}}" style="width:100%; height:250px" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Riz cantonais
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">{{ __('Pour 2 personnes') }}</i></b> <br>
-                        <b>{{ __('Préparation') }}</b> : 15 min <br>
-                        <b>{{ __('Cuisson') }}</b> : 30 min
-                    </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/pouletsauceverte.jpg')}}" style="width:100%; height:250px" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Poulet à la sauce verte
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">{{ __('Pour 3 personnes') }}</i></b> <br>
-                        <b>{{ __('Préparation') }}</b> : 20 min <br>
-                        <b>{{ __('Cuisson') }}</b> : 40 min
-                    </p>
-                </div>
-
-
-            </div>
-            <div class="col-md-3">
-
-
-                <div class="p-1">
-                    <img src="{{ asset('images/boulettes.jpg')}}" style="width:100%; height:250px" alt="">
-                </div>
-
-                <div class="row">
-                    <div class="col-9 fs-5 fw-bold">
-                        Boulettes de viandes
-                    </div>
-                    <div class="col-3 text-end">
-                        <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                    </div>
-                </div>
-
-                <div class="p-1">
-                    <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">{{ __('Pour 6 personnes') }}</i></b> <br>
-                        <b> {{ __('Préparation') }}</b> : 30 min <br>
-                        <b>{{ __('Cuisson') }}</b> : 40 min
-                    </p>
-                </div>
-
-
-            </div>
 
             <div class="text-center " style="margin-top:15px">
                 <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
