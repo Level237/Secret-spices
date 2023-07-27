@@ -14,4 +14,12 @@ class RecipeController extends Controller
         $categories=Category::all();
         return view('Recipes.index',compact('recipes','categories'));
     }
+
+    public function detailByCategory($name){
+        $category=Category::where('category_name',$name)->first();
+        $recipes=Recipe::where('category_id',$category->id)->get();
+
+        return view('Recipes.detailCategory',compact('category','recipes'));
+
+    }
 }

@@ -48,7 +48,7 @@
 		                        <ul>
 
 		                            @foreach ($categories as $category)
-		                            <li><a href="{{ route('single-recipe') }}">{{ $category->category_name }}</a></li>
+		                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
 		                            @endforeach
 
 
