@@ -553,6 +553,9 @@ i{
         display: none;
     }
 
+        #logo-remove {
+            display: none;
+        }
     #receipts-mobile {
         display: block;
     }
@@ -587,6 +590,7 @@ i{
     display: none;
   }
 
+  
    #receipts-mobile {
        display: none;
    }

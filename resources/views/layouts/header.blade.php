@@ -9,17 +9,17 @@
 
 
 		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
+		            <div class="callusbtn"> <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" alt="header-logo"></a></div>
 
 
 		            <!-- LOGO IMAGE -->
-		            <div class="logo" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}">
+		            <div class="logo" id="logo-remove" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}" >
 		                <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
 		            </div>
 
 
 		            <!-- BURGER MENU -->
-		            <div class="burger-menu">
+		            <div class="burger-menu text-white">
 		                <div class="line-menu line-half first-line"></div>
 		                <div class="line-menu"></div>
 		                <div class="line-menu line-half last-line"></div>
@@ -46,10 +46,10 @@
 		                    <!-- DROPDOWN MENU -->
 		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Afrique') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Occidentale') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Exotique') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Barbecue') }}</a></li>
+		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Afrique') }}</a></li>
+		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Occidentale') }}</a></li>
+		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Exotique') }}</a></li>
+		                            <li><a href="{{ route('recipe-category') }}">{{ __('Barbecue') }}</a></li>
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
