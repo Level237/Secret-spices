@@ -7,7 +7,6 @@
 		        <!-- NAVIGATION MENU -->
 		        <div class="navik-header-container">
 
-
 		            <!-- CALL BUTTON -->
 		            <div class="callusbtn"><a href="/receipts"><i class="fas fa-hamburger"></i></a></div>
 
@@ -59,11 +58,11 @@
 
 		                    </div>
 		                    <!-- MEGA MENU -->
-		                    <li><a style="font-size: 16px; color:white" href="#">{{ __('Engagement') }}</a>
+		                    <li><a style="font-size: 16px; color:white" href="{{ route('engagement')}}">{{ __('Engagement') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Environement') }}</a></li>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Process de fabrication') }}</a></li>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Origines ingrédients') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#ingredients">{{ __('Origines ingrédients') }}</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 

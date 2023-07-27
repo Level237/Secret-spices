@@ -499,38 +499,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="recipe-author">
-                        <div class="media media-none--xs d-flex align-items-center">
-                            <div >
-                                <img src="img/blog/author9.jpg" alt="Blog Author" class="rounded-circle media-img-auto" style="width: 200px">
-                            </div>
-                            
-                            <div class="media-body">
-                                <h4 class="author-title">Michel Jack</h4>
-                                <h5 class="author-sub-title">Written by</h5>
-                                <p>I love cooking and blogging. Using a fork, break salmon. Halve reserved
-                                    potatoes and eggs crosswise. The of something of did require met of
-                                    help have someone.</p>
-                                <ul class="author-social">
-                                    <li>
-                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-twitter"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                    </li>
-                                    <li>
-                                        <a href="#"><i class="fab fa-skype"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
+
                     <div class="next-prev-post">
                         <div class="prev-post">
                             <a href="#" class="item-figure"><img src="img/blog/prev-post.jpg" alt="Post"></a>
