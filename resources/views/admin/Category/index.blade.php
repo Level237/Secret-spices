@@ -1,6 +1,6 @@
 @extends('layouts.admin.app')
 @section('title')
-Ajouter une Categorie
+Categories
 @endsection
 
 @section('content')

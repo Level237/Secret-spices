@@ -108,15 +108,17 @@
                 <div class="caption d-flex align-items-center left-align">
                     <div class="container">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-5">
 
                             </div>
-                            <div class="col-sm-6">
+                            <div class="col-sm-7">
                                 <div class="caption-txt white-color">
+                                    <h2 class="text-uppercase">Engagements</h2>
 
-                                    <!-- Title -->
+                                    <h2 class="horizontal-line">
+                                        <!-- Title -->
 
-                                    <h3 class=""> Parce que nous croyons à la transformation agricole</h3>
+                                        <h3 class=""> Parce que nous croyons à la transformation agricole</h3>
 
 
 
@@ -823,7 +825,7 @@
 
 
         <!-- Blog -->
-        <section class="container mb-5 py-lg-5 d-lg-block d-none">
+        <section class="container mb-5 py-lg-5 d-lg-block ">
 
             <div class="row">
                 <div class="col-lg-8 col-12 mb-lg-0 mb-4">

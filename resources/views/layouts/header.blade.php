@@ -7,14 +7,13 @@
 		        <!-- NAVIGATION MENU -->
 		        <div class="navik-header-container">
 
-
-		             <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="/receipts"><span class="flaticon-dinner"></span></a></div>
+		            <!-- CALL BUTTON -->
+		            <div class="callusbtn"><a href="/receipts"><i class="fas fa-hamburger"></i></a></div>
 
 
 		            <!-- LOGO IMAGE -->
-		            <div class="logo"  data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}" >
-		                <a href="{{ route('homepage') }}" ><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
+		            <div class="logo" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}">
+		                <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
 		            </div>
 
 
@@ -44,12 +43,15 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Afrique') }}</a></li>
-		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Occidentale') }}</a></li>
-		                            <li><a href="{{ route('recipe-category') }}">{{ __('Cuisine Exotique') }}</a></li>
-		                            <li><a href="{{ route('recipe-category') }}">{{ __('Barbecue') }}</a></li>
+
+		                            @foreach ($categories as $category)
+		                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
+		                            @endforeach
+
+
+
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
