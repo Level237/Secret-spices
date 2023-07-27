@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\WeightController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\ProductController as GuestProductController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -52,15 +53,26 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
 });
 
 Route::get('produits',[GuestProductController::class,'index'])->name('product.index');
+Route::get('recettes',[\App\Http\Controllers\RecipeController::class,'index'])->name('recipe.index');
+Route::get('recettes/categorie/{name}',[\App\Http\Controllers\RecipeController::class,'detailByCategory'])->name('recipe.detailByCategory');
+Route::get('recettes/{name}/{category}',[\App\Http\Controllers\RecipeController::class,'detail'])->name('recipe.detail');
 Route::get('produits/gamme/{name}g',[GuestProductController::class,'detailByWeight'])->name('product.detailByWeight');
 Route::get('produits/{name}/{gamme}g',[GuestProductController::class,'detail'])->name('product.detail');
 
+Route::get('engagements',function(){
+
+    return view('engagement');
+})->name('engagement');
 
 require __DIR__.'/auth.php';
 
 Route::get('/receipts', function(){
     return view('receipts');
 })->name('receipts');
+
+Route::get('/recipe-category', function(){
+    return view('recipe-category');
+})->name('recipe-category');
 
 Route::get('/details/recettes',function(){
 return view('details-recipes');
@@ -95,6 +107,8 @@ Route::get('/event', function(){
 })-> name('event');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
-Route::get('contact', function(){
-    return view('contact');
-})->name('contact');
+
+
+
+Route::get('contact', [ContactController::class, 'create']);
+Route::post('contact', [ContactController::class, 'store']);

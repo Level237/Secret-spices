@@ -7,9 +7,8 @@
 		        <!-- NAVIGATION MENU -->
 		        <div class="navik-header-container">
 
-
 		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="tel:123456789"><i class="fas fa-phone"></i></a></div>
+		            <div class="callusbtn"><a href="/receipts"><i class="fas fa-hamburger"></i></a></div>
 
 
 		            <!-- LOGO IMAGE -->
@@ -19,7 +18,7 @@
 
 
 		            <!-- BURGER MENU -->
-		            <div class="burger-menu">
+		            <div class="burger-menu text-white">
 		                <div class="line-menu line-half first-line"></div>
 		                <div class="line-menu"></div>
 		                <div class="line-menu line-half last-line"></div>
@@ -44,23 +43,26 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('receipts') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Afrique') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Occidentale') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Cuisine Exotique') }}</a></li>
-		                            <li><a href="{{ route('single-recipe') }}">{{ __('Barbecue') }}</a></li>
+
+		                            @foreach ($categories as $category)
+		                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
+		                            @endforeach
+
+
+
 		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
 
 		                    </div>
 		                    <!-- MEGA MENU -->
-		                    <li><a style="font-size: 16px; color:white" href="#">{{ __('Engagement') }}</a>
+		                    <li><a style="font-size: 16px; color:white" href="{{ route('engagement')}}">{{ __('Engagement') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Environement') }}</a></li>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Process de fabrication') }}</a></li>
-		                            <li><a href="{{ route('product-detail') }}">{{ __('Origines ingrédients') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#ingredients">{{ __('Origines ingrédients') }}</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 

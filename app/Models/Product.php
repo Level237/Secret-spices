@@ -3,6 +3,7 @@
 namespace App\Models;
 
 use App\Models\Ingredient;
+use App\Models\Nutrient;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -29,6 +30,9 @@ public function weight():BelongsTo{
 
 public function ingredients():BelongsToMany{
     return $this->belongsToMany(Ingredient::class);
+}
+public function nutrients():BelongsToMany{
+    return $this->belongsToMany(Nutrient::class)->withPivot('quantity');;
 }
 
 }

@@ -389,6 +389,13 @@ i{
       margin-left: 10px;
   }
 
+.horizontal-line-three {
+    background-color: #c70609;
+    height: 5px;
+    width: 80px;
+    margin-left: 15px;
+}
+
 .horizontal-mobile-line-gray {
     height: 2px;
     border-width: 0;
@@ -427,6 +434,10 @@ i{
 .product-title{
     margin-bottom: 30px;
     text-align : center;
+}
+
+.title_environnement{
+    color:#c70609
 }
 
 .center-gamut{
@@ -541,6 +552,10 @@ i{
     font-size: 15px;
 }
 
+.engagement_origine{
+    width : 300px;
+    border-radius: 10px;
+}
 
 @media screen and (max-width: 1365px) {
     .horizontal-line {
@@ -553,6 +568,9 @@ i{
         display: none;
     }
 
+        #logo-remove {
+            display: none;
+        }
     #receipts-mobile {
         display: block;
     }
@@ -587,6 +605,7 @@ i{
     display: none;
   }
 
+  
    #receipts-mobile {
        display: none;
    }

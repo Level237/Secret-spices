@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Détail Poulet Roti à l'orange</title>
+    <title>Recette de {{ $recipe->name_recipe }}</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
-        <!-- FAVICON AND TOUCH ICONS -->
+    <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }} " type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" sizes="152x152" href="images/apple-touch-icon-152x152.png">
@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
     <!-- Flaticon CSS -->
     <link rel="stylesheet" href="{{ asset('fonts-recipe/flaticon.css')}}">
-        <!-- FONT ICONS -->
+    <!-- FONT ICONS -->
     <link href="{{ asset('releases/v5.11.0/css/all.css')}}" rel="stylesheet" crossorigin="anonymous">
     <link href="{{ asset('css/flaticon.css')}}" rel="stylesheet">
     <!-- Owl Carousel CSS -->
@@ -47,7 +47,7 @@
 
     <!-- Add your site or application content here -->
     <!-- Preloader Start Here -->
-    
+
     <!-- Preloader End Here -->
     <!-- ScrollUp Start Here -->
     <a href="#wrapper" data-type="section-switch" class="scrollup">
@@ -56,18 +56,18 @@
     <!-- ScrollUp End Here -->
     <div id="wrapper" class="wrapper">
 
-                <!-- Header Area Start Here -->
+        <!-- Header Area Start Here -->
         <header class="header-one">
-            <div id="header-main-menu" class="header-main-menu header-sticky" style="background-color: #c70609; 
-            background-image: url('/images/bg_header.jpg'); color: white; ">
-                <div class="container">                    
+            <div id="header-main-menu" class="header-main-menu header-sticky" style="background-color: #c70609;
+            background-image: url({{ asset('images/bg_header.jpg') }}); color: white; ">
+                <div class="container">
                     <div class="row">
                         <div class="col-lg-8 col-md-3 col-sm-4 col-4 possition-static d-flex flex-row">
                             <div class="p-2" style="margin-left: -75px" id="logo-secret-header">
                                 <a href="{{ route('homepage')}}" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" style="width: 160px" alt="Site Logo"></a>
                             </div>
-                            
-                            
+
+
                             <div class="site-logo-mobile">
                                 <a href="{{ route('homepage') }}" class="sticky-logo-light"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
                                 <a href="{{ route('homepage') }}" class="sticky-logo-dark"><img src="{{ asset('images/logos/logo-one.png') }}" alt="Site Logo"></a>
@@ -75,13 +75,13 @@
 
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu" style="margin-left:50px">
-                                    <li ><a href="#" > <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
+                                    <li><a href="#"> <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
                                         <ul class="dropdown-menu-col-1">
                                             <li><a href="{{ route('homepage') }}">Home 1</a></li>
                                             <li><a href="{{ route('homepage') }}">Home 2</a></li>
                                         </ul>
                                     </li>
-                                    
+
                                     <li>
                                         <a href="#" style="font-size:16px; text-transform: uppercase;">Recettes</a>
                                         <ul class="dropdown-menu-col-1">
@@ -108,17 +108,17 @@
                                     <li>
                                         <a href="category.html.htm" style="font-size:16px; text-transform: uppercase;">{{ __('Évènements') }}</a>
                                     </li>
-                                     <li>
+                                    <li>
                                         <a href="category.html.htm" style="font-size:16px; text-transform: uppercase;">{{ __('Blog') }}</a>
                                     </li>
                                 </ul>
                             </nav>
-                           
+
                         </div>
                         <div class="col-lg-4 col-md-9 col-sm-8 col-8 d-flex align-items-center justify-content-end">
                             <div class="nav-action-elements-layout1">
                                 <ul>
-                                     
+
                                     <li>
                                         <div class="middle-section" id="search-bar">
                                             <input class="search-bar" type="text" placeholder="{{ __('Rechercher') }}">
@@ -133,53 +133,53 @@
 
                                             </button>
 
-		                                </div>
+                                        </div>
                                     </li>
-                                   
+
                                     <li id="language-section">
-                                    
-                                          <nav class="site-nav">
+
+                                        <nav class="site-nav">
                                             <ul id="site-menu" class="site-menu" style="">
-                                                <li >
-                                                <a href="cart.html" style="width: 50px">
-                                                <img class="lang" src="{{ asset('images/languages/fr.png')}} " alt="">
-                                                   
-                                            </a>
+                                                <li>
+                                                    <a href="cart.html" style="width: 50px">
+                                                        <img class="lang" src="{{ asset('images/languages/fr.png')}} " alt="">
+
+                                                    </a>
                                                     <ul class="dropdown-menu-col-1" style="background-color: white">
-                                                        <div class="d-flex flex-column" >
-                                                            <div class="p-2" ><a href="lang/fr">
-                                                                <div class="d-flex align-items-center">
-                                                                    <div class="p-2">
-                                                                        <img class="lang-select" src="{{ asset('images/languages/fr.png')}}  " alt="">
-                                                                    </div>
+                                                        <div class="d-flex flex-column">
+                                                            <div class="p-2"><a href="lang/fr">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="p-2">
+                                                                            <img class="lang-select" src="{{ asset('images/languages/fr.png')}}  " alt="">
+                                                                        </div>
 
-                                                                    <div class="p-2">
-                                                                        Français
+                                                                        <div class="p-2">
+                                                                            Français
+                                                                        </div>
                                                                     </div>
-                                                                </div>
-                                                            </a>
-                                                        </div>
-                                                            <div class="p-2"><a href="lang/en">
-                                                                <div class="d-flex align-items-center">
-                                                                    <div class="p-2">
-                                                                        <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
-                                                                    </div>
-
-                                                                    <div class="p-2">
-                                                                        English
-                                                                    </div>
-                                                                </div>
-                                                            </a></div>
-                                                           
+                                                                </a>
                                                             </div>
-                                                        
+                                                            <div class="p-2"><a href="lang/en">
+                                                                    <div class="d-flex align-items-center">
+                                                                        <div class="p-2">
+                                                                            <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
+                                                                        </div>
+
+                                                                        <div class="p-2">
+                                                                            English
+                                                                        </div>
+                                                                    </div>
+                                                                </a></div>
+
+                                                        </div>
+
                                                     </ul>
                                                 </li>
-                                                
-                                            
+
+
                                             </ul>
                                         </nav>
-                                        
+
                                     </li>
                                 </ul>
                             </div>
@@ -193,32 +193,22 @@
                     </div>
                 </div>
             </div>
-          
+
         </header>
 
-    
-      
+
+
         <!-- Single Recipe Main Banner Area Start Here -->
         <div style="margin-top: 90px">
 
-                            </div>
+        </div>
         <section class="single-recipe-main-banner">
             <div class="rc-carousel nav-control-layout4" data-loop="true" data-items="5" data-margin="5" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="1" data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="1" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="1" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="1" data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="1" data-r-extra-large-nav="true" data-r-extra-large-dots="false">
+                @foreach ($recipe->images as $image)
                 <div class="item-figure">
-                    <img src="img/figure/single-banner1.jpg" alt="Banner">
+                    <img src="{{Storage::url($image->path)}}" alt="Banner">
                 </div>
-                <div class="item-figure">
-                    <img src="img/figure/single-banner2.jpg" alt="Banner">
-                </div>
-                <div class="item-figure">
-                    <img src="img/figure/single-banner3.jpg" alt="Banner">
-                </div>
-                <div class="item-figure">
-                    <img src="img/figure/single-banner4.jpg" alt="Banner">
-                </div>
-                <div class="item-figure">
-                    <img src="img/figure/single-banner5.jpg" alt="Banner">
-                </div>
+                @endforeach
             </div>
         </section>
         <!-- Single Recipe Main Banner Area End Here -->
@@ -227,7 +217,7 @@
             <div class="container">
                 <div class="single-recipe-layout2">
                     <div class="ctg-name " style="font-size:30px"> Secret Poisson</div>
-                    <h2 class="item-title">Maquereau grillé et purée de patate</h2>
+                    <h2 class="item-title">{{ $recipe->name_recipe }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
                             <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>Nov 14,
@@ -267,13 +257,13 @@
                         <ul>
                             <li>
                                 <div class="feature-wrap">
-                                    <div class="media d-flex" >
+                                    <div class="media d-flex">
                                         <div class="feature-icon">
                                             <i class="far fa-clock"></i>
                                         </div>
                                         <div class="media-body space-sm">
                                             <div class="feature-title">TEMPS PREP</div>
-                                            <div class="feature-sub-title">45 Mins</div>
+                                            <div class="feature-sub-title">{{ $recipe->time }}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -299,7 +289,7 @@
                                         </div>
                                         <div class="media-body space-sm">
                                             <div class="feature-title">SERVICE</div>
-                                            <div class="feature-sub-title">10 Têtes</div>
+                                            <div class="feature-sub-title">{{ $recipe->number_person }} person</div>
                                         </div>
                                     </div>
                                 </div>
@@ -319,17 +309,12 @@
                             </li>
                         </ul>
                     </div>
-                    <p class="item-description">More off this less hello salamander lied porpoise much over tightly
-                        circa horse taped so innocuously side crudey mightily rigorous plot life. New homes in
-                        particular are subject.All recipes created with FoodiePress have suport for Micoformats and
-                        Google Recipe View. Schema.org is a collaboration byo improve the web by creatinegaera
-                        structured data markup.More off this less hello salamander lied porpoise much over tightly
-                        circa horse tapedey innocuously.</p>
+                    <p class="item-description">{{ $recipe->description_recipe }}</p>
                     <div class="making-elements-wrap">
                         <div class="row">
-                            <div class="col-xl-6 col-12">
+                            <div class="col-xl-12 col-12">
                                 <div class="ingridients-wrap">
-                                    <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingridients</h3>
+                                    <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingredients</h3>
                                     <div class="adjust-servings">
                                         <div class="servings-title">Adjust Servings</div>
                                         <form class="servings-quantity">
@@ -346,33 +331,15 @@
                                             </div>
                                         </form>
                                     </div>
+                                    @foreach ($recipe->ingredients as $index=>$ingredient)
                                     <div class="checkbox checkbox-primary">
                                         <input id="checkbox1" type="checkbox">
-                                        <label for="checkbox1">1 cup sifted all purpose flour</label>
+                                        <label for="checkbox1">{{ $recipe->ingredients[$index]->pivot->quantity }} {{ $ingredient->ingredient_name }}</label>
                                     </div>
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox2" type="checkbox">
-                                        <label for="checkbox2">4 cup dry-roasted macadamia nuts</label>
-                                    </div>
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox3" type="checkbox">
-                                        <label for="checkbox3">4 large eggs</label>
-                                    </div>
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox4" type="checkbox">
-                                        <label for="checkbox4">4 cup dry-roasted macadamia nuts</label>
-                                    </div>
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox5" type="checkbox">
-                                        <label for="checkbox5">5 cup sifted all purpose flour</label>
-                                    </div>
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox6" type="checkbox">
-                                        <label for="checkbox6">8 cup dry-roasted macadamia nuts</label>
-                                    </div>
+                                    @endforeach
                                 </div>
                             </div>
-                            <div class="col-xl-6 col-12">
+                            {{-- <div class="col-xl-6 col-12">
                                 <div class="nutrition-wrap" style="background-color: #fde0a5">
                                     <h3 class="item-title"><i class="fas fa-info"></i>Nutrition</h3>
                                     <ul class="nutrition-list">
@@ -403,7 +370,7 @@
 
                                     </ul>
                                 </div>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
 
@@ -411,46 +378,22 @@
                         <div class="section-heading2 heading-dark">
                             <h2 class="item-heading">Étapes de préparation</h2>
                         </div>
+                        @foreach ($recipe->steps as $index=>$step)
+                        @if($index == 0)
+                        @continue
+
+                        @endif
                         <div class="direction-box-layout2">
                             <div class="serial-number">
-                                <h4 class="number-title">01</h4><span>Étape</span>
+                                <h4 class="number-title">{{ $index }}</h4><span>Étape</span>
                             </div>
                             <div class="item-content">
-                                <span class="item-time"><i class="far fa-clock"></i>5 Mins</span>
-                                <p>More off this less hello salamander lied porpoise much over tightly circa horse taped so ously 
-                                        side crudey mightily rigorous plot lifew homes in particular are subject.</p>
+                                <span class="item-time"><i class="far fa-clock"></i>{{ $step->duration }}</span>
+                                <p>{{ $step->description }}</p>
                             </div>
                         </div>
-                        <div class="direction-box-layout2">
-                            <div class="serial-number">
-                                <h4 class="number-title">02</h4><span>Étape</span>
-                            </div>
-                            <div class="item-content">
-                                <span class="item-time"><i class="far fa-clock"></i>17 Mins</span>
-                                <p>More off this less hello salamander lied porpoise much over tightly circa horse taped so ously 
-                                        side crudey mightily rigorous plot lifew homes in particular are subject.</p>
-                            </div>
-                        </div>
-                        <div class="direction-box-layout2">
-                            <div class="serial-number">
-                                <h4 class="number-title">03</h4><span>Étape</span>
-                            </div>
-                            <div class="item-content">
-                                <span class="item-time"><i class="far fa-clock"></i>10 Mins</span>
-                                <p>More off this less hello salamander lied porpoise much over tightly circa horse taped so ously 
-                                        side crudey mightily rigorous plot lifew homes in particular are subject.</p>
-                            </div>
-                        </div>
-                        <div class="direction-box-layout2">
-                            <div class="serial-number">
-                                <h4 class="number-title">04</h4><span>Étape</span>
-                            </div>
-                            <div class="item-content">
-                                <span class="item-time"><i class="far fa-clock"></i>15 Mins</span>
-                                <p>More off this less hello salamander lied porpoise much over tightly circa horse taped so ously 
-                                        side crudey mightily rigorous plot lifew homes in particular are subject.</p>
-                            </div>
-                        </div>
+                        @endforeach
+
                     </div>
                     <div class="tag-share">
                         <ul>
@@ -499,7 +442,38 @@
                             </li>
                         </ul>
                     </div>
+                    <div class="recipe-author">
+                        <div class="media media-none--xs d-flex align-items-center">
+                            <div>
+                                <img src="img/blog/author9.jpg" alt="Blog Author" class="rounded-circle media-img-auto" style="width: 200px">
+                            </div>
 
+                            <div class="media-body">
+                                <h4 class="author-title">Michel Jack</h4>
+                                <h5 class="author-sub-title">Written by</h5>
+                                <p>I love cooking and blogging. Using a fork, break salmon. Halve reserved
+                                    potatoes and eggs crosswise. The of something of did require met of
+                                    help have someone.</p>
+                                <ul class="author-social">
+                                    <li>
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i class="fab fa-skype"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                     <div class="next-prev-post">
                         <div class="prev-post">
                             <a href="#" class="item-figure"><img src="img/blog/prev-post.jpg" alt="Post"></a>
@@ -515,14 +489,14 @@
                             </div>
                             <a href="#" class="item-figure"><img src="img/blog/next-post.jpg" alt="Post"></a>
                         </div>
-                    </div>                   
+                    </div>
                 </div>
             </div>
         </section>
         <!-- Single Recipe Without Sidebar Area End Here -->
         <!-- Instagram Start Here -->
         <section class="instagram-feed-wrap">
-           
+
             <ul class="instagram-feed-figure">
                 <li>
                     <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
@@ -551,75 +525,75 @@
             </ul>
         </section>
         <!-- Instagram End Here -->
-       			<!-- FOOTER-3
+        <!-- FOOTER-3
 			============================================= -->
-			<footer id="footer-3" class="footer-division footer-bg">
+        <footer id="footer-3" class="footer-division footer-bg">
 
 
-			    <div class="d-md-flex flex-row justify-content-around footer-text-secrets">
-			        <div class="p-2">
-			            <div class="d-flex  flex-column">
-			                <div class="p-2">
-			                    <img src="{{ asset("images/logos/logo-one.png") }}" width="200px" alt="footer-logo">
-			                </div>
-			                <div class="d-flex flex-column align-items-center">
-			                    <div class="" >
-			                        <p class="footer-text-secrets" >{{ __('L\'alliee de la femme') }} <br> {{ __('ambitieuse et belle') }}</p>
-			                    </div>
+            <div class="d-md-flex flex-row justify-content-around footer-text-secrets">
+                <div class="p-2">
+                    <div class="d-flex  flex-column">
+                        <div class="p-2">
+                            <img src="{{ asset("images/logos/logo-one.png") }}" width="200px" alt="footer-logo">
+                        </div>
+                        <div class="d-flex flex-column align-items-center">
+                            <div class="">
+                                <p class="footer-text-secrets">{{ __('L\'alliee de la femme') }} <br> {{ __('ambitieuse et belle') }}</p>
+                            </div>
 
-			                </div>
+                        </div>
 
-			            </div>
-			        </div>
-			        <div class="align-self-center p-2" >
-			            <div class="d-flex flex-column " >
-			                <a href="{{ route('about') }}" class="text-white">
-			                    <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('A Propos') }}</div>
-			                </a>
-			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions légales') }}</div>
-							<div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Données personnelles') }}</div>
-			            </div>
-			        </div>
-			        <div class="align-self-center p-2 ">
-			            <div class="d-flex flex-column">
-			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions sanitaires') }}</div>
-			                <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Évènements') }}</div>
-							<a href="{{ route('contact') }}" class="text-white">
-			                	<div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Nous Contacter') }}</div>
-							</a>
-			            </div>
-			        </div>
+                    </div>
+                </div>
+                <div class="align-self-center p-2">
+                    <div class="d-flex flex-column ">
+                        <a href="{{ route('about') }}" class="text-white">
+                            <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('A Propos') }}</div>
+                        </a>
+                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions légales') }}</div>
+                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Données personnelles') }}</div>
+                    </div>
+                </div>
+                <div class="align-self-center p-2 ">
+                    <div class="d-flex flex-column">
+                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions sanitaires') }}</div>
+                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Évènements') }}</div>
+                        <a href="{{ route('contact') }}" class="text-white">
+                            <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Nous Contacter') }}</div>
+                        </a>
+                    </div>
+                </div>
 
-			    </div>
+            </div>
 
-			    <div class="row">
-			        <div class="col">
+            <div class="row">
+                <div class="col">
 
-			        </div>
-			        <div class="col">
-			            <a href="#" class="ico-facebook text-white"><i class="fab  fa-facebook-f"></i></a>
-			            <a href="#" class="ico-instagram text-white"><i class="fab fa-instagram"></i></a>
-			        </div>
-			    </div>
+                </div>
+                <div class="col">
+                    <a href="#" class="ico-facebook text-white"><i class="fab  fa-facebook-f"></i></a>
+                    <a href="#" class="ico-instagram text-white"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
 
-			    <div class="container-fluid">
-			        <div class="row align-items-center">
-			            <div class="blocfooter">
-			                <div class="col-md-12 ">
-			                    <!-- FOOTER COPYRIGHT -->
-			                    <div class="footer-copyright fs-3 fw-bold">
-			                        <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
-			                    </div>
-			                </div>
-			            </div>
-			        </div>
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="blocfooter">
+                        <div class="col-md-12 ">
+                            <!-- FOOTER COPYRIGHT -->
+                            <div class="footer-copyright fs-3 fw-bold">
+                                <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-			    </div> <!-- End row -->
-			    </div> <!-- End container -->
-			</footer> <!-- END FOOTER-3 -->
+            </div> <!-- End row -->
+    </div> <!-- End container -->
+    </footer> <!-- END FOOTER-3 -->
 
     </div>
-   
+
 
     <!-- Jquery Js -->
     <script src="{{ asset('js-recipe/jquery-3.3.1.min.js')}} "></script>
