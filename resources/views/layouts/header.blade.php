@@ -8,13 +8,13 @@
 		        <div class="navik-header-container">
 
 
-		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"> <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" alt="header-logo"></a></div>
+		             <!-- CALL BUTTON -->
+		            <div class="callusbtn"><a href="/receipts"><i class="fas fa-hamburger"></i></a></div>
 
 
 		            <!-- LOGO IMAGE -->
-		            <div class="logo" id="logo-remove" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}" >
-		                <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
+		            <div class="logo"  data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}" >
+		                <a href="{{ route('homepage') }}" ><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
 		            </div>
 
 
