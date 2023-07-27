@@ -47,7 +47,7 @@
 
             <div class="col-md-3">
 
-                <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$r->name_recipe]) }}">
+                <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
                     <div class="p-1">
                         @foreach($r->images as $image)
 
@@ -58,7 +58,7 @@
                 <div class="row">
 
                     <div class="col-9 fs-5 fw-bold">
-                        <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$r->name_recipe]) }}">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
                             {{ $r->name_recipe }}
                         </a>
 
@@ -70,11 +70,7 @@
 
 
                 <div class="p-1">
-                    <p style="width: 300px;" class="fs-6 fw-normal">
-                        <b><i style="color: #c70609">{{ __('Pour 5 personnes') }}</i></b> <br>
-                        <b>{{ __('Préparation') }}</b> : 45 min <br>
-                        <b>{{ __('Cuisson') }}</b> :30 min
-                    </p>
+                    <p style="width:100%" class="fs-6 fw-normal">{{ $r->description_recipe }}</p>
                 </div>
 
 
