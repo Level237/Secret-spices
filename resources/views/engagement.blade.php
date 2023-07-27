@@ -431,27 +431,10 @@ Viande et Sauce Poisson. </p>
 								<h2 class="h2-sm title_environnement">Processus de Transformation</h2>
 
 								<!-- Text -->
-								<p class="p-md fs-5 text-black">Semper lacus cursus porta primis ligula risus tempus and sagittis ipsum mauris lectus laoreet 
-								   purus ipsum tempor enim ipsum porta justo integer ultrice aligula lectus aenean magna and pulvinar purus at 
-								   pretium	gravida 
+								<p class="p-md fs-5 text-black">Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration.
 								</p>
 
-								<!-- List -->	
-								<ul class="txt-list">
-
-									<li class="list-item">
-										<p class="p-md fs-5 text-black">Fringilla risus, luctus mauris orci auctor purus euismod pretium
-										   purus pretium ligula rutrum tempor sapien
-										</p>
-									</li>
-
-									<li class="list-item">
-										<p class="p-md fs-5 text-black">Quaerat sodales sapien euismod purus blandit</p>
-									</li>
-
-									
-
-								</ul>
+								
 
 							</div>
 						</div>	<!-- END ABOUT TEXT -->	
