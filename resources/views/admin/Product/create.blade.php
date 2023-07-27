@@ -51,8 +51,21 @@ Ajouter un Produit
                                         @endforeach
                                     </select>
                                 </div>
+                                <div id="form2">
+                                    <h3 class="text-center">Valeurs Nutritives</h3>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Valeur 1</label>
+                                        <input type="text" id="simpleinput" name="nutrients[]" class="form-control">
 
-                                <div class="fallback mb-4">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Quantité</label>
+                                        <input type="quantité" id="simpleinput" name="quantity[]" class="form-control">
+
+                                    </div>
+                                </div>
+                                <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Nutriment</button>
+                                <div class="fallback mb-4 mt-3">
                                     <input name="path" class="form-control" type="file" />
                                 </div>
 
@@ -126,13 +139,9 @@ Ajouter un Produit
         newDiv.setAttribute('id', `ingredient`);
         const div = document.getElementById('form');
         newDiv.innerHTML = `
-                                    <div class="mb-3">
+        <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Ingredients</label>
                                         <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
-
-                                    </div> <div class="mb-3">
-                                        <label for="simpleinput" class="form-label">Quantité</label>
-                                        <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
 
                                     </div>`
         div.appendChild(newDiv);
@@ -147,8 +156,13 @@ Ajouter un Produit
         const div = document.getElementById('form2');
         newDiv.innerHTML = `
         <div class="mb-3">
-                                        <label for="simpleinput" class="form-label">Etape ${j}</label>
-                                        <input type="text" id="simpleinput" name="steps[]" class="form-control">
+                                        <label for="simpleinput" class="form-label">Valeur ${j}</label>
+                                        <input type="text" id="simpleinput" name="nutrients[]" class="form-control">
+
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="simpleinput" class="form-label">Quantité</label>
+                                        <input type="quantité" id="simpleinput" name="quantity[]" class="form-control">
 
                                     </div>`
         div.appendChild(newDiv);
