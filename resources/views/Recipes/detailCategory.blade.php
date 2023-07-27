@@ -45,62 +45,67 @@ Categorie : {{ $category->category_name }}
         <div class="col-md-3">
 
 
-            <div class="p-1">
-                @foreach($recipe->images as $image)
-                <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
-                @endforeach
-
-            </div>
-
-            <div class="row">
-                <div class="col-9 fs-5 fw-bold">
-                    {{ $recipe->name_recipe }}
-                </div>
-                <div class="col-3 text-end">
-                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                </div>
-            </div>
-
-
-            <div class="p-1">
-                <p style="width:100%" class="fs-6 fw-normal">{{ $recipe->description_recipe }}</p>
-            </div>
-
-
+            <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
+                <div class="p-1">
+                    @foreach($recipe->images as $image)
+                    <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
+                    @endforeach
+            </a>
         </div>
 
+        <div class="row">
+
+            <div class="col-9 fs-5 fw-bold">
+                <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
+                    {{ $recipe->name_recipe }}
+                </a>
+            </div>
+
+            <div class="col-3 text-end">
+                <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+            </div>
+        </div>
+
+
+        <div class="p-1">
+            <p style="width:100%" class="fs-6 fw-normal">{{ $recipe->description_recipe }}</p>
+        </div>
+
+
     </div>
-    <div style="margin-bottom: 50px;">
-    </div>
 
-    <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
-    @endforeach
+</div>
+<div style="margin-bottom: 50px;">
+</div>
+
+<div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
+@endforeach
 
 
 
 
-    <!-- PAGE PAGINATION
+<!-- PAGE PAGINATION
 			============================================= -->
-    <div class="bg-color-01 page-pagination division">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
+<div class="bg-color-01 page-pagination division">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
 
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
-                            <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
-                            <li class="page-item"><a class="page-link" href="#">4</a></li>
-                            <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
-                        </ul>
-                    </nav>
+                <nav aria-label="Page navigation">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled"><a class="page-link" href="#" tabindex="-1"><i class="fas fa-angle-left"></i></a></li>
+                        <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#"><i class="fas fa-angle-right"></i></a></li>
+                    </ul>
+                </nav>
 
-                </div>
-            </div> <!-- End row -->
-        </div> <!-- End container -->
-    </div> <!-- END PAGE PAGINATION -->
+            </div>
+        </div> <!-- End row -->
+    </div> <!-- End container -->
+</div> <!-- END PAGE PAGINATION -->
 </div>
 </div>
 
