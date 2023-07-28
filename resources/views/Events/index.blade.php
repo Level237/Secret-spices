@@ -60,73 +60,68 @@
 
 
         <div class="row">
+            <div class="col-lg-3">
 
+            </div>
+            <div class="col-lg-7 col-12 mb-lg-0 mb-4">
 
-            <!-- MENU ITEM #1 -->
+                <!-- Article -->
+                <article class="card h-100 border-0 shadow-sm">
+                    <div class="position-relative">
+                        <a href="{{ route('event') }}" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
+                        <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later">
+                            <i class="bx bx-bookmark"></i>
+                        </a>
+                        <img src="{{ Storage::url($eventPending->images[0]->path) }}" class="card-img-top" alt="Image">
+                    </div>
+                    <div class="card-body pb-4">
+                        <div class="d-flex align-items-start ms-4 mt-3">
 
-            <div class="col-lg-3"></div>
-            <div class="col-sm-12 col-lg-8">
-                <div class="menu-6-item bg-white">
+                            <div style="border: 2px solid red;padding-top:8px;padding-bottom:8px;padding-left:20px;padding-right:20px">
+                                <div class="fs-2 fw-bold">
+                                    <span class="text-primary-spices">{{ $eventPending->date_event->format('d') }}</span>
 
-                    <!-- IMAGE -->
-                    <div class="menu-6-img rel">
-                        <div class="hover-overlay">
+                                </div>
+                                <span class="fs-6 fw-bold">
+                                    {{ $eventPending->date_event->format('M') }}
+                                </span>
 
-                            <!-- Image -->
-                            <img class="img-fluid" src="{{ Storage::url($eventPending->images[0]->path) }}" alt="menu-image">
-
-                            <!-- Zoom Icon -->
-                            <div class="menu-img-zoom ico-25">
-                                <a href="{{ Storage::url($eventPending->images[0]->path) }}" class="image-link">
-                                    <span class="bi bi-fullscreen"></span>
-                                </a>
                             </div>
 
-                        </div>
-                    </div>
+                            <div class="ms-3">
+                                <div class="row">
 
-                    <!-- TEXT -->
-                    <div class="menu-6-txt rel">
+                                    <h2>{{ $eventPending->name_event }}</h2>
 
-                        <!-- Rating -->
-                        <div class="item-rating">
-                            <div class="stars-rating stars-lg">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
-                            </div>
-                        </div>
+                                </div>
+
+                                <div class="flex-nowrap">
+
+                                    {{ $eventPending->description_event }}
 
 
-                        <!-- Title -->
-                        <h5 class="h5-sm">{{ $eventPending->name_event }}</h5>
+                                </div>
+                                <div class="mt-10">
+                                    <a href="{{ route('contact') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Participer</button></a>
+                                </div>
 
-                        <!-- Description -->
-                        <p class="grey-color">{{ $eventPending->description_event }}</p>
-                        {{ $eventPending->date_event->format('d M Y') }}
-                        <!-- Price -->
-                        {{-- <div class="menu-6-price bg-coffee" style="background-color:#c70609;">
-                            <h5 class="h5-xs yellow-color text-white">En Savoir Plus</h5>
-                        </div> --}}
+                                {{-- <div class="row">
+                                    <span class="text-primary-spices">
+                                        {{ __('Lire la suite') }}
+                                </span>
 
-                        <!-- Add To Cart -->
-                        <div class="add-to-cart bg-yellow ico-10">
-                            <a href="{{ route('contact') }}"><span class="fa fa-calendar"></span> Participer</a>
+                            </div> --}}
+
+
+
                         </div>
 
                     </div>
+            </div>
 
-                </div>
-            </div> <!-- END MENU ITEM #1 -->
-
-
-
-
-
-        </div> <!-- End row -->
-        <div class="row">
+            </article>
+        </div>
+        <div class="row mt-25">
             <div class="col-lg-10 offset-lg-1">
                 <div class="section-title mb-40 text-center">
 
@@ -190,7 +185,7 @@
 
                         <!-- Price -->
 
-                        {{ $event->date_event->format('d M Y') }}
+
 
 
                         <!-- Add To Cart -->
