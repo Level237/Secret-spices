@@ -47,32 +47,11 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
-            <li id="slide-1" style="background-image:url('images/slider/slide2.jpg'); background-size:cover">
-
-                <!-- Background Image -->
-                <!--<img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background" style="width:100%">-->
-
-                <!-- Image Caption -->
-                <div class="caption d-flex align-items-center left-align">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <div class="caption-txt white-color">
-
-                                    <!-- Title -->
-
-                                </div>
-                            </div>
-                        </div> <!-- End row -->
-                    </div> <!-- End container -->
-                </div> <!-- End Image Caption -->
-
-            </li>
-
+            <!-- SLIDE #1 -->
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -83,13 +62,13 @@
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Secret Spices</h2>
+                                    <h2 class="text-uppercase">Caravane des épices</h2>
 
                                     <h2 class="horizontal-line">
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Découvrez ce que vous êtes capables de faire avec Secret Spices') }}
+                                        {{ __('Nous Venons') }} <br> {{ __('chez vous') }} <br>
                                     </h5>
 
                                 </div>
@@ -98,11 +77,13 @@
                     </div> <!-- End container -->
                 </div> <!-- End Image Caption -->
 
-            </li>
+            </li> <!-- END SLIDE #1 -->
+           
+
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slideEngagement.jpg') }}" alt="slide-background" class="eng">
+                <img src="{{ asset('images/slider/slide3.jpg') }}" alt="slide-background" class="eng">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -115,10 +96,10 @@
                                 <div class="caption-txt white-color">
 
 
-                                    <h2 class="text-uppercase">ENGAGEMENT</h2>
+                                    <h2 class="text-uppercase">PROMESSE</h2>
                                     <h2 class="horizontal-line">
 
-                                        <h2 class="horizontal-line">
+                                       
 
                                         </h2>
                                         <h5 class="no-caption-txt ubuntu_regular">
