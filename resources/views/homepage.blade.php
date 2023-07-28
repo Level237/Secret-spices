@@ -195,11 +195,7 @@
 
 
                                     <h2 class="text-uppercase">PROMESSES</h2>
-                                    <h2 class="horizontal-line">
 
-
-
-                                    </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
                                         Parce que nous croyons a la transformation </br> agricole.
                                     </h5>
