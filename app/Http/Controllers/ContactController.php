@@ -20,6 +20,6 @@ class ContactController extends Controller
         Mail::to('contact@secret-spices.net')
             ->send(new Contact($request->except('_token')));
 
-        return view('confirm');
+        return view('contact')->with("success", "Message envoyé avec succès, nous vous reviendrons dans les plus brefs délais");;
     }
 }
