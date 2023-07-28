@@ -889,7 +889,7 @@
                         <div class="card-body pb-4">
                             <div class="d-flex align-items-start ms-4 mt-3">
 
-                                <div style="border: 2px solid red" class="px-3">
+                                <div style="border: 2px solid red;padding-top:8px;padding-bottom:8px;padding-left:20px;padding-right:20px">
                                     <div class="fs-2 fw-bold">
                                         <span class="text-primary-spices">12</span>
 
@@ -932,7 +932,7 @@
                 <div class="col">
 
                     <!-- Article -->
-                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -943,12 +943,12 @@
                                         <div class="d-flex align-items-start ms-3">
 
                                             <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                                <div class="fs-6 fw-bold">
-                                                    <span class="text-primary-spices">12</span>
+                                                <div class="fs-5 fw-bold">
+                                                    <span class="text-primary-spices">30</span>
 
                                                 </div>
                                                 <span class="fs-6 fw-bold">
-                                                    Juillet
+                                                    Aout
                                                 </span>
 
                                             </div>
@@ -986,7 +986,7 @@
                     </article>
 
                     <!-- Article -->
-                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -1038,6 +1038,111 @@
                             </div>
                         </div>
                     </article>
+
+                    <div class="d-lg-none d-md-none container">
+                        <div class="text-center">
+
+
+                        </div>
+                        <div id="carouselEvent" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                    <div class="d-flex mt-10 align-items-start ms-3">
+
+                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                            <div class="fs-5 fw-bold">
+                                                <span class="text-primary-spices">30</span>
+
+                                            </div>
+                                            <span class="fs-6 fw-bold">
+                                                Aout
+                                            </span>
+
+                                        </div>
+
+                                        <div class="ms-3 w-100">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>Secret For You</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="width:100%">
+                                                <div class="col-lg-12">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="text-primary-spices">
+                                                    {{ __('Lire la suite') }}
+                                                </span>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                    <div class="d-flex mt-10 align-items-start ms-3">
+
+                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                            <div class="fs-5 fw-bold">
+                                                <span class="text-primary-spices">30</span>
+
+                                            </div>
+                                            <span class="fs-6 fw-bold">
+                                                Aout
+                                            </span>
+
+                                        </div>
+
+                                        <div class="ms-3 w-100">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>Secret For You</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="width:100%">
+                                                <div class="col-lg-12">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="text-primary-spices">
+                                                    {{ __('Lire la suite') }}
+                                                </span>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
             </div>
