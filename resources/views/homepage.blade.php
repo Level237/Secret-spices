@@ -342,7 +342,7 @@
 <div class="container-fluid mt-40">
     <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
         <div class="col-8">
-            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
+            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%; " controls>
                 <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
