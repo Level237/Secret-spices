@@ -11,12 +11,12 @@
     <div class="margin-space">
 
         <div class="row mb-3">
-            <h1 style="color:#c70609"> Mentions Sanitaires</h1>
+            <h1 style="color:#c70609">{{ __('Mentions Sanitaires') }} </h1>
         </div>
 
         <div class="row margin-space">
             <p>
-                L’édition et la direction  de Keuni Foods est assurée par Aicha Noucti, domicilié AKWA IMMEUBLE KADJI. Numéro de téléphone est +237 6 90 98 81 33 Adresse e-mail noucti.kadji@gmail.com. La personne est assujetie au RCS avec le numéro d'inscription XXXXXXXXXXXXX et son numéro de TVA intracommunautaire est le XXXXXXXXXXXX L'hébergeur de l’application est la société LWS, dont le siège social est situé au France, avec le numéro de téléphone 01 77 62 30 03
+                {{ __("Les produits de Keuni Foods sont testés et approuvés par le 'Laboratoire De Contrôle Qualité de Produits Agro-alimentaires, Para Pharmaceutiques et cosmétiques'") }}.
             </p>
         </div>
 
