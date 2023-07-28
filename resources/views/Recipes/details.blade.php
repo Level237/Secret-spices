@@ -207,14 +207,13 @@
         <section class="single-recipe-wrap-layout2 padding-bottom-80">
             <div class="container">
                 <div class="single-recipe-layout2">
-                    <div class="ctg-name " style="font-size:30px"> Secret Poisson</div>
-                    <h2 class="item-title">{{ $recipe->name_recipe }}</h2>
+                    <div class="ctg-name " style="font-size:30px"> Detail Recette</div>
+                    <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
-                            <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>Nov 14,
-                                    2018</a></li>
-                            <li class="single-meta"><a href="#"><i class="fas fa-user"></i>by <span>Kazi
-                                        Fahim</span></a></li>
+                            <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>{{ $recipe->created_at }}</a></li>
+                            <li class="single-meta"><a href="#"><i class="fas fa-user"></i>by <span>Secret Spices
+                                    </span></a></li>
                             <li class="single-meta">
                                 <ul class="item-rating">
                                     <li class="star-fill"><i class="fas fa-star"></i></li>
@@ -225,11 +224,11 @@
                                     <li><span>9<span> / 10</span></span> </li>
                                 </ul>
                             </li>
-                            <li class="single-meta"><a href="#"><i class="fas fa-heart"></i><span>02</span>
+                            {{-- <li class="single-meta"><a href="#"><i class="fas fa-heart"></i><span>02</span>
                                     Likes</a>
-                            </li>
+                            </li> --}}
                         </ul>
-                        <ul class="action-item">
+                        {{-- <ul class="action-item">
                             <li><button><i class="fas fa-print"></i></button></li>
                             <li><button><i class="fas fa-expand-arrows-alt"></i></button></li>
                             <li class="action-share-hover"><button><i class="fas fa-share-alt"></i></button>
@@ -242,7 +241,7 @@
                                     <a href="#" title="rss"><i class="fas fa-rss"></i></a>
                                 </div>
                             </li>
-                        </ul>
+                        </ul> --}}
                     </div>
                     <div class="item-feature">
                         <ul>
@@ -293,7 +292,7 @@
                                         </div>
                                         <div class="media-body space-sm">
                                             <div class="feature-title">VUES</div>
-                                            <div class="feature-sub-title">3,450</div>
+                                            <div class="feature-sub-title">10</div>
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +305,7 @@
                             <div class="col-xl-12 col-12">
                                 <div class="ingridients-wrap">
                                     <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingredients</h3>
-                                    <div class="adjust-servings">
+                                    {{--<div class="adjust-servings">
                                         <div class="servings-title">Adjust Servings</div>
                                         <form class="servings-quantity">
                                             <div class="input-group quantity-holder" id="quantity-holder">
@@ -321,7 +320,7 @@
                                                 </div>
                                             </div>
                                         </form>
-                                    </div>
+                                    </div>--}}
                                     @foreach ($recipe->ingredients as $index=>$ingredient)
                                     <div class="checkbox checkbox-primary">
                                         <input id="checkbox1" type="checkbox">
@@ -386,7 +385,7 @@
                         @endforeach
 
                     </div>
-                    <div class="tag-share">
+                    {{-- <div class="tag-share">
                         <ul>
                             <li>
                                 <ul class="inner-tag">
@@ -432,8 +431,8 @@
                                 </ul>
                             </li>
                         </ul>
-                    </div>
-                    <div class="recipe-author">
+                    </div> --}}
+                    {{-- <div class="recipe-author">
                         <div class="media media-none--xs d-flex align-items-center">
                             <div>
                                 <img src="img/blog/author9.jpg" alt="Blog Author" class="rounded-circle media-img-auto" style="width: 200px">
@@ -464,7 +463,7 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> --}}
                     <div class="next-prev-post">
                         <div class="prev-post">
                             <a href="#" class="item-figure"><img src="img/blog/prev-post.jpg" alt="Post"></a>
@@ -489,30 +488,16 @@
         <section class="instagram-feed-wrap">
 
             <ul class="instagram-feed-figure">
+
+                @foreach ($randomRecipe as $r)
                 <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure1.jpg" alt="Social"></a>
+                    <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                        <img src="{{ Storage::url($r->images[0]->path) }}" alt="Social">
+                    </a>*
+
                 </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure2.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure3.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure4.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure5.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure6.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure7.jpg" alt="Social"></a>
-                </li>
-                <li>
-                    <a href="single-recipe1.html.htm"><img src="img/social-figure/social-figure8.jpg" alt="Social"></a>
-                </li>
+                @endforeach
+
             </ul>
         </section>
         <!-- Instagram End Here -->

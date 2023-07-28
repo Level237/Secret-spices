@@ -6,6 +6,7 @@ use App\Models\Category;
 use App\Models\Image;
 use App\Models\Ingredient;
 use App\Models\Step;
+use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
@@ -24,12 +25,16 @@ class Recipe extends Model
         'number_person'
     ];
 
+    protected $casts = [
+        'created_at'  => 'date:Y/m/d',
+    ];
+
     public function category():BelongsTo{
         return $this->belongsTo(Category::class);
     }
 
     public function ingredients():BelongsToMany{
-        return $this->belongsToMany(Ingredient::class)->withPivot('quantity');;
+        return $this->belongsToMany(Ingredient::class)->withPivot('quantity');
     }
 
     public function images(): MorphToMany
@@ -40,4 +45,8 @@ class Recipe extends Model
     public function steps():BelongsToMany{
         return $this->belongsToMany(Step::class);
     }
+
+    public function setDateAttribute( $value ) {
+        $this->attributes['created_at'] = (new Carbon($value))->format('d/m/y');
+      }
 }

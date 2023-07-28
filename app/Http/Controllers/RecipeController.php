@@ -26,7 +26,9 @@ class RecipeController extends Controller
     public function detail($name,$category){
         $category=Category::where('category_name',$category)->first();
         $recipe=Recipe::where('name_recipe',$name)->where('category_id',$category->id)->first();
-
-        return view('Recipes.details',compact('category','recipe'));
+        $randomRecipe=Recipe::inRandomOrder()
+        ->limit(8)
+        ->get();
+        return view('Recipes.details',compact('category','recipe','randomRecipe'));
     }
 }
