@@ -125,7 +125,7 @@
     <script src="{{ asset('js/jquery.flexslider.js')}}"></script>
 
     <script src="{{ asset('js/jquery.magnific-popup.min.js')}} "></script>
-    <script src="{{ asset('js/contact-form.js')}} "></script>
+  
     <script src="{{ asset('js/comment-form.js')}}"></script>
     <script src="{{ asset('js/booking-form.js')}} "></script>
     <script src="{{ asset('js/jquery.datetimepicker.full.js')}}"></script>

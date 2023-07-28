@@ -75,7 +75,11 @@
 		                    </li>
 
 		                    <!-- DROPDOWN MENU -->
+<<<<<<< HEAD
 
+=======
+		                    <!--<li><a href="{{ route('blog')}}" style="font-size: 16px; color:white">Blog</a>-->
+>>>>>>> 2e7fcfda4c40666762871ed9bf8c6f8dd1e31b4e
 
 		                    </li>
 

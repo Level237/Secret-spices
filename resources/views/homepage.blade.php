@@ -47,32 +47,11 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
-            <li id="slide-1" style="background-image:url('images/slider/slide2.jpg'); background-size:cover">
-
-                <!-- Background Image -->
-                <!--<img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background" style="width:100%">-->
-
-                <!-- Image Caption -->
-                <div class="caption d-flex align-items-center left-align">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <div class="caption-txt white-color">
-
-                                    <!-- Title -->
-
-                                </div>
-                            </div>
-                        </div> <!-- End row -->
-                    </div> <!-- End container -->
-                </div> <!-- End Image Caption -->
-
-            </li>
-
+            <!-- SLIDE #1 -->
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -83,13 +62,13 @@
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Secret Spices</h2>
+                                    <h2 class="text-uppercase">Caravane des épices</h2>
 
                                     <h2 class="horizontal-line">
 
                                     </h2>
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Découvrez ce que vous êtes capables de faire avec Secret Spices') }}
+                                        {{ __('Nous Venons') }} <br> {{ __('chez vous') }} <br>
                                     </h5>
 
                                 </div>
@@ -98,11 +77,13 @@
                     </div> <!-- End container -->
                 </div> <!-- End Image Caption -->
 
-            </li>
+            </li> <!-- END SLIDE #1 -->
+           
+
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slideEngagement.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slide3.jpg') }}" alt="slide-background" class="eng">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -113,16 +94,19 @@
                             </div>
                             <div class="col-sm-7">
                                 <div class="caption-txt white-color">
-                                    <h2 class="text-uppercase">Engagements</h2>
 
+
+                                    <h2 class="text-uppercase">PROMESSE</h2>
                                     <h2 class="horizontal-line">
-                                        <!-- Title -->
 
-                                        <h3 class=""> Parce que nous croyons à la transformation agricole</h3>
+                                       
 
+                                        </h2>
+                                        <h5 class="no-caption-txt ubuntu_regular">
+                                            {{ __('Parce que nous croyons a la transformation agricole') }}
+                                        </h5>
 
-
-
+                                    </h2>
                                 </div>
                             </div>
                         </div> <!-- End row -->
@@ -247,7 +231,7 @@
 
 </div> <!-- END PROMO-3 -->
 <div class="text-center" style="margin-top:60px">
-    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button>
+    <a href="/recettes"> <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __("Découvrir Plus de recettes")}}</button></a>
 
 </div>
 
@@ -294,7 +278,7 @@
 
                 <div class="">
 
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button>
+                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a> 
 
                 </div>
             </div>

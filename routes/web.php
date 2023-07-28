@@ -10,6 +10,7 @@ use App\Http\Controllers\Admin\WeightController;
 use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\ProductController as GuestProductController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -106,6 +107,8 @@ Route::get('/event', function(){
 })-> name('event');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
-Route::get('contact', function(){
-    return view('contact');
-})->name('contact');
+
+
+
+Route::get('contact', [ContactController::class, 'create']);
+Route::post('contact', [ContactController::class, 'store']);

@@ -609,7 +609,7 @@ i{
    #receipts-mobile {
        display: none;
    }
-  
+
 
    .horizontal-mobile-line {
        display: none;
@@ -620,16 +620,14 @@ i{
     background-image: url("/images/BG_Footer.jpg");
 }
 
-@media (max-width: 576px) { 
+@media (max-width: 576px) {
 
     .border-sm-none{
-       
+
         border-style: none;
-    } 
-    
-    .mb-sm-3{
-        
     }
+
+   
 
     .slides{
 
