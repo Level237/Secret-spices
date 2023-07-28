@@ -16,7 +16,9 @@ class Event extends Model
         'lieu_event',
         'description_event'
     ];
-
+    protected $casts = [
+        'date_event'  => 'date:Y/m/d',
+    ];
     public function images(): MorphToMany
     {
         return $this->morphToMany(Image::class, 'imageable');

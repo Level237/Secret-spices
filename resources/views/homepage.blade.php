@@ -898,18 +898,18 @@
                             <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" title="Read later">
                                 <i class="bx bx-bookmark"></i>
                             </a>
-                            <img src="{{ asset('images/blog/caravane.jpg') }}" class="card-img-top" alt="Image">
+                            <img src="{{ Storage::url($eventPending->images[0]->path) }}" class="card-img-top" alt="Image">
                         </div>
                         <div class="card-body pb-4">
                             <div class="d-flex align-items-start ms-4 mt-3">
 
                                 <div style="border: 2px solid red;padding-top:8px;padding-bottom:8px;padding-left:20px;padding-right:20px">
                                     <div class="fs-2 fw-bold">
-                                        <span class="text-primary-spices">12</span>
+                                        <span class="text-primary-spices">{{ $eventPending->date_event->format('d') }}</span>
 
                                     </div>
                                     <span class="fs-6 fw-bold">
-                                        Juillet
+                                        {{ $eventPending->date_event->format('M') }}
                                     </span>
 
                                 </div>
@@ -917,249 +917,200 @@
                                 <div class="ms-3">
                                     <div class="row">
 
-                                        <h2> {{ __('La caravanne Secret Debarque chez Vous!') }}</h2>
+                                        <h2>{{ $eventPending->name_event }}</h2>
 
                                     </div>
 
                                     <div class="flex-nowrap">
 
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus, modi, quasi impedit quia necessitatibus similique inventore aliquid, harum fugiat assumenda
+                                        {{ $eventPending->description_event }}
 
 
                                     </div>
-                                    <div class="row">
+                                    {{-- <div class="row">
                                         <span class="text-primary-spices">
                                             {{ __('Lire la suite') }}
+                                    </span>
+
+                                </div> --}}
+
+
+
+                            </div>
+
+                        </div>
+                </div>
+
+                </article>
+            </div>
+            <div class="col">
+
+                @foreach ($otherEvent as $event)
+                <article class="card d-lg-block d-md-block d-none border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <div class="row g-0">
+                        <img src="{{ Storage::url($event->images[0]->path) }}" class="" style="width: 100%" alt="Image">
+                        <div class="col-sm-12">
+                            <div class="card-body">
+
+
+                                <div class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
+                                    <div class="d-flex align-items-start ms-3">
+
+                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                            <div class="fs-5 fw-bold">
+                                                <span class="text-primary-spices">{{ $event->date_event->format('d') }}</span>
+
+                                            </div>
+                                            <span class="fs-6 fw-bold">
+                                                {{ $event->date_event->format('M') }}
+                                            </span>
+
+                                        </div>
+
+                                        <div class="ms-3 w-100">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>{{ $event->name_event }}</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="width:100%">
+                                                <div class="col-lg-12">
+                                                    {{ ucfirst(Str::limit($event->description_event, 50)) }}
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="text-primary-spices">
+                                                    {{ __('Lire la suite') }}
+                                                </span>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                @endforeach
+                <!-- Article -->
+
+
+                <!-- Article -->
+
+                <div class="d-lg-none d-md-none container">
+                    <div class="text-center">
+
+
+                    </div>
+                    <div id="carouselEvent" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                <div class="d-flex mt-10 align-items-start ms-3">
+
+                                    <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                        <div class="fs-5 fw-bold">
+                                            <span class="text-primary-spices">30</span>
+
+                                        </div>
+                                        <span class="fs-6 fw-bold">
+                                            Aout
                                         </span>
 
                                     </div>
 
-
-
-                                </div>
-
-                            </div>
-                        </div>
-
-                    </article>
-                </div>
-                <div class="col">
-
-                    <!-- Article -->
-                    <article class="card d-lg-block d-md-block d-none border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
-                        <div class="row g-0">
-                            <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
-                            <div class="col-sm-12">
-                                <div class="card-body">
-
-
-                                    <div class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
-                                        <div class="d-flex align-items-start ms-3">
-
-                                            <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                                <div class="fs-5 fw-bold">
-                                                    <span class="text-primary-spices">30</span>
-
-                                                </div>
-                                                <span class="fs-6 fw-bold">
-                                                    Aout
-                                                </span>
-
+                                    <div class="ms-3 w-100">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h4>Secret For You</h4>
                                             </div>
+                                        </div>
 
-                                            <div class="ms-3 w-100">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <h4>Secret For You</h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row" style="width:100%">
-                                                    <div class="col-lg-12">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    </div>
-
-                                                </div>
-                                                <div class="row">
-                                                    <span class="text-primary-spices">
-                                                        {{ __('Lire la suite') }}
-                                                    </span>
-
-                                                </div>
-
-
-
-
+                                        <div class="row" style="width:100%">
+                                            <div class="col-lg-12">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                             </div>
 
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <!-- Article -->
-                    <article class="card d-lg-block d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
-                        <div class="row g-0">
-                            <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
-                            <div class="col-sm-12">
-                                <div class="card-body">
-
-
-                                    <div class="d-flex flex-sm-nowrap flex-wrap align-items-center justify-content-between">
-                                        <div class="d-flex align-items-start ms-3">
-
-                                            <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                                <div class="fs-5 fw-bold">
-                                                    <span class="text-primary-spices">30</span>
-
-                                                </div>
-                                                <span class="fs-6 fw-bold">
-                                                    Aout
-                                                </span>
-
-                                            </div>
-
-                                            <div class="ms-3 w-100">
-                                                <div class="row">
-                                                    <div class="col">
-                                                        <h4>Master Class With NdockBidi</h4>
-                                                    </div>
-                                                </div>
-
-                                                <div class="row" style="width:100%">
-                                                    <div class="col-lg-12">
-                                                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                    </div>
-
-                                                </div>
-                                                <div class="row">
-                                                    <span class="text-primary-spices">
-                                                        {{ __('Lire la suite') }}
-                                                    </span>
-
-                                                </div>
-
-
-
-
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </article>
-
-                    <div class="d-lg-none d-md-none container">
-                        <div class="text-center">
-
-
-                        </div>
-                        <div id="carouselEvent" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-inner">
-
-                                <div class="carousel-item active">
-                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
-                                    <div class="d-flex mt-10 align-items-start ms-3">
-
-                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                            <div class="fs-5 fw-bold">
-                                                <span class="text-primary-spices">30</span>
-
-                                            </div>
-                                            <span class="fs-6 fw-bold">
-                                                Aout
+                                        <div class="row">
+                                            <span class="text-primary-spices">
+                                                {{ __('Lire la suite') }}
                                             </span>
 
                                         </div>
 
-                                        <div class="ms-3 w-100">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>Secret For You</h4>
-                                                </div>
-                                            </div>
-
-                                            <div class="row" style="width:100%">
-                                                <div class="col-lg-12">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                </div>
-
-                                            </div>
-                                            <div class="row">
-                                                <span class="text-primary-spices">
-                                                    {{ __('Lire la suite') }}
-                                                </span>
-
-                                            </div>
 
 
-
-
-                                        </div>
 
                                     </div>
+
                                 </div>
-                                <div class="carousel-item active">
-                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
-                                    <div class="d-flex mt-10 align-items-start ms-3">
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                <div class="d-flex mt-10 align-items-start ms-3">
 
-                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                            <div class="fs-5 fw-bold">
-                                                <span class="text-primary-spices">30</span>
+                                    <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                        <div class="fs-5 fw-bold">
+                                            <span class="text-primary-spices">30</span>
 
+                                        </div>
+                                        <span class="fs-6 fw-bold">
+                                            Aout
+                                        </span>
+
+                                    </div>
+
+                                    <div class="ms-3 w-100">
+                                        <div class="row">
+                                            <div class="col">
+                                                <h4>Secret For You</h4>
                                             </div>
-                                            <span class="fs-6 fw-bold">
-                                                Aout
+                                        </div>
+
+                                        <div class="row" style="width:100%">
+                                            <div class="col-lg-12">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <span class="text-primary-spices">
+                                                {{ __('Lire la suite') }}
                                             </span>
 
                                         </div>
 
-                                        <div class="ms-3 w-100">
-                                            <div class="row">
-                                                <div class="col">
-                                                    <h4>Secret For You</h4>
-                                                </div>
-                                            </div>
-
-                                            <div class="row" style="width:100%">
-                                                <div class="col-lg-12">
-                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                                </div>
-
-                                            </div>
-                                            <div class="row">
-                                                <span class="text-primary-spices">
-                                                    {{ __('Lire la suite') }}
-                                                </span>
-
-                                            </div>
 
 
-
-
-                                        </div>
 
                                     </div>
-                                </div>
 
+                                </div>
                             </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
+
                         </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
                     </div>
                 </div>
-
             </div>
-        </section>
 
-        @endsection
+    </div>
+    </section>
+
+    @endsection
