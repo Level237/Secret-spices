@@ -10,7 +10,7 @@
         <h2 class="fs-1 red-color testimonial-title font-costyle">{{ __('A Propos de') }}</h2>
          <h1>Secret Spices</h1>
           <h2 class="horizontal-line-two"></h2>
-          <img src="{{ asset('images/spices1.jpg') }}" style="max-height: 400px; margin-top:30px;" alt="Image A Propos">
+          <img src="{{ asset('images/about-1.png') }}" style=" margin-top:30px;" alt="Image A Propos">
     </div>
 
      <div class="margin-space">
