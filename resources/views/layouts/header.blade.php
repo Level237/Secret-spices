@@ -75,7 +75,7 @@
 		                    </li>
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('blog')}}" style="font-size: 16px; color:white">Blog</a>
+
 
 		                    </li>
 
@@ -98,7 +98,7 @@
 
 
 		                    <li id="language-section">
-		                        <a href="cart.html">
+		                        <a>
 		                            <img class="lang" src="{{ asset('images/languages/'.$current_locale.'.png')}} " alt="">
 
 		                        </a>

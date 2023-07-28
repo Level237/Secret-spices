@@ -77,39 +77,30 @@
                                 <ul id="site-menu" class="site-menu" style="margin-left:50px">
                                     <li><a href="#"> <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="{{ route('homepage') }}">Home 1</a></li>
-                                            <li><a href="{{ route('homepage') }}">Home 2</a></li>
+
+                                            @foreach($weights as $weight)
+                                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
+                                            @endforeach
                                         </ul>
                                     </li>
 
                                     <li>
                                         <a href="#" style="font-size:16px; text-transform: uppercase;">Recettes</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li>
-                                                <a href="recipe-with-sidebar.html.htm">Recipes With Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="recipe-without-sidebar.html.htm">Recipes Without Sidebar</a>
-                                            </li>
-                                            <li>
-                                                <a href="single-recipe1.html.htm">Single Recipe 1</a>
-                                            </li>
-                                            <li>
-                                                <a href="single-recipe2.html.htm">Single Recipe 2</a>
-                                            </li>
+                                            @foreach ($categories as $category)
+                                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
+                                            @endforeach
                                         </ul>
                                     </li>
                                     <li><a href="#" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}</a>
                                         <ul class="dropdown-menu-col-1">
-                                            <li><a href="shop.html.htm">Shop</a></li>
-                                            <li><a href="single-shop.html.htm">Shop Details</a></li>
+                                            <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
+                                            <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
+                                            <li><a href="{{ route('engagement')}}#ingredients">{{ __('Origines ingrédients') }}</a></li>
                                         </ul>
                                     </li>
                                     <li>
-                                        <a href="category.html.htm" style="font-size:16px; text-transform: uppercase;">{{ __('Évènements') }}</a>
-                                    </li>
-                                    <li>
-                                        <a href="category.html.htm" style="font-size:16px; text-transform: uppercase;">{{ __('Blog') }}</a>
+                                    <li><a href="{{ route('event') }}" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -141,13 +132,13 @@
                                         <nav class="site-nav">
                                             <ul id="site-menu" class="site-menu" style="">
                                                 <li>
-                                                    <a href="cart.html" style="width: 50px">
-                                                        <img class="lang" src="{{ asset('images/languages/fr.png')}} " alt="">
+                                                    <a style="width: 50px">
+                                                        <img class="lang" src="{{ asset('images/languages/'.$current_locale.'.png')}} " alt="">
 
                                                     </a>
                                                     <ul class="dropdown-menu-col-1" style="background-color: white">
                                                         <div class="d-flex flex-column">
-                                                            <div class="p-2"><a href="lang/fr">
+                                                            <div class="p-2"><a href="{{ route('changeLang','fr') }}">
                                                                     <div class="d-flex align-items-center">
                                                                         <div class="p-2">
                                                                             <img class="lang-select" src="{{ asset('images/languages/fr.png')}}  " alt="">
@@ -159,7 +150,7 @@
                                                                     </div>
                                                                 </a>
                                                             </div>
-                                                            <div class="p-2"><a href="lang/en">
+                                                            <div class="p-2"><a href="{{ route('changeLang','en') }}">
                                                                     <div class="d-flex align-items-center">
                                                                         <div class="p-2">
                                                                             <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
