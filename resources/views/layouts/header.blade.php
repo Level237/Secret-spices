@@ -31,7 +31,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product.index')}}" style="font-size: 16px; color:white" class="ubuntu_bold">{{ __('Produits') }}</a>
+		                    <li><a href="{{ route('product.index')}}" class="ubuntu_bold text-white">{{ __('Produits') }}</a>
 		                        <ul>
 		                            @foreach($weights as $weight)
 		                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
@@ -43,7 +43,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                    <li><a href="{{ route('recipe.index') }}" class="ubuntu_bold text-white">{{ __('Recettes') }}</a>
 		                        <ul>
 
 		                            @foreach ($categories as $category)
@@ -58,7 +58,7 @@
 
 		                    </div>
 		                    <!-- MEGA MENU -->
-		                    <li><a style="font-size: 16px; color:white" href="{{ route('engagement')}}">{{ __('Engagement') }}</a>
+		                    <li><a class="ubuntu_bold text-white" href="{{ route('engagement')}}">{{ __('Engagement') }}</a>
 		                        <ul>
 		                            <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
 		                            <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
@@ -70,7 +70,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('event') }}" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
+		                    <li><a class="ubuntu_bold text-white" href="{{ route('event') }}">{{ __('Évènements') }}</a>
 
 		                    </li>
 
