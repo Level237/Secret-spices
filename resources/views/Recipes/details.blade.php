@@ -533,7 +533,10 @@
                             </div>
 
                         </div>
-
+                        <div class="col">
+                            <a href="#" class="ico-facebook text-white"><i class="fab  fa-facebook-f"></i></a>
+                            <a href="#" class="ico-instagram text-white"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
                 <div class="align-self-center p-2">
