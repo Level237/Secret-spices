@@ -22,10 +22,10 @@ class ContactRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'name' => 'bail|required|alpha',
+            'name' => 'bail|required|string|max:250',
             'email' => 'bail|required|email',
-            'subject' => 'bail|required|max:100',
-            'message' => 'bail|required|max:250'
+            'subject' => 'bail|required|string|max:100',
+            'message' => 'bail|required|string|max:250'
         ];
     }
 }

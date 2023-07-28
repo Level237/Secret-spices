@@ -36,8 +36,8 @@ class Contact extends Mailable
     public function envelope(): Envelope
     {
         return new Envelope(
-            from: new Address('admin@contact.com', 'John Lennon'),
-            subject: 'Contact',
+            from: new Address('no-reply@secret-spices.net', 'Formulaire Secret Spices'),
+            subject: 'Nouveau message Site Secret Spices',
         );
     }
 

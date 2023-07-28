@@ -43,6 +43,15 @@
 					============================================= -->
 					<div class="row">
 						<div class="col-xl-10 offset-xl-1">
+
+							@if(isset($success))
+									 <div class="row justify-content-center fs-4 mb-20" style="background-color:green; color:white; height:50px;">
+										 <div class="col">
+											{{ $success }}
+										 </div> 
+									</div>
+							@endif
+							</div>
 							<div class="row">	
 
 
@@ -105,6 +114,14 @@
 							<div class="section-title mb-40 text-center">	
 
 								<!-- Title 	-->	
+							
+								@if($errors->has('*'))
+								    <h4 class="h2-xl">{{ __('Erreur dans le formulaire') }}</h4>	
+                                    @foreach ($errors->all() as $error)
+                                        <div style="background-color:red; color:white;">{{ $error }}</div>
+                                    @endforeach
+                                @endif
+								
 								<h2 class="h2-xl">{{ __('Laissez un message') }}</h2>	
 
 								<!-- Text -->	
@@ -159,15 +176,15 @@
 				</div>	   <!-- End container -->		
 			</section>	<!-- END CONTACTS-5 -->
 <div style="margin-bottom: 50px;"></div>
-    <section style="margin-top:30px">
+    <section style="margin-top:60px">
     <div class="container-fluid mt-40">
-    <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
-        <div class="col-8">
-            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
-                <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    <div class="row justify-content-center" style="background-image:url('/images/bg-opacity.png');">
+         <div class="col-8">
+             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;"  controls>
+                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
-
+        
     </div>
 </div>
 @endsection

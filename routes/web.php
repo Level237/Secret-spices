@@ -110,5 +110,10 @@ Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang
 
 
 
+<<<<<<< HEAD
 Route::get('contact', [ContactController::class, 'create'])-> name('contact');
 Route::post('contact', [ContactController::class, 'store']);
+=======
+Route::get('contact', [ContactController::class, 'create'])->name('contact');
+Route::post('contact', [ContactController::class, 'store']);
+>>>>>>> cfc2c947bc5fdc7bdbe09b4b9add582257339ec7
