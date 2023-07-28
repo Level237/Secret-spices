@@ -568,6 +568,14 @@ i{
         display: none;
     }
 
+        #slider-mobile {
+            display: block;
+        }
+    
+        #slider-desktop {
+            display: none;
+        }
+
         #logo-remove {
             display: none;
         }
@@ -601,10 +609,17 @@ i{
 
 @media screen and (min-width: 1366px) {
 
-  #carouselExampleControls1 {
+  #slider-mobile {
     display: none;
   }
 
+   #slider-desktop {
+       display: block;
+   }
+
+  #carouselExampleControls1 {
+      display: none;
+  }
   
    #receipts-mobile {
        display: none;

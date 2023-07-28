@@ -12,7 +12,116 @@
     <div id="space-hero-header" style="margin-top: 100px">
 
     </div>
-    <div class="slider mt-1001">
+    <div class="slider mt-1001" id="slider-mobile">
+        <ul class="slides">
+
+
+            <!-- SLIDE #1 -->
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+                                    <!-- Title -->
+
+                                    <h2 class="text-uppercase">Secret Spices</h2>
+
+                                    <h2 class="horizontal-line">
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li> <!-- END SLIDE #1 -->
+            <!-- SLIDE #1 -->
+          
+           
+
+          <!-- SLIDE #1 -->
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+                                    <!-- Title -->
+
+                                    <h2 class="text-uppercase">Caravane des épices</h2>
+
+                                    <h2 class="horizontal-line">
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        {{ __('Nous venons') }} <br> {{ __('Chez vous')  }}
+                                    </h5>
+
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li> <!-- END SLIDE #1 -->
+            <!-- SLIDE #1 -->
+
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/slide3.jpg') }}" alt="slide-background" class="eng">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-5">
+
+                            </div>
+                            <div class="col-sm-7">
+                                <div class="caption-txt white-color">
+
+
+                                    <h2 class="text-uppercase">PROMESSE</h2>
+                                    <h2 class="horizontal-line">
+
+                                       
+
+                                        </h2>
+                                        <h5 class="no-caption-txt ubuntu_regular">
+                                            {{ __('Parce que nous croyons a la transformation agricole') }}
+                                        </h5>
+
+                                    </h2>
+                                </div>
+                            </div>
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li>
+        </ul>
+    </div> <!-- END SLIDER -->
+
+    <div class="slider mt-1001" id="slider-desktop">
         <ul class="slides">
 
 
@@ -51,7 +160,7 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slide2-ex.jpg') }}" alt="slide-background" width="100%">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -62,15 +171,6 @@
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Caravane des épices</h2>
-
-                                    <h2 class="horizontal-line">
-
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Nous Venons') }} <br> {{ __('chez vous') }} <br>
-                                    </h5>
-
                                 </div>
                             </div>
                         </div> <!-- End row -->
@@ -79,6 +179,8 @@
 
             </li> <!-- END SLIDE #1 -->
            
+
+         
 
             <li id="slide-1">
 
