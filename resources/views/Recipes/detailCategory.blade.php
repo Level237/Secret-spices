@@ -50,6 +50,7 @@ Categorie : {{ $category->category_name }}
                     @foreach($recipe->images as $image)
                     <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
                     @endforeach
+                </div>
             </a>
         </div>
 
@@ -57,7 +58,7 @@ Categorie : {{ $category->category_name }}
 
             <div class="col-9 fs-5 fw-bold">
                 <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
-                    {{ $recipe->name_recipe }}
+                    {{ ucfirst($recipe->name_recipe) }}
                 </a>
             </div>
 
@@ -97,17 +98,13 @@ Categorie : {{ $category->category_name }}
     <!-- START CAROUSSEL Top Receipts MOBILE -->
 
 
-    <div class="horizontal-line-receipt"></div>
-    <div class="d-flex flex-row mb-3" style="margin-top:50px;">
-        <div class="vertical-line align-middle"></div>
-        <h1 class="ms-2"> Cuisine Africaine</h1>
-    </div>
+
 
     <!-- START CAROUSSEL Cuisine Africaine MOBILE -->
     <div id="carouselCuisineAfricane" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
-
+            @foreach($recipes as $recipe)
             <div class="carousel-item active">
 
                 <div class="container">
@@ -115,12 +112,16 @@ Categorie : {{ $category->category_name }}
 
                         <div class="col">
                             <div class="p-1">
-                                <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
+                                @foreach($recipe->images as $image)
+                                <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
+                                @endforeach
                             </div>
 
                             <div class="row">
                                 <div class="col-9 fs-5 fw-bold">
-                                    Poulet roti à l'orange
+                                    <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
+                                        {{ ucfirst($recipe->name_recipe) }}
+                                    </a>
                                 </div>
                                 <div class="col-3 text-end">
                                     <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
@@ -128,65 +129,18 @@ Categorie : {{ $category->category_name }}
                             </div>
 
                             <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
+                                <p style="width:100%" class="fs-6 fw-normal">
+                                    <p style="width:100%" class="fs-6 fw-normal">{{ $recipe->description_recipe }}</p>
+                                </p>
                             </div>
                         </div>
 
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row">
+            @endforeach
 
-                        <div class="col">
-                            <div class="p-1">
-                                <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                            </div>
 
-                            <div class="row">
-                                <div class="col-9 fs-5 fw-bold">
-                                    Poulet roti à l'orange
-                                </div>
-                                <div class="col-3 text-end">
-                                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                                </div>
-                            </div>
-
-                            <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col">
-                            <div class="p-1">
-                                <img src="{{ asset('images/recette1.jpg')}}" style="width:100%" alt="">
-                            </div>
-
-                            <div class="row">
-                                <div class="col-9 fs-5 fw-bold">
-                                    Poulet roti à l'orange
-                                </div>
-                                <div class="col-3 text-end">
-                                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                                </div>
-                            </div>
-
-                            <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aut commodi pariatur, ipsa est dolorum aperiam </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuisineAfricane" data-bs-slide="prev">
             <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
