@@ -207,7 +207,7 @@
         <section class="single-recipe-wrap-layout2 padding-bottom-80">
             <div class="container">
                 <div class="single-recipe-layout2">
-                    <div class="ctg-name " style="font-size:30px"> Detail Recette</div>
+                    <div class="ctg-name " style="font-size:30px"> Détails Recette</div>
                     <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
@@ -321,12 +321,21 @@
                                             </div>
                                         </form>
                                     </div>--}}
-                                    @foreach ($recipe->ingredients as $index=>$ingredient)
-                                    <div class="checkbox checkbox-primary">
-                                        <input id="checkbox1" type="checkbox">
-                                        <label for="checkbox1">{{ $recipe->ingredients[$index]->pivot->quantity }} {{ $ingredient->ingredient_name }}</label>
+
+
+                                    <div class="row">
+                                        @foreach ($recipe->ingredients as $index=>$ingredient)
+                                        <div class="col-4">
+                                            <div class="checkbox checkbox-primary">
+                                                <input id="checkbox{{ $index }}" type="checkbox">
+                                                <label for="checkbox{{ $index  }}">
+                                                    {{ $recipe->ingredients[$index]->pivot->quantity }} {{ $ingredient->ingredient_name }}</label>
+                                            </div>
+                                        </div>
+                                        @endforeach
                                     </div>
-                                    @endforeach
+
+
                                 </div>
                             </div>
                             {{-- <div class="col-xl-6 col-12">
@@ -464,7 +473,7 @@
                             </div>
                         </div>
                     </div> --}}
-                    <div class="next-prev-post">
+                    {{-- <div class="next-prev-post">
                         <div class="prev-post">
                             <a href="#" class="item-figure"><img src="img/blog/prev-post.jpg" alt="Post"></a>
                             <div class="item-content">
@@ -479,7 +488,7 @@
                             </div>
                             <a href="#" class="item-figure"><img src="img/blog/next-post.jpg" alt="Post"></a>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </section>

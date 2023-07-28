@@ -78,7 +78,7 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
-           
+
 
             <li id="slide-1">
 
@@ -99,12 +99,12 @@
                                     <h2 class="text-uppercase">PROMESSE</h2>
                                     <h2 class="horizontal-line">
 
-                                       
 
-                                        </h2>
-                                        <h5 class="no-caption-txt ubuntu_regular">
-                                            {{ __('Parce que nous croyons a la transformation agricole') }}
-                                        </h5>
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        {{ __('Parce que nous croyons a la transformation agricole') }}
+                                    </h5>
 
                                     </h2>
                                 </div>
@@ -135,64 +135,26 @@
         <div class="row d-flex align-items-center mb-4">
 
 
-            <!-- PROMO IMAGE-1 -->
+            @foreach ($randomRecipe as $recipe)
             <div class="col-md-4">
-                <a href="menu-3.html">
+                <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
 
 
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
+
+                    <img class="img-fluid" src="{{ Storage::url($recipe->images[0]->path)}}" alt="promo-image">
                     <div class="row mt-3">
                         <div class="col-lg-1">
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
+                            <span class="text-center fs-5 fw-normal">{{ $recipe->name_recipe }}</span>
                         </div>
                     </div>
 
                 </a>
             </div>
+            @endforeach
 
-
-            <!-- PROMO IMAGE-2 -->
-            <div class="col-md-4">
-                <a href="menu-3.html">
-
-
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                    <div class="row mt-3">
-                        <div class="col-lg-1">
-
-                        </div>
-                        <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
-                        </div>
-                    </div>
-
-                </a>
-            </div>
-
-
-            <!-- PROMO IMAGE-3 -->
-            <div class="col-md-4">
-                <a href="menu-3.html">
-
-
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                    <div class="row mt-3">
-                        <div class="col-lg-1">
-
-                        </div>
-                        <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
-                        </div>
-                    </div>
-
-                </a>
-            </div>
-
-
-            <!-- PROMO IMAGE-4 -->
 
 
         </div> <!-- End row -->
@@ -278,7 +240,7 @@
 
                 <div class="">
 
-                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a> 
+                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a>
 
                 </div>
             </div>
@@ -324,8 +286,8 @@
                         <div class="col-12 mt-3 col-sm-12 col-md-12">
 
 
+                            <a href="{{ route('engagement') }}"> <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button></a>
 
-                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button>
                         </div>
                     </div>
                 </div>
