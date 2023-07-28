@@ -71,54 +71,16 @@
                     </h2>
                     <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color:#fde0a5;">
-                            <strong>{{ __('Ail, Oignon, Njansan, Poivre blanc de Penja, Céléri.') }}</strong> <code></code>,
+                            @foreach ($product->ingredients as $ingredient)
+                            <strong>{{ $ingredient->ingredient_name }}</strong> <code></code>,
+                            @endforeach
+
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="row" style="margin-top:30px">
-                <h2 class="horizontal-line-one"></h2>
-                <div class="row">
-                    <h4>{{ __('Idées de recette avec cette épice') }}</h4>
-                </div>
-            </div>
-            <div class="row" style="margin-top:10px">
-                <div class="col">
-                    <a href="menu-3.html">
 
-
-                        <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-
-                        <div class="row mt-3">
-                            <div class="col-1">
-
-                            </div>
-                            <div class="col-11">
-                                <span class="text-center fs-5 fw-normal">Poulet roti à l'orange <br> et aux epinards</span>
-                            </div>
-                        </div>
-
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="menu-3.html">
-
-
-                        <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                        <div class="row mt-3">
-                            <div class="col-1">
-
-                            </div>
-                            <div class="col-11">
-                                <span class="text-center fs-5 fw-normal">Poulet roti à l'orange<br> et aux epinards</span>
-                            </div>
-                        </div>
-
-                    </a>
-                </div>
-
-            </div>
         </div>
 
     </div>
