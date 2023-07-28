@@ -315,7 +315,7 @@
 <section class="container" style="margin-top:40px">
     <div class="row align-items-center">
         <div class="col-6  d-lg-block d-none">
-            <img src="{{ asset('images/gamme.png') }}" class="img-fluid" alt="spices">
+            <img src="{{ asset('images/gamme1.png') }}" class="img-fluid" alt="spices">
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -367,8 +367,8 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row mt-3">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">{{ __('Les epices secret') }} <br>
-                            {{ __('avec vous') }} <br>
+                        <h3 class="ms-2 fs-1">{{ __('Les epices secret') }}
+                            {{ __('avec vous') }}
                             {{ __('de genérations en genérations') }}<br>
                         </h3>
 
@@ -393,7 +393,7 @@
                     </div>
                 </div>
                 <div class="col-7 d-lg-block d-none">
-                    <div class=" z-3 position-absolute   vertical-separator" style="right:5%;">
+                    <div class=" z-3 position-absolute   vertical-separator" style="right:8%;">
 
                     </div>
                     <img src="{{ asset('images/engagement.jpg') }}" class="img-fluid" alt="spices">
@@ -856,7 +856,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-secret">{{ __('Événements') }}</h2>
+                    <h2 class="h2-xl text-primary-spices">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
                     <p class="p-xl">{{ __('Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.') }}
