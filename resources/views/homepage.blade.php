@@ -229,62 +229,79 @@
             <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
         </div>
 
-        <div class="row d-flex align-items-center mb-4">
 
 
-            @foreach ($randomRecipe as $recipe)
+
+
+
+
+        <div class="row align-items-center">
+            @foreach ($randomRecipe as $r)
             <div class="col-md-4">
-                <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
 
+                <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                    <div class="p-1">
+                        @foreach($r->images as $image)
 
+                        <img src="{{ Storage::url($r->images[0]->path)}}" style="width:100%" alt="">
+                        @endforeach
+                    </div>
+                </a>
+                <div class="row">
 
-                    <img class="img-fluid" src="{{ Storage::url($recipe->images[0]->path)}}" alt="promo-image">
-                    <div class="row mt-3">
-                        <div class="col-lg-1">
+                    <div class="col-12 fs-5 fw-bold">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                            <span class="text-center fs-5 fw-normal"> {{ ucfirst(Str::limit($r->name_recipe, 40))  }}</span>
 
-                        </div>
-                        <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ ucfirst($recipe->name_recipe) }}</span>
-                        </div>
+                        </a>
+
                     </div>
 
+                </div>
+
+
+
+
+
+            </div>
+
+            @endforeach
+            {{-- <div class="text-center " style="margin-top:15px">
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
+        </div> --}}
+    </div>
+
+</div> <!-- End row -->
+
+
+</div> <!-- End container -->
+
+<div class="d-lg-none d-md-none container">
+    <div class="text-center">
+
+        <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
+    </div>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            @foreach ($randomRecipe as $recipe)
+            <div class="carousel-item active">
+                <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
+                    <img src="{{ Storage::url($recipe->images[0]->path)}}" class="d-block w-100" alt="...">
                 </a>
             </div>
             @endforeach
 
-
-
-        </div> <!-- End row -->
-
-
-    </div> <!-- End container -->
-
-    <div class="d-lg-none d-md-none container">
-        <div class="text-center">
-
-            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
         </div>
-        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                @foreach ($randomRecipe as $recipe)
-                <div class="carousel-item active">
-                    <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
-                        <img src="{{ Storage::url($recipe->images[0]->path)}}" class="d-block w-100" alt="...">
-                    </a>
-                </div>
-                @endforeach
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+</div>
 
 
 </div> <!-- END PROMO-3 -->
@@ -929,7 +946,7 @@
                 <div class="col">
 
                     <!-- Article -->
-                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-lg-block d-md-block d-none border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -983,7 +1000,7 @@
                     </article>
 
                     <!-- Article -->
-                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-lg-block d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">

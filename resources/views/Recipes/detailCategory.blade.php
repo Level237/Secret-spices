@@ -17,7 +17,7 @@ Categorie : {{ $category->category_name }}
     </div>
 </div>
 
-<div class="container" style="margin-top: 50px;" id="receipts">
+<div class="container" style="margin-top: 50px;">
 
 
     <div class="horizontal-line-receipt"></div>
@@ -39,37 +39,42 @@ Categorie : {{ $category->category_name }}
             <h1 class="ms-2"> {{ __('Cuisine Africaine') }}</h1>
     </div> --}}
 
-    @foreach($recipes as $recipe)
-    <div class="row">
 
+    <div class="row">
+        @foreach($recipes as $r)
         <div class="col-md-3">
 
-
-            <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
+            <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
                 <div class="p-1">
-                    @foreach($recipe->images as $image)
-                    <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
+                    @foreach($r->images as $image)
+
+                    <img src="{{ Storage::url($r->images[0]->path)}}" style="width:100%" alt="">
                     @endforeach
+                </div>
             </a>
-        </div>
+            <div class="row">
 
-        <div class="row">
+                <div class="col-9 fs-5 fw-bold">
+                    <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                        {{ ucfirst($r->name_recipe) }}
+                    </a>
 
-            <div class="col-9 fs-5 fw-bold">
-                <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
-                    {{ $recipe->name_recipe }}
-                </a>
+                </div>
+                <div class="col-3 text-end">
+                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+                </div>
             </div>
 
-            <div class="col-3 text-end">
-                <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
+
+            <div class="p-1">
+                <p style="width:100%" class="fs-6 fw-normal">{{ $r->description_recipe }}</p>
             </div>
-        </div>
 
 
-        <div class="p-1">
-            <p style="width:100%" class="fs-6 fw-normal">{{ $recipe->description_recipe }}</p>
         </div>
+
+        @endforeach
+
 
 
     </div>
@@ -79,7 +84,7 @@ Categorie : {{ $category->category_name }}
 </div>
 
 <div class="horizontal-line-receipt" style="margin-bottom: 50px; margin-top:50px;"></div>
-@endforeach
+
 
 
 
@@ -100,59 +105,42 @@ Categorie : {{ $category->category_name }}
 
 
     <!-- START CAROUSSEL Cuisine Africaine MOBILE -->
-    <div id="carouselCuisineAfricane" class="carousel slide" data-bs-ride="carousel">
+    {{-- <div id="carouselCuisineAfricane" class="carousel slide" data-bs-ride="carousel">
 
         <div class="carousel-inner">
             @foreach($recipes as $recipe)
             <div class="carousel-item active">
 
-                <div class="container">
-                    <div class="row">
-
-                        <div class="col">
-                            <div class="p-1">
-                                @foreach($recipe->images as $image)
-                                <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
-                                @endforeach
-                            </div>
-
-                            <div class="row">
-                                <div class="col-9 fs-5 fw-bold">
-                                    <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
-                                        {{ ucfirst($recipe->name_recipe) }}
-                                    </a>
-                                </div>
-                                <div class="col-3 text-end">
-                                    <i class="fa fa-eye" style="font-size:18px; color:black"></i> <span class="fs-6 fw-bold">1.5k</span>
-                                </div>
-                            </div>
-
-                            <div class="p-1">
-                                <p style="width:100%" class="fs-6 fw-normal">
-                                    <p style="width:100%" class="fs-6 fw-normal">{{ $recipe->description_recipe }}</p>
-                                </p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            @endforeach
 
 
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCuisineAfricane" data-bs-slide="prev">
-            <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselCuisineAfricane" data-bs-slide="next">
-            <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
 
-    </div> <!-- END CAROUSSEL -->
+                <div class="p-1">
+                    <img src="{{ asset('images/pouletsauceverte.jpg')}}" class="img-fluid" alt="">
+</div>
+
+
+
+
+
+
+
+</div>
+@endforeach
+
+
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselCuisineAfricane" data-bs-slide="prev">
+    <img src="{{ asset('images/arrow-testimonial.PNG') }}" alt="" srcset="">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselCuisineAfricane" data-bs-slide="next">
+    <img src="{{ asset('images/arrow-right.PNG') }}" alt="" srcset="">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+
+</div> <!-- END CAROUSSEL --> --}}
 
 
 </div>
