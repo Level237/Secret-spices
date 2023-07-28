@@ -27,19 +27,25 @@
 
                     <div class="row">
                         <div class="col-sm-7">
-                            <div class="caption-txt white-color">
 
-                                <!-- Title -->
+
+                            <div class="caption-txt text-white">
+
 
                                 <h2 class="text-uppercase">Secret Spices</h2>
 
-                                <h2 class="horizontal-line">
+
+
 
                                 </h2>
-                                <h5 class="no-caption-txt ubuntu_regular">
-                                    {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                <h5 class="no-caption-txt">
+                                    {{ __('Faciliter la cuisine') }} {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                 </h5>
+                                <div class="mt-10">
+                                    <a href="{{ route('product.index') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Produits</button></a>
+                                </div>
 
+                                </h2>
                             </div>
                         </div>
                     </div> <!-- End row -->
@@ -88,13 +94,13 @@
                             <div class="caption-txt text-white">
 
 
-                                <h2 class="fs-2 font-costyle">PROMESSES</h2>
+                                <h2 class="text-uppercase">PROMESSES</h2>
 
 
 
 
                                 </h2>
-                                <h5 class="no-caption-txt ubuntu_regular">
+                                <h5 class="no-caption-txt">
                                     {{ __('Parce que nous croyons a la transformation agricole') }}
                                 </h5>
                                 <a href="{{ route('engagement') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Engagements</button></a>
