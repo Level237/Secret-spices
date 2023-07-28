@@ -11,6 +11,7 @@ use App\Http\Controllers\Admin\ProductController;
 use App\Http\Controllers\Admin\CategoryController;
 use App\Http\Controllers\ProductController as GuestProductController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\EventController as ControllersEventController;
 use App\Http\Controllers\HomePageController;
 
 /*
@@ -101,9 +102,7 @@ Route::get('/blog', function(){
     return view('blog');
 })-> name('blog');
 
-Route::get('/event', function(){
-    return view('event');
-})-> name('event');
+Route::get('evenements',[ControllersEventController::class,'index'])-> name('event');
 
 Route::get('lang/{locale}', [LangController::class, 'change'])->name('changeLang');
 
