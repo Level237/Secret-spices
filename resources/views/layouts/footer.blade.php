@@ -28,8 +28,13 @@
 			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
 			                </a>
 			                <a href="{{ route('legal') }}" class="text-white">
+<<<<<<< HEAD
 			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
 			                </a>
+=======
+                                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions Légales') }}</div>
+                            </a>
+>>>>>>> 13a6c8c8fbabda63a0a5f3cbfe29c77087779ac1
 
 			                <a href="{{ route('personnal-data') }}" class="text-white">
 			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Données personnelles') }}</div>

@@ -16,8 +16,8 @@
 											<div class="breadcrumb-nav">
 												<nav aria-label="breadcrumb">
 												  	<ol class="breadcrumb">
-												    	<li class="breadcrumb-item"><a href="demo-1.html">Accueil</a></li>
-												    	<li class="breadcrumb-item active" aria-current="page">Engagements</li>
+												    	<li class="breadcrumb-item"><a href="demo-1.html">{{ __('Accueil')}}</a></li>
+												    	<li class="breadcrumb-item active" aria-current="page">{{ __('Engagements')}}</li>
 												  	</ol>
 												</nav>
 											</div>
@@ -26,7 +26,7 @@
 								</div>
 
 								<!-- Title -->
-								<h2 class="h2-xl">Engagements</h2>
+								<h2 class="h2-xl">{{ __('Engagements')}}</h2>
 
 							</div>
 						</div>
@@ -38,7 +38,7 @@
 
         			<!-- MENU-6
 			============================================= -->
-			<section id="menu-6" class="wide-70 menu-section division">
+			<section id="menu-6" class="menu-section division">
 				<div class="container">
 
 
@@ -48,9 +48,9 @@
 							<div class="section-title mb-40 text-center">
 
 								<!-- Text -->
-								<p class="p-xl fs-2 text-black">
-                                    Les epices SECRET ont su reunir dans un conditionnement, l'essentiel de l'assaisonement nécessaire pour donner un gout d'Afrique à toutes vos preparations
-                                    à base de viande de poulet et de poisson.
+								<p class="p-xl fs-4 text-black">
+                                    {{ __("Les épices SECRET, pionniers des marinades et assaisonnements à base d'intrants 100% locaux")}}, 
+									{{ __("misent sur l'éducation et ambitionnent de bâtir de nouvelles habitudes alimentaires.") }}
 								</p>
 
 							</div>
@@ -76,8 +76,9 @@
 
 						<!-- MENU ITEM #2 -->
 						<div class="col-sm-12 col-lg-6 my-auto">
-							 <p class="fs-5 text-black"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis sit et iste, nisi esse consequuntur deleniti numquam quae labore voluptatum aperiam pariatur natus porro dolorem corporis? Assumenda qui et illum!Ipsum quisquam, numquam rem iure fugit saepe beatae aliquid ipsa nam sit perspiciatis eius velit iusto quaerat temporibus iste tempore commodi recusandae at inventore error? Dolorem fugit velit repudiandae facere?</p>
-							 <p class="fs-5 text-black"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis sit et iste, nisi esse consequuntur deleniti numquam quae labore voluptatum aperiam pariatur natus porro dolorem corporis? Assumenda qui et illum!Ipsum quisquam, numquam rem iure fugit saepe beatae aliquid ipsa nam sit perspiciatis eius velit iusto quaerat temporibus iste tempore commodi recusandae at inventore error? Dolorem fugit velit repudiandae facere?</p>
+							 <p class="fs-5 text-black"> {{ __("Lancé en 2013 sur le marché Camerounais par la firme KEUNI FOODS, les épices SECRET, prônent le retour à une alimentation plus saine.
+								Parce que la santé commence par une bonne alimentation et parce que les épices du terroir African possèdent de nombreuses vertus, les épices SECRET ont su réunir dans un conditionnement , l'essentiel de l'assaisonement nécessaire pour donner un gout d'Afrique à toutes vos preparations à base de viande de poulet et de poisson")}}. </p>
+							 <p class="fs-5 text-black"> {{ __("Il s'agit d'une marinade semi-liquide 100% naturelle, prêt à l'emploi et sans exhauteurs de goût.")}}</p>
 						</div>	<!-- END MENU ITEM #2 -->
 
 
@@ -101,25 +102,23 @@
 							<div class="about-3-txt mb-40">
 
 								<!-- Title -->
-								<h2 class="h2-sm title_environnement">Poivre blanc de Penja. <br> Meileur Poivre au monde</h2>
+								<h2 class="h2-sm title_environnement">{{ __('Poivre blanc de Penja')}}. <br> {{ __('Meileur Poivre au monde')}}</h2>
 
 								<!-- Text -->
-								<p class="p-md fs-5 text-black">Introduit au Cameroun par Antoine Decré, le Poivre blanc de Penja est devenu en 2013 la première Indication
-									Géographique Protégée (IGP) du continent africain. Il est devenu le poivre le plus prisé par les grands chefs cuisiniers du monde.
+								<p class="p-md fs-5 text-black">{{ __('Introduit au Cameroun par Antoine Decré, le Poivre blanc de Penja est devenu en 2013 la première Indication
+									Géographique Protégée (IGP) du continent africain. Il est devenu le poivre le plus prisé par les grands chefs cuisiniers du monde.')}}
 								</p>
 
 								<!-- List -->
 								<ul class="txt-list">
 
 									<li class="list-item">
-										<p class="p-md fs-5 text-black">Nos sauces réussissent à allier le piquant du poivre blanc
-														de Penja et la douceur du Djanssang
+										<p class="p-md fs-5 text-black">{{ __('Nos sauces réussissent à allier le piquant du poivre blanc de Penja et la douceur du Djanssang')}}
 										</p>
 									</li>
 
 									<li class="list-item">
-										<p class="p-md fs-5 text-black">« SECRET » se décline en 3 recettes : Sauce Poulet, Sauce
-Viande et Sauce Poisson. </p>
+										<p class="p-md fs-5 text-black">{{ __('« SECRET » se décline en 3 recettes : Sauce Poulet, Sauce Viande et Sauce Poisson')}}. </p>
 									</li>
 
 
@@ -170,7 +169,7 @@ Viande et Sauce Poisson. </p>
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Oignon</h5>
+												<h5 class="h5-sm coffee-color">{{ __('Oignon')}}</h5>
 
 
 
@@ -201,7 +200,7 @@ Viande et Sauce Poisson. </p>
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Ail</h5>
+												<h5 class="h5-sm coffee-color">{{ __('Ail')}}</h5>
 
 
 
@@ -233,7 +232,7 @@ Viande et Sauce Poisson. </p>
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Pebe</h5>
+												<h5 class="h5-sm coffee-color">{{ __('Pebe')}}</h5>
 
 
 
@@ -265,7 +264,7 @@ Viande et Sauce Poisson. </p>
 											<div class="menu-7-txt rel">
 
 												<!-- Title -->
-												<h5 class="h5-sm coffee-color">Clou de girofe</h5>
+												<h5 class="h5-sm coffee-color">{{ __('Clou de girofe')}}</h5>
 
 
 
@@ -300,7 +299,7 @@ Viande et Sauce Poisson. </p>
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Poivre blanc</h5>
+											<h5 class="h5-sm coffee-color">{{ __('Poivre blanc')}}</h5>
 
 
 
@@ -332,7 +331,7 @@ Viande et Sauce Poisson. </p>
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Njanssang</h5>
+											<h5 class="h5-sm coffee-color">{{ __('Njanssang')}}</h5>
 
 
 
@@ -360,7 +359,7 @@ Viande et Sauce Poisson. </p>
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Rondelles</h5>
+											<h5 class="h5-sm coffee-color">{{ __('Rondelles')}}</h5>
 
 
 
@@ -392,7 +391,7 @@ Viande et Sauce Poisson. </p>
 										<div class="menu-7-txt rel">
 
 											<!-- Title -->
-											<h5 class="h5-sm coffee-color">Quatre cotés</h5>
+											<h5 class="h5-sm coffee-color">{{ __('Quatre cotés')}}</h5>
 
 
 
@@ -418,7 +417,7 @@ Viande et Sauce Poisson. </p>
 						<!-- ABOUT IMAGE -->
 						<div class="col-md-5 col-lg-6">
 							<div class="about-3-img text-center mb-40">
-								<img class="img-fluid" src="{{ asset('images/engagement/process-fabrication.jpg')}}"  alt="about-image">
+								<img class="img-fluid" src="{{ asset('images/engagement/process-transformation.jpg')}}"  alt="about-image">
 							</div>
 						</div>
 
@@ -429,10 +428,10 @@ Viande et Sauce Poisson. </p>
 							<div class="about-3-txt mb-40">
 
 								<!-- Title -->
-								<h2 class="h2-sm title_environnement">Processus de Transformation</h2>
+								<h2 class="h2-sm title_environnement">{{ __('Processus de Transformation')}}</h2>
 
 								<!-- Text -->
-								<p class="p-md fs-5 text-black">Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration.
+								<p class="p-md fs-5 text-black">{{ __('Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration')}}.
 								</p>
 
 
