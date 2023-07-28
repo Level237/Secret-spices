@@ -43,16 +43,15 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('recipe.index') }}" class="ubuntu_bold text-white">{{ __('Recettes') }}</a>
-		                        <ul>
+		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                      <!-- <ul>
 
 		                            @foreach ($categories as $category)
 		                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
 		                            @endforeach
 
+		                        </ul> -->
 
-
-		                        </ul>
 		                    </li>
 		                    <div class="horizontal-mobile-line">
 
@@ -75,6 +74,7 @@
 		                    </li>
 
 		                    <!-- DROPDOWN MENU -->
+		                    <!--<li><a href="{{ route('blog')}}" style="font-size: 16px; color:white">Blog</a>-->
 
 		                    </li>
 
