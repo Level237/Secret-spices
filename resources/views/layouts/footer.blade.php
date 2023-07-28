@@ -40,7 +40,7 @@
 			        <div class="align-self-center p-2">
 			            <div class="d-flex flex-column">
                             <a href="{{ route('health-information') }}" class="text-white">
-                                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions sanitaires') }}</div>
+                                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions Sanitaires') }}</div>
                             </a>
 							<a href="{{ route('event') }}" class="text-white">
 			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Évènements') }}</div>
