@@ -409,6 +409,13 @@ i{
     font-size: 30px;
 }
 
+.slide-text{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: unset;
+    font-size: 15px;
+}
+
 .testimonial-title{
   color: #c70609;
 }
@@ -568,6 +575,14 @@ i{
         display: none;
     }
 
+        #slider-mobile {
+            display: block;
+        }
+
+        #slider-desktop {
+            display: none;
+        }
+
         #logo-remove {
             display: none;
         }
@@ -601,11 +616,18 @@ i{
 
 @media screen and (min-width: 1366px) {
 
-  #carouselExampleControls1 {
+  #slider-mobile {
     display: none;
   }
 
-  
+   #slider-desktop {
+       display: block;
+   }
+
+  #carouselExampleControls1 {
+      display: none;
+  }
+
    #receipts-mobile {
        display: none;
    }
@@ -627,7 +649,7 @@ i{
         border-style: none;
     }
 
-   
+
 
     .slides{
 

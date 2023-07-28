@@ -12,7 +12,110 @@
     <div id="space-hero-header" style="margin-top: 100px">
 
     </div>
-    <div class="slider mt-1001">
+    <div class="slider mt-1001" id="slider-mobile">
+        <ul class="slides">
+
+
+            <!-- SLIDE #1 -->
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/mobile/slide01_Mobile.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+
+                    <div class="row">
+                        <div class="col-sm-7">
+
+
+                            <div class="caption-txt text-white">
+
+
+                                <h2 class="text-uppercase">Secret Spices</h2>
+
+
+
+
+                                </h2>
+                                <h5 class="slide-text">
+                                    {{ __('Faciliter la cuisine') }} {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                </h5>
+                                <div class="mt-20">
+                                    <a href="{{ route('product.index') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Produits</button></a>
+                                </div>
+
+                                </h2>
+                            </div>
+                        </div>
+                    </div> <!-- End row -->
+
+                </div> <!-- End Image Caption -->
+
+            </li> <!-- END SLIDE #1 -->
+            <!-- SLIDE #1 -->
+
+
+
+            <!-- SLIDE #1 -->
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/mobile/slide03_Mobile.jpg') }}" alt="slide-background">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+                    <div class="container">
+
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li> <!-- END SLIDE #1 -->
+            <!-- SLIDE #1 -->
+
+            <li id="slide-1">
+
+                <!-- Background Image -->
+                <img src="{{ asset('images/slider/mobile/slide02_Mobile.jpg') }}" alt="slide-background" class="eng">
+
+                <!-- Image Caption -->
+                <div class="caption d-flex align-items-center left-align">
+
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                    <div class="row mt-100">
+                        <div class="col-5">
+
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="caption-txt text-white">
+
+
+                                <h2 class="text-uppercase">PROMESSES</h2>
+
+
+
+
+                                </h2>
+                                <h5 class="slide-text">
+                                    {{ __('Parce que nous croyons a la transformation agricole') }}
+                                </h5>
+                                <a href="{{ route('engagement') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Engagements</button></a>
+                                </h2>
+                            </div>
+
+                        </div> <!-- End row -->
+                    </div> <!-- End container -->
+                </div> <!-- End Image Caption -->
+
+            </li>
+        </ul>
+    </div> <!-- END SLIDER -->
+
+    <div class="slider mt-1001" id="slider-desktop">
         <ul class="slides">
 
 
@@ -39,7 +142,9 @@
                                     <h5 class="no-caption-txt ubuntu_regular">
                                         {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                     </h5>
-
+                                    <div class="mt-20">
+                                        <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Nos Produits') }}</button></a>
+                                    </div>
                                 </div>
                             </div>
                         </div> <!-- End row -->
@@ -51,7 +156,7 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/slide2-ex.jpg') }}" alt="slide-background" width="100%">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
@@ -62,15 +167,6 @@
 
                                     <!-- Title -->
 
-                                    <h2 class="text-uppercase">Caravane des épices</h2>
-
-                                    <h2 class="horizontal-line">
-
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Nous Venons') }} <br> {{ __('chez vous') }} <br>
-                                    </h5>
-
                                 </div>
                             </div>
                         </div> <!-- End row -->
@@ -78,6 +174,8 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
+
+
 
 
             <li id="slide-1">
@@ -96,15 +194,14 @@
                                 <div class="caption-txt white-color">
 
 
-                                    <h2 class="text-uppercase">PROMESSE</h2>
-                                    <h2 class="horizontal-line">
+                                    <h2 class="text-uppercase">PROMESSES</h2>
 
-
-
-                                        </h2>
-                                        <h5 class="no-caption-txt ubuntu_regular">
-                                            {{ __('Parce que nous croyons a la transformation agricole') }}
-                                        </h5>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        Parce que nous croyons a la transformation </br> agricole.
+                                    </h5>
+                                    <div class="mt-20">
+                                        <a href="{{ route('engagement') }}"> <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">Nos Engagements</button></a>
+                                    </div>
 
                                     </h2>
                                 </div>
@@ -135,64 +232,26 @@
         <div class="row d-flex align-items-center mb-4">
 
 
-            <!-- PROMO IMAGE-1 -->
+            @foreach ($randomRecipe as $recipe)
             <div class="col-md-4">
-                <a href="menu-3.html">
+                <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
 
 
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
+
+                    <img class="img-fluid" src="{{ Storage::url($recipe->images[0]->path)}}" alt="promo-image">
                     <div class="row mt-3">
                         <div class="col-lg-1">
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
+                            <span class="text-center fs-5 fw-normal">{{ ucfirst($recipe->name_recipe) }}</span>
                         </div>
                     </div>
 
                 </a>
             </div>
+            @endforeach
 
-
-            <!-- PROMO IMAGE-2 -->
-            <div class="col-md-4">
-                <a href="menu-3.html">
-
-
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                    <div class="row mt-3">
-                        <div class="col-lg-1">
-
-                        </div>
-                        <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
-                        </div>
-                    </div>
-
-                </a>
-            </div>
-
-
-            <!-- PROMO IMAGE-3 -->
-            <div class="col-md-4">
-                <a href="menu-3.html">
-
-
-                    <img class="img-fluid" src="{{ asset('images/recette1.jpg') }}" alt="promo-image">
-                    <div class="row mt-3">
-                        <div class="col-lg-1">
-
-                        </div>
-                        <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ __("Poulet roti à l'orange et aux epinards")}}</span>
-                        </div>
-                    </div>
-
-                </a>
-            </div>
-
-
-            <!-- PROMO IMAGE-4 -->
 
 
         </div> <!-- End row -->
@@ -207,15 +266,14 @@
         </div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                @foreach ($randomRecipe as $recipe)
                 <div class="carousel-item active">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
+                    <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
+                        <img src="{{ Storage::url($recipe->images[0]->path)}}" class="d-block w-100" alt="...">
+                    </a>
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                </div>
+                @endforeach
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -237,7 +295,7 @@
 
 
 
-<div class="container-fluid mt-40">
+<div class="container-fluid mt-40 d-lg-block d-md-block d-none">
     <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
         <div class="col-8">
             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
@@ -247,12 +305,17 @@
 
     </div>
 </div>
+<section class="container d-lg-none d-md-none mt-40">
+    <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
+        <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    </video>
+</section>
 
 
 <section class="container" style="margin-top:40px">
     <div class="row align-items-center">
         <div class="col-6  d-lg-block d-none">
-            <img src="{{ asset('images/gamme.png') }}" class="img-fluid" alt="spices">
+            <img src="{{ asset('images/gamme1.png') }}" class="img-fluid" alt="spices">
         </div>
 
         <div class="col-lg-6 col-md-12 col-sm-12">
@@ -290,7 +353,7 @@
 
 <section class="bg-gray-spices mt-3" style="padding-bottom:45px;padding-top:45px">
 
-    <div class="ms-4 mr-40  border border-sm-none">
+    <div class="border border-sm-none container">
 
         <div class="ms-1">
             <div class="row align-items-center">
@@ -304,8 +367,8 @@
                 <div class="col-lg-5">
                     <div class="d-flex flex-row mt-3">
                         <div class="vertical-line-secondary align-middle"></div>
-                        <h3 class="ms-2 fs-1">{{ __('Les epices secret') }} <br>
-                            {{ __('avec vous') }} <br>
+                        <h3 class="ms-2 fs-1">{{ __('Les epices secret') }}
+                            {{ __('avec vous') }}
                             {{ __('de genérations en genérations') }}<br>
                         </h3>
 
@@ -320,17 +383,17 @@
 
                         </div>
                     </div>
-                    <div class="row ms-3 mb-4">
+                    <div class="row ms-1 mb-4">
                         <div class="col-12 mt-3 col-sm-12 col-md-12">
 
 
+                            <a href="{{ route('engagement') }}"> <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button></a>
 
-                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button>
                         </div>
                     </div>
                 </div>
                 <div class="col-7 d-lg-block d-none">
-                    <div class=" z-3 position-absolute   vertical-separator" style="right:5%;">
+                    <div class=" z-3 position-absolute   vertical-separator" style="right:8%;">
 
                     </div>
                     <img src="{{ asset('images/engagement.jpg') }}" class="img-fluid" alt="spices">
@@ -793,7 +856,7 @@
                 <div class="section-title mb-60 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-secret">{{ __('Événements') }}</h2>
+                    <h2 class="h2-xl text-primary-spices">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
                     <p class="p-xl">{{ __('Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.') }}
@@ -826,7 +889,7 @@
                         <div class="card-body pb-4">
                             <div class="d-flex align-items-start ms-4 mt-3">
 
-                                <div style="border: 2px solid red" class="px-3">
+                                <div style="border: 2px solid red;padding-top:8px;padding-bottom:8px;padding-left:20px;padding-right:20px">
                                     <div class="fs-2 fw-bold">
                                         <span class="text-primary-spices">12</span>
 
@@ -869,7 +932,7 @@
                 <div class="col">
 
                     <!-- Article -->
-                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -880,12 +943,12 @@
                                         <div class="d-flex align-items-start ms-3">
 
                                             <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                                <div class="fs-6 fw-bold">
-                                                    <span class="text-primary-spices">12</span>
+                                                <div class="fs-5 fw-bold">
+                                                    <span class="text-primary-spices">30</span>
 
                                                 </div>
                                                 <span class="fs-6 fw-bold">
-                                                    Juillet
+                                                    Aout
                                                 </span>
 
                                             </div>
@@ -923,7 +986,7 @@
                     </article>
 
                     <!-- Article -->
-                    <article class="card  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -975,6 +1038,111 @@
                             </div>
                         </div>
                     </article>
+
+                    <div class="d-lg-none d-md-none container">
+                        <div class="text-center">
+
+
+                        </div>
+                        <div id="carouselEvent" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+
+                                <div class="carousel-item active">
+                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                    <div class="d-flex mt-10 align-items-start ms-3">
+
+                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                            <div class="fs-5 fw-bold">
+                                                <span class="text-primary-spices">30</span>
+
+                                            </div>
+                                            <span class="fs-6 fw-bold">
+                                                Aout
+                                            </span>
+
+                                        </div>
+
+                                        <div class="ms-3 w-100">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>Secret For You</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="width:100%">
+                                                <div class="col-lg-12">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="text-primary-spices">
+                                                    {{ __('Lire la suite') }}
+                                                </span>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="carousel-item active">
+                                    <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
+                                    <div class="d-flex mt-10 align-items-start ms-3">
+
+                                        <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
+                                            <div class="fs-5 fw-bold">
+                                                <span class="text-primary-spices">30</span>
+
+                                            </div>
+                                            <span class="fs-6 fw-bold">
+                                                Aout
+                                            </span>
+
+                                        </div>
+
+                                        <div class="ms-3 w-100">
+                                            <div class="row">
+                                                <div class="col">
+                                                    <h4>Secret For You</h4>
+                                                </div>
+                                            </div>
+
+                                            <div class="row" style="width:100%">
+                                                <div class="col-lg-12">
+                                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                                </div>
+
+                                            </div>
+                                            <div class="row">
+                                                <span class="text-primary-spices">
+                                                    {{ __('Lire la suite') }}
+                                                </span>
+
+                                            </div>
+
+
+
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEvent" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
 
             </div>

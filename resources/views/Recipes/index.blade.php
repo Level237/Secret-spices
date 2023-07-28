@@ -42,9 +42,9 @@
         @endforeach
 
 
-        @foreach($recipe as $r)
-        <div class="row">
 
+        <div class="row">
+            @foreach($recipe as $r)
             <div class="col-md-3">
 
                 <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
@@ -76,7 +76,7 @@
 
             </div>
 
-
+            @endforeach
             {{-- <div class="text-center " style="margin-top:15px">
                 <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Plus de recettes') }}</button>
         </div> --}}
@@ -87,7 +87,7 @@
     <div style="margin-bottom: 50px;">
 
     </div>
-    @endforeach
+
 
 
 
