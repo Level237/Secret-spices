@@ -42,7 +42,7 @@
                                     {{ __('Faciliter la cuisine') }} {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
                                 </h5>
                                 <div class="mt-20">
-                                    <a href="{{ route('product.index') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Produits</button></a>
+                                    <a href="{{ route('product.index') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">{{ __('Nos Produits') }}</button></a>
                                 </div>
 
                                 </h2>
@@ -94,16 +94,16 @@
                             <div class="caption-txt text-white">
 
 
-                                <h2 class="text-uppercase">PROMESSES</h2>
+                                <h2 class="text-uppercase">{{ __('PROMESSES') }}</h2>
 
 
 
 
                                 </h2>
                                 <h5 class="slide-text">
-                                    {{ __('Parce que nous croyons a la transformation agricole') }}
+                                    {{ __('Parce que nous croyons a la transformation') }} </br> {{ __('agricole') }}.
                                 </h5>
-                                <a href="{{ route('engagement') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Engagements</button></a>
+                                <a href="{{ route('engagement') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">{{ __('Nos Engagements') }}</button></a>
                                 </h2>
                             </div>
 
@@ -194,13 +194,13 @@
                                 <div class="caption-txt white-color">
 
 
-                                    <h2 class="text-uppercase">PROMESSES</h2>
+                                    <h2 class="text-uppercase">{{ __('PROMESSES') }}</h2>
 
                                     <h5 class="no-caption-txt ubuntu_regular">
-                                        Parce que nous croyons a la transformation </br> agricole.
+                                        {{ __('Parce que nous croyons a la transformation') }} </br> {{ __('agricole') }}.
                                     </h5>
                                     <div class="mt-20">
-                                        <a href="{{ route('engagement') }}"> <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">Nos Engagements</button></a>
+                                        <a href="{{ route('engagement') }}"> <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3  border border-0">{{ __('Nos Engagements') }}</button></a>
                                     </div>
 
                                     </h2>
@@ -262,7 +262,7 @@
     <div class="d-lg-none d-md-none container">
         <div class="text-center">
 
-            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles ')}}</h1>
+            <h1 class="ms-2"> {{ __('Nos idées de recettes faciles')}}</h1>
         </div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">

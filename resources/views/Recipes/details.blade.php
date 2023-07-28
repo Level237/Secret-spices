@@ -75,7 +75,7 @@
 
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu" style="margin-left:50px">
-                                    <li><a href="#"> <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
+                                    <li><a href="{{ route('products')}}"> <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
                                         <ul class="dropdown-menu-col-1">
 
                                             @foreach($weights as $weight)
@@ -85,14 +85,10 @@
                                     </li>
 
                                     <li>
-                                        <a href="#" style="font-size:16px; text-transform: uppercase;">Recettes</a>
-                                        <ul class="dropdown-menu-col-1">
-                                            @foreach ($categories as $category)
-                                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
-                                            @endforeach
-                                        </ul>
+                                        <a href="/recettes" style="font-size:16px; text-transform: uppercase;">Recettes</a>
+                                       
                                     </li>
-                                    <li><a href="#" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}</a>
+                                    <li><a href="/engagements" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}</a>
                                         <ul class="dropdown-menu-col-1">
                                             <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
                                             <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
@@ -100,7 +96,7 @@
                                         </ul>
                                     </li>
                                     <li>
-                                    <li><a href="{{ route('event') }}" style="font-size: 16px; color:white">{{ __('Évènements') }}</a>
+                                    <li><a href="{{ route('event') }}" style="font-size: 16px; color:white; text-transform: uppercase;">{{ __('Évènements') }}</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -207,7 +203,7 @@
         <section class="single-recipe-wrap-layout2 padding-bottom-80">
             <div class="container">
                 <div class="single-recipe-layout2">
-                    <div class="ctg-name " style="font-size:30px"> Détails Recette</div>
+                    <div class="ctg-name " style="font-size:30px"> Détail de la Recette</div>
                     <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">

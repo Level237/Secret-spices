@@ -59,7 +59,7 @@
 
                     <div class="col-9 fs-5 fw-bold">
                         <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
-                            {{ ucfirst($r->name_recipe) }}
+                            {{ ucfirst(Str::limit($r->name_recipe, 19)) }}
                         </a>
 
                     </div>
@@ -70,7 +70,7 @@
 
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">{{ $r->description_recipe }}</p>
+                    <p style="width:100%" class="fs-6 fw-normal">{{ ucfirst(Str::limit($r->description_recipe, 50))  }}</p>
                 </div>
 
 
