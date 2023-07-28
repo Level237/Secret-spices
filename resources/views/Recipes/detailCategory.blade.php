@@ -50,7 +50,6 @@ Categorie : {{ $category->category_name }}
                     @foreach($recipe->images as $image)
                     <img src="{{ Storage::url($recipe->images[0]->path)}}" style="width:100%" alt="">
                     @endforeach
-                </div>
             </a>
         </div>
 
@@ -58,7 +57,7 @@ Categorie : {{ $category->category_name }}
 
             <div class="col-9 fs-5 fw-bold">
                 <a href="{{ route('recipe.detail',['category'=>$category->category_name,'name'=>$recipe->name_recipe]) }}">
-                    {{ ucfirst($recipe->name_recipe) }}
+                    {{ $recipe->name_recipe }}
                 </a>
             </div>
 
