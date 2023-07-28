@@ -75,7 +75,7 @@
 
                             <nav class="site-nav">
                                 <ul id="site-menu" class="site-menu" style="margin-left:50px">
-                                    <li><a href="{{ route('products')}}"> <span style="font-size:16px; text-transform: uppercase;"> Produits </span> <i class="fa fa-angle-down"></i> </a>
+                                    <li><a href="{{ route('products')}}"> <span style="font-size:16px; text-transform: uppercase;"> {{ __('Produits')}} </span> <i class="fa fa-angle-down"></i> </a>
                                         <ul class="dropdown-menu-col-1">
 
                                             @foreach($weights as $weight)
@@ -85,10 +85,10 @@
                                     </li>
 
                                     <li>
-                                        <a href="/recettes" style="font-size:16px; text-transform: uppercase;">Recettes</a>
+                                        <a href="/recettes" style="font-size:16px; text-transform: uppercase;">{{ __('Recettes')}}</a>
                                        
                                     </li>
-                                    <li><a href="/engagements" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}</a>
+                                    <li><a href="/engagements" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}<i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu-col-1">
                                             <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
                                             <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
@@ -203,7 +203,7 @@
         <section class="single-recipe-wrap-layout2 padding-bottom-80">
             <div class="container">
                 <div class="single-recipe-layout2">
-                    <div class="ctg-name " style="font-size:30px"> Détail de la Recette</div>
+                    <div class="ctg-name " style="font-size:30px"> {{ __('Détail de la Recette')}}</div>
                     <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
@@ -248,7 +248,7 @@
                                             <i class="far fa-clock"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">TEMPS PREP</div>
+                                            <div class="feature-title">{{ __('TEMPS PREP')}}</div>
                                             <div class="feature-sub-title">{{ $recipe->time }}</div>
                                         </div>
                                     </div>
@@ -261,7 +261,7 @@
                                             <i class="fas fa-utensils"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">TEMPS CUISSON</div>
+                                            <div class="feature-title">{{ __('TEMPS CUISSON')}}</div>
                                             <div class="feature-sub-title">45 Mins</div>
                                         </div>
                                     </div>
@@ -275,7 +275,7 @@
                                         </div>
                                         <div class="media-body space-sm">
                                             <div class="feature-title">SERVICE</div>
-                                            <div class="feature-sub-title">{{ $recipe->number_person }} person</div>
+                                            <div class="feature-sub-title">{{ $recipe->number_person }} {{ __('Têtes')}}</div>
                                         </div>
                                     </div>
                                 </div>
@@ -287,7 +287,7 @@
                                             <i class="far fa-eye"></i>
                                         </div>
                                         <div class="media-body space-sm">
-                                            <div class="feature-title">VUES</div>
+                                            <div class="feature-title">{{ __('VUES')}}</div>
                                             <div class="feature-sub-title">10</div>
                                         </div>
                                     </div>
@@ -300,7 +300,7 @@
                         <div class="row">
                             <div class="col-xl-12 col-12">
                                 <div class="ingridients-wrap">
-                                    <h3 class="item-title"><i class="fas fa-list-ul"></i>Ingredients</h3>
+                                    <h3 class="item-title"><i class="fas fa-list-ul"></i>{{ __('Ingrédients')}}</h3>
                                     {{--<div class="adjust-servings">
                                         <div class="servings-title">Adjust Servings</div>
                                         <form class="servings-quantity">
@@ -371,7 +371,7 @@
 
                     <div class="direction-wrap-layout2">
                         <div class="section-heading2 heading-dark">
-                            <h2 class="item-heading">Étapes de préparation</h2>
+                            <h2 class="item-heading">{{ __('Étapes de préparation')}}</h2>
                         </div>
                         @foreach ($recipe->steps as $index=>$step)
                         @if($index == 0)
@@ -380,7 +380,7 @@
                         @endif
                         <div class="direction-box-layout2">
                             <div class="serial-number">
-                                <h4 class="number-title">{{ $index }}</h4><span>Étape</span>
+                                <h4 class="number-title">{{ $index }}</h4><span>{{ __('Étape')}}</span>
                             </div>
                             <div class="item-content">
                                 <span class="item-time"><i class="far fa-clock"></i>{{ $step->duration }}</span>
