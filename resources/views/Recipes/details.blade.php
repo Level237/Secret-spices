@@ -211,7 +211,7 @@
                     <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
-                            <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>{{ $recipe->created_at }}</a></li>
+                            <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>{{ $recipe->created_at->format('d M y') }}</a></li>
                             <li class="single-meta"><a href="#"><i class="fas fa-user"></i>by <span>Secret Spices
                                     </span></a></li>
                             <li class="single-meta">
