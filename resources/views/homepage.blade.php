@@ -932,7 +932,7 @@
                 <div class="col">
 
                     <!-- Article -->
-                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-lg-block d-md-block d-none border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
@@ -986,7 +986,7 @@
                     </article>
 
                     <!-- Article -->
-                    <article class="card d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
+                    <article class="card d-lg-block d-md-block d-none  border-0 shadow-sm overflow-hidden mb-4" style="width:90%">
                         <div class="row g-0">
                             <img src="{{ asset('images/simulation2.jpg') }}" class="" style="width: 100%" alt="Image">
                             <div class="col-sm-12">
