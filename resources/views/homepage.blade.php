@@ -78,7 +78,7 @@
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
-           
+
 
             <li id="slide-1">
 
@@ -99,7 +99,7 @@
                                     <h2 class="text-uppercase">PROMESSE</h2>
                                     <h2 class="horizontal-line">
 
-                                       
+
 
                                         </h2>
                                         <h5 class="no-caption-txt ubuntu_regular">
@@ -278,7 +278,7 @@
 
                 <div class="">
 
-                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a> 
+                    <a href="/produits"><button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0">{{ __('Découvrir Nos Produits') }}</button></a>
 
                 </div>
             </div>
