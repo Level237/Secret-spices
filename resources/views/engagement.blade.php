@@ -38,7 +38,7 @@
 
         			<!-- MENU-6
 			============================================= -->
-			<section id="menu-6" class="wide-70 menu-section division">
+			<section id="menu-6" class="menu-section division">
 				<div class="container">
 
 
@@ -48,9 +48,9 @@
 							<div class="section-title mb-40 text-center">
 
 								<!-- Text -->
-								<p class="p-xl fs-2 text-black">
-                                    Les epices SECRET ont su reunir dans un conditionnement, l'essentiel de l'assaisonement nécessaire pour donner un gout d'Afrique à toutes vos preparations
-                                    à base de viande de poulet et de poisson.
+								<p class="p-xl fs-4 text-black">
+                                    Les épices SECRET, pionniers des marinades et assaisonnements à base d'intrants 100% locaux, 
+									misent sur l'éducation et ambitionnent de bâtir de nouvelles habitudes alimentaires.
 								</p>
 
 							</div>
@@ -76,8 +76,9 @@
 
 						<!-- MENU ITEM #2 -->
 						<div class="col-sm-12 col-lg-6 my-auto">
-							 <p class="fs-5 text-black"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis sit et iste, nisi esse consequuntur deleniti numquam quae labore voluptatum aperiam pariatur natus porro dolorem corporis? Assumenda qui et illum!Ipsum quisquam, numquam rem iure fugit saepe beatae aliquid ipsa nam sit perspiciatis eius velit iusto quaerat temporibus iste tempore commodi recusandae at inventore error? Dolorem fugit velit repudiandae facere?</p>
-							 <p class="fs-5 text-black"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis sit et iste, nisi esse consequuntur deleniti numquam quae labore voluptatum aperiam pariatur natus porro dolorem corporis? Assumenda qui et illum!Ipsum quisquam, numquam rem iure fugit saepe beatae aliquid ipsa nam sit perspiciatis eius velit iusto quaerat temporibus iste tempore commodi recusandae at inventore error? Dolorem fugit velit repudiandae facere?</p>
+							 <p class="fs-5 text-black"> Lancé en 2013 sur le marché Camerounais par la firme KEUNI FOODS, les épices SECRET, prônent le retour à une alimentation plus saine.
+								Parce que la santé commence par une bonne alimentation et parce que les épices du terroir African possèdent de nombreuses vertus, les épices SECRET ont su réunir dans un conditionnement , l'essentiel de l'assaisonement nécessaire pour donner un gout d'Afrique à toutes vos preparations à base de viande de poulet et de poisson. </p>
+							 <p class="fs-5 text-black"> Il s'agit d'une marinade semi-liquide 100% naturelle, prêt à l'emploi et sans exhauteurs de goût.</p>
 						</div>	<!-- END MENU ITEM #2 -->
 
 
@@ -418,7 +419,7 @@ Viande et Sauce Poisson. </p>
 						<!-- ABOUT IMAGE -->
 						<div class="col-md-5 col-lg-6">
 							<div class="about-3-img text-center mb-40">
-								<img class="img-fluid" src="{{ asset('images/engagement/process-fabrication.jpg')}}"  alt="about-image">
+								<img class="img-fluid" src="{{ asset('images/engagement/process-transformation.jpg')}}"  alt="about-image">
 							</div>
 						</div>
 

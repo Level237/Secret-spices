@@ -424,10 +424,7 @@
                     </div>
                     <div class="row ms-3 mb-4">
                         <div class="col-12 mt-3 col-sm-12 col-md-12">
-
-
-
-                            <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button>
+                            <a href="{{ route('engagement')}}"> <button type="button" class="  bg-secondary-spices text-primary-spices fw-bold fs-5 px-5 p-3 border border-0"> {{ __('En Savoir Plus') }}</button></a>
                         </div>
                     </div>
                 </div>
