@@ -406,6 +406,13 @@ i{
     margin-top: 15px;
     margin-left: 10px;
     text-transform: unset;
+    font-size: 30px;
+}
+
+.slide-text{
+    margin-top: 15px;
+    margin-left: 10px;
+    text-transform: unset;
     font-size: 15px;
 }
 
