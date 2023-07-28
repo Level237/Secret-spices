@@ -28,7 +28,7 @@
 			                    <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('A Propos') }}</div>
 			                </a>
 			                <a href="{{ route('legal') }}" class="text-white">
-                                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions légales') }}</div>
+                                <div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Mentions Légales') }}</div>
                             </a>
 
                             <a href="{{ route('personnal-data') }}" class="text-white">

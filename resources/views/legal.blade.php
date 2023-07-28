@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', __('Mentions Legales'))
+@section('title', __('Mentions Légales'))
 @section('content')
 
 <div id="space-hero-header" style="margin-top: 150px">
@@ -11,7 +11,7 @@
     <div class="margin-space">
 
         <div class="row mb-3">
-            <h1 style="color:#c70609"> {{ __('Mentions Legales') }}? </h1>
+            <h1 style="color:#c70609"> {{ __('Mentions Légales') }} </h1>
         </div>
 
         <div class="row margin-space">
