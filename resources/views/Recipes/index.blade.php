@@ -58,7 +58,7 @@
                 <div class="row">
 
                     <div class="col-9 fs-5 fw-bold">
-                        <a href="{{ route('recipe.detail',['category'=>$r->category->id,'name'=>$r->name_recipe]) }}">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
                             {{ $r->name_recipe }}
                         </a>
 
