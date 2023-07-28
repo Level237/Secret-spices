@@ -48,10 +48,10 @@
 
             </li> <!-- END SLIDE #1 -->
             <!-- SLIDE #1 -->
-          
-           
 
-          <!-- SLIDE #1 -->
+
+
+            <!-- SLIDE #1 -->
             <li id="slide-1">
 
                 <!-- Background Image -->
@@ -103,12 +103,12 @@
                                     <h2 class="text-uppercase">PROMESSE</h2>
                                     <h2 class="horizontal-line">
 
-                                       
 
-                                        </h2>
-                                        <h5 class="no-caption-txt ubuntu_regular">
-                                            {{ __('Parce que nous croyons a la transformation agricole') }}
-                                        </h5>
+
+                                    </h2>
+                                    <h5 class="no-caption-txt ubuntu_regular">
+                                        {{ __('Parce que nous croyons a la transformation agricole') }}
+                                    </h5>
 
                                     </h2>
                                 </div>
@@ -180,7 +180,7 @@
             </li> <!-- END SLIDE #1 -->
 
 
-         
+
 
             <li id="slide-1">
 
@@ -249,7 +249,7 @@
 
                         </div>
                         <div class="col-md-12 col-lg-6">
-                            <span class="text-center fs-5 fw-normal">{{ $recipe->name_recipe }}</span>
+                            <span class="text-center fs-5 fw-normal">{{ ucfirst($recipe->name_recipe) }}</span>
                         </div>
                     </div>
 
@@ -271,15 +271,14 @@
         </div>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
+                @foreach ($randomRecipe as $recipe)
                 <div class="carousel-item active">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
+                    <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
+                        <img src="{{ Storage::url($recipe->images[0]->path)}}" class="d-block w-100" alt="...">
+                    </a>
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('images/recette1.jpg') }}" class="d-block w-100" alt="...">
-                </div>
+                @endforeach
+
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -354,7 +353,7 @@
 
 <section class="bg-gray-spices mt-3" style="padding-bottom:45px;padding-top:45px">
 
-    <div class="ms-4 mr-40  border border-sm-none">
+    <div class="border border-sm-none container">
 
         <div class="ms-1">
             <div class="row align-items-center">
