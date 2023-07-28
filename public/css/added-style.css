@@ -406,7 +406,7 @@ i{
     margin-top: 15px;
     margin-left: 10px;
     text-transform: unset;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .testimonial-title{
@@ -571,7 +571,7 @@ i{
         #slider-mobile {
             display: block;
         }
-    
+
         #slider-desktop {
             display: none;
         }
@@ -620,7 +620,7 @@ i{
   #carouselExampleControls1 {
       display: none;
   }
-  
+
    #receipts-mobile {
        display: none;
    }
@@ -642,7 +642,7 @@ i{
         border-style: none;
     }
 
-   
+
 
     .slides{
 

@@ -20,30 +20,30 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide1.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/mobile/slide01_Mobile.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <div class="caption-txt white-color">
 
-                                    <!-- Title -->
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="caption-txt white-color">
 
-                                    <h2 class="text-uppercase">Secret Spices</h2>
+                                <!-- Title -->
 
-                                    <h2 class="horizontal-line">
+                                <h2 class="text-uppercase">Secret Spices</h2>
 
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
-                                    </h5>
+                                <h2 class="horizontal-line">
 
-                                </div>
+                                </h2>
+                                <h5 class="no-caption-txt ubuntu_regular">
+                                    {{ __('Faciliter la cuisine') }} <br> {{ __('avec des assaisonnements') }} <br>{{ __('prêts à l\'emploi.') }}
+                                </h5>
+
                             </div>
-                        </div> <!-- End row -->
-                    </div> <!-- End container -->
+                        </div>
+                    </div> <!-- End row -->
+
                 </div> <!-- End Image Caption -->
 
             </li> <!-- END SLIDE #1 -->
@@ -55,29 +55,12 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide2.jpg') }}" alt="slide-background">
+                <img src="{{ asset('images/slider/mobile/slide03_Mobile.jpg') }}" alt="slide-background">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
                     <div class="container">
-                        <div class="row">
-                            <div class="col-sm-7">
-                                <div class="caption-txt white-color">
 
-                                    <!-- Title -->
-
-                                    <h2 class="text-uppercase">Caravane des épices</h2>
-
-                                    <h2 class="horizontal-line">
-
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Nous venons') }} <br> {{ __('Chez vous')  }}
-                                    </h5>
-
-                                </div>
-                            </div>
-                        </div> <!-- End row -->
                     </div> <!-- End container -->
                 </div> <!-- End Image Caption -->
 
@@ -87,32 +70,37 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/slide3.jpg') }}" alt="slide-background" class="eng">
+                <img src="{{ asset('images/slider/mobile/slide02_Mobile.jpg') }}" alt="slide-background" class="eng">
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-5">
 
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+
+                    <div class="row mt-100">
+                        <div class="col-5">
+
+                        </div>
+                        <div class="col-sm-7">
+                            <div class="caption-txt text-white">
+
+
+                                <h2 class="fs-2 font-costyle">PROMESSES</h2>
+
+
+
+
+                                </h2>
+                                <h5 class="no-caption-txt ubuntu_regular">
+                                    {{ __('Parce que nous croyons a la transformation agricole') }}
+                                </h5>
+                                <a href="{{ route('engagement') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Nos Engagements</button></a>
+                                </h2>
                             </div>
-                            <div class="col-sm-7">
-                                <div class="caption-txt white-color">
 
-
-                                    <h2 class="text-uppercase">PROMESSE</h2>
-                                    <h2 class="horizontal-line">
-
-
-
-                                    </h2>
-                                    <h5 class="no-caption-txt ubuntu_regular">
-                                        {{ __('Parce que nous croyons a la transformation agricole') }}
-                                    </h5>
-
-                                    </h2>
-                                </div>
-                            </div>
                         </div> <!-- End row -->
                     </div> <!-- End container -->
                 </div> <!-- End Image Caption -->
@@ -300,7 +288,7 @@
 
 
 
-<div class="container-fluid mt-40">
+<div class="container-fluid mt-40 d-lg-block d-md-block d-none">
     <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
         <div class="col-8">
             <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
@@ -310,6 +298,11 @@
 
     </div>
 </div>
+<section class="container d-lg-none d-md-none mt-40">
+    <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
+        <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    </video>
+</section>
 
 
 <section class="container" style="margin-top:40px">
@@ -383,7 +376,7 @@
 
                         </div>
                     </div>
-                    <div class="row ms-3 mb-4">
+                    <div class="row ms-1 mb-4">
                         <div class="col-12 mt-3 col-sm-12 col-md-12">
 
 
