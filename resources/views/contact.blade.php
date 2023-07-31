@@ -97,7 +97,7 @@
 										<!-- Title -->	
 										<p class="p-md">Phone: +237 696 48 70 22</p>
 										<p class="p-md">WhatsApp: +237 6 52 52 54 54</p>
-										<p class="p-md">Email: <a href="contact@secret-spices.net" class="yellow-color">contact@secret-spices.net</a></p>
+										<p class="p-md">Email: <a href="infos@secret-spices.net" class="yellow-color">infos@secret-spices.net</a></p>
 
 									</div>
 								</div>
