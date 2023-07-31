@@ -59,8 +59,7 @@
    
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
-    <!-- Flaticon CSS -->
-    <link rel="stylesheet" href="{{ asset('fonts-recipe/flaticon.css')}}">
+   
         <!-- FONT ICONS -->
     <link href="{{ asset('releases/v5.11.0/css/all.css')}}" rel="stylesheet" crossorigin="anonymous">
     <link href="{{ asset('css/flaticon.css')}}" rel="stylesheet">

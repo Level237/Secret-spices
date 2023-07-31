@@ -177,7 +177,10 @@
 .flaticon-fig:before { content: "\f18f"; }
 .flaticon-ice-cream-1:before { content: "\f190"; }
 .flaticon-fried-egg:before { content: "\f191"; }
-.flaticon-dinner:before { content: "\f192"; }
+.flaticon-dinner:before { 
+  color: #fde0a5;
+  width: 100%;
+  content: "\f192"; }
 .flaticon-restaurant:before { content: "\f193"; }
 .flaticon-noodles-1:before { content: "\f194"; }
 .flaticon-meal-3:before { content: "\f195"; }
