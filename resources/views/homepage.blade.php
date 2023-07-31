@@ -348,7 +348,7 @@
             <div class="row mt-10">
                 <div class="col-12">
                     <span class="fs-5">
-                        {{ __("Découvrez nos formats super faciles d'utilisation pour réaliser vos délicieux plats sans colorants sans conservateurs, ni de traces animales.") }}
+                        {{ __("Découvrez nos formats super faciles d'utilisation pour réaliser vos délicieux plats sans colorants sans conservateurs et ni traces animales.") }}
 
                     </span>
 
@@ -393,8 +393,8 @@
                     <div class="row  ms-3 ms-sm-0">
                         <div class="col-12">
                             <span class="fs-5 ubuntu_regular">
-                                {{ __("Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans") }} {{ __('de genérations en genérations') }}
-                                {{ __("Nous croyons à un produit au service salvatrice à l'ère moderne qui conserve le goût naturel des intrants agricoles") }}
+                                {{ __("Parce que c'est l’occasion de conserver tout le savoir-faire culinaire de nos mamans") }} {{ __('de genérations en genérations') }} <br>
+                                {{ __("Nous croyons à un produit au service salvateur à l'ère moderne qui conserve le goût naturel des intrants agricoles") }}
 
                             </span>
 
@@ -724,7 +724,7 @@
                 </div>
 
                 <div class="col-md-4" id="temoignages">
-                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0"> <a href="https://www.facebook.com/mysecretspices/reviews" target="_blank">{{ __('Découvrez plus de temoignages') }}</a> </button>
+                    <button type="button" class=" fs-5 fw-bold px-5  bag-primary text-white p-3 border border-0"> <a href="https://www.facebook.com/mysecretspices/reviews" target="_blank">{{ __('Voir plus......') }}</a> </button>
                 </div>
 
                 <div class="col-md-4">
@@ -873,7 +873,7 @@
                     <h2 class="h2-xl text-primary-spices">{{ __('Événements') }}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">{{ __('Retrouvez nous dans nos differents marchés a Douala et a Yaounde pour un show explosif.') }}
+                    <p class="p-xl">{{ __('Restez au courant de nos actualités au cœur de vos événements au Cameroun et partout dans le monde.') }}
                         "Secret" {{ __('se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots.') }}
                     </p>
 
@@ -919,18 +919,18 @@
                                         @if($current_locale=='fr')
                                             <h2>{{ $eventPending->name_event }}</h2>
                                         @endif
-                                  
+
                                         @if($current_locale=='en')
                                             <h2>{{ $eventPending->name_en }}</h2>
                                         @endif
-                                  
+
                                 </div>
 
                                 <div class="flex-nowrap">
                                         @if($current_locale=='fr')
                                             {{ $eventPending->description_event }}
                                         @endif
-                                  
+
                                         @if($current_locale=='en')
                                           {{ $eventPending->description_en }}
                                         @endif
@@ -982,11 +982,11 @@
                                                      @if($current_locale=='fr')
                                             <h4>{{ $event->name_event }}</h4>
                                         @endif
-                                  
+
                                         @if($current_locale=='en')
                                             <h4>{{ $event->name_en }}</h4>
                                         @endif
-                                                   
+
                                                 </div>
                                             </div>
 
