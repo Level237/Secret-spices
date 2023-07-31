@@ -375,9 +375,9 @@
                         </div>
                         @foreach ($recipe->steps as $index=>$step)
 
-                        <div class="direction-box-layout2">
+                        <div class="direction-box-layout2" style="text-align: center">
                             <div class="serial-number">
-                                <h4 class="number-title">{{ $index }}</h4><span>{{ __('Étape')}}</span>
+                                <h4 class="number-title" style="text-align: center">{{ $index }}</h4><span>{{ __('Étape')}}</span>
                             </div>
                             <div class="item-content">
                                 <span class="item-time"><i class="far fa-clock"></i>{{ $step->duration }}</span>
