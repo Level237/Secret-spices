@@ -86,7 +86,7 @@
 
                                     <li>
                                         <a href="/recettes" style="font-size:16px; text-transform: uppercase;">{{ __('Recettes')}}</a>
-                                       
+
                                     </li>
                                     <li><a href="/engagements" style="font-size:16px; text-transform: uppercase;">{{ __('Engagement') }}<i class="fa fa-angle-down"></i></a>
                                         <ul class="dropdown-menu-col-1">
@@ -204,7 +204,7 @@
             <div class="container">
                 <div class="single-recipe-layout2">
                     <div class="ctg-name " style="font-size:30px"> {{ __('Détail de la Recette')}}</div>
-                    <h2 class="item-title">{{ ucfirst($recipe->name_recipe) }}</h2>
+                    <h2 class="item-title">Recette de {{ ucfirst($recipe->name_recipe) }}</h2>
                     <div class="d-flex align-items-center justify-content-between flex-wrap mb-5">
                         <ul class="entry-meta">
                             <li class="single-meta"><a href="#"><i class="far fa-calendar-alt"></i>{{ $recipe->created_at->format('d M y') }}</a></li>
@@ -374,17 +374,21 @@
                             <h2 class="item-heading">{{ __('Étapes de préparation')}}</h2>
                         </div>
                         @foreach ($recipe->steps as $index=>$step)
-                        @if($index == 0)
-                        @continue
 
-                        @endif
                         <div class="direction-box-layout2">
                             <div class="serial-number">
                                 <h4 class="number-title">{{ $index }}</h4><span>{{ __('Étape')}}</span>
                             </div>
                             <div class="item-content">
                                 <span class="item-time"><i class="far fa-clock"></i>{{ $step->duration }}</span>
+
+                                @if($current_locale==='fr')
                                 <p>{{ $step->description }}</p>
+                                @endif
+                                @if($current_locale==='en')
+                                <p>{{ $step->description_en }}</p>
+                                @endif
+
                             </div>
                         </div>
                         @endforeach
