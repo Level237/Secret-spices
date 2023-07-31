@@ -70,6 +70,10 @@ Route::get('/receipts', function(){
     return view('receipts');
 })->name('receipts');
 
+Route::get('/recipes-videos', function(){
+    return view('recipes-videos');
+})->name('recipes-videos');
+
 Route::get('/recipe-category', function(){
     return view('recipe-category');
 })->name('recipe-category');

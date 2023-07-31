@@ -52,6 +52,11 @@
 
 		                        </ul> -->
 
+								<ul>
+		                            <li><a href="{{ route("recipes-videos") }}">{{ __('Vidéos') }}</a></li>
+
+		                        </ul>
+
 		                    </li>
 		                    <div class="horizontal-mobile-line">
 
@@ -117,7 +122,7 @@
 
 		                                </a>
 		                            </li>
-		                            <li><a href="lang/en">
+		                            <li><a href="{{ route('changeLang',"en") }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
 		                                            <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
