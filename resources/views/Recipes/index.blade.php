@@ -10,7 +10,7 @@
         <h1>{{ __('Recettes') }}</h1>
         <h2 class="horizontal-line-two"></h2>
         <p class="fs-5 ">
-            {{ __('Parce que viande blanche, viande rouge et poisson  ne s’assaisonnent pas de la même façon, «Secret»  se décline en 3 produits specifiques qui nous permettent de realiser plusieurs repas africains, europeens, exotiques et des barbecues.') }}
+            {{ __('Parce que la viande blanche, viande rouge et le poisson ne s’assaisonnent pas de la même façon, “SECRET”  se décline en 3 produits spécifiques qui nous permettent de réaliser plusieurs repas africains, européens, exotiques et des barbecues.') }}
         </p>
     </div>
 </div>
