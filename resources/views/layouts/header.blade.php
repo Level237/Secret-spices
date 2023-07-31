@@ -117,7 +117,7 @@
 
 		                                </a>
 		                            </li>
-		                            <li><a href="lang/en">
+		                            <li><a href="{{ route('changeLang',"en") }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
 		                                            <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">

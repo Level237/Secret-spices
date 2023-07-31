@@ -43,11 +43,18 @@
                     </h2>
                     <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body" style="background-color:#fde0a5;">
+
+                            @if($current_locale==='fr')
                             <strong>
 
                                 {{ $product->product_description }}
 
                             </strong>
+                            @endif
+
+                            @if($current_locale=='en')
+                            {{ $product->product_description_en }}
+                            @endif
                         </div>
                     </div>
                 </div>
