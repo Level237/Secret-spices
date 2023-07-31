@@ -8,7 +8,7 @@
 		        <div class="navik-header-container">
 
 		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="/receipts"><i class="fas fa-hamburger"></i></a></div>
+		            <div class="callusbtn"><a href="/recettes"><i class="fas fa-hamburger"></i></a></div>
 
 
 		            <!-- LOGO IMAGE -->
