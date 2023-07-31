@@ -35,8 +35,14 @@ class AppServiceProvider extends ServiceProvider
             $view->with('current_locale', app()->getLocale());
             $view->with('available_locales', config('app.available_locales'));
         });
-
-
+  view()->composer('homepage', function ($view) {
+            $view->with('current_locale', app()->getLocale());
+            $view->with('available_locales', config('app.available_locales'));
+        });
+ view()->composer('Events.index', function ($view) {
+            $view->with('current_locale', app()->getLocale());
+            $view->with('available_locales', config('app.available_locales'));
+        });
         view()->composer('Recipes.details', function ($view) {
             $weights=Weight::all();
             $categories=Category::all();

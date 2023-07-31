@@ -5486,6 +5486,10 @@ select:-webkit-autofill:focus {
   background-image: url(../images/engagement-page.jpg);
 }
 
+#videos-recipes-page {
+  background-image: url(../images/blog-page.jpg);
+}
+
 #booking-page {
   background-image: url(../images/booking-page.jpg);
 }

@@ -34,7 +34,7 @@
 		                    <li><a href="{{ route('product.index')}}" class="ubuntu_bold text-white">{{ __('Produits') }}</a>
 		                        <ul>
 		                            @foreach($weights as $weight)
-		                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}" class="ubuntu_bold text-white">{{ $weight->weight_name }} G </a></li>
+		                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}" >{{ $weight->weight_name }} G </a></li>
 		                            @endforeach
 
 		                        </ul>
@@ -43,7 +43,7 @@
 
 		                    </div>
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('recipe.index') }}" style="font-size: 16px; color:white">{{ __('Recettes') }}</a>
+		                    <li><a class="ubuntu_bold text-white" href="{{ route('recipe.index') }}" >{{ __('Recettes') }}</a>
 		                        <!-- <ul>
 
 		                            @foreach ($categories as $category)
@@ -64,9 +64,9 @@
 		                    <!-- MEGA MENU -->
 		                    <li><a class="ubuntu_bold text-white" href="{{ route('engagement')}}">{{ __('Engagement') }}</a>
 		                        <ul>
-		                            <li><a href="{{ route('engagement')}}#environement" class="ubuntu_bold text-white">{{ __('Environement') }}</a></li>
-		                            <li><a href="{{ route('engagement')}}#process" class="ubuntu_bold text-white">{{ __('Process de fabrication') }}</a></li>
-		                            <li><a href="{{ route('engagement')}}#ingredients" class="ubuntu_bold text-white">{{ __('Origines ingrédients') }}</a></li>
+		                             <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
+		                            <li><a href="{{ route('engagement')}}#ingredients">{{ __('Origines ingrédients') }}</a></li>
 		                        </ul>
 		                    </li> <!-- END MEGA MENU -->
 
@@ -108,7 +108,7 @@
 		                        </a>
 		                        <ul>
 		                            <li>
-		                                <a href="lang/fr">
+		                                <a href="{{ route('changeLang',"fr") }}">
 		                                    <div class="d-flex align-items-center">
 		                                        <div class="">
 		                                            <img class="lang-select" src="{{ asset('images/languages/fr.png')}} " alt="">

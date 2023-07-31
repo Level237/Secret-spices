@@ -4,7 +4,7 @@
 @section('content')
 <!-- PAGE HERO
 			============================================= -->
-<div id="engagement-page" class="page-hero-section division">
+<div id="videos-recipes-page" class="page-hero-section division">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 offset-lg-1">
@@ -46,16 +46,17 @@
 
 
         <!-- MENU ITEM #1 -->
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-6">
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                    <!-- Image -->
-                    <img class="img-fluid" src="{{ asset('images/thumbnails/poulet-roti.png')}}" height="300px" alt="menu-image">
+                   
 
-
+                    <video loop="loop" poster="{{ asset('images/thumbnails/poulet-roti.png')}}" style="width: 100%; " controls>
+                        <source src="{{asset('video/poulet-roti.mp4')}}" type="video/mp4">
+                    </video>
 
 
                 </div>
@@ -64,7 +65,7 @@
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color">{{ __('Poulet Rôti')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Poulet Rôti')}}</h5>
 
 
 
@@ -76,16 +77,17 @@
 
 
         <!-- MENU ITEM #2 -->
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-6">
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                    <!-- Image -->
-                    <img class="img-fluid" src="{{ asset('images/thumbnails/gamba-legumes.png')}}" height="300px" alt="menu-image">
+                    
 
-
+                    <video loop="loop" poster="{{ asset('images/thumbnails/gamba-legumes.png')}}" style="width: 100%; " controls>
+                        <source src="{{asset('video/gamba-legumes.mp4')}}" type="video/mp4">
+                    </video>
 
 
 
@@ -95,7 +97,7 @@
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color">{{ __('Gamba aux légumes')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Gamba aux légumes')}}</h5>
 
 
 
@@ -108,16 +110,17 @@
 
 
         <!-- MENU ITEM #3 -->
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-6">
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                    <!-- Image -->
-                    <img class="img-fluid" src="{{ asset('images/thumbnails/poisson-marinee.png')}}" alt="menu-image">
+                  
 
-
+                    <video loop="loop" poster="{{ asset('images/thumbnails/poisson-marinee.png')}}" style="width: 100%; " controls>
+                        <source src="{{asset('video/poisson-marine.mp4')}}" type="video/mp4">
+                    </video>
 
 
 
@@ -127,7 +130,7 @@
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color">{{ __('Poisson Mariné')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Poisson Mariné')}}</h5>
 
 
 
@@ -140,16 +143,17 @@
 
 
         <!-- MENU ITEM #4 -->
-        <div class="col-sm-6 col-lg-3">
+        <div class="col-sm-6 col-lg-6">
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                    <!-- Image -->
-                    <img class="img-fluid" src="{{ asset('images/thumbnails/bar-four.png')}}" alt="menu-image">
+                   
 
-
+                    <video loop="loop" poster="{{ asset('images/thumbnails/bar-four.png')}}" style="width: 100%; " controls>
+                        <source src="{{asset('video/bar-four.mp4')}}" type="video/mp4">
+                    </video>
 
 
 
@@ -159,7 +163,7 @@
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color">{{ __('Bar au four')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Bar au four')}}</h5>
 
 
 
@@ -173,6 +177,6 @@
 
     </div> <!-- End row -->
 
-
+    
 </div>
 @endsection

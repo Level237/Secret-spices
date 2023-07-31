@@ -16,8 +16,8 @@
                                 <div class="breadcrumb-nav">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="demo-1.html">Accueil</a></li>
-                                            <li class="breadcrumb-item active" aria-current="page">ÉVÈNEMENTS</li>
+                                            <li class="breadcrumb-item"><a href="demo-1.html">{{ __('Accueil')}}</a></li>
+                                            <li class="breadcrumb-item active" aria-current="page">{{ __('ÉVÈNEMENTS')}}</li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -26,7 +26,7 @@
                     </div>
 
                     <!-- Title -->
-                    <h2 class="h2-xl">Nos Évènements</h2>
+                    <h2 class="h2-xl">{{ __('Nos Évènements')}}</h2>
 
                 </div>
             </div>
@@ -48,10 +48,10 @@
                 <div class="section-title mb-40 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Très bientôt</h2>
+                    <h2 class="h2-xl red-color">{{ __('Très bientôt')}}</h2>
 
                     <!-- Text -->
-                    <p class="p-xl">Les Evenements à ne pas manquer chez Secret Spices
+                    <p class="p-xl">{{ __('Les Evenements à ne pas manquer chez SECRET SPICES')}}
                     </p>
 
                 </div>
@@ -90,19 +90,30 @@
 
                             <div class="ms-3">
                                 <div class="row">
-
-                                    <h2>{{ $eventPending->name_event }}</h2>
-
+                                        @if($current_locale=='fr')
+                                            <h2>{{ $eventPending->name_event }}</h2>
+                                        @endif
+                                  
+  @if($current_locale=='en')
+                                            <h2>{{ $eventPending->name_en }}</h2>
+                                        @endif
+                                  
                                 </div>
 
                                 <div class="flex-nowrap">
-
-                                    {{ $eventPending->description_event }}
+                                        @if($current_locale=='fr')
+                                            {{ $eventPending->description_event }}
+                                        @endif
+                                  
+                                        @if($current_locale=='en')
+                                          {{ $eventPending->description_en }}
+                                        @endif
+                                  
 
 
                                 </div>
                                 <div class="mt-10">
-                                    <a href="{{ route('contact') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">Participer</button></a>
+                                    <a href="{{ route('contact') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">{{ __('Participer')}}</button></a>
                                 </div>
 
                                 {{-- <div class="row">
@@ -126,7 +137,7 @@
                 <div class="section-title mb-40 text-center">
 
                     <!-- Title 	-->
-                    <h2 class="h2-xl red-color">Autres evenements</h2>
+                    <h2 class="h2-xl red-color">{{ __('Autres événements')}}</h2>
 
                     <!-- Text -->
 
@@ -178,10 +189,22 @@
 
 
                         <!-- Title -->
-                        <h5 class="h5-sm">{{ $event->name_event }}</h5>
+                        @if($current_locale=='fr')
+                            <h5 class="h5-sm">{{ $event->name_event }}</h5>
+                        @endif
+                       @if($current_locale=='fr')
+                            <h5 class="h5-sm">{{ $event->name_en }}</h5>
+                        @endif
 
                         <!-- Description -->
-                        <p class="grey-color">{{ $event->description_event }}</p>
+                         @if($current_locale=='fr')
+                             <p class="grey-color">{{ $event->description_event }}</p>
+                        @endif
+                       @if($current_locale=='en')
+                             <p class="grey-color">{{ $event->description_en }}</p>
+                        @endif
+
+                      
 
                         <!-- Price -->
 
