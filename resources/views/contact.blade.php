@@ -90,20 +90,13 @@
                 <div class="col-md-4">
                     <div class="cbox-5">
 
-<<<<<<< HEAD
                         <!-- Title -->
                         <h5 class="h5-lg">{{ __('Contacts') }}</h5>
-=======
-										<!-- Title -->	
-										<p class="p-md">Phone: +237 696 48 70 22</p>
-										<p class="p-md">WhatsApp: +237 6 52 52 54 54</p>
-										<p class="p-md">Email: <a href="infos@secret-spices.net" class="yellow-color">infos@secret-spices.net</a></p>
->>>>>>> db382e74d9adf5cef4564cd6f7756e60656c2f6b
 
                         <!-- Title -->
                         <p style="text-decoration:none" class="p-md">Phone: +237 696 48 70 22</p>
                         <p style="text-decoration:none" class="p-md">WhatsApp: +237 6 52 52 54 54</p>
-                        <p class="p-md">Email: <a style="text-decoration:none" href="contact@secret-spices.net">infos@secret-spices.net</a></p>
+                        <p class="p-md">Email: <a style="text-decoration:none" href="mailto:infos@secret-spices.net" >infos@secret-spices.net</a></p>
 
                     </div>
                 </div>
