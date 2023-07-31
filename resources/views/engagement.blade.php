@@ -429,14 +429,11 @@
                         <!-- Title -->
                         <h2 class="h2-sm title_environnement">{{ __('Processus de Transformation')}}</h2>
 
-                        <<<<<<< HEAD <!-- Text -->
-                            <p class="p-md fs-5 text-black">{{ __("Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration")}}.
-                            </p>
-                            =======
-                            <!-- Text -->
-                            <p class="p-md fs-5 text-black">{{ __("Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration")}}.
-                            </p>
-                            >>>>>>> 2d0d78de8c97e4150979265befef93c1ff24999a
+
+                        <!-- Text -->
+                        <p class="p-md fs-5 text-black">{{ __("Sélection d’épices savamment dosé, écrasé, conditionné prêt à l’emploi pour faciliter la cuisine aux ménages et aux professionnels de la restauration")}}.
+                        </p>
+
 
 
 
