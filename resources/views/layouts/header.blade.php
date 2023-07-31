@@ -8,7 +8,12 @@
 		        <div class="navik-header-container">
 
 		            <!-- CALL BUTTON -->
-		            <div class="callusbtn"><a href="/recettes"><i class="fas fa-hamburger"></i></a></div>
+		            <div class="callusbtn">
+						<a href="/recettes">
+							<span class="flaticon-salad-1" style="color:#fde0a5"></span> 
+						</a>
+						
+					</div>
 
 
 		            <!-- LOGO IMAGE -->

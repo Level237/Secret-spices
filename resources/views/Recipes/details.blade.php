@@ -321,7 +321,7 @@
 
                                     <div class="row">
                                         @foreach ($recipe->ingredients as $index=>$ingredient)
-                                        <div class="col-4">
+                                        <div class="col-sm-4 col-lg-4">
                                             <div class="checkbox checkbox-primary">
                                                 <input id="checkbox{{ $index }}" type="checkbox">
                                                 <label for="checkbox{{ $index  }}">
