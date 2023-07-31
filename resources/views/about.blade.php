@@ -22,7 +22,7 @@
         <div class="row margin-space">
             <p>
 
-                {{ __('«SECRET» est une composition d’épices avec à la base l’ail et l’oignon, présentée sous une texture semi-coulante à utiliser dans l’assaisonnement des plats. Conçu avec pour objectif de réduire le temps de  cuisine mais également de faire de la cuisine un art accessible à tous, «SECRET» contient déjà tout ce qu’il faut pour assaisonner votre viande, votre poulet ou votre poisson. Parce que viande blanche, viande rouge et poisson ne s’assaisonnent pas de la même façon, «SECRET» se décline en 3 recettes.') }}
+                {{ __('«SECRET» est une composition d’épices avec à la base l’ail et l’oignon, présentée sous une texture semi-coulante à utiliser dans l’assaisonnement des plats. Conçu avec pour objectif de réduire le temps de  cuisson, mais également de faire de la cuisine, un art accessible à tous, «SECRET» contient déjà tout ce qu’il faut pour assaisonner votre viande, votre poulet ou votre poisson. Parce que viande blanche, viande rouge et poisson ne s’assaisonnent pas de la même façon, «SECRET» se décline en 3 recettes.') }}
             </p>
         </div>
 
@@ -40,7 +40,7 @@
 
         <div class="row margin-space">
             <p>
-                {{ __('Reconnue dans ce petit village du Cameroun comme l’une des meilleures cuisinières, KEUNI savait marier les épices du terroir ce qui lui permettait de donner ce goût peu commun à ses plats Le SECRET des savoureux mariages d’épices de notre arrière grand-mère nous a été transmis de mère en fille. Je me suis inspirée de ces recettes pour créer les épices « SECRET ». « SECRET » c’est avant tout l’occasion de rendre honneur à cette femme qui nous a transmis à ma mère, mes tantes, mes cousines et moi cette passion pour la cuisine et surtout pour les épices.') }}
+                {{ __('Reconnue dans ce petit village du Cameroun comme l’une des meilleures cuisinières, KEUNI savait marier les épices du terroir ce qui lui permettait de donner ce goût peu commun à ses plats Le SECRET des savoureux mariages d’épices de notre arrière-grand-mère nous a été transmis de mère en fille.Je me suis inspirée de ces recettes pour créer les épices « SECRET ».« SECRET », c’est avant tout l’occasion de rendre honneur à cette femme qui nous a transmis à ma mère, mes tantes, mes cousines et moi cette passion pour la cuisine et surtout pour les épices.') }}
 
             </p>
         </div>
@@ -59,16 +59,16 @@
 
         <div class="row margin-space">
             <p>
-                {{ __('En dehors du poivre blanc de Penja, «SECRET» met à l’honneur d’autres épices africaines que sont le Njanssang, le Pébè, les rondelles et le poivre noir de Penja.') }}
+                {{ __('En-dehors du poivre blanc de Penja, « SECRET » met à l’honneur d’autres épices africaines telles que : le Njanssang, le Pébè, les rondelles et le poivre noir de Penja.') }}
 
             </p>
         </div>
 
         <div class="row margin-space">
             <p>
-                {{ __('Nos sauces réussissent à allier le piquant du poivre blanc de Penja et la douceur du Djanssang (l’une des épices star du continent) afin de créer une explosion de saveurs faisant ressortir les arômes délicatement boisés et mus- qués de ce poivre fin..') }}
+                {{ __('Nos sauces réussissent à allier le piquant du poivre blanc de Penja et la douceur du Njanssang (l’une des épices star du continent) afin de créer une explosion de saveurs faisant ressortir les arômes délicatement boisés et mus- qués de ce poivre fin.') }}
                 <br>
-                {{ __('« SECRET » se décline en 3 recettes : Sauce Poulet, Sauce Viande et Sauce Poisson. 3 Sauces qui vous feront voyager sur le continent mère tandis que vous dégusterez vos plats réalisés à base d’épices « SECRET ».') }}
+                {{ __('« SECRET » se décline en 03 recettes : Saveur Poulet, Saveur Viande et Saveur Poisson. 03 saveurs qui vous feront voyager sur le continent mère tandis que vous dégusterez vos plats réalisés à base d’épices « SECRET ».') }}
 
             </p>
         </div>
