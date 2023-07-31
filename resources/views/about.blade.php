@@ -22,7 +22,7 @@
         <div class="row margin-space">
             <p>
 
-                {{ __('«SECRET» est une composition d’épices avec à la base l’ail et l’oignon, présentée sous une texture semi-coulante à utiliser dans l’assaisonnement des plats. Conçu avec pour objectif de réduire le temps de  cuisine mais également de faire de la cuisine un art accessible à tous, «SECRET» contient déjà tout ce qu’il faut pour assaisonner votre viande, votre poulet ou votre poisson. Parce que viande blanche, viande rouge et poisson ne s’assaisonnent pas de la même façon, «SECRET» se décline en 3 recettes.') }}
+                {{ __('«SECRET» est une composition d’épices avec à la base l’ail et l’oignon, présentée sous une texture semi-coulante à utiliser dans l’assaisonnement des plats. Conçu avec pour objectif de réduire le temps de  cuisson, mais également de faire de la cuisine, un art accessible à tous, «SECRET» contient déjà tout ce qu’il faut pour assaisonner votre viande, votre poulet ou votre poisson. Parce que viande blanche, viande rouge et poisson ne s’assaisonnent pas de la même façon, «SECRET» se décline en 3 recettes.') }}
             </p>
         </div>
 
