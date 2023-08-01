@@ -91,22 +91,22 @@
                             <div class="ms-3">
                                 <div class="row">
                                         @if($current_locale=='fr')
-                                            <h2>{{ $eventPending->name_event }}</h2>
+                                            <h2>{{ $eventPending->name_event}}</h2>
                                         @endif
                                   
   @if($current_locale=='en')
-                                            <h2>{{ $eventPending->name_en }}</h2>
+                                            <h2>{{ $eventPending->name_en}}</h2>
                                         @endif
                                   
                                 </div>
 
                                 <div class="flex-nowrap">
                                         @if($current_locale=='fr')
-                                            {{ $eventPending->description_event }}
+                                            {{  $eventPending->description_event}}
                                         @endif
                                   
                                         @if($current_locale=='en')
-                                          {{ $eventPending->description_en }}
+                                          {{  $eventPending->description_en}}
                                         @endif
                                   
 
@@ -190,18 +190,18 @@
 
                         <!-- Title -->
                         @if($current_locale=='fr')
-                            <h5 class="h5-sm">{{ $event->name_event }}</h5>
+                            <h5 class="h5-sm">{{  ucfirst(Str::limit($event->name_event, 20)) }}</h5>
                         @endif
-                       @if($current_locale=='fr')
-                            <h5 class="h5-sm">{{ $event->name_en }}</h5>
+                       @if($current_locale=='en')
+                            <h5 class="h5-sm">{{  ucfirst(Str::limit($event->name_en, 20)) }}</h5>
                         @endif
 
                         <!-- Description -->
                          @if($current_locale=='fr')
-                             <p class="grey-color">{{ $event->description_event }}</p>
+                             <p class="grey-color">{{  ucfirst(Str::limit($event->description_event, 50)) }}</p>
                         @endif
                        @if($current_locale=='en')
-                             <p class="grey-color">{{ $event->description_en }}</p>
+                             <p class="grey-color">{{   ucfirst(Str::limit($event->description_en, 50))}}</p>
                         @endif
 
                       
