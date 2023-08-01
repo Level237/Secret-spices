@@ -9,11 +9,11 @@
 
 		            <!-- CALL BUTTON -->
 		            <div class="callusbtn">
-		                <a href="/recettes">
-		                    <span class="flaticon-salad-1" style="color:#fde0a5"></span>
-		                </a>
-
-		            </div>
+						<a href="/recettes">
+							<span class="flaticon-salad-1" style="color:#fde0a5"></span> 
+						</a>
+						
+					</div>
 
 
 		            <!-- LOGO IMAGE -->

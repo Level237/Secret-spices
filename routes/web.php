@@ -64,6 +64,12 @@ Route::get('engagements',function(){
     return view('engagement');
 })->name('engagement');
 
+Route::get('galery',function(){
+
+    return view('video-galery');
+})->name('galery');
+
+
 require __DIR__.'/auth.php';
 
 Route::get('/receipts', function(){
