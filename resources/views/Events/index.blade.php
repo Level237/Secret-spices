@@ -75,7 +75,7 @@
                         <img src="{{ Storage::url($eventPending->images[0]->path) }}" class="card-img-top" alt="Image">
                     </div>
                     <div class="card-body pb-4">
-                        <div class="d-flex align-items-start ms-4 mt-3">
+                        <div class="d-flex align-items-start ms-4 mt-3 align-items-center">
 
                             <div style="border: 2px solid red;padding-top:8px;padding-bottom:8px;padding-left:20px;padding-right:20px">
                                 <div class="fs-2 fw-bold">
@@ -90,29 +90,30 @@
 
                             <div class="ms-3">
                                 <div class="row">
-                                        @if($current_locale=='fr')
-                                            <h2>{{ $eventPending->name_event}}</h2>
-                                        @endif
-                                  
-  @if($current_locale=='en')
-                                            <h2>{{ $eventPending->name_en}}</h2>
-                                        @endif
-                                  
-                                </div>
+                                    @if($current_locale=='fr')
+                                    <h2>{{ $eventPending->name_event}}</h2>
+                                    @endif
 
-                                <div class="flex-nowrap">
-                                        @if($current_locale=='fr')
-                                            {{  $eventPending->description_event}}
-                                        @endif
-                                  
-                                        @if($current_locale=='en')
-                                          {{  $eventPending->description_en}}
-                                        @endif
-                                  
-
+                                    @if($current_locale=='en')
+                                    <h2>{{ $eventPending->name_en}}</h2>
+                                    @endif
 
                                 </div>
-                                <div class="mt-10">
+
+                                <div class="flex-nowrap d-lg-block d-md-block d-none">
+                                    @if($current_locale=='fr')
+                                    {{ $eventPending->description_event}}
+                                    @endif
+
+                                    @if($current_locale=='en')
+                                    {{ $eventPending->description_en}}
+                                    @endif
+
+
+
+                                </div>
+
+                                <div class="mt-10 d-lg-block d-md-block d-none">
                                     <a href="{{ route('contact') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">{{ __('Participer')}}</button></a>
                                 </div>
 
@@ -128,6 +129,29 @@
                         </div>
 
                     </div>
+
+                    <div class="ms-4 d-lg-none d-md-none mt-10">
+
+
+                        @if($current_locale=='fr')
+
+                        <span>
+                            {{ $eventPending->description_event}}
+                        </span>
+
+                        @endif
+
+                        @if($current_locale=='en')
+
+
+                        {{ $eventPending->description_en}}
+                        <div class="mt-10">
+                            <a href="{{ route('contact') }}"> <button type="button" class=" bag-primary text-white fw-bold  px-5 p-3 border border-0">{{ __('Participer')}}</button></a>
+                        </div>
+
+                        @endif
+                    </div>
+
             </div>
 
             </article>
@@ -190,21 +214,21 @@
 
                         <!-- Title -->
                         @if($current_locale=='fr')
-                            <h5 class="h5-sm">{{  ucfirst(Str::limit($event->name_event, 20)) }}</h5>
+                        <h5 class="h5-sm">{{ ucfirst(Str::limit($event->name_event, 20)) }}</h5>
                         @endif
-                       @if($current_locale=='en')
-                            <h5 class="h5-sm">{{  ucfirst(Str::limit($event->name_en, 20)) }}</h5>
+                        @if($current_locale=='en')
+                        <h5 class="h5-sm">{{ ucfirst(Str::limit($event->name_en, 20)) }}</h5>
                         @endif
 
                         <!-- Description -->
-                         @if($current_locale=='fr')
-                             <p class="grey-color">{{  ucfirst(Str::limit($event->description_event, 50)) }}</p>
+                        @if($current_locale=='fr')
+                        <p class="grey-color">{{ ucfirst(Str::limit($event->description_event, 50)) }}</p>
                         @endif
-                       @if($current_locale=='en')
-                             <p class="grey-color">{{   ucfirst(Str::limit($event->description_en, 50))}}</p>
+                        @if($current_locale=='en')
+                        <p class="grey-color">{{ ucfirst(Str::limit($event->description_en, 50))}}</p>
                         @endif
 
-                      
+
 
                         <!-- Price -->
 
