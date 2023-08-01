@@ -79,8 +79,8 @@
                         <h5 class="h5-lg">{{ __('Horaires') }}</h5>
 
                         <!-- Text -->
-                        <p class="p-md">Lundi à Vendredi: 08:00 - 17:00</p>
-                        <p class="p-md">Samedi: 09:00 - 14:00</p>
+                        <p class="p-md">{{ __('Lundi à Vendredi: 08:00 - 17:00') }}</p>
+                        <p class="p-md">{{ __('Samedi: 09:00 - 14:00') }} </p>
 
                     </div>
                 </div>
@@ -178,16 +178,16 @@
 <div class="container-fluid mt-40 d-lg-block d-md-block d-none">
     <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
         <div class="col-8">
-            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%; " controls>
-                <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+            <video loop="loop" poster="{{ asset('images/poster-secret.png') }}" style="width: 100%; " controls>
+                <source src="{{asset('video/epice-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
 
     </div>
 </div>
 <section class="container d-lg-none d-md-none mt-40">
-    <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
-        <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    <video loop="loop" poster="{{ asset('images/poster-secret.png') }}" style="width: 100%;" controls>
+        <source src="{{asset('video/epice-secret.mp4')}}" type="video/mp4">
     </video>
 </section>
 @endsection
