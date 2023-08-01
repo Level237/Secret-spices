@@ -34,7 +34,7 @@
         <div class="row mb-3">
             <h3 style="color:black"> 2. {{ __('Droits de propriété intellectuelle') }} </h3>
             <p>
-                {{ __("En dehors du contenu que vous possédez, que vous avez peut-être choisi d'inclure sur ce site Web, en vertu des présentes conditions, Secret Spices et/ou ses concédants détiennent tous les droits sur la propriété intellectuelle et le matériel contenus dans ce site Web, et tous ces droits sont réservés") }}.
+                {{ __("En dehors du contenu que vous possédez, que vous avez peut-être choisi d'inclure sur ce site Web, en vertu des présentes conditions, SECRET SPICES et/ou ses concédants détiennent tous les droits sur la propriété intellectuelle et le matériel contenus dans ce site Web, et tous ces droits sont réservés") }}.
            </p>
            <p>
             {{ __("Vous bénéficiez d'une licence limitée uniquement, sous réserve des restrictions prévues dans les présentes conditions, aux fins de visualisation du matériel contenu sur ce site Web") }} ,
@@ -65,10 +65,10 @@
         <div class="row mb-3">
             <h3 style="color:black"> 4. {{ __('Votre contenu') }} </h3>
             <p>
-                {{ __("Dans les présentes conditions générales standard du site Web, «votre contenu» désigne tout audio, vidéo, texte, image ou autre matériel que vous choisissez d'afficher sur ce site Web. Concernant Votre Contenu, en l'affichant, Vous accordez a Secret Spices une licence non exclusive, mondiale, irrévocable, libre de droits et pouvant faire l'objet d'une sous-licence pour l'utiliser, la reproduire, l'adapter, la publier, la traduire et la distribuer sur tous les supports.") }}
+                {{ __("Dans les présentes conditions générales standard du site Web, «votre contenu» désigne tout audio, vidéo, texte, image ou autre matériel que vous choisissez d'afficher sur ce site Web. Concernant Votre Contenu, en l'affichant, Vous accordez a SECRET SPICES une licence non exclusive, mondiale, irrévocable, libre de droits et pouvant faire l'objet d'une sous-licence pour l'utiliser, la reproduire, l'adapter, la publier, la traduire et la distribuer sur tous les supports.") }}
            </p>
            <p>
-            {{ __("Votre contenu doit vous appartenir et ne doit pas porter atteinte aux droits d'un tiers. Secret Spices se réserve le droit de supprimer tout contenu de ce site Web à tout moment et pour quelque raison que ce soit, sans préavis.") }}
+            {{ __("Votre contenu doit vous appartenir et ne doit pas porter atteinte aux droits d'un tiers. SECRET SPICES se réserve le droit de supprimer tout contenu de ce site Web à tout moment et pour quelque raison que ce soit, sans préavis.") }}
            </p>
         </div>
 
@@ -82,7 +82,7 @@
         <div class="row mb-3">
             <h3 style="color:black"> 6. {{ __('Limitation de responsabilité') }}</h3>
             <p>
-                {{ __('En aucun cas Secret Spices , ni aucun de ses dirigeants, administrateurs et employés, ne pourra être tenu responsable envers vous de tout ce qui découle de ou est lié de quelque manière que ce soit à votre utilisation de ce site Web, que cette responsabilité soit contractuelle, délictuelle ou autre, et Secret Spices , y compris ses dirigeants, administrateurs et employés ne seront pas responsables de toute responsabilité indirecte, consécutive ou spéciale découlant de ou liée de quelque manière que ce soit à votre utilisation de ce site Web') }}.
+                {{ __('En aucun cas SECRET SPICES , ni aucun de ses dirigeants, administrateurs et employés, ne pourra être tenu responsable envers vous de tout ce qui découle de ou est lié de quelque manière que ce soit à votre utilisation de ce site Web, que cette responsabilité soit contractuelle, délictuelle ou autre, et SECRET SPICES , y compris ses dirigeants, administrateurs et employés ne seront pas responsables de toute responsabilité indirecte, consécutive ou spéciale découlant de ou liée de quelque manière que ce soit à votre utilisation de ce site Web') }}.
            </p>
            
         </div>
@@ -106,7 +106,7 @@
         <div class="row mb-3">
             <h3 style="color:black"> 9. {{ __('Modification des conditions') }}</h3>
             <p>
-                {{ __("Secret Spices est autorisée à réviser ces conditions à tout moment comme bon lui semble, et en utilisant ce site Web, vous êtes tenu de consulter ces conditions régulièrement pour vous assurer que vous comprenez tous les termes et conditions régissant l'utilisation de ce site Web") }}.
+                {{ __("SECRET SPICES est autorisée à réviser ces conditions à tout moment comme bon lui semble, et en utilisant ce site Web, vous êtes tenu de consulter ces conditions régulièrement pour vous assurer que vous comprenez tous les termes et conditions régissant l'utilisation de ce site Web") }}.
            </p>
            
         </div>
@@ -117,7 +117,7 @@
                 {{ __('Nous souhaitons nous assurer que vous êtes pleinement conscient de tous vos droits en matière de protection des données. Chaque utilisateur a droit à ce qui suit') }} :
            </p>
            <p>
-            {{ __("Secret Spices sera autorisé à céder, transférer et sous-traiter ses droits et/ou obligations en vertu des présentes Conditions sans aucune notification ni consentement requis. Cependant, vous ne serez pas autorisé à céder, transférer ou sous-traiter l'un quelconque de vos droits et/ou obligations en vertu des présentes Conditions") }}.
+            {{ __("SECRET SPICES sera autorisé à céder, transférer et sous-traiter ses droits et/ou obligations en vertu des présentes Conditions sans aucune notification ni consentement requis. Cependant, vous ne serez pas autorisé à céder, transférer ou sous-traiter l'un quelconque de vos droits et/ou obligations en vertu des présentes Conditions") }}.
            </p>
         </div>
         

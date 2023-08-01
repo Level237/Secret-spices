@@ -607,6 +607,9 @@ i{
     #language-section{
         display: none;
     }
+    #dropdown-language {
+            display: block;
+        }
     #search-bar {
         display: none;
     }
@@ -636,7 +639,9 @@ i{
        display: none;
    }
 
-
+    #dropdown-language {
+            display: none;
+    }
    .horizontal-mobile-line {
        display: none;
    }
