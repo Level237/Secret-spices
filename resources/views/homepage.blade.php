@@ -884,7 +884,7 @@
 
                     <!-- Text -->
                     <p class="p-xl">{{ __('Restez au courant de nos actualités au cœur de vos événements au Cameroun et partout dans le monde.') }}
-                        "Secret" {{ __('se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots.') }}
+                        "SECRET" {{ __('se rapproche de vous profitez-en pour nous decouvrir et raffler de nombreux lots.') }}
                     </p>
 
                 </div>

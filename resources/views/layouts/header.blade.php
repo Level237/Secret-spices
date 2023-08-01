@@ -9,11 +9,11 @@
 
 		            <!-- CALL BUTTON -->
 		            <div class="callusbtn">
-		                <a href="/recettes">
-		                    <span class="flaticon-salad-1" style="color:#fde0a5"></span>
-		                </a>
-
-		            </div>
+						<a href="/recettes">
+							<span class="flaticon-salad-1" style="color:#fde0a5"></span> 
+						</a>
+						
+					</div>
 
 
 		            <!-- LOGO IMAGE -->
@@ -36,7 +36,7 @@
 		                <ul class="top-list">
 
 		                    <!-- DROPDOWN MENU -->
-		                    <li><a href="{{ route('product.index')}}" class="ubuntu_bold text-white">{{ __('Produits') }}</a>
+		                    <li><a href="{{ route('product.index')}}" class="ubuntu_bold text-white" style="font-size: 15px">{{ __('Produits') }}</a>
 		                        <ul>
 		                            @foreach($weights as $weight)
 		                            <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
