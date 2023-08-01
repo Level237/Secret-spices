@@ -130,7 +130,7 @@
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('SECRET SPICES & Mami Ton')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('SECRET SPICES & MAMI TON')}}</h5>
 
 
 
