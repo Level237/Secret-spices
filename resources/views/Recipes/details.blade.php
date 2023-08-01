@@ -295,7 +295,22 @@
                             </li>
                         </ul>
                     </div>
-                    <p class="item-description">{{ $recipe->description_recipe }}</p>
+                    @if($current_locale=='fr')
+
+                    <p class="item-description">
+
+
+                        {{ $recipe->description_recipe }}</p>
+
+                    @endif
+                    @if($current_locale=='en')
+
+                    <p class="item-description">
+
+
+                        {{ $recipe->description_recipe_en }}</p>
+
+                    @endif
                     <div class="making-elements-wrap">
                         <div class="row">
                             <div class="col-xl-12 col-12">

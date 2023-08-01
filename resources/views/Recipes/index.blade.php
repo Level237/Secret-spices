@@ -36,7 +36,16 @@
         @if($category->id == $index)
         <div class="d-flex flex-row mb-3">
             <div class="vertical-line align-middle"></div>
+            @if($current_locale=='fr')
+
             <h1 class="ms-2">{{ $category->category_name }}</h1>
+
+            @endif
+            @if($current_locale=='en')
+
+            <h1 class="ms-2">{{ $category->category_name_en }}</h1>
+
+            @endif
         </div>
         @endif
         @endforeach
@@ -70,7 +79,21 @@
 
 
                 <div class="p-1">
-                    <p style="width:100%" class="fs-6 fw-normal">{{ ucfirst(Str::limit($r->description_recipe, 50))  }}</p>
+
+                    @if($current_locale=='fr')
+
+                    <p style="width:100%" class="fs-6 fw-normal">
+
+                        {{ ucfirst(Str::limit($r->description_recipe, 50))  }}</p>
+
+                    @endif
+                    @if($current_locale=='en')
+
+                    <p style="width:100%" class="fs-6 fw-normal">
+
+                        {{ ucfirst(Str::limit($r->description_recipe_en, 50))  }}</p>
+
+                    @endif
                 </div>
 
 
