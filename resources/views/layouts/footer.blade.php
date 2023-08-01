@@ -19,6 +19,10 @@
 			                    <a href="https://www.facebook.com/mysecretspices" target="_blank" class="ico-facebook text-white"><i class="fab  fa-facebook-f text-white"></i></a>
 			                    <a href="https://www.instagram.com/secretducmr/?hl=fr" target="_blank" class="ico-instagram"><i class="fab fa-instagram text-white"></i></a>
 			                </div>
+							
+							
+
+							
 
 			            </div>
 			        </div>
@@ -49,9 +53,51 @@
 			                	<div class="p-2 fs-5 fw-normal"><i class="fas fa-angle-right"></i> {{ __('Nous Contacter') }}</div>
 							</a>
 			            </div>
+						
+						<div class="dropdown" id="dropdown-language">
+								<button class="btn btn-secondary dropdown-toggle" style="border-color:#c70609; background-color:#c70609; color:white" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+									@if(app()->getLocale() == "en")
+										<span class = "p-2 fs-5 fw-normal"> English</span>
+									@else
+										<span class = "p-2 fs-5 fw-normal"> Français</span>
+									@endif
+									
+								</button>
+								<ul class="dropdown-menu">
+									
+									<li>
+										<a class="dropdown-item" href="{{ route('changeLang',"fr") }}">
+											<div class="d-flex align-items-center">
+												<div class="">
+													<img class="lang-select" src="{{ asset('images/languages/fr.png')}} " alt="">
+												</div>
+
+												<div class="p-2">
+														Français
+												</div>
+											</div>
+										</a>
+									</li>
+									<li>
+										<a class="dropdown-item" href="{{ route('changeLang',"en") }}">
+											<div class="d-flex align-items-center">
+		                                        <div class="">
+		                                            <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
+		                                        </div>
+
+		                                        <div class="p-2">
+		                                            English
+		                                        </div>
+		                                    </div>
+										</a>
+									</li>
+								</ul>
+								</div>
+		                    
 			        </div>
 
 			    </div>
+				
 
 			    <!--<div class="row">
 
