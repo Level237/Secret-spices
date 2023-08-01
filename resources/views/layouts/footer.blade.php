@@ -113,7 +113,7 @@
 			                <div class="col-md-12">
 			                    <!-- FOOTER COPYRIGHT -->
 			                    <div class="footer-copyright fs-4 fw-bold">
-			                        <p> Copyright © 2023 Secret Spices. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
+			                        <p> Copyright © 2023 SECRET SPICES. All rights reserved. Powered by K-SOFT TECHNOLOGIES </p>
 			                    </div>
 			                </div>
 			            </div>
