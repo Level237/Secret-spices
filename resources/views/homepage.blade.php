@@ -61,8 +61,13 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
-                <img src="{{ asset('images/slider/mobile/slide03_Mobile.jpg') }}" alt="slide-background">
 
+                @if($current_locale=='fr')
+                <img src="{{ asset('images/slider/mobile/slide03_Mobile.jpg') }}" alt="slide-background">
+                @endif
+                @if($current_locale=='en')
+                <img src="{{ asset('images/slider/slide_mobile_en.jpg') }}" alt="slide-background" width="100%">
+                @endif
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
                     <div class="container">
@@ -156,7 +161,12 @@
             <li id="slide-1">
 
                 <!-- Background Image -->
+                @if($current_locale=='fr')
                 <img src="{{ asset('images/slider/slide2-ex.jpg') }}" alt="slide-background" width="100%">
+                @endif
+                @if($current_locale=='en')
+                <img src="{{ asset('images/slider/slide_desk_en.jpg') }}" alt="slide-background" width="100%">
+                @endif
 
                 <!-- Image Caption -->
                 <div class="caption d-flex align-items-center left-align">
