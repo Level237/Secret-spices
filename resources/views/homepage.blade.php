@@ -315,16 +315,16 @@
 <div class="container-fluid mt-40 d-lg-block d-md-block d-none">
     <div class="row justify-content-center" style="background-image:url('/images/bg-video.jpg');">
         <div class="col-8">
-            <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%; " controls>
-                <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+            <video loop="loop" poster="{{ asset('images/poster-secret.png') }}" style="width: 100%; " controls>
+                <source src="{{asset('video/epice-secret.mp4')}}" type="video/mp4">
             </video>
         </div>
 
     </div>
 </div>
 <section class="container d-lg-none d-md-none mt-40">
-    <video loop="loop" poster="{{ asset('images/poster.png') }}" style="width: 100%;" controls>
-        <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+    <video loop="loop" poster="{{ asset('images/poster-secret.png') }}" style="width: 100%;" controls>
+        <source src="{{asset('video/epice-secret.mp4')}}" type="video/mp4">
     </video>
 </section>
 
