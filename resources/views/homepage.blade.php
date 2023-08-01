@@ -917,22 +917,22 @@
                                 <div class="ms-3">
                                     <div class="row">
                                         @if($current_locale=='fr')
-                                            <h2>{{ $eventPending->name_event }}</h2>
+                                        <h2>{{ $eventPending->name_event }}</h2>
                                         @endif
 
                                         @if($current_locale=='en')
-                                            <h2>{{ $eventPending->name_en }}</h2>
+                                        <h2>{{ $eventPending->name_en }}</h2>
                                         @endif
 
-                                </div>
+                                    </div>
 
-                                <div class="flex-nowrap">
+                                    <div class="flex-nowrap">
                                         @if($current_locale=='fr')
-                                            {{ $eventPending->description_event }}
+                                        {{ $eventPending->description_event }}
                                         @endif
 
                                         @if($current_locale=='en')
-                                          {{ $eventPending->description_en }}
+                                        {{ $eventPending->description_en }}
                                         @endif
 
                                     </div>
@@ -979,24 +979,24 @@
                                         <div class="ms-3 w-100">
                                             <div class="row">
                                                 <div class="col">
-                                                     @if($current_locale=='fr')
-                                            <h4>{{ $event->name_event }}</h4>
-                                        @endif
+                                                    @if($current_locale=='fr')
+                                                    <h4>{{ $event->name_event }}</h4>
+                                                    @endif
 
-                                        @if($current_locale=='en')
-                                            <h4>{{ $event->name_en }}</h4>
-                                        @endif
+                                                    @if($current_locale=='en')
+                                                    <h4>{{ $event->name_en }}</h4>
+                                                    @endif
 
                                                 </div>
                                             </div>
 
                                             <div class="row" style="width:100%">
                                                 <div class="col-lg-12">
-                                                     @if($current_locale=='fr')
-                                                        {{ ucfirst(Str::limit($event->description_event, 50)) }}
+                                                    @if($current_locale=='fr')
+                                                    {{ ucfirst(Str::limit($event->description_event, 50)) }}
                                                     @endif
                                                     @if($current_locale=='en')
-                                                        {{ ucfirst(Str::limit($event->description_en, 50)) }}
+                                                    {{ ucfirst(Str::limit($event->description_en, 50)) }}
                                                     @endif
                                                 </div>
 
@@ -1062,9 +1062,7 @@
 
                                     </div>
                                     <div class="row">
-                                        <span class="text-primary-spices">
-                                            {{ __('Lire la suite') }}
-                                        </span>
+
 
                                     </div>
 
@@ -1076,48 +1074,7 @@
                             </div>
                         </div>
                         @endforeach
-                        <div class="carousel-item active">
-                            <img src="{{ asset("images/simulation1.jpg") }}" class="" style="width: 100%" alt="Image">
-                            <div class="d-flex mt-10 align-items-start ms-3">
 
-                                <div style="border: 2px solid red;padding-left:10px;padding-right:10px" class="flex-shrink-1">
-                                    <div class="fs-5 fw-bold">
-                                        <span class="text-primary-spices">30</span>
-
-                                    </div>
-                                    <span class="fs-6 fw-bold">
-                                        Aout
-                                    </span>
-
-                                </div>
-
-                                <div class="ms-3 w-100">
-                                    <div class="row">
-                                        <div class="col">
-                                            <h4>Secret For You</h4>
-                                        </div>
-                                    </div>
-
-                                    <div class="row" style="width:100%">
-                                        <div class="col-lg-12">
-                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                        </div>
-
-                                    </div>
-                                    <div class="row">
-                                        <span class="text-primary-spices">
-                                            {{ __('Lire la suite') }}
-                                        </span>
-
-                                    </div>
-
-
-
-
-                                </div>
-
-                            </div>
-                        </div>
 
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselEvent" data-bs-slide="prev">
