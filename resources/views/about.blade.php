@@ -13,13 +13,13 @@
         <img src="{{ asset('images/about-1.png') }}" style=" margin-top:30px;" alt="Image A Propos">
     </div>
 
-    <div class="margin-space">
+    <div class="">
 
         <div class="row mb-3">
             <h1 style="color:#c70609">{{ __('Qui sommes nous') }}?</h1>
         </div>
 
-        <div class="row margin-space">
+        <div class="row ">
             <p>
 
                 {{ __('«SECRET» est une composition d’épices avec à la base l’ail et l’oignon, présentée sous une texture semi-coulante à utiliser dans l’assaisonnement des plats. Conçu avec pour objectif de réduire le temps de  cuisson, mais également de faire de la cuisine, un art accessible à tous, «SECRET» contient déjà tout ce qu’il faut pour assaisonner votre viande, votre poulet ou votre poisson. Parce que viande blanche, viande rouge et poisson ne s’assaisonnent pas de la même façon, «SECRET» se décline en 3 recettes') }}.
@@ -32,13 +32,13 @@
         </div>
 
     </div>
-    <div class="margin-space">
+    <div class="">
 
         <div class="row mb-3">
             <h1 style="color:#c70609">{{ __('L\'origine de l\'idée') }}</h1>
         </div>
 
-        <div class="row margin-space">
+        <div class="row ">
             <p>
                 {{ __('Reconnue dans ce petit village du Cameroun comme l’une des meilleures cuisinières, KEUNI savait marier les épices du terroir ce qui lui permettait de donner ce goût peu commun à ses plats Le SECRET des savoureux mariages d’épices de notre arrière-grand-mère nous a été transmis de mère en fille.Je me suis inspirée de ces recettes pour créer les épices « SECRET ».« SECRET », c’est avant tout l’occasion de rendre honneur à cette femme qui nous a transmis à ma mère, mes tantes, mes cousines et moi cette passion pour la cuisine et surtout pour les épices') }}.
 
@@ -51,20 +51,20 @@
         </div>
 
     </div>
-    <div class="margin-space">
+    <div class="">
 
         <div class="row mb-3">
             <h1 style="color:#c70609">{{ __('Une recherche continue d\'idées novatrices') }}</h1>
         </div>
 
-        <div class="row margin-space">
+        <div class="row ">
             <p>
                 {{ __('En-dehors du poivre blanc de Penja, « SECRET » met à l’honneur d’autres épices africaines telles que : le Njanssang, le Pébè, les rondelles et le poivre noir de Penja') }}.
 
             </p>
         </div>
 
-        <div class="row margin-space">
+        <div class="row ">
             <p>
                 {{ __('Nos sauces réussissent à allier le piquant du poivre blanc de Penja et la douceur du Njanssang (l’une des épices star du continent) afin de créer une explosion de saveurs faisant ressortir les arômes délicatement boisés et mus- qués de ce poivre fin') }}.
                 <br>
