@@ -28,7 +28,8 @@ class ProductController extends Controller
     public function create()
     {
         $weights=Weight::all();
-        return view('admin.Product.create',compact('weights'));
+        $ingredients=Ingredient::all();
+        return view('admin.Product.create',compact('weights','ingredients'));
     }
 
     /**
@@ -39,6 +40,7 @@ class ProductController extends Controller
         $product=new Product;
         $product->product_name=$request->product_name;
         $product->product_description=$request->product_description;
+        $product->slug=$this->slugify($request->product_name);
         $product->weight_id=$request->weight_id;
 
 
@@ -49,24 +51,21 @@ class ProductController extends Controller
 
             $product->images()->save($image);
 
-            if(isset($request->ingredient_name)){
-                foreach($request->ingredient_name as $i){
-                    $ingredient=new Ingredient;
-                    $ingredient->ingredient_name=$i;
-                    $ingredient->save();
-                    $product->ingredients()->attach($ingredient);
+            if(isset($request->ingredients)){
+                foreach($request->ingredients as $i){
+                    $product->ingredients()->attach($i);
                 }
             }
 
-            if(isset($request->nutrients )){
-                foreach($request->nutrients as $index => $n){
-                    $nutrient=new Nutrient;
-                    $nutrient->nutrient_name=$n;
-                    $nutrient->save();
-                    $quantity = $request->quantity[$index];
-                    $product->nutrients()->attach($nutrient,['quantity'=>$quantity]);
-                }
-            }
+            // if(isset($request->nutrients )){
+            //     foreach($request->nutrients as $index => $n){
+            //         $nutrient=new Nutrient;
+            //         $nutrient->nutrient_name=$n;
+            //         $nutrient->save();
+            //         $quantity = $request->quantity[$index];
+            //         $product->nutrients()->attach($nutrient,['quantity'=>$quantity]);
+            //     }
+            // }
 
             return to_route('admin.product.index')->with('success',"Produit enregistré avec success");
         }else{
@@ -134,5 +133,17 @@ class ProductController extends Controller
         $product->delete();
 
         return back()->with('fail',"Produit suprimé avec success");
+    }
+
+    function slugify($string, $delimiter = '-') {
+        $oldLocale = setlocale(LC_ALL, '0');
+        setlocale(LC_ALL, 'en_US.UTF-8');
+        $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
+        $clean = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", '', $clean);
+        $clean = strtolower($clean);
+        $clean = preg_replace("/[\/_|+ -]+/", $delimiter, $clean);
+        $clean = trim($clean, $delimiter);
+        setlocale(LC_ALL, $oldLocale);
+        return $clean;
     }
 }

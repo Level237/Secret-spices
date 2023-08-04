@@ -51,7 +51,7 @@ Ajouter un Produit
                                         @endforeach
                                     </select>
                                 </div>
-                                <div id="form2">
+                                {{-- <div id="form2">
                                     <h3 class="text-center">Valeurs Nutritives</h3>
                                     <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Valeur 1</label>
@@ -64,7 +64,7 @@ Ajouter un Produit
 
                                     </div>
                                 </div>
-                                <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Nutriment</button>
+                                <button type="button" onclick="addSteps()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Nutriment</button> --}}
                                 <div class="fallback mb-4 mt-3">
                                     <input type="file" name="image" class="form-control" />
                                 </div>
@@ -87,13 +87,20 @@ Ajouter un Produit
                                     <h3 class="text-center">Ingredients</h3>
                                     <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Ingredients</label>
-                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+                                        <select id="" name="ingredients[]" class="form-control" multiple>
+
+                                            @foreach ($ingredients as $ingredient)
+                                            <option value="{{$ingredient->id}}">{{$ingredient->ingredient_name}}</option>
+                                            @endforeach
+
+                                        </select>
+
 
                                     </div>
 
                                 </div>
 
-                                <button type="button" onclick="addIngredient()" class="btn bag-primary text-white" style="background-color: #c70609">Ajouter un Ingredient</button>
+
                             </div>
                         </div>
                     </div>
