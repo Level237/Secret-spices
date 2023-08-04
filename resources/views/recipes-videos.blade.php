@@ -1,6 +1,8 @@
-
 @extends('layouts.app')
 @section('title', __('Recettes vidéos'))
+@section("meta_title","Recettes Vidéos: SECRET SPICES")
+@section("meta_description","Secret spices- Découvrez Toutes Nos recettes Vidéos ")
+@section("meta_image",asset('images/meta/meta2.png'))
 @section('content')
 <!-- PAGE HERO
 			============================================= -->
@@ -52,7 +54,7 @@
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                   
+
 
                     <video loop="loop" poster="{{ asset('images/thumbnails/poulet-roti.png')}}" style="width: 100%; " controls>
                         <source src="{{asset('video/poulet-roti.mp4')}}" type="video/mp4">
@@ -83,7 +85,7 @@
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                    
+
 
                     <video loop="loop" poster="{{ asset('images/thumbnails/gamba-legumes.png')}}" style="width: 100%; " controls>
                         <source src="{{asset('video/gamba-legumes.mp4')}}" type="video/mp4">
@@ -116,7 +118,7 @@
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                  
+
 
                     <video loop="loop" poster="{{ asset('images/thumbnails/poisson-marinee.png')}}" style="width: 100%; " controls>
                         <source src="{{asset('video/poisson-marine.mp4')}}" type="video/mp4">
@@ -149,7 +151,7 @@
                 <!-- IMAGE -->
                 <div class="menu-7-img rel">
 
-                   
+
 
                     <video loop="loop" poster="{{ asset('images/thumbnails/bar-four.png')}}" style="width: 100%; " controls>
                         <source src="{{asset('video/bar-four.mp4')}}" type="video/mp4">
@@ -177,6 +179,6 @@
 
     </div> <!-- End row -->
 
-    
+
 </div>
 @endsection

@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="{{ asset('style.css')}}">
     <!-- Modernizr Js -->
     <script src="{{ asset('js-recipe/modernizr-3.6.0.min.js')}}"></script>
+    <link href="{{ asset('css/menu.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/responsive.css')}}" rel="stylesheet">
+    <link href="{{ asset('css/added-style.css')}}" rel="stylesheet">
 </head>
 
 <body>
@@ -55,9 +59,7 @@
     </a>
     <!-- ScrollUp End Here -->
     <div id="wrapper" class="wrapper">
-
-        <!-- Header Area Start Here -->
-        <header class="header-one">
+        <header class="header-one d-lg-block d-md-block d-none">
             <div id="header-main-menu" class="header-main-menu header-sticky" style="background-color: #c70609;
             background-image: url({{ asset('images/bg_header.jpg') }}); color: white; ">
                 <div class="container">
@@ -183,12 +185,178 @@
 
         </header>
 
+        <!-- Header Area Start Here -->
+        <header id="header-3" class="header navik-header header-transparent header-shadow d-lg-none d-md-none">
+            <div class="container">
+
+
+                <!-- NAVIGATION MENU -->
+                <div class="navik-header-container">
+
+                    <!-- CALL BUTTON -->
+                    <div class="callusbtn">
+                        <a href="/recettes">
+                            <span class="flaticon-salad-1" style="color:#fde0a5"></span>
+                        </a>
+
+                    </div>
+
+
+                    <!-- LOGO IMAGE -->
+                    <div class="logo" data-mobile-logo="{{ asset('images/logos/logo-one.png') }}" data-sticky-logo="{{ asset('images/logos/logo-one.png') }}">
+                        <a href="{{ route('homepage') }}"><img src="{{ asset('images/logos/logo-one.png') }}" width="345px" alt="header-logo"></a>
+                    </div>
+
+
+                    <!-- BURGER MENU -->
+                    <div class="burger-menu text-white">
+                        <div class="line-menu line-half first-line"></div>
+                        <div class="line-menu"></div>
+                        <div class="line-menu line-half last-line"></div>
+                    </div>
+
+
+
+                    <!-- MAIN MENU -->
+                    <nav class="navik-menu menu-caret navik-yellow">
+                        <ul class="top-list">
+
+                            <!-- DROPDOWN MENU -->
+                            <li><a href="{{ route('product.index')}}" class="ubuntu_bold text-white" style="font-size: 15px">{{ __('Produits') }}</a>
+                                <ul>
+                                    @foreach($weights as $weight)
+                                    <li><a href="{{ route('product.detailByWeight',$weight->weight_name) }}">{{ $weight->weight_name }} G </a></li>
+                                    @endforeach
+
+                                </ul>
+                            </li>
+                            <div class="horizontal-mobile-line">
+
+                            </div>
+                            <!-- DROPDOWN MENU -->
+                            <li><a class="ubuntu_bold text-white" href="{{ route('recipe.index') }}" style="font-size: 15px">{{ __('Recettes') }}</a>
+                                <!-- <ul>
+
+		                            @foreach ($categories as $category)
+		                            <li><a href="{{ route('recipe.detailByCategory',$category->category_name) }}">{{ $category->category_name }}</a></li>
+		                            @endforeach
+
+		                        </ul> -->
+
+
+
+                            </li>
+                            <div class="horizontal-mobile-line"></div>
+                            <li><a class="ubuntu_bold text-white" href="{{ route('recipes-videos') }}" style="font-size: 15px">{{ __('Recettes vidéos') }}</a>
+                                <!-- <ul>
+
+
+
+		                        </ul> -->
+
+
+
+                            </li>
+                            <div class="horizontal-mobile-line">
+
+                            </div>
+                            <!-- MEGA MENU -->
+                            <li><a class="ubuntu_bold text-white" href="{{ route('engagement')}}" style="font-size: 15px">{{ __('Engagement') }}</a>
+                                <ul>
+                                    <li><a href="{{ route('engagement')}}#environement">{{ __('Environement') }}</a></li>
+                                    <li><a href="{{ route('engagement')}}#process">{{ __('Process de fabrication') }}</a></li>
+                                    <li><a href="{{ route('engagement')}}#ingredients">{{ __('Origines ingrédients') }}</a></li>
+                                </ul>
+                            </li> <!-- END MEGA MENU -->
+
+                            <div class="horizontal-mobile-line">
+
+                            </div>
+                            <!-- DROPDOWN MENU -->
+
+
+                            </li>
+
+                            <!-- DROPDOWN MENU -->
+                            <!--<li><a href="{{ route('blog')}}" style="font-size: 16px; color:white">Blog</a>-->
+
+                            </li>
+
+                            <li>
+                                <div class="middle-section" id="search-bar">
+                                    <input class="search-bar" type="text" placeholder="{{ __('Rechercher') }}">
+
+                                    <button class="search-button">
+
+                                        <img class="search-icon" src="{{ asset('images/icons/search-icon-red.svg')}} " alt="">
+
+                                        <div class="tooltip">
+                                            {{ __('Rechercher') }}
+                                        </div>
+
+                                    </button>
+
+                                </div>
+                            </li>
+
+
+                            <li id="language-section">
+                                <a>
+                                    <img class="lang" src="{{ asset('images/languages/'.$current_locale.'.png')}} " alt="">
+
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="{{ route('changeLang',"fr") }}">
+                                            <div class="d-flex align-items-center">
+                                                <div class="">
+                                                    <img class="lang-select" src="{{ asset('images/languages/fr.png')}} " alt="">
+                                                </div>
+
+                                                <div class="p-2">
+                                                    Français
+                                                </div>
+                                            </div>
+
+
+                                        </a>
+                                    </li>
+                                    <li><a href="{{ route('changeLang',"en") }}">
+                                            <div class="d-flex align-items-center">
+                                                <div class="">
+                                                    <img class="lang-select" src="{{ asset('images/languages/en.png')}}  " alt="">
+                                                </div>
+
+                                                <div class="p-2">
+                                                    English
+                                                </div>
+                                            </div>
+                                        </a></li>
+
+                                </ul>
+                            </li>
+
+
+
+
+
+
+
+                        </ul>
+
+                    </nav> <!-- END MAIN MENU -->
+
+
+                </div> <!-- END NAVIGATION MENU -->
+
+
+            </div> <!-- End container -->
+        </header> <!-- END HEADER-3 -->
+
 
 
         <!-- Single Recipe Main Banner Area Start Here -->
-        <div style="margin-top: 90px">
 
-        </div>
         <section class="single-recipe-main-banner">
             <div class="rc-carousel nav-control-layout4" data-loop="true" data-items="5" data-margin="5" data-autoplay="true" data-autoplay-timeout="5000" data-smart-speed="700" data-dots="false" data-nav="true" data-nav-speed="false" data-r-x-small="1" data-r-x-small-nav="true" data-r-x-small-dots="false" data-r-x-medium="1" data-r-x-medium-nav="true" data-r-x-medium-dots="false" data-r-small="1" data-r-small-nav="true" data-r-small-dots="false" data-r-medium="1" data-r-medium-nav="true" data-r-medium-dots="false" data-r-large="1" data-r-large-nav="true" data-r-large-dots="false" data-r-extra-large="1" data-r-extra-large-nav="true" data-r-extra-large-dots="false">
                 @foreach ($recipe->images as $image)
@@ -554,11 +722,11 @@
                         <a href="{{ route('about') }}" class="text-white">
                             <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('A Propos') }}</div>
                         </a>
-                         <a href="{{ route('legal') }}" class="text-white">
-                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions légales') }}</div>
+                        <a href="{{ route('legal') }}" class="text-white">
+                            <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Mentions légales') }}</div>
                         </a>
-                         <a href="{{ route('personnal-data') }}" class="text-white">
-                        <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Données personnelles') }}</div>
+                        <a href="{{ route('personnal-data') }}" class="text-white">
+                            <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Données personnelles') }}</div>
                         </a>
                     </div>
                 </div>
@@ -567,7 +735,7 @@
                         <a href="{{ route('galery') }}" class="text-white">
                             <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Galerie Vidéos') }}</div>
                         </a>
-                         <a href="{{ route('event') }}" class="text-white">
+                        <a href="{{ route('event') }}" class="text-white">
                             <div class="p-2"><i class="fas fa-angle-right" style="color:#fde0a5"></i> {{ __('Évènements') }}</div>
                         </a>
                         <a href="{{ route('contact') }}" class="text-white">
@@ -582,7 +750,7 @@
                 <div class="col">
 
                 </div>
-               
+
             </div>
 
             <div class="container-fluid">
@@ -618,6 +786,7 @@
     <script src="{{ asset('js-recipe/smoothscroll.min.js')}}"></script>
     <!-- Custom Js -->
     <script src="{{ asset('js-recipe/main.js')}} "></script>
+    <script src="{{ asset('js/menu.js')}} "></script>
 </body>
 
 </html>

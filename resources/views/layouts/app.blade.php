@@ -8,14 +8,21 @@
 
 <head>
 
-    <meta charset="utf-8">
+    {{-- <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="author" content="K-SOFT">
     <meta name="description" content="Secret spices- Faciliter la vie à ceux qui cuisinent, en leur offrant les assaisonnements nécessaires déjà prêts.">
-    <meta name="keywords" content="secret, spices, assaisonnement, Seasoning, épices, Poivre blanc, Poulet, Poisson, Viande, Secret Poulet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="secret, spices, assaisonnement, Seasoning, épices, Poivre blanc, Poulet, Poisson, Viande, Secret Poulet"> --}}
 
     <!-- SITE TITLE -->
+
+    <meta name="twitter:card" content="@yield('meta_title')" />
+    <meta name="twitter:site" content="secret-spices.net" />
+    <meta name="twitter:title" content="@yield('meta_title')" />
+    <meta name="twitter:description" content="@yield('meta_description')" />
+    <meta name="twitter:image" content="@yield('meta_image')" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>@yield('title')</title>
 
     <!-- FAVICON AND TOUCH ICONS -->
@@ -35,8 +42,8 @@
 
     <!-- BOOTSTRAP CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>    
-            
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css'>
+
 
     <!-- PLUGINS STYLESHEET -->
     <link href="{{ asset('css/menu.css')}}" rel="stylesheet">
@@ -54,13 +61,13 @@
     <link href="{{ asset('css/responsive.css')}}" rel="stylesheet">
 
 
-    
-    
-   
+
+
+
     <!-- Fontawesome CSS -->
     <link rel="stylesheet" href="{{ asset('css/fontawesome-all.min.css')}}">
-   
-        <!-- FONT ICONS -->
+
+    <!-- FONT ICONS -->
     <link href="{{ asset('releases/v5.11.0/css/all.css')}}" rel="stylesheet" crossorigin="anonymous">
     <link href="{{ asset('css/flaticon.css')}}" rel="stylesheet">
     <!-- Owl Carousel CSS -->
@@ -124,7 +131,7 @@
     <script src="{{ asset('js/jquery.flexslider.js')}}"></script>
 
     <script src="{{ asset('js/jquery.magnific-popup.min.js')}} "></script>
-  
+
     <script src="{{ asset('js/comment-form.js')}}"></script>
     <script src="{{ asset('js/booking-form.js')}} "></script>
     <script src="{{ asset('js/jquery.datetimepicker.full.js')}}"></script>

@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('Secret Spices'))
+@section("meta_title","SECRET SPICES")
+@section("meta_description","Secret spices- Faciliter la vie à ceux qui cuisinent, en leur offrant les assaisonnements nécessaires déjà prêts.")
+@section("meta_image",asset('images/meta/meta1.png'))
 @section('content')
 
 

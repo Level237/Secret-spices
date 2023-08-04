@@ -1,6 +1,8 @@
-
 @extends('layouts.app')
 @section('title', __('Galerie Vidéos'))
+@section("meta_title","Galerie Vidéos: SECRET SPICES")
+@section("meta_description","Secret spices- Découvrez Toutes Nos Galeries Vidéos ")
+@section("meta_image",asset('images/meta/meta3.png'))
 @section('content')
 <!-- PAGE HERO
 			============================================= -->
@@ -50,16 +52,14 @@
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
-                <div class="menu-7-img rel">
-
-                   
-
-                    <video loop="loop" poster="{{ asset('images/poster-secret.png')}}" style="width: 100%; " controls>
-                        <source src="{{asset('video/epice-secret.mp4')}}" type="video/mp4">
-                    </video>
 
 
-                </div>
+
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/wU5MpahDWDI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
 
                 <!-- TEXT -->
                 <div class="menu-7-txt rel">
@@ -81,17 +81,127 @@
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
-                <div class="menu-7-img rel">
 
-                    
 
-                    <video loop="loop" poster="{{ asset('images/poster.png')}}" style="width: 100%; " controls>
-                        <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
-                    </video>
+
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/GrL30k8LrVk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+                <!-- TEXT -->
+                <div class="menu-7-txt rel">
+
+                    <!-- Title -->
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Secret Epices - Condiments 100% naturels')}}</h5>
+
+
 
 
 
                 </div>
+
+            </div>
+        </div> <!-- END MENU ITEM #2 -->
+
+        <div class="col-sm-4 col-lg-4">
+            <div class="menu-7-item">
+
+                <!-- IMAGE -->
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/4eBMVHfIlwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+                <!-- TEXT -->
+                <div class="menu-7-txt rel">
+
+                    <!-- Title -->
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Quand les filles de PAKGNE visitent l\'usine Secret épices')}}</h5>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div> <!-- END MENU ITEM #2 -->
+        <!-- MENU ITEM #3 -->
+        <div class="col-sm-4 col-lg-4">
+            <div class="menu-7-item">
+
+                <!-- IMAGE -->
+
+
+
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/8W2jioWFzCQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+                <!-- TEXT -->
+                <div class="menu-7-txt rel">
+
+                    <!-- Title -->
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('Rencontre avec la GUGA DU KWAT (Promotrice du Made in Cameroun)')}}</h5>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div> <!-- END MENU ITEM #2 -->
+        <div class="col-sm-4 col-lg-4">
+            <div class="menu-7-item">
+
+                <!-- IMAGE -->
+
+
+
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/3rj_BL2Dasg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+                <!-- TEXT -->
+                <div class="menu-7-txt rel">
+
+                    <!-- Title -->
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('SECRET épices et Mami Ton')}}</h5>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div> <!-- END MENU ITEM #2 -->
+        <div class="col-sm-4 col-lg-4">
+            <div class="menu-7-item">
+
+                <!-- IMAGE -->
+
+
+
+
+                <video width="415" height="315" poster="{{ asset('images/poster.png')}}" controls>
+                    <source src="{{asset('video/spot-secret.mp4')}}" type="video/mp4">
+                </video>
+
+
+
+
 
                 <!-- TEXT -->
                 <div class="menu-7-txt rel">
@@ -108,29 +218,28 @@
             </div>
         </div> <!-- END MENU ITEM #2 -->
 
-
-        <!-- MENU ITEM #3 -->
+        <!-- MENU ITEM #2 -->
         <div class="col-sm-4 col-lg-4">
             <div class="menu-7-item">
 
                 <!-- IMAGE -->
-                <div class="menu-7-img rel">
-
-                  
-
-                    <video loop="loop" poster="{{ asset('images/secret-mami-ton.png')}}" style="width: 100%; " controls>
-                        <source src="{{asset('video/secret-mami-ton.mp4')}}" type="video/mp4">
-                    </video>
 
 
 
-                </div>
+
+                <video width="415" height="315" poster="{{ asset('images/poster1.png')}}" controls>
+                    <source src="{{asset('video/pakgne.mp4')}}" type="video/mp4">
+                </video>
+
+
+
+
 
                 <!-- TEXT -->
                 <div class="menu-7-txt rel">
 
                     <!-- Title -->
-                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('SECRET SPICES & MAMI TON')}}</h5>
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __('SECRET SPICES & MURIEL BLANCHE')}}</h5>
 
 
 
@@ -139,14 +248,39 @@
                 </div>
 
             </div>
-        </div> <!-- END MENU ITEM #3 -->
+        </div> <!-- END MENU ITEM #2 -->
+
+        <div class="col-sm-4 col-lg-4">
+            <div class="menu-7-item">
+
+                <!-- IMAGE -->
 
 
-     
 
+
+                <iframe width="415" height="315" src="https://www.youtube.com/embed/wD5vbz19HYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+
+                <!-- TEXT -->
+                <div class="menu-7-txt rel">
+
+                    <!-- Title -->
+                    <h5 class="h5-sm coffee-color text-primary-spices">{{ __("L'ASTUCE par Ritha E-mah")}}</h5>
+
+
+
+
+
+                </div>
+
+            </div>
+        </div> <!-- END MENU ITEM #2 -->
 
     </div> <!-- End row -->
 
-    
+
 </div>
 @endsection
