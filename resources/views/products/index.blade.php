@@ -38,7 +38,7 @@
 
 
             <div class="p-2 fs-4 fw-normal align-self-center">
-                <a href="{{ route('product.detail',['name'=>$p->product_name,'gamme'=>$p->weight->weight_name]) }}">
+                <a href="{{ route('product.detail',['slug'=>$p->slug,'gamme'=>$p->weight->weight_name]) }}">
                     @foreach($p->images as $i)
                     <img src="{{ Storage::url($i->path)}}" width="250px" alt="">
                     @endforeach
@@ -46,7 +46,7 @@
             </div>
 
             <div class="p-2 secret-spices">
-                <a href="{{ route('product.detail',['name'=>$p->product_name,'gamme'=>$p->weight->weight_name]) }}">
+                <a href="{{ route('product.detail',['slug'=>$p->slug,'gamme'=>$p->weight->weight_name]) }}">
                     {{ $p->product_name}}
                 </a>
                 <div class="horizontal-mobile-line-gray"></div>

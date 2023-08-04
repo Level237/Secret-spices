@@ -23,9 +23,9 @@ class ProductController extends Controller
         return view('products.detailsWeight',compact('products','weight'));
     }
 
-    public function detail($name,$gamme){
+    public function detail($slug,$gamme){
         $weight=weight::where('weight_name',$gamme)->first();
-        $product=Product::where('product_name',$name)->where('weight_id',$weight->id)->first();
+        $product=Product::where('slug',$slug)->where('weight_id',$weight->id)->first();
 
         $otherProduct=Product::where('weight_id',$weight->id)->get();
         //return $otherProduct;
