@@ -93,10 +93,16 @@ Ajouter une Recette
                             <div class="card-body">
 
                                 <div id="form">
-                                    <h3 class="text-center">Ingredients</h3>
                                     <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Ingredients</label>
-                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+                                        <select id="" name="ingredients[]" class="form-control">
+
+                                            @foreach ($ingredients as $ingredient)
+                                            <option value="{{$ingredient->id}}">{{$ingredient->ingredient_name}}</option>
+                                            @endforeach
+
+                                        </select>
+
 
                                     </div>
                                     <div class="mb-3">
@@ -153,11 +159,14 @@ Ajouter une Recette
         newDiv.setAttribute('id', `ingredient`);
         const div = document.getElementById('form');
         newDiv.innerHTML = `
-                                    <div class="mb-3">
-                                        <label for="simpleinput" class="form-label">Ingredients</label>
-                                        <input type="text" id="simpleinput" name="ingredient_name[]" class="form-control">
+        <label for="simpleinput" class="form-label">Ingredients</label>
+                                        <select id="" name="ingredients[]" class="form-control">
 
-                                    </div> <div class="mb-3">
+                                            @foreach ($ingredients as $ingredient)
+                                            <option value="{{$ingredient->id}}">{{$ingredient->ingredient_name}}</option>
+                                            @endforeach
+
+                                        </select> <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Quantité</label>
                                         <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
 

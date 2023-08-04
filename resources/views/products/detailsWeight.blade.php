@@ -29,7 +29,7 @@ Produit {{ $weight->weight_name }}g
         <div class="col d-flex flex-column product-row">
 
             <div class="p-2 fs-4 fw-normal align-self-center text-center">
-                <a href="{{ route('product.detail',['name'=>$product->product_name,'gamme'=>$product->weight->weight_name]) }}">
+                <a href="{{ route('product.detail',['slug'=>$product->slug,'gamme'=>$product->weight->weight_name]) }}">
                     @foreach($product->images as $i)
                     <img src="{{Storage::url($i->path)}}" style="width:50%" alt="">
                     @endforeach
@@ -37,7 +37,7 @@ Produit {{ $weight->weight_name }}g
             </div>
 
             <div class="p-2 secret-spices">
-                <a href="{{ route('product.detail',['name'=>$product->product_name,'gamme'=>$product->weight->weight_name]) }}">
+                <a href="{{ route('product.detail',['slug'=>$product->slug,'gamme'=>$product->weight->weight_name]) }}">
                     {{ $product->product_name }}
                 </a>
                 <div class="horizontal-mobile-line-gray"></div>

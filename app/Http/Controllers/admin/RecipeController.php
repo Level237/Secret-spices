@@ -27,7 +27,8 @@ class RecipeController extends Controller
     public function create()
     {
         $categories=Category::all();
-        return view('admin.Recipes.create',compact('categories'));
+        $ingredients=Ingredient::all();
+        return view('admin.Recipes.create',compact('categories','ingredients'));
     }
 
     /**
@@ -47,6 +48,7 @@ class RecipeController extends Controller
         $recipe=new Recipe;
         $recipe->name_recipe=$request->name_recipe;
         $recipe->category_id=$request->category_id;
+        $recipe->slug=$this->slugify($request->name_recipe);
         $recipe->description_recipe=$request->description_recipe;
         $recipe->time=$time;
         $recipe->number_person=$request->number_person;
@@ -64,12 +66,10 @@ class RecipeController extends Controller
 
                 }
             }
-            foreach($request->ingredient_name  as $index => $i){
-                $ingredient=new Ingredient;
-                $ingredient->ingredient_name=$i;
-                $ingredient->save();
+            foreach($request->ingredients  as $index => $i){
+
                 $quantity = $request->quantity[$index];
-                $recipe->ingredients()->attach($ingredient,['quantity'=>$quantity]);
+                $recipe->ingredients()->attach($i,['quantity'=>$quantity]);
             }
 
             foreach($request->steps as $index => $i){
@@ -126,5 +126,17 @@ class RecipeController extends Controller
         $recipe->delete();
 
         return back()->with('fail',"Ingredient suprimé avec success");
+    }
+
+    function slugify($string, $delimiter = '-') {
+        $oldLocale = setlocale(LC_ALL, '0');
+        setlocale(LC_ALL, 'en_US.UTF-8');
+        $clean = iconv('UTF-8', 'ASCII//TRANSLIT', $string);
+        $clean = preg_replace("/[^a-zA-Z0-9\/_|+ -]/", '', $clean);
+        $clean = strtolower($clean);
+        $clean = preg_replace("/[\/_|+ -]+/", $delimiter, $clean);
+        $clean = trim($clean, $delimiter);
+        setlocale(LC_ALL, $oldLocale);
+        return $clean;
     }
 }
