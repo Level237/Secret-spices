@@ -683,7 +683,7 @@
 
                 @foreach ($randomRecipe as $r)
                 <li>
-                    <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                    <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                         <img src="{{ Storage::url($r->images[0]->path) }}" alt="Social">
                     </a>*
 

@@ -252,7 +252,7 @@
             @foreach ($randomRecipe as $r)
             <div class="col-md-4">
 
-                <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                     <div class="p-1">
                         @foreach($r->images as $image)
 
@@ -263,7 +263,7 @@
                 <div class="row">
 
                     <div class="col-12 fs-5 fw-bold">
-                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                             <span class="text-center fs-5 fw-normal"> {{ ucfirst(Str::limit($r->name_recipe, 40))  }}</span>
 
                         </a>
@@ -298,7 +298,7 @@
         <div class="carousel-inner">
             @foreach ($randomRecipe as $recipe)
             <div class="carousel-item active">
-                <a href="{{ route('recipe.detail',['category'=>$recipe->category->category_name,'name'=>$recipe->name_recipe]) }}">
+                <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                     <img src="{{ Storage::url($recipe->images[0]->path)}}" class="d-block w-100" alt="...">
                 </a>
             </div>

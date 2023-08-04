@@ -54,8 +54,8 @@ Route::middleware('auth','admin')->name('admin.')->prefix('admin')->group(functi
 
 Route::get('produits',[GuestProductController::class,'index'])->name('product.index');
 Route::get('recettes',[\App\Http\Controllers\RecipeController::class,'index'])->name('recipe.index');
-Route::get('recettes/categorie/{name}',[\App\Http\Controllers\RecipeController::class,'detailByCategory'])->name('recipe.detailByCategory');
-Route::get('recettes/{name}/{category}',[\App\Http\Controllers\RecipeController::class,'detail'])->name('recipe.detail');
+Route::get('recettes/categorie/{slug}',[\App\Http\Controllers\RecipeController::class,'detailByCategory'])->name('recipe.detailByCategory');
+Route::get('recettes/{slug}/{category}',[\App\Http\Controllers\RecipeController::class,'detail'])->name('recipe.detail');
 Route::get('produits/gamme/{name}g',[GuestProductController::class,'detailByWeight'])->name('product.detailByWeight');
 Route::get('produits/{slug}/{gamme}g',[GuestProductController::class,'detail'])->name('product.detail');
 

@@ -15,17 +15,17 @@ class RecipeController extends Controller
         return view('Recipes.index',compact('recipes','categories'));
     }
 
-    public function detailByCategory($name){
-        $category=Category::where('category_name',$name)->first();
+    public function detailByCategory($slug){
+        $category=Category::where('slug',$slug)->first();
         $recipes=Recipe::where('category_id',$category->id)->get();
 
         return view('Recipes.detailCategory',compact('category','recipes'));
 
     }
 
-    public function detail($name,$category){
-        $category=Category::where('category_name',$category)->first();
-        $recipe=Recipe::where('name_recipe',$name)->where('category_id',$category->id)->first();
+    public function detail($slug,$category){
+        $category=Category::where('slug',$category)->first();
+        $recipe=Recipe::where('slug',$slug)->where('category_id',$category->id)->first();
         $randomRecipe=Recipe::inRandomOrder()
         ->limit(8)
         ->get();

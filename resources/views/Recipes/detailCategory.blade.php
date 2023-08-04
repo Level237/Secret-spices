@@ -44,7 +44,7 @@ Categorie : {{ $category->category_name }}
         @foreach($recipes as $r)
         <div class="col-md-3">
 
-            <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+            <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                 <div class="p-1">
                     @foreach($r->images as $image)
 
@@ -55,7 +55,7 @@ Categorie : {{ $category->category_name }}
             <div class="row">
 
                 <div class="col-9 fs-5 fw-bold">
-                    <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                    <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                         {{ ucfirst($r->name_recipe) }}
                     </a>
 

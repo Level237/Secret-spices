@@ -59,7 +59,7 @@
             @foreach($recipe as $r)
             <div class="col-md-3">
 
-                <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                     <div class="p-1">
                         @foreach($r->images as $image)
 
@@ -70,7 +70,7 @@
                 <div class="row">
 
                     <div class="col-9 fs-5 fw-bold">
-                        <a href="{{ route('recipe.detail',['category'=>$r->category->category_name,'name'=>$r->name_recipe]) }}">
+                        <a href="{{ route('recipe.detail',['category'=>$r->category->slug,'slug'=>$r->slug]) }}">
                             {{ ucfirst(Str::limit($r->name_recipe, 19)) }}
                         </a>
 
