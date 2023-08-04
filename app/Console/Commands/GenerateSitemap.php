@@ -2,6 +2,10 @@
 
 namespace App\Console\Commands;
 
+use App\Models\Category;
+use App\Models\Product;
+use App\Models\Recipe;
+use App\Models\Weight;
 use Spatie\Sitemap\Tags\Url;
 use Illuminate\Console\Command;
 use Spatie\Sitemap\SitemapGenerator;
@@ -27,10 +31,9 @@ class GenerateSitemap extends Command
      */
     public function handle()
     {
-        SitemapGenerator::create('https://secret-spices.net')
-            ->getSitemap()
+        $sitemapGenerator=SitemapGenerator::create('https://secret-spices.net')->getSitemap();
 
-            ->add(Url::create('/')->setPriority(1))
+        $sitemapGenerator->add(Url::create('/')->setPriority(1))
             ->add(Url::create('/produits')->setPriority(0.9))
             ->add(Url::create('/recettes')->setPriority(0.8))
             ->add(Url::create('/recipes-videos')->setPriority(0.8))
@@ -41,12 +44,44 @@ class GenerateSitemap extends Command
             ->add(Url::create('/evenements')->setPriority(0.8))
             ->add(Url::create('/legal')->setPriority(0.5))
             ->add(Url::create('/health-information')->setPriority(0.5))
-            ->add(Url::create('/personnal-data')->setPriority(0.5))
+            ->add(Url::create('/personnal-data')->setPriority(0.5));
             //here we have added four links, but you can add as many as you'd like
 
             //location where you want to generate your sitemap file
-            ->writeToFile(public_path('sitemap.xml'));
 
+            Product::all()->each(function (Product $product) use ($sitemapGenerator) {
+                $sitemapGenerator->add(
+                    Url::create("/produits/{$product->weight->weight_name}")
+                        ->setPriority(0.9)
+                        ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                );
+            });
+
+            Product::get()->each(function (Product $product) use ($sitemapGenerator) {
+                $sitemapGenerator->add(
+                    Url::create("/produits/{$product->product_name}/{$product->weight->weight_name}g")
+                        ->setPriority(0.9)
+                        ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                );
+            });
+
+            Recipe::all()->each(function (Recipe $recipe) use ($sitemapGenerator) {
+                $sitemapGenerator->add(
+                    Url::create("/recettes/categorie/{$recipe->category->category_name}")
+                        ->setPriority(0.9)
+                        ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                );
+            });
+
+            Recipe::get()->each(function (Recipe $recipe) use ($sitemapGenerator) {
+                $sitemapGenerator->add(
+                        Url::create("/recettes/{$recipe->name_recipe}/{$recipe->category->category_name}")
+                        ->setPriority(0.9)
+                        ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
+                );
+            });
+
+            $sitemapGenerator->writeToFile(public_path('sitemap.xml'));
         return 'Sitemap generated';
     }
 }

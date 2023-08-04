@@ -1,63 +1,379 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+    xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
     <url>
-        <loc>https://secret-spices.net</loc>
-            <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-            </url>
+        <loc>https://secret-spices.net/</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
-        <loc>https://secret-spices.net/produits</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.9</priority>
-            </url>
+        <loc>https://secret-spices.net/lang/fr</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/lang/en</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://secret-spices.net/recettes</loc>
-            <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
-            </url>
+    </url>
     <url>
         <loc>https://secret-spices.net/recipes-videos</loc>
-            <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
-            </url>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/gamme/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/gamme/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/gamme/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://secret-spices.net/engagements</loc>
-            <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
-            </url>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Poulet%20Brais%C3%A9/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://secret-spices.net/about</loc>
-            <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
-            </url>
+    </url>
     <url>
-        <loc>https://secret-spices.net/contact</loc>
-            <changefreq>daily</changefreq>
+        <loc>
+            https://secret-spices.net/recettes/Boulettes%20de%20boeuf%20aux%20%C3%A9pices%20et%20spaghetti/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
         <priority>0.8</priority>
-            </url>
-    <url>
-        <loc>https://secret-spices.net/galery</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
-    <url>
-        <loc>https://secret-spices.net/evenements</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-            </url>
+    </url>
     <url>
         <loc>https://secret-spices.net/legal</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-            </url>
-    <url>
-        <loc>https://secret-spices.net/health-information</loc>
-            <changefreq>daily</changefreq>
-        <priority>0.5</priority>
-            </url>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
     <url>
         <loc>https://secret-spices.net/personnal-data</loc>
-            <changefreq>daily</changefreq>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Pastel%20de%20viande%20%C2%AB%20PILI-PILI%20%C2%BB/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/galery</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/evenements</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/contact</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/FOLON%20Saut%C3%A9%20aux%20crevettes/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Poulet%20%C3%A0%20la%20sauce%20verte%20et%20son%20saut%C3%A9%20de%20bobolos/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poulet/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20viande/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poisson/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Fufu%20de%20Manioc%20&%20Sauce%20pistache%20Gombos/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Boulettes%20de%20poulet%20au%20blanc%20de%20poireaux/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Jeune%20B%C3%A2r%20au%20r%C3%B4ti%20d%27aubergines/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Brochettes%20de%20boeuf%20%C3%A0%20la%20po%C3%AAle/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poisson/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20viande/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poulet/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20viande/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poulet/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice%20secret%20poisson/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/products</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/storage/events/mIg0qdsc1seN10pkcf5EniD33LdsWtTMYr1Ooan5.png</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/storage/events/lqIRg75iH1YQXLipz1fNHd4UXATAi344rBO9EOo4.jpg</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recipes-videos</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/engagements</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/about</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/contact</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/galery</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/evenements</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/legal</loc>
+        <changefreq>daily</changefreq>
         <priority>0.5</priority>
-            </url>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/health-information</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/personnal-data</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.5</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/35</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/250</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/450</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poulet/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poisson/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret viande/35g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poulet/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poisson/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret viande/250g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poulet/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret poisson/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/produits/Epice secret viande/450g</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/categorie/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Pastel de viande « PILI-PILI »/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/FOLON Sauté aux crevettes/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Poulet à la sauce verte et son sauté de
+            bobolos/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Fufu%20de%20Manioc%20&%20Sauce%20pistache%20Gombos/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Poulet Braisé/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Boulettes de poulet au blanc de poireaux/Cuisine
+            Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Brochettes de boeuf à la poêle/Cuisine Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>
+            https://secret-spices.net/recettes/Jeune%20B%C3%A2r%20au%20r%C3%B4ti%20d%27aubergines/Cuisine%20Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://secret-spices.net/recettes/Boulettes de boeuf aux épices et spaghetti/Cuisine
+            Africaine</loc>
+        <changefreq>daily</changefreq>
+        <priority>0.9</priority>
+    </url>
 </urlset>
