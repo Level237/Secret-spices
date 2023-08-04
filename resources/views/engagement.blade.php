@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('Engagements'))
+@section("meta_title","Engagements")
+@section("meta_description","Les épices SECRET, pionniers des marinades et assaisonnements à base d'intrants 100% locaux,misent sur l'éducation et ambitionnent de bâtir de nouvelles habitudes alimentaires.")
+@section("meta_image",asset('images/meta/meta5.png'))
 @section('content')
 <!-- PAGE HERO
 			============================================= -->

@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('A Propos'))
+@section("meta_title","A Propos de SECRET SPICES")
+@section("meta_description","«SECRET» est une composition d’épices avec à la base l’ail et l’oignon,«SECRET» se décline en 3 recettes.")
+@section("meta_image",asset('images/meta/meta3.png'))
 @section('content')
 
 <div id="space-hero-header" style="margin-top: 150px">

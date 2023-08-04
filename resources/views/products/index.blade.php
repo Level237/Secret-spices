@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('Nos Produits'))
+@section("meta_title","Toute la Gamme SECRET SPICES")
+@section("meta_description","Découvrez toute la gamme des épices SECRET")
+@section("meta_image",asset('images/meta/meta6.png'))
 @section('content')
 
 <div id="space-hero-header" style="margin-top: 150px">

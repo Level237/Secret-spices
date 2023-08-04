@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('Évènements'))
+@section("meta_title","Evenements Secret Spices")
+@section("meta_description","Les Evenements à ne pas manquer chez SECRET SPICES")
+@section("meta_image",asset('images/meta/meta8.png'))
 @section('content')
 <!-- PAGE HERO
 			============================================= -->
@@ -16,7 +19,7 @@
                                 <div class="breadcrumb-nav">
                                     <nav aria-label="breadcrumb">
                                         <ol class="breadcrumb">
-                                            <li class="breadcrumb-item"><a href="demo-1.html">{{ __('Accueil')}}</a></li>
+                                            <li class="breadcrumb-item"><a href="{{ route('homepage') }}">{{ __('Accueil')}}</a></li>
                                             <li class="breadcrumb-item active" aria-current="page">{{ __('ÉVÈNEMENTS')}}</li>
                                         </ol>
                                     </nav>

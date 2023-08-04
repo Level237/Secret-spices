@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('title', __('Nos Recettes'))
+@section("meta_title","Recettes SECRET SPICES")
+@section("meta_description","Parce que la viande blanche, viande rouge et le poisson ne s’assaisonnent pas de la même façon, “SECRET” se décline en 3 produits spécifiques qui nous permettent de réaliser plusieurs repas africains, européens, exotiques et des barbecues.")
+@section("meta_image",asset('images/meta/meta7.png'))
 @section('content')
 
 <div id="space-hero-header" style="margin-top: 150px">
