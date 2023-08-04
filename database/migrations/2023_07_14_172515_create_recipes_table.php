@@ -23,6 +23,7 @@ return new class extends Migration
             $table->string('description_recipe');
             $table->string('time');
             $table->integer('number_person');
+            $table->string('slug');
             $table->timestamps();
         });
     }

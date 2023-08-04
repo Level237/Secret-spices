@@ -22,7 +22,8 @@ class Recipe extends Model
         'category_id',
         'description_recipe',
         'time',
-        'number_person'
+        'number_person',
+        'slug'
     ];
 
     protected $casts = [

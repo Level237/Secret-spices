@@ -14,7 +14,8 @@ class Event extends Model
         'name_event',
         'date_event',
         'lieu_event',
-        'description_event'
+        'description_event',
+        'slug'
     ];
     protected $casts = [
         'date_event'  => 'date:Y/m/d',

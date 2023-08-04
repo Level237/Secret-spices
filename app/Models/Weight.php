@@ -12,7 +12,8 @@ class Weight extends Model
     use HasFactory;
 
     protected $fillable=[
-        'weight_name'
+        'weight_name',
+
     ];
 
     public function products():HasMany{

@@ -15,7 +15,7 @@
     <meta name="keywords" content="secret, spices, assaisonnement, Seasoning, épices, Poivre blanc, Poulet, Poisson, Viande, Secret Poulet"> --}}
 
     <!-- SITE TITLE -->
-
+    <Meta name=" robots " content="index, follow" />
     <meta name="twitter:card" content="@yield('meta_title')" />
     <meta name="twitter:site" content="secret-spices.net" />
     <meta name="twitter:title" content="@yield('meta_title')" />

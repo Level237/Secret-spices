@@ -17,6 +17,7 @@ return new class extends Migration
             $table->id();
             $table->string('product_name');
             $table->text('product_description');
+            $table->string('slug');
             $table->foreignIdFor(Weight::class)
             ->constrained()
             ->restrictOnUpdate()
