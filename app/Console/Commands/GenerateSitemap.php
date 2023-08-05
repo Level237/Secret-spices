@@ -17,7 +17,7 @@ class GenerateSitemap extends Command
      *
      * @var string
      */
-    protected $signature = 'sitemap:generate';
+    protected $signature = 'sitemapApp:generate';
 
     /**
      * The console command description.
@@ -51,7 +51,7 @@ class GenerateSitemap extends Command
 
             Product::all()->each(function (Product $product) use ($sitemapGenerator) {
                 $sitemapGenerator->add(
-                    Url::create("/produits/{$product->weight->weight_name}")
+                    Url::create("/produits/{$product->weight->slug}")
                         ->setPriority(0.9)
                         ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 );
@@ -59,7 +59,7 @@ class GenerateSitemap extends Command
 
             Product::get()->each(function (Product $product) use ($sitemapGenerator) {
                 $sitemapGenerator->add(
-                    Url::create("/produits/{$product->product_name}/{$product->weight->weight_name}g")
+                    Url::create("/produits/{$product->slug}/{$product->weight->weight_name}g")
                         ->setPriority(0.9)
                         ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 );
@@ -67,7 +67,7 @@ class GenerateSitemap extends Command
 
             Recipe::all()->each(function (Recipe $recipe) use ($sitemapGenerator) {
                 $sitemapGenerator->add(
-                    Url::create("/recettes/categorie/{$recipe->category->category_name}")
+                    Url::create("/recettes/categorie/{$recipe->category->slug}")
                         ->setPriority(0.9)
                         ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 );
@@ -75,7 +75,7 @@ class GenerateSitemap extends Command
 
             Recipe::get()->each(function (Recipe $recipe) use ($sitemapGenerator) {
                 $sitemapGenerator->add(
-                        Url::create("/recettes/{$recipe->name_recipe}/{$recipe->category->category_name}")
+                        Url::create("/recettes/{$recipe->slug}/{$recipe->category->slug}")
                         ->setPriority(0.9)
                         ->setChangeFrequency(Url::CHANGE_FREQUENCY_DAILY)
                 );
