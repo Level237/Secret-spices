@@ -107,7 +107,7 @@ Ajouter une Recette
                                     </div>
                                     <div class="mb-3">
                                         <label for="simpleinput" class="form-label">Quantité</label>
-                                        <input type="number" min="1" max="10" id="simpleinput" name="quantity[]" class="form-control">
+                                        <input type="number" min="1" id="simpleinput" name="quantity[]" class="form-control">
 
                                     </div>
                                 </div>
