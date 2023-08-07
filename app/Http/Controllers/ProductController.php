@@ -8,27 +8,30 @@ use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
-    public function index(){
+    public function index()
+    {
 
-        $products=Product::with('weight')->get()->groupBy('weight_id');
-        $weights=Weight::all();
+        $products = Product::with('weight')->get()->groupBy('weight_id');
+        $weights = Weight::all();
         //return $products;
-        return view('products.index',compact('products','weights'));
+        return view('products.index', compact('products', 'weights'));
     }
 
-    public function detailByWeight($name){
+    public function detailByWeight($name)
+    {
 
-        $weight=Weight::where('weight_name',$name)->first();
-        $products=Product::where('weight_id',$weight->id)->get();
-        return view('products.detailsWeight',compact('products','weight'));
+        $weight = Weight::where('weight_name', $name)->first();
+        $products = Product::where('weight_id', $weight->id)->get();
+        return view('products.detailsWeight', compact('products', 'weight'));
     }
 
-    public function detail($slug,$gamme){
-        $weight=weight::where('weight_name',$gamme)->first();
-        $product=Product::where('slug',$slug)->where('weight_id',$weight->id)->first();
+    public function detail($slug, $gamme)
+    {
+        $weight = weight::where('weight_name', $gamme)->first();
+        $product = Product::where('slug', $slug)->where('weight_id', $weight->id)->first();
 
-        $otherProduct=Product::where('weight_id',$weight->id)->get();
+        $otherProduct = Product::where('weight_id', $weight->id)->where('id', '!=', $product->id)->get();
         //return $otherProduct;
-        return view('products.details',compact('product','weight','otherProduct'));
+        return view('products.details', compact('product', 'weight', 'otherProduct'));
     }
 }
